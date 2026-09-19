@@ -8,7 +8,8 @@ Prüft:
   2. Frontmatter: Gültiges YAML mit 'name' (^[a-z0-9-]+$, <=64 Zeichen, Verzeichnisübereinstimmung)
      und 'description' (<=1024 Zeichen, nicht-leer)
   3. Links: Alle relativen Markdown-Links zeigen auf existierende Dateien
-  4. Skript-Integrität: Python-Skripte in scripts/ kompilieren fehlerfrei
+  4. OpenAI-Metadaten: agents/openai.yaml enthält nur unterstützte policy.products-Werte
+  5. Skript-Integrität: Python-Skripte in scripts/ kompilieren fehlerfrei
 """
 
 import os
@@ -126,7 +127,52 @@ def validate_skill(skill_dir: str):
                 except Exception as e:
                     errors.append(f"Fehler beim Prüfen von {file}: {e}")
 
-    # 3. Python-Syntaxprüfungen für scripts/
+    # 3. OpenAI-Metadaten pruefen
+    openai_yaml_path = os.path.join(skill_dir, "agents", "openai.yaml")
+    if os.path.isfile(openai_yaml_path):
+        try:
+            with open(openai_yaml_path, "r", encoding="utf-8", errors="replace") as yf:
+                yaml_lines = yf.read().splitlines()
+
+            allowed_products = {"CHAT", "CODEX"}
+            for idx, line in enumerate(yaml_lines):
+                match = re.match(r"^(\s*)products:\s*(.*)$", line)
+                if not match:
+                    continue
+
+                indent = len(match.group(1))
+                inline = match.group(2).strip()
+                products = []
+
+                if inline:
+                    if inline.startswith("[") and inline.endswith("]"):
+                        products = [
+                            item.strip().strip("\"'")
+                            for item in inline[1:-1].split(",")
+                            if item.strip()
+                        ]
+                    else:
+                        products = [inline.strip().strip("\"'")]
+                else:
+                    j = idx + 1
+                    while j < len(yaml_lines):
+                        item_match = re.match(r"^(\s*)-\s*(.+?)\s*$", yaml_lines[j])
+                        if not item_match or len(item_match.group(1)) <= indent:
+                            break
+                        products.append(item_match.group(2).strip().strip("\"'"))
+                        j += 1
+
+                invalid_products = [p for p in products if p not in allowed_products]
+                if invalid_products:
+                    rel_yaml = os.path.relpath(openai_yaml_path, REPO_ROOT)
+                    errors.append(
+                        f"Ungueltige policy.products in {rel_yaml}: "
+                        f"{', '.join(invalid_products)}. Erlaubt sind nur CHAT und CODEX."
+                    )
+        except Exception as e:
+            errors.append(f"Fehler beim Pruefen von agents/openai.yaml: {e}")
+
+    # 4. Python-Syntaxprüfungen für scripts/
     scripts_dir = os.path.join(skill_dir, "scripts")
     if os.path.isdir(scripts_dir):
         for script_file in os.listdir(scripts_dir):
