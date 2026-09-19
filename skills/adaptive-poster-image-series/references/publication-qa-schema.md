@@ -1,4 +1,4 @@
-# Publication QA Schema v2
+# Publication QA Schema v3
 
 ```json
 {
@@ -11,6 +11,9 @@
       "text_exact": true,
       "mobile_readable": true,
       "crop_resilient": true,
+      "safe_zone_profile_passed": true,
+      "source_inside_safe_area": true,
+      "recompose_not_crop_confirmed": true,
       "standalone_effective": true,
       "facts_exact": true,
       "no_collage": true,
@@ -34,4 +37,4 @@
 
 `items` muss exakt die im `publication-plan.json` ausgewaehlten Slots enthalten.
 
-Jede Publikationsdatei muss ein vollstaendig gestaltetes Poster sein. Rohfoto, fehlende sichtbare Typografie oder sichtbarer Stilbruch zum Referenzprofil sind Hard Fail.
+Jede Publikationsdatei muss ein vollstaendig gestaltetes Poster sein. Das aktive Safe-Zone-Profil muss visuell bestanden sein, Quellen muessen innerhalb des sicheren Bereichs liegen und die Datei muss als Neu-Komposition statt als automatischer Crop entstanden sein. Rohfoto, fehlende sichtbare Typografie oder sichtbarer Stilbruch zum Referenzprofil sind Hard Fail.
