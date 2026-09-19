@@ -8,8 +8,3 @@ interface:
     ein passendes Designsystem abzuleiten und die UI produktionsreif umzusetzen.
 policy:
   allow_implicit_invocation: true
-  products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
