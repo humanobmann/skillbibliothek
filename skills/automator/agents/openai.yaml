@@ -7,8 +7,3 @@ interface:
   default_prompt: Nutze $automator, um diesen Ablauf sicher und konkret zu automatisieren.
 policy:
   allow_implicit_invocation: true
-  products:
-  - chatgpt
-  - codex
-  - api
-  - atlas

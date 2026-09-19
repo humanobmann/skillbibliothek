@@ -4,9 +4,4 @@ interface:
     verpflichtender aktueller Hashtag-Recherche – ohne Reichweitenversprechen oder
     Hashtag-Spam.
 policy:
-  products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
   allow_implicit_invocation: true

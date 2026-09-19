@@ -8,8 +8,3 @@ interface:
     und die nächsten sicheren Schritte zu prüfen.
 policy:
   allow_implicit_invocation: true
-  products:
-  - chatgpt
-  - codex
-  - api
-  - atlas

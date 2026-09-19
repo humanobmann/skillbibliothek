@@ -8,8 +8,3 @@ interface:
     Projektarbeit mit Quellenprüfung, Zuständigkeit, Umsetzung und QA.
 policy:
   allow_implicit_invocation: true
-  products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
