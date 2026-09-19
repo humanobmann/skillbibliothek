@@ -1,119 +1,116 @@
 ---
 name: social-platform-algorithm-core
-description: Analysiert und optimiert Social-Media-Inhalte plattformübergreifend anhand aktueller dokumentierter Ranking-, Empfehlungs-, Originalitäts-, Qualitäts- und Anti-Spam-Signale für Facebook, Instagram, TikTok, YouTube und LinkedIn. Verwenden bei Algorithmus-, Reichweiten-, Format-, Hook-, Retention-, Discovery-, Caption-, Video-, Posting- oder kanalübergreifenden Optimierungsfragen. Keine garantierten Reichweitenversprechen, keine erfundenen Signalgewichte und keine politisch-persuasive Zielgruppenoptimierung.
+description: Analysiert und optimiert Social-Media-Inhalte plattformuebergreifend anhand aktueller belegter Ranking-, Search-, Recommendation-Eligibility-, Originalitaets-, Qualitaets- und Anti-Spam-Signale fuer Facebook, Instagram, TikTok, YouTube und LinkedIn. Verwenden bei Algorithmus-, Reichweiten-, Discovery-, Search-, Hook-, Retention-, Caption-, Video- oder kanalübergreifenden Optimierungsfragen. Trennt Ranking strikt von Monetarisierung und Hypothesen. Keine Reichweitengarantien oder politisch-persuasive Zielgruppenoptimierung.
 ---
 
 # Social Platform Algorithm Core
 
-## Ziel
+## Zweck
 
-Eine gemeinsame, evidenzgebundene Optimierungsschicht fuer Social-Media-Skills bereitstellen. Der Skill trennt dokumentierte Plattformmechanik von Best Practice, Kontodaten und Hypothesen.
+Gemeinsame Evidenz- und Optimierungsschicht fuer Social-Media-Skills. Nicht fuer einen vermeintlichen Algorithmus schreiben, sondern fuer beobachtbares Nutzerverhalten und dokumentierte Plattformmechanik.
 
-## Kernprinzip
+## Aktivierung
 
-Nicht fuer einen vermeintlichen Algorithmus schreiben, sondern fuer beobachtbares Nutzerverhalten, das die Plattform tatsaechlich misst: Auswahl, Verweildauer, Wiedergabe, Abschluss, Speichern, Teilen, qualifizierte Interaktion, Zufriedenheit, Relevanz und negative Signale.
+Zusaetzlich zum konkreten Plattformskill verwenden, wenn Algorithmus, Reichweite, Ranking, Search, Discovery, Recommendation Eligibility oder maximale Plattformoptimierung Teil der Aufgabe ist.
 
-## Evidenzstufen
+## Kanonisches Modell
 
-Jede algorithmische Empfehlung intern einer Stufe zuordnen:
+Jede Empfehlung intern auf dieser Kette aufbauen:
 
-1. OFFICIAL: aktuelle offizielle Plattformquelle.
+Platform -> Surface -> Objective -> Signal -> Evidence -> Action -> Metric
+
+Nie pauschal von "dem Algorithmus" sprechen, wenn eine konkrete Surface gemeint ist.
+
+## Evidenzklassen
+
+1. OFFICIAL: aktuelle Primaerquelle der Plattform.
 2. ACCOUNT: echte Insights des konkreten Kontos.
 3. OBSERVED: wiederholtes Muster aus belastbarer aktueller Drittquellen-Evidenz.
 4. HYPOTHESIS: plausible, aber nicht belegte Annahme.
 
-Nur OFFICIAL und ACCOUNT duerfen als harte Optimierungsregel formuliert werden. OBSERVED nur als Testempfehlung. HYPOTHESIS nie als Fakt.
+Nur OFFICIAL und ACCOUNT duerfen als harte Optimierungsregel formuliert werden. OBSERVED ist eine Testempfehlung. HYPOTHESIS ist niemals Plattformfakt.
 
-## Gemeinsame Ranking-Dimensionen
+Jeden Claim zusaetzlich einem Mechanismustyp zuordnen:
 
-Pruefe, soweit fuer die jeweilige Plattform dokumentiert:
+- RANKING
+- SEARCH
+- RECOMMENDATION_ELIGIBILITY
+- POLICY
+- MONETIZATION
 
-- Relevanz fuer konkrete Interessen oder Suchintention.
-- Originalitaet und eigenstaendiger Mehrwert.
-- Auswahlwahrscheinlichkeit: Stoppen, Klicken, Starten oder Oeffnen.
-- Konsumtiefe: Verweildauer, Watch Time, View Duration oder Percent Viewed.
-- Completion beziehungsweise Finish Rate bei kurzen Videos.
-- Saves, Shares oder Sends, wenn die Plattform sie als Signal nennt.
-- Qualifizierte Kommentare oder professionelle Konversation, wenn dokumentiert.
-- Zufriedenheit, Likes, Dislikes, Not Interested und andere Feedbacksignale.
-- Empfehlungseignung und Policy-Status.
-- negative Signale wie Skip, Dismiss, Hide oder Spam-Muster.
-- thematische und semantische Passung zwischen Inhalt, Caption, Titel, Thumbnail und Zielgruppe.
+MONETIZATION darf niemals automatisch zu RANKING umklassifiziert werden.
 
-Keine universellen Signalgewichte erfinden.
+## Workflow
 
-## Hook-Regel
+1. Plattform, Surface, Format und Kommunikationsziel bestimmen.
+2. [platform-profiles.md](references/platform-profiles.md) auf aktuelle OFFICIAL-Evidenz pruefen.
+3. Surface, Objective, Signal und Mechanismustyp festlegen.
+4. Inhalt auf Auswahl, Konsumtiefe, Payoff, Originalitaet, Relevanz und negative Signale pruefen.
+5. Search nur mit Query- und Themenpassung optimieren, kein Keyword Stuffing.
+6. Wiederverwendung als original, substanziell transformiert, lizenziert, kommentiert, Low-Value-Reuse, Duplicate oder Cross-Platform-Reupload klassifizieren.
+7. Recommendation Eligibility und Policy getrennt vom Ranking pruefen.
+8. Bei Account-Daten die Lernschleife Observe -> Segment -> Compare -> Hypothesis -> Test -> Measure -> Update verwenden.
+9. Tests moeglichst mit einer primaeren Variable und einer vorab festgelegten primaeren Metrik planen.
+10. Quality Gates anwenden.
 
-Die ersten sichtbaren Zeilen oder Sekunden muessen den tatsaechlichen Nutzen, Konflikt, Beleg oder Ausgangspunkt frueh liefern. Kein kuenstlicher Curiosity Gap.
+Das detaillierte Modell steht in [framework.md](references/framework.md).
 
-Bei Video:
-- Versprechen sofort kenntlich machen.
-- keine lange Logo- oder Einleitungsphase.
-- erste Szene muss inhaltlich zur Caption, zum Titel oder Thumbnail passen.
-- frueher Kontext darf nicht auf Kosten korrekter Einordnung fehlen.
+## Signaldimensionen
 
-## Retention-Regel
+Nur verwenden, soweit fuer die konkrete Surface belegt:
 
-Retention wird nicht durch kuenstliche Laenge maximiert. Inhalt so lang wie noetig und so kurz wie moeglich gestalten.
+- Auswahl: Stoppen, Klicken, Starten, Oeffnen oder Chose-to-view.
+- Konsum: Dwell Time, Watch Time, Average View Duration, Average Percent Viewed, Completion.
+- Wert: Saves, Shares, Sends, qualifizierte Kommentare oder Folgeaktionen.
+- Zufriedenheit: Likes, Dislikes, Surveys, Not Interested und vergleichbare Feedbacksignale.
+- Relevanz: Interessen-, Themen-, Netzwerk- oder Query-Passung.
+- Originalitaet: eigener oder substanziell transformierter Mehrwert.
+- Eligibility: Recommendation- und Policy-Status.
+- Negative Signale: Skip, Dismiss, Hide, Not Interested, Dislike, Report oder Ineligibility.
 
-Pruefen:
-- erkennbare Fortschrittslogik.
-- wechselnde Informationsimpulse ohne hektische Ueberladung.
-- kein Wiederholen desselben Punktes fuer kuenstliche Watch Time.
-- starke Stellen nicht unnoetig spaet verstecken.
-- Schluss liefert Payoff, naechsten Schritt oder klare Zusammenfassung.
+Keine universellen Gewichte erfinden. Keine Einzelmetrik als alleinige Erfolgsursache behandeln.
 
-## Originalitaet
+## Hook und Retention
 
-Originalitaet bedeutet nicht zwingend nur selbst gefilmtes Material. Eigenstaendiger Mehrwert kann aus Analyse, Einordnung, neuer Information, Transformation, Erklaerung oder klarer eigener Perspektive bestehen, sofern die Plattform dies zulaesst.
+Die ersten sichtbaren Zeilen oder Sekunden muessen Nutzen, Konflikt, Beleg, Ergebnis oder Ausgangspunkt frueh liefern. Kein falsches Versprechen und kein kuenstlicher Curiosity Gap.
 
-Reuploads, Wasserzeichen, minimale Edits, zusammengestitchte Drittinhalte ohne neuen Wert und automatisierte Massenvarianten sind kein Optimierungsziel.
+Retention nicht durch kuenstliche Laenge maximieren. Starke Information nicht unnoetig spaet verstecken, Progression sichtbar machen, Wiederholung vermeiden und den versprochenen Payoff liefern.
 
-## Social SEO
+## Account Learning
 
-Such- und Themenauffindbarkeit nur dort einsetzen, wo dokumentiert oder sinnvoll:
+OFFICIAL beschreibt Plattformmechanik. ACCOUNT beschreibt das konkrete Konto. Account-Daten duerfen offizielle Regeln ergaenzen, aber nicht in universelle Plattformregeln umgedeutet werden.
 
-- klare Begriffe in Titel, Caption oder gesprochener Sprache.
-- relevante Hashtags oder Topics als semantische Signale, nicht als Reichweitenmagie.
-- keine Keyword-Stuffing-Listen.
-- Suchbegriffe muessen zum tatsaechlichen Inhalt passen.
-
-## Plattformprofile
-
-Vor aktueller Algorithmusoptimierung [references/platform-profiles.md](references/platform-profiles.md) lesen.
-
-Bei zeitkritischen Aussagen aktuelle offizielle Quellen pruefen. Dokumentierte Regeln koennen sich aendern.
-
-## Experimentieren und Lernen
-
-Wenn echte Kontodaten verfuegbar sind, Empfehlungen als testbare Hypothesen operationalisieren.
-
-Vergleiche moeglichst:
-- gleiche Zielgruppe und aehnliches Thema.
-- Hook-Typ.
-- Format.
-- Laenge.
-- Visual.
-- CTA.
-- organische gegen bezahlte Distribution getrennt.
-
-Keine Aussage aus einem einzelnen Post verallgemeinern.
+Vergleiche moeglichst nur aehnliche Themen, Formate, Zielgruppen und Zeitraeume. Einzelposts erzeugen keine Regel. Median, Verteilung und wiederholte Muster statt nur Best Posts verwenden.
 
 ## Politische Inhalte
 
-Bei politischen oder wahlbezogenen Inhalten nur neutrale Plattform- und Inhaltsqualitaetsoptimierung durchfuehren. Nicht nach vermuteter Ueberzeugungswirkung, politischer Empfaenglichkeit, Wahlverhalten oder manipulativer Zielgruppenreaktion optimieren.
+Bei politischen oder wahlbezogenen Inhalten nur neutrale Plattform-, Fakten-, Format- und Qualitaetsoptimierung. Nicht nach politischer Ueberzeugungswirkung, vermuteter Empfaenglichkeit, Wahlverhalten oder manipulativer Zielgruppenreaktion optimieren.
 
-Zulaessig sind sachliche Optimierungen wie Lesbarkeit, Originalitaet, Faktenklarheit, Quellen, Retention, Formatpassung und dokumentierte allgemeine Plattformregeln.
+Zulaessig sind Lesbarkeit, Quellenklarheit, Originalitaet, Retention, Search-Passung, Formatfit und allgemeine dokumentierte Plattformregeln.
+
+## Quality Gates
+
+Nicht freigeben, wenn:
+
+- Plattform oder Surface unklar ist.
+- Ranking, Search, Eligibility, Policy und Monetization vermischt werden.
+- OBSERVED oder HYPOTHESIS als Plattformfakt ausgegeben wird.
+- Erfolg oder Reichweite garantiert wird.
+- Hook, Titel oder Thumbnail etwas verspricht, das der Inhalt nicht liefert.
+- Engagement-Bait, Pods, Bots oder inauthentische Interaktion empfohlen werden.
+- Originalitaets- oder Eligibility-Risiken ignoriert werden.
+- politische Inhalte nach Ueberzeugbarkeit optimiert werden.
 
 ## Ausgabe
 
-Bei Algorithmus-Audit standardmaessig:
+Bei Algorithmus-Audit:
 
-1. Plattform und Format.
-2. Dokumentierte Signale.
-3. groesste aktuell belegte Schwachstellen.
+1. Plattform, Surface und Format.
+2. belegte Mechanismen mit Evidenzstatus.
+3. groesste belegte Schwachstellen.
 4. konkrete Aenderungen.
-5. nicht belegte Mythen oder Annahmen, die bewusst nicht verwendet wurden.
-6. Messplan fuer die naechsten Posts, falls Insights vorliegen.
+5. negative Signale und Eligibility-Risiken.
+6. bewusst verworfene Mythen oder unbelegte Annahmen.
+7. Mess- oder Experimentplan, falls Insights vorliegen.
 
 Keine Erfolgs- oder Reichweitengarantie.
