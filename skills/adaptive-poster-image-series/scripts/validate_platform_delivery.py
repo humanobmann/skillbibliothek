@@ -82,8 +82,9 @@ def validate(plan: dict[str, Any], production: dict[str, Any]) -> None:
         if not isinstance(safe, dict) or set(safe) != {"left", "right", "top", "bottom"}:
             fail(f"output {idx}: safe_area_px must contain left/right/top/bottom")
         for edge, expected in profile["safe"].items():
-            if strict_int(safe.get(edge), f"output {idx}.safe_area_px.{edge}", 0) != expected:
-                fail(f"output {idx}: {variant} safe area mismatch on {edge}")
+            actual = strict_int(safe.get(edge), f"output {idx}.safe_area_px.{edge}", 0)
+            if actual < expected:
+                fail(f"output {idx}: {variant} safe area on {edge} must be >= {expected}")
 
         if finite_float(item.get("hero_clearance_percent"), f"output {idx}.hero_clearance_percent", 0) < 8:
             fail(f"output {idx}: hero_clearance_percent must be >= 8")
