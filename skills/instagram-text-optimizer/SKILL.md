@@ -15,6 +15,7 @@ Erstelle eine kurze, eigenständige Caption, die das Medium ergänzt statt es zu
 2. Bei Peter Schullers Rollenkommunikation zuerst den politischen oder Vereins-Rollenskill einsetzen.
 3. Nutze genau einen Plattform-Optimierer: Instagram statt Facebook.
 4. `humanizer-de` ist nur ein optionaler Stil-Endpass und darf keinen Claim verstärken.
+5. Bei Algorithmus-, Reichweiten-, Reel-, Explore- oder Maximaloptimierung `social-platform-algorithm-core` als Evidenzschicht verwenden.
 
 ## Format und Länge
 
@@ -31,14 +32,14 @@ Bestimme Feed, Carousel oder Reel. Fehlt die Angabe, verwende **Feed** und nenne
 2. Prüfe materielle Aussagen: Fakt, Attribution, Einordnung, Meinung oder Forderung.
 3. Baue Caption als Hook mit Aussage -> konkrete Bedeutung oder Kontext -> natürlicher Schluss bzw. passende Handlung.
 4. Kürze zuerst Wiederholungen, Nebenthemen und Leerformeln; nicht notwendige Fakteneinschränkungen.
-5. Prüfe Stimme, mobile Scannbarkeit, Bild-Text-Passung, Rechte/Marken sowie bei politischen Texten Kontextverlust, Kausalität und Angriffsfähigkeit.
+5. Prüfe Stimme, mobile Scannbarkeit, Bild-Text-Passung, Rechte/Marken sowie bei politischen Texten Kontextverlust, Kausalität und Angriffsfähigkeit.\n6. Bei Reels zusaetzlich erste Sekunden, fruehe Skips, Watch Time, Completion, Shares/Sends und Originalitaet pruefen, soweit aktuell offiziell dokumentiert.\n7. Bei Feed/Explore zusaetzlich Save-Wert, Betrachtungsdauer, Themenpassung und Empfehlungseignung pruefen.
 
 ## Verpflichtende Hashtag-Recherche
 
 Für **jeden** Instagram-Auftrag die aktuelle Recherche nach [Hashtag-Protokoll](references/hashtag-research-protocol.md) durchführen. Wähle standardmäßig drei bis fünf Tags mit echter Themen-, Sprach-, Orts- oder Kampagnenpassung.
 
 - Keine erfundenen Trend-, Reichweiten- oder Volumenangaben.
-- Keine generischen oder irrelevanten Reichweiten-Tags.
+- Keine generischen oder irrelevanten Reichweiten-Tags. Hashtags dienen primaer Kontext und Auffindbarkeit; sie ersetzen weder Originalitaet noch Retention, Saves oder Shares.
 - Keine problematischen, gesperrten oder inhaltlich missverständlichen Tags, soweit dies aktuell prüfbar ist.
 - Ist Live-Recherche nicht möglich oder kein Tag tragfähig, offen nennen und keine Pseudorecherche ausgeben.
 

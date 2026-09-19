@@ -20,7 +20,7 @@ Dieser Index bietet einen kompakten Überblick aller verfügbaren Skills zur res
 | **`powershell-senior-expert`** | [`skills/powershell-senior-expert`](powershell-senior-expert/SKILL.md) | Erstellt, prüft und diagnostiziert PowerShell-Befehle, Skripte und Runbooks für Windows, Microsoft 365 und Azure. Nutze ... | ~105 |
 | **`screenshot`** | [`skills/screenshot`](screenshot/SKILL.md) | Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel re... | ~57 |
 
-## Content, Kampagnen & Kommunikation (15)
+## Content, Kampagnen & Kommunikation (19)
 
 | Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
 |---|---|---|---:|
@@ -32,6 +32,10 @@ Dieser Index bietet einen kompakten Überblick aller verfügbaren Skills zur res
 | **`humanizer-de`** | [`skills/humanizer-de`](humanizer-de/SKILL.md) | Edit-Pass für bestehenden deutschen Text: Register/Rhythmus messen, belegtreu redigieren, Naturalness prüfen, KI-Schreib... | ~57 |
 | **`instagram-hashtag-research`** | [`skills/instagram-hashtag-research`](instagram-hashtag-research/SKILL.md) | Recherchiert und bewertet aktuelle Instagram-Hashtags ohne MCP-Server, Docker oder lokale Serverinstallation. Verwenden ... | ~169 |
 | **`instagram-text-optimizer`** | [`skills/instagram-text-optimizer`](instagram-text-optimizer/SKILL.md) | Überarbeite kurze Instagram-Captions für Feed, Carousel oder Reel mit klarer Kernbotschaft, mobiler Lesbarkeit, transpar... | ~100 |
+| **`linkedin-content-optimizer`** | [`skills/linkedin-content-optimizer`](linkedin-content-optimizer/SKILL.md) | Optimiert LinkedIn-Beitraege surface-spezifisch fuer Feed und Suggested Posts mit professioneller Relevanz, Dwell-/Skip-Signalen und Eligibility. | ~85 |
+| **`social-platform-algorithm-core`** | [`skills/social-platform-algorithm-core`](social-platform-algorithm-core/SKILL.md) | Gemeinsame Evidenzschicht fuer Ranking, Search, Recommendation Eligibility, Originalitaet, Experimente und Account-Learning. | ~95 |
+| **`tiktok-content-optimizer`** | [`skills/tiktok-content-optimizer`](tiktok-content-optimizer/SKILL.md) | Optimiert TikTok For You und Search mit strikter Trennung von Ranking und Creator-Rewards-Monetarisierung. | ~82 |
+| **`youtube-content-optimizer`** | [`skills/youtube-content-optimizer`](youtube-content-optimizer/SKILL.md) | Optimiert YouTube Home, Suggested, Search und Shorts fuer Appeal, Engagement, Satisfaction und Retention. | ~78 |
 | **`peter-schuller-arbeitssteuerung`** | [`skills/peter-schuller-arbeitssteuerung`](peter-schuller-arbeitssteuerung/SKILL.md) | Organisiere Peter Schullers tägliche Arbeit in ChatGPT Work über Aufgaben, Nachrichten, Kalender, Dateien, Projekte und ... | ~140 |
 | **`peter-schuller-obmann-kommunikation`** | [`skills/peter-schuller-obmann-kommunikation`](peter-schuller-obmann-kommunikation/SKILL.md) | Erstelle und überarbeite öffentliche Vereinskommunikation für Peter Schuller als Obmann oder Vertreter von Menschlichkei... | ~126 |
 | **`peter-schuller-politiker-kommunikation`** | [`skills/peter-schuller-politiker-kommunikation`](peter-schuller-politiker-kommunikation/SKILL.md) | Erstelle und überarbeite politische Texte in Peter Schullers persönlicher oder klar zugeordneter SPÖ-Rolle. Verwende den... | ~141 |

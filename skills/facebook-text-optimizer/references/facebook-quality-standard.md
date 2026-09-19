@@ -198,7 +198,7 @@ Use separate passes:
 
 Read difficult passages aloud or simulate spoken cadence. If a sentence is hard to say naturally, simplify it.
 
-## 20. Publication and learning
+## 20. Algorithmic fit\n\nBei maximaler Optimierung zusaetzlich pruefen:\n\n- Originalitaet: eigener Inhalt oder substantialer neuer Analyse-, Informations- oder Storywert.\n- Relevanz: Kernthema und Zielgruppe sind semantisch klar.\n- Betrachtungsdauer: Struktur bietet einen echten Grund, auf dem Beitrag zu verweilen.\n- Share-Wert: Inhalt ist konkret genug, dass Teilen aus Nutzwert entstehen kann, nicht aus Aufforderungsdruck.\n- Negative Signale: kein irrefuehrender Hook, keine ueberladene Einleitung, keine spamartige Wiederholung.\n- Empfehlungsfaehigkeit: keine bekannte Richtlinien- oder Originalitaetsproblematik.\n\nDiese Dimensionen sind keine Garantie fuer Distribution und erhalten keine erfundenen Signalgewichte.\n\n## 21. Publication and learning
 
 When the task includes publication strategy, judge success by the post's actual goal rather than likes alone. Possible metrics include meaningful comments, shares, clicks, profile visits, follows, participation, or the intended downstream action.
 
@@ -206,7 +206,7 @@ Treat comments as qualitative reader feedback. Repeated confusion often signals 
 
 Analyze both strong and weak posts by topic, hook, length, emotion, evidence, visual, ending, and comment quality. Do not automatically attribute weak performance to algorithmic suppression.
 
-## 21. Common myths to reject
+## 22. Common myths to reject
 
 Do not assume:
 
@@ -218,7 +218,7 @@ Do not assume:
 - factual writing cannot contain a clear position
 - a strong image can permanently rescue weak or misleading copy
 
-## 22. Political content rules
+## 23. Political content rules
 
 For political posts, additionally require:
 
@@ -235,7 +235,7 @@ For political posts, additionally require:
 
 Aim for a post that remains defensible when every sentence is checked by a skeptical reader or journalist.
 
-## 23. Final rule
+## 24. Final rule
 
 A good Facebook post is not optimized along a single dimension. It should be:
 

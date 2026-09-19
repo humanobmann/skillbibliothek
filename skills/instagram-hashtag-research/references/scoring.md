@@ -47,7 +47,7 @@ Maximaler interner Ordnungswert: 10 vor Risikoabzug.
 Wichtig:
 
 - Score nie als objektive Instagram-Reichweitenkennzahl darstellen.
-- Ein Tag mit hoher Themenpassung und solider aktueller Evidenz ist einem generischen großen Tag vorzuziehen.
+- Ein Tag mit hoher Themenpassung und solider aktueller Evidenz ist einem generischen großen Tag vorzuziehen. Hashtag-Groesse ist kein eigener Algorithmus-Qualitaetsbeleg.
 - Bei Gleichstand präzisere semantische Passung bevorzugen.
 - Regionale Tags nur priorisieren, wenn der Post tatsächlich regional ist.
 - Für politische Inhalte keine Überzeugungs- oder Mobilisierungseffizienz bewerten.

@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "retrieved": "2026-09-19",
+  "allowed_mechanisms": [
+    "RANKING",
+    "SEARCH",
+    "RECOMMENDATION_ELIGIBILITY",
+    "POLICY",
+    "MONETIZATION"
+  ],
+  "records": [
+    {
+      "source_id": "META_FB_FEED_RECS_2026",
+      "platform": "facebook",
+      "surface": "feed_recommendations",
+      "mechanism": "RANKING",
+      "publisher": "Meta Transparency",
+      "title": "Facebook Feed Recommendations",
+      "url": "https://transparency.meta.com/features/explaining-ranking/fb-feed-recommendations/",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "personalized_predictions",
+        "viewing_duration",
+        "share_probability",
+        "like_probability"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "META_FB_FEED_2026",
+      "platform": "facebook",
+      "surface": "feed",
+      "mechanism": "RANKING",
+      "publisher": "Meta Transparency",
+      "title": "Facebook Feed",
+      "url": "https://transparency.meta.com/features/explaining-ranking/fb-feed",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "personalized_ranking",
+        "relationship_signals",
+        "interest_signals"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "META_FB_ORIGINAL_2026",
+      "platform": "facebook",
+      "surface": "feed_reels",
+      "mechanism": "RECOMMENDATION_ELIGIBILITY",
+      "publisher": "Meta Newsroom",
+      "title": "Rewarding Original Creators on Facebook",
+      "url": "https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "original_content",
+        "substantial_transformation",
+        "duplicate_content",
+        "minimal_edits"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "META_IG_FEED_RECS_2026",
+      "platform": "instagram",
+      "surface": "feed_recommendations",
+      "mechanism": "RANKING",
+      "publisher": "Meta Transparency",
+      "title": "Instagram Feed Recommendations",
+      "url": "https://transparency.meta.com/features/explaining-ranking/ig-feed-recommendations",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "personalized_recommendations",
+        "interaction_predictions",
+        "viewing"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "META_IG_FEED_2026",
+      "platform": "instagram",
+      "surface": "feed",
+      "mechanism": "RANKING",
+      "publisher": "Meta Transparency",
+      "title": "Instagram Feed",
+      "url": "https://transparency.meta.com/features/explaining-ranking/ig-feed",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "feed_ranking",
+        "relationship_signals",
+        "interest_signals"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "META_IG_EXPLORE_2026",
+      "platform": "instagram",
+      "surface": "explore",
+      "mechanism": "RANKING",
+      "publisher": "Meta Transparency",
+      "title": "Instagram Explore",
+      "url": "https://transparency.meta.com/features/explaining-ranking/ig-explore/",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "like_probability",
+        "save_probability",
+        "viewing",
+        "negative_feedback"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "META_IG_REELS_2026",
+      "platform": "instagram",
+      "surface": "reels",
+      "mechanism": "RANKING",
+      "publisher": "Meta Transparency",
+      "title": "Instagram Reels Chaining",
+      "url": "https://transparency.meta.com/features/explaining-ranking/ig-reels-chaining/",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "watch_behavior",
+        "selection_behavior",
+        "interest_similarity"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "TIKTOK_FYF_RANKING_2026",
+      "platform": "tiktok",
+      "surface": "for_you",
+      "mechanism": "RANKING",
+      "publisher": "TikTok Support",
+      "title": "How TikTok recommends content",
+      "url": "https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "user_interactions",
+        "full_watch",
+        "skip",
+        "content_information",
+        "user_information"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "TIKTOK_SEARCH_2026",
+      "platform": "tiktok",
+      "surface": "search",
+      "mechanism": "SEARCH",
+      "publisher": "TikTok Support",
+      "title": "How TikTok recommends content",
+      "url": "https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "query_match",
+        "search_history",
+        "watch_history",
+        "hashtags",
+        "sounds"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "TIKTOK_FYF_ELIGIBILITY_2026",
+      "platform": "tiktok",
+      "surface": "for_you",
+      "mechanism": "RECOMMENDATION_ELIGIBILITY",
+      "publisher": "TikTok Support",
+      "title": "For You feed video eligibility",
+      "url": "https://support.tiktok.com/en/safety-hc/account-and-user-safety/for-you-feed-video-eligibility",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "for_you_eligibility",
+        "ineligible_content"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "TIKTOK_CREATOR_REWARDS_2024",
+      "platform": "tiktok",
+      "surface": "creator_rewards",
+      "mechanism": "MONETIZATION",
+      "publisher": "TikTok Newsroom",
+      "title": "Introducing the New Creator Rewards Program",
+      "url": "https://newsroom.tiktok.com/en-us/introducing-the-new-creator-rewards-program",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "originality",
+        "play_duration",
+        "search_value",
+        "audience_engagement"
+      ],
+      "volatility": "medium"
+    },
+    {
+      "source_id": "YT_RECOMMENDATION_PERFORMANCE_2026",
+      "platform": "youtube",
+      "surface": "recommendations",
+      "mechanism": "RANKING",
+      "publisher": "YouTube Help",
+      "title": "Understand your content performance for YouTube's recommendation system",
+      "url": "https://support.google.com/youtube/answer/16559650?hl=en",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "appeal",
+        "engagement",
+        "satisfaction",
+        "average_view_duration",
+        "average_percent_viewed"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "YT_SEARCH_DISCOVERY_2026",
+      "platform": "youtube",
+      "surface": "search",
+      "mechanism": "SEARCH",
+      "publisher": "YouTube Help",
+      "title": "Search & discovery tips",
+      "url": "https://support.google.com/youtube/answer/11914225?hl=en",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "query_relevance",
+        "metadata_match",
+        "viewer_response"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "YT_SHORTS_RANKING_2026",
+      "platform": "youtube",
+      "surface": "shorts",
+      "mechanism": "RANKING",
+      "publisher": "YouTube Help",
+      "title": "Search & discovery tips for Shorts",
+      "url": "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "chose_to_view",
+        "average_view_duration",
+        "average_percent_viewed",
+        "viewer_response"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "LI_FEED_HELP_2026",
+      "platform": "linkedin",
+      "surface": "feed",
+      "mechanism": "RANKING",
+      "publisher": "LinkedIn Help",
+      "title": "How the Feed ranks content",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a9554004",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "feed_ranking",
+        "context",
+        "profile",
+        "network",
+        "activity"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "LI_CONTENT_RECS_2026",
+      "platform": "linkedin",
+      "surface": "recommendations",
+      "mechanism": "RECOMMENDATION_ELIGIBILITY",
+      "publisher": "LinkedIn Help",
+      "title": "Content Recommendations on LinkedIn",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a7142408",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "professional_relevance",
+        "recommendation_quality",
+        "eligibility"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "LI_SUGGESTED_2026",
+      "platform": "linkedin",
+      "surface": "suggested_posts",
+      "mechanism": "RANKING",
+      "publisher": "LinkedIn Help",
+      "title": "Suggested posts in feed",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1499047/suggested-posts-in-feed",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "suggested_posts",
+        "out_of_network_recommendations",
+        "professional_relevance"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "LI_ENGAGEMENT_POLICY_2026",
+      "platform": "linkedin",
+      "surface": "cross_platform",
+      "mechanism": "POLICY",
+      "publisher": "LinkedIn Help",
+      "title": "Engagement manipulation",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1338787",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "engagement_manipulation",
+        "inauthentic_activity",
+        "pods_bots"
+      ],
+      "volatility": "high"
+    },
+    {
+      "source_id": "LI_FEED_ENGINEERING_2026",
+      "platform": "linkedin",
+      "surface": "feed",
+      "mechanism": "RANKING",
+      "publisher": "LinkedIn Engineering",
+      "title": "Engineering the next generation of LinkedIn's Feed",
+      "url": "https://www.linkedin.com/blog/engineering/feed/engineering-the-next-generation-of-linkedins-feed",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "feed_modeling",
+        "active_interactions",
+        "passive_signals"
+      ],
+      "volatility": "medium"
+    },
+    {
+      "source_id": "LI_DWELL_ENGINEERING",
+      "platform": "linkedin",
+      "surface": "feed",
+      "mechanism": "RANKING",
+      "publisher": "LinkedIn Engineering",
+      "title": "Leveraging Dwell Time to Improve Member Experiences on the LinkedIn Feed",
+      "url": "https://www.linkedin.com/blog/engineering/feed/leveraging-dwell-time-to-improve-member-experiences-on-the-linkedin-feed",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "dwell_time",
+        "skip",
+        "feed_relevance"
+      ],
+      "volatility": "medium"
+    }
+  ]
+}

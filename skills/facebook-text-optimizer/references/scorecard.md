@@ -97,3 +97,7 @@ Priority correction:
 ...
 
 Then provide the improved post when rewriting is in scope.
+
+## Algorithmus-Fit Zusatzgate
+
+Bei ausdruecklicher Algorithmus- oder Maximaloptimierung innerhalb der bestehenden 100 Punkte zusaetzlich unter Facebook fit pruefen: origineller oder substantial transformierter Mehrwert, klare Themenrelevanz, echter Grund fuer Betrachtungsdauer, legitimer Share-Wert und Vermeidung negativer Spam-/Skip-Signale. Keine erfundenen Gewichte vergeben.

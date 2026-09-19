@@ -51,6 +51,20 @@ Fuer die eigentliche Bildproduktion gilt ein exklusiver Werkzeugvertrag:
 20. Plattformvarianten werden immer neu komponiert. Automatisches Cropping, blosses Resizing oder das Verschieben bereits zu randnaher Typografie ist unzulaessig.
 21. Wenn der Nutzer Facebook und Instagram plus Story/Reel/TikTok oder sinngemaess alle Social-Formate verlangt, ist `delivery_mode=full_social_30`: zehn 4:5, zehn 1:1 und zehn 9:16 Enddateien.
 
+## Algorithmus- und Plattformfit
+
+Wenn die Bildserie fuer organische Social-Distribution optimiert werden soll, zusaetzlich `social-platform-algorithm-core` verwenden.
+
+Visuelle Optimierung muss reale Konsumsignale unterstuetzen:
+- Feed: sofort erkennbare Kernaussage, mobile Lesbarkeit und echter Save-/Share-Wert.
+- Reel-/Story-Cover: Motiv und Headline muessen das tatsaechliche Video korrekt versprechen.
+- keine ueberladene Typografie, die Betrachtungsdauer durch Entziffern statt Nutzwert erzeugt.
+- keine fremden Wasserzeichen, Repost-Aesthetik oder minimal veraenderten Drittinhalte als vermeintliche Reichweitenstrategie.
+- Plattformvarianten neu komponieren statt blind croppen.
+- Social-SEO-Begriffe nur sichtbar einsetzen, wenn sie inhaltlich zum Motiv gehoeren.
+
+Algorithmusfit ersetzt nie Fakten-, Text-, Design- oder Safe-Zone-QA.
+
 ## Workflow
 
 ### 1. Eingabemodus bestimmen
