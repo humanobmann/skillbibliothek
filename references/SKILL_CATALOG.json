@@ -1,0 +1,749 @@
+{
+  "total_skills": 93,
+  "skills": [
+    {
+      "name": "adaptive-poster-image-series",
+      "folder": "adaptive-poster-image-series",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Erzeuge genau zehn getrennte, hochwertige Editorial-, Fakten-, NGO-, politische\noder gesellschaftliche Social-Media-Bilder aus einem Thema, zehn Texten oder zehn\nVorlagen. Verwende den Skill auch fuer Facebook-optimierte Einzel- und Mehrbildsets.\nFuer jede finale Bilddatei ausschliesslich das normale ChatGPT-Bilderstellungstool\nverwenden: ein Slot, ein Aufruf, ein Bild, n=1; keine SVG-, Canvas-, Adobe-, Firefly-,\nPython- oder sonstige externe Bildproduktion. Arbeite standardmaessig mit einem\nfest gebundenen Referenzdesign mit den drei mitgelieferten Stilankern. Die\nDesignsprache aus Ivory, Signalrot, Graphit, grosser Grotesk-Typografie und\nintegrierter Bildzone ist Standard fuer jedes Motiv. Fakten vorab verifizieren, sichtbaren Text nach jeder Ausgabe exakt pruefen, nur fehlerhafte Slots\nmit demselben Bildtool korrigieren und niemals Collagen, Kontaktboegen,\nMehrfachpanels, Fake-Evidence oder ungefragtes Branding als Endprodukt liefern.",
+      "tokens": 3432,
+      "discovery_tokens": 244
+    },
+    {
+      "name": "affinity-designer",
+      "folder": "affinity-designer",
+      "category": "Design, UI/UX & Frontend",
+      "description": "Safely inspect, edit, and export Affinity Designer, Photo, and Publisher documents on Windows through a local Affinity MCP/SDK integration. Use for the active Affinity document or named .afdesign, .afphoto, and .afpub files; when the integration is unavailable, diagnose the missing capability and provide a clear non-executed fallback.",
+      "tokens": 2120,
+      "discovery_tokens": 88
+    },
+    {
+      "name": "agents-md",
+      "folder": "agents-md",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Create, review, or maintain concise AGENTS.md project instruction files for Codex and other coding agents. Use when onboarding an agent to a repository, standardizing commands and project conventions, documenting repository boundaries, consolidating duplicated agent instructions, or updating AGENTS.md after architecture, tooling, testing, security, or deployment changes.",
+      "tokens": 538,
+      "discovery_tokens": 95
+    },
+    {
+      "name": "austria-open-data-research",
+      "folder": "austria-open-data-research",
+      "category": "Recherche & Verifikation",
+      "description": "Recherchiere, inventarisiere, extrahiere und normalisiere maschinenlesbare öffentliche Daten aus Österreich mit reproduzierbarer Provenienz. Verwenden bei Anfragen zu data.gv.at, Piveau, DCAT-AP, Statistik Austria, RIS, Parlament, Länder- oder Gemeindedaten, Open-Data-APIs, JSON/CSV/GeoJSON/WFS, Vollerhebungen, Delta-Abfragen, Gemeinde- und Regionalprofilen, Datenkatalogen oder belastbaren Datenquellen für nachgelagerte Analysen. Nicht für reine Textrecherche verwenden, wenn keine strukturierte Datenquelle oder reproduzierbare Datenerhebung erforderlich ist.",
+      "tokens": 1924,
+      "discovery_tokens": 147
+    },
+    {
+      "name": "automator",
+      "folder": "automator",
+      "category": "Automation, CLI & Testing",
+      "description": "Entwirft und implementiert konkrete, wiederholbare Automationen für Vereins-, Kommunikations- und Solo-Operations-Prozesse. Nutze diesen Skill, wenn der Nutzer ausdrücklich einen Ablauf automatisieren, vereinfachen, dokumentieren, zeitgesteuert ausführen oder mit Apps, Connectoren, n8n, Make, CiviCRM oder ähnlichen Systemen verbinden will. Nicht für einmalige App-Nutzung, allgemeine Produktberatung oder bloße Textentwürfe verwenden.",
+      "tokens": 2455,
+      "discovery_tokens": 111
+    },
+    {
+      "name": "brainstorming",
+      "folder": "brainstorming",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Explore and structure larger, ambiguous, or high-impact product and feature ideas before implementation. Use when goals, scope, users, constraints, architecture, or success criteria are materially unclear, when several viable approaches need comparison, or when the user explicitly asks to brainstorm, ideate, or design a solution. Do not use for small, clearly specified changes, routine fixes, direct content creation, or implementation tasks whose requirements are already sufficient.",
+      "tokens": 944,
+      "discovery_tokens": 125
+    },
+    {
+      "name": "cli-creator",
+      "folder": "cli-creator",
+      "category": "Automation, CLI & Testing",
+      "description": "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from any repo, expose composable read/write commands, return stable JSON, manage auth, and pair with a companion skill.",
+      "tokens": 2625,
+      "discovery_tokens": 86
+    },
+    {
+      "name": "core-routing",
+      "folder": "core-routing",
+      "category": "Orchestrierung & Control Plane",
+      "description": "Central intent router for identifying user goals and delegating execution to specialized skills with zero unnecessary context consumption.",
+      "tokens": 690,
+      "discovery_tokens": 37
+    },
+    {
+      "name": "danke-fuer-nichts-content-seo",
+      "folder": "danke-fuer-nichts-content-seo",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Prüfe und optimiere Landingpage, Content, Conversion und organische Auffindbarkeit für die private Autorenkampagne „Danke für nichts“. Verwende den Skill für Live- und CMS-Audits, mobile Darstellung, CTA-Hierarchie, Pressebereich, SEO-Metadaten, Book-Strukturdaten, Alt-Texte, interne Links, Consent, UTM-Tracking, Contentcluster und handlungsrelevante KPIs. Verwende ihn nicht für Publishing-Fakten ohne Contentbezug, Outreach-Versand oder ungeprüfte öffentliche Änderungen.",
+      "tokens": 2207,
+      "discovery_tokens": 126
+    },
+    {
+      "name": "danke-fuer-nichts-operations",
+      "folder": "danke-fuer-nichts-operations",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Orchestriere die private Autorenkampagne „Danke für nichts“, wenn mindestens zwei Fachbereiche wie Publishing, Outreach, Landingpage, Content, Dateien, CRM oder Reporting verbunden werden müssen. Verwende den Skill für Gesamtstatus, System- und Rollenrouting, Quellenkonflikte, Priorisierung, Freigabegates, Zwischenfälle, Übergaben und kampagnenweite nächste Schritte. Verwende ihn nicht für eine isolierte Mailwelle, einen reinen Publishing-Check, eine einzelne SEO-Aufgabe oder Kommunikation von Verein oder Partei.",
+      "tokens": 1899,
+      "discovery_tokens": 136
+    },
+    {
+      "name": "danke-fuer-nichts-outreach",
+      "folder": "danke-fuer-nichts-outreach",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Plane, prüfe und dokumentiere individuellen Presse-, Podcast-, Organisations-, Rezensions- und Buchhandels-Outreach für „Danke für nichts“. Verwende den Skill für Kontaktprüfung, Zustellbarkeitsgates, segmentierte Kleinstwellen, persönliche Mailentwürfe, HubSpot- und Outlook-Routing, Versandledger, Bounce-Klassifikation, Antworten, Follow-ups und Wiederanlauf nach Zwischenfällen. Verwende ihn nicht für allgemeines Kampagnenmanagement, Publishing-Daten, Massenmail oder Vereins- und Parteikontakte ohne ausdrücklichen Buchbezug.",
+      "tokens": 2140,
+      "discovery_tokens": 139
+    },
+    {
+      "name": "danke-fuer-nichts-publishing-audit",
+      "folder": "danke-fuer-nichts-publishing-audit",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Prüfe Editionen, Buchdaten, Druckdateien, Presseunterlagen und öffentliche Handelslistungen für „Danke für nichts“. Verwende den Skill für Canonical Book Data, tredition- und KDP-Abgrenzung, formatbezogene ISBN, Preise, Seiten, Beschnitt, Farbstatus, Händlerlinks, Listung, Bestellbarkeit, Lagerstatus, Lieferzeit, Rabatt, Remission und Buchhandelsfreigabe. Verwende ihn nicht für Outreach-Versand, allgemeine Contentplanung oder unbestätigte Änderungen bei Publishern und Händlern.",
+      "tokens": 2183,
+      "discovery_tokens": 129
+    },
+    {
+      "name": "deep-research",
+      "folder": "deep-research",
+      "category": "Recherche & Verifikation",
+      "description": "Use this skill instead of WebSearch for ANY question requiring web research. Trigger on queries like \"what is X\", \"explain X\", \"compare X and Y\", \"research X\", or before content generation tasks. Provides systematic multi-angle research methodology instead of single superficial searches. Use this proactively when the user's question needs online information.",
+      "tokens": 1961,
+      "discovery_tokens": 93
+    },
+    {
+      "name": "define-goal",
+      "folder": "define-goal",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuzzy intention into a quantitative outcome. Use this skill for goal creation and goal refinement only; it does not manage durable snapshots, decision logs, or long-running execution artifacts.",
+      "tokens": 1411,
+      "discovery_tokens": 97
+    },
+    {
+      "name": "dig-through-data-brokers",
+      "folder": "dig-through-data-brokers",
+      "category": "Automation, CLI & Testing",
+      "description": "Use people-search aggregators and primary public records to find addresses, phone numbers,\nrelatives, age and background on a person, and to audit and remove your own exposure. Covers\nSpokeo, BeenVerified, Whitepages, TruePeopleSearch, FastPeopleSearch, That'sThem, Radaris,\nIntelius and Pipl, plus voter files and county court and property records. Use when running\na people search or reverse address lookup, tracing a debtor or missing person, building a\nsubject's address history, or removing yourself from broker sites. Applies to skip tracing\nand debt recovery, asset investigation, executive protection, and personal exposure audits.\nExplains the FCRA limits that bar broker data from employment, tenancy, insurance and credit\ndecisions, and the GDPR position. Reference at useosint.com/skills/dig-through-data-brokers.",
+      "tokens": 3722,
+      "discovery_tokens": 212
+    },
+    {
+      "name": "document-development",
+      "folder": "document-development",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Develop, restructure, review, and finalize substantial long-form documents from rough notes, outlines, transcripts, drafts, or briefings. Use for reports, specifications, policies, manuals, proposals, decision papers, project documentation, and other multi-section documents where content architecture and editorial development are central. Do not use for short messages, ordinary email, simple rewrites, or file-format conversion without substantive document work.",
+      "tokens": 1838,
+      "discovery_tokens": 121
+    },
+    {
+      "name": "facebook-text-optimizer",
+      "folder": "facebook-text-optimizer",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Überarbeite Facebook-Beiträge und Captions für Klarheit, Glaubwürdigkeit, mobile Lesbarkeit und einen passenden Handlungsimpuls. Verwenden bei Facebook-Posts für persönliche, politische, Vereins-, Kampagnen- oder Informationskommunikation. Aktuelle oder strittige Aussagen vor einer Verstärkung prüfen; keine Reichweitenversprechen, Clickbait oder Engagement-Bait erzeugen.",
+      "tokens": 1104,
+      "discovery_tokens": 99
+    },
+    {
+      "name": "fact-check",
+      "folder": "fact-check",
+      "category": "Recherche & Verifikation",
+      "description": "Verify factual claims in an existing draft against external sources as a separate review pass. Use for publishable books, reports, political texts, educational content, decision support, statistics, dates, quotations, attributions, historical claims, legal or technical assertions, or whenever the user asks to fact-check, verify, validate, source, audit, or check a finished text. Do not use as the primary drafting workflow.",
+      "tokens": 561,
+      "discovery_tokens": 109
+    },
+    {
+      "name": "find-anyone",
+      "folder": "find-anyone",
+      "category": "OSINT & Forensic Investigation",
+      "description": "Build a sourced, corroborated profile of a named individual from public records, social\nplatforms, professional networks, court and property filings, licensing boards, patents,\npapers and obituaries — anchoring the name to a second selector first so you never fuse two\npeople into one dossier. Use when asked to find, identify, background-check or profile a\nperson, verify someone's claimed employment or credentials, or locate a missing or\nhard-to-reach individual. Applies to counterparty and investor due diligence, fraud and\nasset investigation, journalism, skip tracing, missing persons, pre-employment integrity\nchecks on fiduciary roles, and self-exposure audits. Reference at\nuseosint.com/skills/find-anyone.",
+      "tokens": 3298,
+      "discovery_tokens": 181
+    },
+    {
+      "name": "find-exposed-servers",
+      "folder": "find-exposed-servers",
+      "category": "OSINT & Forensic Investigation",
+      "description": "Find internet-exposed hosts, ports, services and devices using third-party internet-scan\ndata instead of touching the target. Covers Shodan and Censys query syntax, service banners,\nfavicon-hash and TLS-certificate pivots, origin-IP discovery behind Cloudflare or a CDN, and\nexposed databases, dashboards, cameras and ICS devices. Use when asked what a company has\nexposed to the internet, to check open ports on an IP or netblock, or to write a Shodan\nfilter query. Applies to external attack-surface management, third-party and vendor security\nreview, M&A technical diligence, and pre-engagement reconnaissance. Reference at\nuseosint.com/skills/find-exposed-servers.",
+      "tokens": 3440,
+      "discovery_tokens": 172
+    },
+    {
+      "name": "find-hidden-subdomains",
+      "folder": "find-hidden-subdomains",
+      "category": "OSINT & Forensic Investigation",
+      "description": "Enumerate an organisation's subdomains and sibling domains from Certificate Transparency\nlogs and passive DNS, without sending traffic to the target. Covers crt.sh and CT log\nqueries, certificate SAN fields, subfinder and amass, and newly issued TLS certificates. Use\nwhen looking for staging, dev, admin or VPN hosts, mapping the full hostname footprint of a\ndomain, or spotting infrastructure a company forgot it had. Applies to attack-surface\nmapping, vendor and supply-chain security review, brand-infringement discovery, and M&A\ntechnical diligence. Reference at useosint.com/skills/find-hidden-subdomains.",
+      "tokens": 3213,
+      "discovery_tokens": 158
+    },
+    {
+      "name": "find-leaks-in-the-wild",
+      "folder": "find-leaks-in-the-wild",
+      "category": "OSINT & Forensic Investigation",
+      "description": "Find leaked or mentioned selectors circulating in pastes, leak forums, Telegram channels and\ndump markets, and judge whether a claimed leak is genuine or a recycled combolist. Covers\npaste aggregators, site: searches over paste hosts, channel indexes and leak-search\nservices. Use when checking whether a name, email, domain or credential is circulating,\nverifying a breach claim made against your organisation, or setting up ongoing leak\nmonitoring. Applies to incident response and breach triage, threat intelligence, brand and\nexecutive protection, and extortion-claim validation. Reference at\nuseosint.com/skills/find-leaks-in-the-wild.",
+      "tokens": 3514,
+      "discovery_tokens": 165
+    },
+    {
+      "name": "find-skills",
+      "folder": "find-skills",
+      "category": "OSINT & Forensic Investigation",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "tokens": 1364,
+      "discovery_tokens": 78
+    },
+    {
+      "name": "find-the-original-image",
+      "folder": "find-the-original-image",
+      "category": "Recherche & Verifikation",
+      "description": "Reverse image search across Yandex, Google Lens, Bing Visual Search, TinEye and Baidu to\nfind where a picture came from and who published it first. Use when reverse image searching,\nidentifying a photo, face, logo, product, uniform or building, tracing a profile picture or\navatar, finding the oldest copy of an image, checking whether a photo is stock or a repost,\nor reverse-searching a video by keyframes. Applies to romance and investment scam\ninvestigation, fake-profile and synthetic-identity detection, disinformation and media\nverification, counterfeit and brand-infringement work, and insurance claim review. Reference\nat useosint.com/skills/find-the-original-image.",
+      "tokens": 3093,
+      "discovery_tokens": 174
+    },
+    {
+      "name": "follow-the-crypto",
+      "folder": "follow-the-crypto",
+      "category": "OSINT & Forensic Investigation",
+      "description": "Trace cryptocurrency addresses and transactions on public blockchains using block explorers\nincluding Etherscan, Blockchair, mempool.space and Blockscout. Covers common-input\nclustering, ENS resolution, exchange deposit addresses, mixers, CoinJoin, Tornado-style\npools, cross-chain bridges, and OFAC sanctions screening. Use when following a Bitcoin or\nEthereum wallet, investigating where a ransom or scam payment went, or checking an address\nagainst sanctions listings. Applies to ransomware incident response, AML and sanctions\ncompliance, fraud recovery and asset tracing, and financial-crime investigation. Reference\nat useosint.com/skills/follow-the-crypto.",
+      "tokens": 3476,
+      "discovery_tokens": 170
+    },
+    {
+      "name": "geolocate-from-pixels",
+      "folder": "geolocate-from-pixels",
+      "category": "OSINT & Forensic Investigation",
+      "description": "Geolocate and chronolocate a photo or video from visual evidence alone — plate and phone\nnumber formats, road markings, utility poles, bollards, signage typefaces, architecture and\nvegetation for place; shadow direction and length with SunCalc for time and date. Use when\nasked where or when a picture was taken, to verify a claimed location without GPS or EXIF,\nor to match a scene against Google Earth, Street View, Yandex Panoramas, Mapillary or\nKartaView. Applies to GEOINT and conflict monitoring, insurance and claims verification,\njournalism fact-checking, and evidence review. Reference at\nuseosint.com/skills/geolocate-from-pixels.",
+      "tokens": 3891,
+      "discovery_tokens": 165
+    },
+    {
+      "name": "gh-address-comments",
+      "folder": "gh-address-comments",
+      "category": "Automation, CLI & Testing",
+      "description": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
+      "tokens": 319,
+      "discovery_tokens": 46
+    },
+    {
+      "name": "gh-fix-ci",
+      "folder": "gh-fix-ci",
+      "category": "Automation, CLI & Testing",
+      "description": "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external providers (for example Buildkite) as out of scope and report only the details URL.",
+      "tokens": 912,
+      "discovery_tokens": 80
+    },
+    {
+      "name": "google-like-a-spy",
+      "folder": "google-like-a-spy",
+      "category": "OSINT & Forensic Investigation",
+      "description": "Craft advanced search-engine queries and Google dorks to surface hidden files, documents and\nmentions. Covers site:, filetype:, inurl:, intitle:, intext: and before:/after: operators,\nverbatim search, exposed directory listings, config files, backups and open S3 buckets, and\nthe operator differences between Google, Bing, DuckDuckGo and Yandex. Use when building a\nGoogle dork, hunting a leaked document, or searching paste sites and document repositories\nfor a name, email or selector. Applies to data-exposure audits, pre-engagement\nreconnaissance, competitive and regulatory research, and insider-leak investigation.\nReference at useosint.com/skills/google-like-a-spy.",
+      "tokens": 3791,
+      "discovery_tokens": 172
+    },
+    {
+      "name": "graph-the-network",
+      "folder": "graph-the-network",
+      "category": "OSINT & Forensic Investigation",
+      "description": "Build an entity-relationship link-analysis graph of an investigation — nodes, typed edges\ncarrying source and confidence, aliases, and temporal validity — to expose shared\ninfrastructure, bridging nodes and the real principal behind a frontman. Covers Maltego,\nNeo4j and Cypher, Gephi, centrality and community detection, and entity resolution. Use when\nan investigation has outgrown a list and needs a graph, or when asked how a set of people,\ncompanies and domains connect. Applies to fraud-ring and shell-network detection, AML and\nsanctions-evasion analysis, and complex corporate-structure work. Reference at\nuseosint.com/skills/graph-the-network.",
+      "tokens": 3221,
+      "discovery_tokens": 167
+    },
+    {
+      "name": "grill-me",
+      "folder": "grill-me",
+      "category": "Spezial- & Hilfsskills",
+      "description": "A relentless interview to sharpen a plan or design.",
+      "tokens": 44,
+      "discovery_tokens": 14
+    },
+    {
+      "name": "grilling",
+      "folder": "grilling",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+      "tokens": 493,
+      "discovery_tokens": 40
+    },
+    {
+      "name": "humanizer-de",
+      "folder": "humanizer-de",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Edit-Pass für bestehenden deutschen Text: Register/Rhythmus messen, belegtreu redigieren, Naturalness prüfen, KI-Schreibmuster/KI-Tells auditieren und entfernen; deutschen Text humanisieren; German AI Text Humanizer.",
+      "tokens": 5109,
+      "discovery_tokens": 57
+    },
+    {
+      "name": "hunt-a-handle",
+      "folder": "hunt-a-handle",
+      "category": "OSINT & Forensic Investigation",
+      "description": "Enumerate a username across hundreds of platforms with sherlock, maigret and WhatsMyName,\nthen correlate and confirm which accounts genuinely belong to the same person. Use for\nusername OSINT and handle enumeration, \"find all accounts for this username\", cross-platform\naccount correlation, nickname and screen-name pivots, or turning a handle into a real name.\nApplies to fraud and synthetic-identity investigation, recruitment and marketplace scam\nchecks, trust-and-safety enforcement, insider-threat work, and personal exposure audits.\nReference at useosint.com/skills/hunt-a-handle.",
+      "tokens": 2522,
+      "discovery_tokens": 149
+    },
+    {
+      "name": "impeccable",
+      "folder": "impeccable",
+      "category": "Design, UI/UX & Frontend",
+      "description": "Create or apply an evidence-backed visual craft and UX quality pass when a frontend needs a distinctive design direction, critique, hardening, final polish, or removal of generic AI styling. Use as the visual quality layer for websites, landing pages, product interfaces, and design systems when intentional aesthetics materially matter. Do not use as the default for ordinary frontend implementation, framework mechanics, an isolated interaction issue, guideline-only compliance, or backend work.",
+      "tokens": 2174,
+      "discovery_tokens": 126
+    },
+    {
+      "name": "instagram-hashtag-research",
+      "folder": "instagram-hashtag-research",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Recherchiert und bewertet aktuelle Instagram-Hashtags ohne MCP-Server, Docker oder lokale Serverinstallation. Verwenden bei Anfragen nach Instagram-Hashtags, Hashtag-Recherche, Hashtag-Auswahl, Social-SEO-Tags, regionalen oder thematischen Tags sowie zur belegbaren Hashtag-Prüfung für Feed, Carousel oder Reel. Arbeitet mit verfügbarer Browser- oder Web-Recherche, optional mit einer normalen eingeloggten Instagram-Sitzung, trennt Kandidaten von verifizierter Evidenz, erfindet keine Reichweiten-, Trend- oder Volumenwerte und liefert standardmäßig 3 bis 8 belastbare Hashtags mit Prüfdatum, Quellenbasis, Evidenzstatus und relevanten Ausschlüssen.",
+      "tokens": 1859,
+      "discovery_tokens": 169
+    },
+    {
+      "name": "instagram-text-optimizer",
+      "folder": "instagram-text-optimizer",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Überarbeite kurze Instagram-Captions für Feed, Carousel oder Reel mit klarer Kernbotschaft, mobiler Lesbarkeit, transparenter Textlänge und verpflichtender aktueller Hashtag-Recherche. Verwenden bei persönlichen, Vereins-, politischen, Kampagnen- oder Informationsposts für Instagram. Keine Reichweitenversprechen, erfundenen Trenddaten oder unpassenden Hashtag-Blöcke erzeugen.",
+      "tokens": 1161,
+      "discovery_tokens": 100
+    },
+    {
+      "name": "interaction-design",
+      "folder": "interaction-design",
+      "category": "Design, UI/UX & Frontend",
+      "description": "Design, review, and implement interaction behavior for digital interfaces, including microinteractions, motion, transitions, loading and empty states, feedback, gestures, drag and drop, hover and focus behavior, notifications, perceived performance, and reduced motion accessibility. Use when a user asks to improve interaction polish, define component states, specify animation timing, design feedback after actions, create loading or progress behavior, audit interaction quality, or implement interaction patterns in web or app UI.",
+      "tokens": 1590,
+      "discovery_tokens": 137
+    },
+    {
+      "name": "interface-design",
+      "folder": "interface-design",
+      "category": "Design, UI/UX & Frontend",
+      "description": "Design, build, review, audit, and refine production product interfaces such as dashboards, admin panels, SaaS applications, tools, settings pages, data interfaces, and interactive software. Use when visual hierarchy, product-specific design direction, tokens, spacing, typography, states, motion, accessibility, component consistency, design-system memory, UI critique, or removal of generic AI-generated interface patterns matters. Do not use for marketing pages, campaign sites, landing pages, or brand-only work unless the task is specifically about product UI inside them.",
+      "tokens": 1898,
+      "discovery_tokens": 148
+    },
+    {
+      "name": "investigate-anything",
+      "folder": "investigate-anything",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Start-here router and tradecraft baseline for any investigation into a person, company,\ndomain, image or selector. Sets authorised scope, turns a vague request into an answerable\nintelligence question, writes a collection plan, picks the right workflow for the starting\nselector, and applies source grading and competing-hypothesis discipline. Use for\n\"investigate this person or company\", \"do OSINT on X\", \"where do I start\", or any\nopen-source intelligence, due diligence, background or attribution task. Applies across due\ndiligence, fraud, threat intelligence, journalism and compliance. Reference at\nuseosint.com/skills/investigate-anything.",
+      "tokens": 3229,
+      "discovery_tokens": 166
+    },
+    {
+      "name": "investigate-without-getting-made",
+      "folder": "investigate-without-getting-made",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Reporter and source-safety risk assessment for lawful, non-interactive public research.\nUse to prevent accidental account disclosure, protect legitimate sources and choose a\nlow-exposure public-record or archive route. It does not authorise deceptive identities,\nevasion, access to closed systems, platform-control bypass, monitoring of people or covert\ndue diligence. Reference at\nuseosint.com/skills/investigate-without-getting-made.",
+      "tokens": 4028,
+      "discovery_tokens": 116
+    },
+    {
+      "name": "is-this-photo-real",
+      "folder": "is-this-photo-real",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Verify whether an image or video is authentic, original and correctly captioned — provenance\nchecks, error level analysis, noise and JPEG compression analysis, clone and copy-move\ndetection, lighting and shadow consistency, C2PA Content Credentials, deepfake and\nAI-generation tells, and the honest limits of AI-detector tools. Use when fact-checking a\nphoto or video, checking for a deepfake or AI-generated image, spotting manipulation, or\ntesting whether footage is recycled or miscaptioned. Applies to KYC and onboarding fraud,\ninsurance claim review, disinformation analysis, and evidence admissibility. Reference at\nuseosint.com/skills/is-this-photo-real.",
+      "tokens": 3998,
+      "discovery_tokens": 169
+    },
+    {
+      "name": "journalistic-osint-governance",
+      "folder": "journalistic-osint-governance",
+      "category": "OSINT & Forensic Investigation",
+      "description": "Govern a public-interest or investigative-journalism OSINT inquiry before collection, publication,\nor cross-border sharing. Use for corruption, public-office accountability, corporate ownership,\nhuman-rights, conflict, political, media-forensics, source-protection, or sensitive-personal-data\ninvestigations. Establishes lawful scope, necessity and proportionality, source protection, data\nminimisation, a verifiable evidence record, publication fairness and mandatory editor/legal stop-gates.",
+      "tokens": 1868,
+      "discovery_tokens": 130
+    },
+    {
+      "name": "manifest-2-0-author",
+      "folder": "manifest-2-0-author",
+      "category": "Automation, CLI & Testing",
+      "description": "Entwickelt, schreibt, überarbeitet und prüft die Buchserie „Das Kommunistische Manifest 2.0“ über Arbeit, Eigentum, Daten, KI, Klassen, Demokratie und Zukunft im digitalen Zeitalter. Verwenden für Bandplanung, Kapitelentwürfe, Serienkontinuität, Marx-1848-zu-Gegenwart-Vergleiche, verständliche Sachbuchprosa, Gegenargumente, Claim-Planung und redaktionelle Qualitätsgates innerhalb dieser konkreten Buchserie. Nicht als Ersatz für externe Recherche oder den separaten abschließenden Faktencheck verwenden.",
+      "tokens": 581,
+      "discovery_tokens": 131
+    },
+    {
+      "name": "migrate-to-codex",
+      "folder": "migrate-to-codex",
+      "category": "Automation, CLI & Testing",
+      "description": "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.",
+      "tokens": 1981,
+      "discovery_tokens": 30
+    },
+    {
+      "name": "non-fiction-revision",
+      "folder": "non-fiction-revision",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Diagnose and revise non-fiction manuscripts at thesis, structure, evidence, explanation and reader-comprehension level. Use for books, chapters, essays, reports and substantial factual prose when the user asks to revise, strengthen, restructure, improve argument flow, remove repetition, clarify difficult passages, improve pedagogy, or prepare a manuscript for publication. Use after a substantial draft exists; do not replace primary-source research or final fact-checking.",
+      "tokens": 619,
+      "discovery_tokens": 123
+    },
+    {
+      "name": "openai-workflow-router",
+      "folder": "openai-workflow-router",
+      "category": "Orchestrierung & Control Plane",
+      "description": "Route tasks across ChatGPT Chat, Work, Codex, local projects, Skills, plugins, connectors, MCP and artifact workflows. Use whenever a request spans multiple OpenAI surfaces, asks where a task should run, needs a handoff between research, documents and code, or risks duplicate/conflicting Skills or plugins. Prefer portable Skills across surfaces, keep environment-specific capabilities only where their runtime exists, and define fallbacks when a capability is unavailable.",
+      "tokens": 2616,
+      "discovery_tokens": 124
+    },
+    {
+      "name": "osint-investigator",
+      "folder": "osint-investigator",
+      "category": "OSINT & Forensic Investigation",
+      "description": "Conduct lawful, source-grounded open-source intelligence for journalism, public-interest investigations, public figures, organisations, companies, ownership structures, claims, public records, archives, sanctions, litigation, regulatory history, media verification, domains, and evidence-backed timelines or network maps. Use when ChatGPT must investigate a public-interest subject deeply from public or lawfully accessible sources, corroborate findings, separate facts from inference, and produce a reproducible evidence log. Do not use for stalking, doxxing, credential activity, private-account access, intrusive scanning, social engineering, raw breach dumps, or profiling private individuals without a legitimate and proportionate purpose.",
+      "tokens": 2228,
+      "discovery_tokens": 190
+    },
+    {
+      "name": "parliament-briefing-designer",
+      "folder": "parliament-briefing-designer",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Creates and finalizes concise Austrian parliamentary briefing PDFs from dossiers, research notes, Markdown, or structured JSON. Use for a professional Briefing Note, parlamentarisches Briefing, Abgeordnetenbriefing, Ausschussvorbereitung, source-backed parliamentary question pack, opposition/response lines, or a sober Austrian institutional briefing design. Do not use for political research without a briefing deliverable, generic PDF redesign, party campaign dossiers, or claims that still require substantive verification before condensation.",
+      "tokens": 1279,
+      "discovery_tokens": 143
+    },
+    {
+      "name": "pattern-of-life-from-socials",
+      "folder": "pattern-of-life-from-socials",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Deep-dive a subject's social media presence — profile metadata, follower and mutual network,\ncontent analysis, and posting-time pattern of life across Instagram, Facebook, X/Twitter,\nTikTok, LinkedIn, Reddit, Telegram and Discord. Use when profiling a social account, mapping\nsomeone's associates, inferring a subject's timezone or routine from their posts, or\narchiving a profile before it is deleted. Applies to threat assessment and executive\nprotection, insider-threat investigation, pre-litigation research, and personal exposure\naudits — with explicit limits on profiling uninvolved third parties. Reference at\nuseosint.com/skills/pattern-of-life-from-socials.",
+      "tokens": 3242,
+      "discovery_tokens": 173
+    },
+    {
+      "name": "pdf",
+      "folder": "pdf",
+      "category": "Automation, CLI & Testing",
+      "description": "Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and extraction.",
+      "tokens": 629,
+      "discovery_tokens": 62
+    },
+    {
+      "name": "pdf-campaign-redesigner",
+      "folder": "pdf-campaign-redesigner",
+      "category": "Automation, CLI & Testing",
+      "description": "Prüft oder gestaltet bereitgestellte PDF-Dossiers ausdrücklich im logo-freien Editorialstil der SPÖ St. Pölten Sektion VII. Nutze diesen Skill nur, wenn der Nutzer diesen konkreten Sektionsstil verlangt oder ein bereits in diesem Stil erstelltes Dossier prüfen oder weiterbearbeiten will. Respektiere reine Prüfaufträge und erstelle nur bei ausdrücklich gewünschter Überarbeitung eine neue PDF.",
+      "tokens": 1583,
+      "discovery_tokens": 104
+    },
+    {
+      "name": "peter-schuller-arbeitssteuerung",
+      "folder": "peter-schuller-arbeitssteuerung",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Organisiere Peter Schullers tägliche Arbeit in ChatGPT Work über Aufgaben, Nachrichten, Kalender, Dateien, Projekte und verbundene Apps. Verwende diesen Skill für Arbeitsübersichten, Priorisierung, Todo-Erfassung, Tagesplanung, Wochenstatus, Übergaben und die Zuordnung zu privat, Menschlichkeit Österreich, SPÖ St. Pölten Sektion VII, Entwicklung oder Buchprojekt. Verwende ihn nicht für die fachliche Ausführung einer bereits eindeutig zugeordneten Einzelaufgabe, reine Textentwürfe oder externe Änderungen ohne konkreten Auftrag.",
+      "tokens": 2335,
+      "discovery_tokens": 140
+    },
+    {
+      "name": "peter-schuller-obmann-kommunikation",
+      "folder": "peter-schuller-obmann-kommunikation",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Erstelle und überarbeite öffentliche Vereinskommunikation für Peter Schuller als Obmann oder Vertreter von Menschlichkeit Österreich. Verwende den Skill für Vereins-Posts auf Facebook oder Instagram, Projekttexte, Einladungen, Dankespostings, Unterstützungsaufrufe, Presseaussendungen und Community-Antworten. Verwende ihn nicht für SPÖ-Kommunikation, persönliche politische Beiträge, neutrale Privatnachrichten oder interne Vereinsverwaltung ohne Kommunikationsauftrag.",
+      "tokens": 1242,
+      "discovery_tokens": 126
+    },
+    {
+      "name": "peter-schuller-politiker-kommunikation",
+      "folder": "peter-schuller-politiker-kommunikation",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Erstelle und überarbeite politische Texte in Peter Schullers persönlicher oder klar zugeordneter SPÖ-Rolle. Verwende den Skill für politische Kommentarantworten, Facebook- und Instagram-Beiträge, Stellungnahmen, Reaktionen, Argumentationsposts, Kampagnentexte und Texte für die SPÖ St. Pölten Sektion VII. Verwende ihn nicht für reine politische Analyse ohne fertigen Text, neutrale Privatkommunikation, Vereinskommunikation von Menschlichkeit Österreich oder Kommunikation im Namen anderer Personen ohne ausdrücklichen Auftrag.",
+      "tokens": 1251,
+      "discovery_tokens": 141
+    },
+    {
+      "name": "peter-schuller-schreibstil",
+      "folder": "peter-schuller-schreibstil",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Verfasse oder überarbeite kurze und mittlere Texte so, dass sie wie Peter Schuller klingen. Verwende den Skill als sprachliches Overlay für persönliche Nachrichten, E-Mails, Behördenkorrespondenz, Beschwerden, technische Supportanfragen sowie gemeinsam mit dem zuständigen Rollenskill für Vereins- oder politische Kommunikation. Verwende ihn nicht allein für Recherche, politische Analyse, Aufgabensteuerung, Dateierstellung, Connectoraktionen oder Texte, die nicht in Peters Stimme geschrieben werden sollen.",
+      "tokens": 1154,
+      "discovery_tokens": 133
+    },
+    {
+      "name": "playwright",
+      "folder": "playwright",
+      "category": "Automation, CLI & Testing",
+      "description": "Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script.",
+      "tokens": 942,
+      "discovery_tokens": 54
+    },
+    {
+      "name": "playwright-interactive",
+      "folder": "playwright-interactive",
+      "category": "Automation, CLI & Testing",
+      "description": "Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.",
+      "tokens": 7927,
+      "discovery_tokens": 29
+    },
+    {
+      "name": "politik-analyse",
+      "folder": "politik-analyse",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Analysiere politische Themen, Aussagen, Programme, Medienberichte, Gesetzesvorhaben, Kampagnen, Framing, Akteure und strategische Risiken. Verwende den Skill für Faktenchecks, Einordnung, Argumentationslinien und Empfehlungen. Verwende ihn nicht allein für einen fertigen politischen Text im Namen Peter Schullers oder für Vereinskommunikation.",
+      "tokens": 1254,
+      "discovery_tokens": 89
+    },
+    {
+      "name": "powershell-senior-expert",
+      "folder": "powershell-senior-expert",
+      "category": "Automation, CLI & Testing",
+      "description": "Erstellt, prüft und diagnostiziert PowerShell-Befehle, Skripte und Runbooks für Windows, Microsoft 365 und Azure. Nutze diesen Skill, wenn PowerShell ausdrücklich verlangt wird, vorhandener PowerShell-Code analysiert werden soll oder eine Microsoft-Administrationsaufgabe konkret per PowerShell umgesetzt werden soll. Nicht für allgemeine Microsoft-Produktberatung ohne PowerShell-Bezug verwenden.",
+      "tokens": 1802,
+      "discovery_tokens": 105
+    },
+    {
+      "name": "prompt-architect",
+      "folder": "prompt-architect",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Erstellt, überarbeitet, prüft und verdichtet direkt ausführbare Prompts und Masterprompts aus Rohideen, Notizen, bestehenden Prompts oder komplexen Anforderungen. Verwenden bei Prompt-Erstellung, Prompt-Optimierung, Meta-Prompts, System- oder Developer-Prompts, Deep-Research-Aufträgen, Agenten- und Codex-Aufträgen, Connector- und Automationsprompts, Bildprompts sowie strukturierten Arbeitsaufträgen für ChatGPT, Claude, Gemini oder vergleichbare Systeme. Der Skill klärt Ziel, Eingaben, Kontext, Zielsystem, Werkzeuge, Quellen, Grenzen, Ausgabeformat, Qualitätsgates und Fehlerfälle, entfernt Widersprüche und unnötige Regeln und liefert standardmäßig einen direkt kopierbaren finalen Prompt statt bloßer Beratung.",
+      "tokens": 2821,
+      "discovery_tokens": 183
+    },
+    {
+      "name": "react-best-practices",
+      "folder": "react-best-practices",
+      "category": "Design, UI/UX & Frontend",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "tokens": 891,
+      "discovery_tokens": 87
+    },
+    {
+      "name": "read-deleted-pages",
+      "folder": "read-deleted-pages",
+      "category": "Recherche & Verifikation",
+      "description": "Recover deleted, edited or historical web content using the Wayback Machine and its CDX API,\narchive.today, Common Crawl and Memento/Timetravel. Use when a page is deleted, changed or\n404s, checking what a site used to say, finding old team or staff pages, prior pricing,\nremoved posts, pre-redaction wording or old contact details, enumerating every archived URL\nfor a domain, or preserving evidence before it disappears. Applies to litigation and\nevidence preservation, regulatory and disclosure review, due diligence on a company's\nhistory, and journalism. Reference at useosint.com/skills/read-deleted-pages.",
+      "tokens": 3487,
+      "discovery_tokens": 157
+    },
+    {
+      "name": "recon-a-domain-passively",
+      "folder": "recon-a-domain-passively",
+      "category": "OSINT & Forensic Investigation",
+      "description": "End-to-end passive reconnaissance for a domain, website or IP — builds an asset inventory\ncovering registration, DNS, subdomains, infrastructure, tech stack, history and ownership\nwithout sending a single packet to the target. Use when asked to research or profile a\ndomain or website, map what an organisation runs, or investigate a suspicious site without\nalerting its operator. Applies to vendor and third-party risk assessment, attack-surface\nreview, M&A technical diligence, phishing and fraud-site investigation, and pre-engagement\nscoping. Reference at useosint.com/skills/recon-a-domain-passively.",
+      "tokens": 3367,
+      "discovery_tokens": 157
+    },
+    {
+      "name": "screenshot",
+      "folder": "screenshot",
+      "category": "Automation, CLI & Testing",
+      "description": "Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed.",
+      "tokens": 1938,
+      "discovery_tokens": 57
+    },
+    {
+      "name": "secrets-in-file-metadata",
+      "folder": "secrets-in-file-metadata",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Extract and interpret embedded file metadata with exiftool — EXIF GPS coordinates, camera\nmake, model and serial, DateTimeOriginal and CreateDate timestamps, XMP and IPTC fields, and\nOffice and PDF properties such as Author, Company, LastModifiedBy, template paths and\nrevision counts. Use when reading EXIF from a photo, checking who really wrote a document,\ndating a file, fingerprinting a camera or phone, or investigating provenance in JPEG, HEIC,\nRAW, MP4, DOCX, XLSX or PDF. Applies to document-provenance disputes, insider-leak\nattribution, evidence handling, and pre-publication redaction checks. Reference at\nuseosint.com/skills/secrets-in-file-metadata.",
+      "tokens": 3720,
+      "discovery_tokens": 171
+    },
+    {
+      "name": "secrets-in-git-history",
+      "folder": "secrets-in-git-history",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Mine GitHub, GitLab and git history for identities, infrastructure and leaked credentials\nusing commit author emails, GitHub code search, the commit .patch endpoint, trufflehog,\ngitleaks, git log pickaxe and full-ref history scans. Use when investigating a developer or\norganisation on GitHub, finding leaked API keys, AWS keys or tokens in code, enumerating org\nmembers and their personal repos, or recovering secrets deleted from HEAD but still present\nin history or forks. Applies to software supply-chain risk, credential exposure response,\nM&A technical diligence, and insider-threat investigation. Reference at\nuseosint.com/skills/secrets-in-git-history.",
+      "tokens": 3403,
+      "discovery_tokens": 170
+    },
+    {
+      "name": "security-best-practices",
+      "folder": "security-best-practices",
+      "category": "Sicherheit & Governance",
+      "description": "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. Trigger only for supported languages (python, javascript/typescript, go). Do not trigger for general code review, debugging, or non-security tasks.",
+      "tokens": 2153,
+      "discovery_tokens": 102
+    },
+    {
+      "name": "security-gate",
+      "folder": "security-gate",
+      "category": "Sicherheit & Governance",
+      "description": "Route software changes through the correct security review before release. Use when a repository, API, web app, automation, MCP server, agent workflow, deployment, dependency change, secret-handling change, or infrastructure change needs a security gate, or when deciding between portable security guidance and Codex Security scans. Prefer OpenAI security-best-practices for secure-by-default guidance, use OpenAI security-threat-model for material architectural trust-boundary analysis, and use Codex Security plugin scans only when that runtime is available.",
+      "tokens": 1181,
+      "discovery_tokens": 143
+    },
+    {
+      "name": "security-ownership-map",
+      "folder": "security-ownership-map",
+      "category": "Sicherheit & Governance",
+      "description": "Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visualization. Trigger only when the user explicitly wants a security-oriented ownership or bus-factor analysis grounded in git history (for example: orphaned sensitive code, security maintainers, CODEOWNERS reality checks for risk, sensitive hotspots, or ownership clusters). Do not trigger for general maintainer lists or non-security ownership questions.",
+      "tokens": 2183,
+      "discovery_tokens": 138
+    },
+    {
+      "name": "security-threat-model",
+      "folder": "security-threat-model",
+      "category": "Sicherheit & Governance",
+      "description": "Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to threat model a codebase or path, enumerate threats/abuse paths, or perform AppSec threat modeling. Do not trigger for general architecture summaries, code review, or non-security design work.",
+      "tokens": 1389,
+      "discovery_tokens": 108
+    },
+    {
+      "name": "seo-review",
+      "folder": "seo-review",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Perform a focused SEO audit on JavaScript concept pages to maximize search visibility, featured snippet optimization, and ranking potential",
+      "tokens": 8777,
+      "discovery_tokens": 37
+    },
+    {
+      "name": "shadcn-ui",
+      "folder": "shadcn-ui",
+      "category": "Design, UI/UX & Frontend",
+      "description": "Build, redesign, review, debug, maintain, and extend production React or Next.js interfaces with shadcn/ui. Use for shadcn components, components.json, registry items, presets, shadcn CLI commands, Tailwind theming, Radix or Base UI primitives, dashboards, forms, landing pages, design systems, accessibility, responsive behavior, component updates, third-party registries, Figma-to-code, GitHub code changes, or requests to modernize an existing shadcn application.",
+      "tokens": 2711,
+      "discovery_tokens": 118
+    },
+    {
+      "name": "skill-security-auditor",
+      "folder": "skill-security-auditor",
+      "category": "Sicherheit & Governance",
+      "description": "Security audit and vulnerability scanning for AI agent skills before installation or activation. Detects prompt injection, zero-width unicode attacks, dangerous code execution (eval, exec, shell=True), credential harvesting, and supply chain risks.",
+      "tokens": 732,
+      "discovery_tokens": 67
+    },
+    {
+      "name": "source-verification",
+      "folder": "source-verification",
+      "category": "Recherche & Verifikation",
+      "description": "Verify sources, claims, images, video, documents, interviews, and synthetic media with SIFT and a durable evidence trail. Use before relying on uncertain material.",
+      "tokens": 1357,
+      "discovery_tokens": 45
+    },
+    {
+      "name": "spoe-laimer-projekt-orchestrator",
+      "folder": "spoe-laimer-projekt-orchestrator",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Orchestriere komplexe politische Projektarbeit für Robert Laimer und den Wahlkreis St. Pölten, wenn mindestens zwei Fachschritte wie Recherche, politische Analyse, kommunale oder parlamentarische Umsetzung, Kommunikation und Artefakterstellung verbunden werden müssen. Verwende den Skill für Dossiers, mehrstufige Maßnahmenentwicklung, parlamentarische Fragen und projektweite QA. Verwende ihn nicht für einzelne Faktenfragen, reine Textkorrektur, einzelne Artefakte oder Aufgaben, die ein Fachskill vollständig besitzt.",
+      "tokens": 2872,
+      "discovery_tokens": 138
+    },
+    {
+      "name": "spoe-parlamentsforensik",
+      "folder": "spoe-parlamentsforensik",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Forensische Deep-Research-Pipeline für das österreichische Parlament mit reproduzierbarer Vollerhebung, Open-Data-API-Abfragen, Coverage-Audit, zeitabhängiger Personen- und Parteiauflösung, Antrags- und Protokollforensik, Widerspruchs- und Positionshistorie sowie Blue-, Red- und Purple-Team-Prüfung. Verwenden bei Parlamentsforensik, Antragsforensik, Widerspruchsanalysen, Promise- und Vote-Tracking, SPÖ-Symmetrietests, Partei- oder Akteursdossiers, regionaler Evidenzanalyse, parlamentarischen Handlungsvorschlägen und strategischer SPÖ-Analyse auf Basis öffentlicher aggregierter Daten. Nicht für einfache politische Faktenfragen, reine Textformulierung oder individualisierte psychografische Wählerprofilierung verwenden.",
+      "tokens": 2991,
+      "discovery_tokens": 187
+    },
+    {
+      "name": "ten-separate-images",
+      "folder": "ten-separate-images",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Erzeugt oder bearbeitet exakt zehn eigenständige Bilddateien in zehn getrennten, seriellen Slots. Verwenden bei Anfragen wie zehn Bilder, 10 Bilder, ten separate images, zehn Varianten, zehn hochgeladene Vorlagen, zehn Poster oder zehn Social Media Motive. Ordnet jede Quelle oder jedes Briefing genau einem Ausgabeslot zu, isoliert Bildreferenzen pro Werkzeugaufruf, verhindert Collagen, Raster, Kontaktbögen, Storyboards und Mehrfachpanels, prüft jede Ausgabe einzeln und beendet den Auftrag erst nach zehn unterschiedlichen gültigen Dateien. Regelt ausschließlich Trennung, Zuordnung, Ausführung und Kontrolle. Inhalt und visueller Stil kommen aus dem Nutzerauftrag oder einem zusätzlich aktiven Fachskill.",
+      "tokens": 1471,
+      "discovery_tokens": 182
+    },
+    {
+      "name": "track-planes-and-ships",
+      "folder": "track-planes-and-ships",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Track aircraft and vessels from public ADS-B and AIS broadcasts using ADS-B Exchange,\nFlightradar24, FlightAware, MarineTraffic, VesselFinder and Equasis. Use when following a\ntail number or flight, looking up an ICAO 24-bit hex code, registration or callsign, tracing\na ship by IMO number or MMSI, checking a flag of convenience or port-call history, finding\nwho owns a private jet or vessel, or analysing AIS gaps and dark-fleet behaviour. Applies to\nsanctions-evasion detection, trade and supply-chain compliance, asset tracing and recovery,\nand investigative journalism. Reference at useosint.com/skills/track-planes-and-ships.",
+      "tokens": 3567,
+      "discovery_tokens": 163
+    },
+    {
+      "name": "ui-design-engineering",
+      "folder": "ui-design-engineering",
+      "category": "Design, UI/UX & Frontend",
+      "description": "Design, audit, document, polish, and harden production user interfaces using an evidence-first design-engineering workflow derived from ibelick/ui-skills. Use for frontend UI cleanup, spacing and hierarchy fixes, accessibility audits, metadata and social-preview fixes, animation performance, design-system reconstruction into DESIGN.md, or evidence-based interface improvement planning. Route to the smallest relevant reference and preserve the product's existing design language unless redesign is explicitly requested.",
+      "tokens": 902,
+      "discovery_tokens": 135
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "folder": "ui-ux-pro-max",
+      "category": "Design, UI/UX & Frontend",
+      "description": "Define and implement the UI system for a new interface or broad redesign across web, mobile, or desktop, or perform a requested P0-to-P3 product-wide UI audit. Use when visual direction, information hierarchy, responsive and accessible states, component rules, and frontend stack guidance must be decided together. Do not use for a small polish pass, isolated motion or interaction, shadcn mechanics, guideline-only compliance, or backend, database, infrastructure, and non-UI automation work.",
+      "tokens": 2974,
+      "discovery_tokens": 126
+    },
+    {
+      "name": "useosint",
+      "folder": "useosint",
+      "category": "OSINT & Forensic Investigation",
+      "description": "Entry point for open-source intelligence, investigation and verification work. Routes any\nidentifier — a name, phone number, email address, username, domain, company, photo,\ncrypto address, tail number or IMO — to the right investigation workflow, after setting an\nauthorised scope. Use when asked to investigate, research, verify, vet, check out, look\nup, background-check, trace, attribute or find someone or something; when a request\ninvolves due diligence, KYC or KYB, counterparty or vendor risk, sanctions and PEP\nscreening, AML, fraud, business email compromise, verifying a supplier before payment,\nrecruitment or marketplace scams, insider threat, executive protection, attack-surface\nreview, journalism or fact-checking; or when someone asks \"who is this\", \"who owns this\",\n\"is this real\", \"where did this come from\" or \"where do I start\". Reference at\nuseosint.com/skills.",
+      "tokens": 1500,
+      "discovery_tokens": 222
+    },
+    {
+      "name": "using-superpowers",
+      "folder": "using-superpowers",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Route complex software-development work to the smallest relevant Superpowers workflow. Use when Superpowers is explicitly requested or when a multi-step implementation, difficult defect, test-first change, code review, or release gate materially benefits from its disciplined development process. Do not use for ordinary questions, research, writing, design-only work, connector actions, simple edits, or non-development tasks.",
+      "tokens": 458,
+      "discovery_tokens": 111
+    },
+    {
+      "name": "web-design-guidelines",
+      "folder": "web-design-guidelines",
+      "category": "Design, UI/UX & Frontend",
+      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+      "tokens": 307,
+      "discovery_tokens": 51
+    },
+    {
+      "name": "what-an-email-reveals",
+      "folder": "what-an-email-reveals",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Investigate an email address — MX and syntactic validation, Gravatar lookup, corporate\nemail-format inference, breach exposure, and full mail-header analysis covering the Received\nchain, Message-ID and SPF, DKIM and DMARC results. Use for email OSINT, verifying whether an\naddress exists, finding accounts registered to it, guessing a company's email format, or\ntracing where a suspicious message actually came from. Applies to business email compromise\nand invoice-fraud investigation, phishing triage, vendor-payment verification, and\npre-engagement research. Reference at useosint.com/skills/what-an-email-reveals.",
+      "tokens": 2729,
+      "discovery_tokens": 159
+    },
+    {
+      "name": "what-leaked-about-you",
+      "folder": "what-leaked-about-you",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Check and interpret data-breach exposure for an email, username, phone or name using Have I\nBeen Pwned, the Pwned Passwords k-anonymity range API, DeHashed, IntelX and Snusbase. Use\nwhen checking breach or leak exposure, finding which services an account was registered\nwith, interpreting a combolist or credential dump, assessing credential compromise, or\nauditing your own leaked personal data. Applies to incident response and account-takeover\ntriage, executive and VIP protection, pre-employment and vendor risk screening, and personal\nprivacy audits. Reference at useosint.com/skills/what-leaked-about-you.",
+      "tokens": 2972,
+      "discovery_tokens": 158
+    },
+    {
+      "name": "where-was-this-taken",
+      "folder": "where-was-this-taken",
+      "category": "OSINT & Forensic Investigation",
+      "description": "End-to-end workflow to establish where and when a photo or video was captured and whether it\nis authentic — evidentiary handling, metadata extraction, reverse image search for\nprovenance, visual geolocation, chronolocation from shadows, and manipulation checks, ending\nin a location finding with a stated confidence radius. Use when asked to verify where an\nimage was taken, confirm or refute a claimed location or date, or authenticate media before\nrelying on it. Applies to insurance claims, litigation evidence, disinformation analysis,\nand conflict and human-rights documentation. Reference at\nuseosint.com/skills/where-was-this-taken.",
+      "tokens": 2924,
+      "discovery_tokens": 164
+    },
+    {
+      "name": "who-owns-this-domain",
+      "folder": "who-owns-this-domain",
+      "category": "OSINT & Forensic Investigation",
+      "description": "Establish who registered and who operates a domain using WHOIS, RDAP and DNS. Use when\nrunning a whois lookup, querying RDAP, digging A, AAAA, MX, NS, TXT, SOA or CAA records,\nreading SPF includes, DKIM selectors or DMARC rua addresses, finding the registrar,\nregistrant or nameservers, doing reverse DNS, PTR, ASN or netblock lookups, or hunting\nhistorical WHOIS and passive DNS. Applies to phishing and brand-abuse takedown,\ndomain-dispute and UDRP evidence, vendor verification before payment, and infrastructure\nattribution. Reference at useosint.com/skills/who-owns-this-domain.",
+      "tokens": 3168,
+      "discovery_tokens": 150
+    },
+    {
+      "name": "who-really-owns-it",
+      "folder": "who-really-owns-it",
+      "category": "OSINT & Forensic Investigation",
+      "description": "Research companies, directors, shareholders and ultimate beneficial ownership in official\ncorporate registries, filings and offshore datasets — OpenCorporates, UK Companies House and\nthe PSC register, SEC EDGAR, US Secretary of State registries, EU business registers, GLEIF\nLEI records, OpenOwnership, OpenSanctions and the ICIJ Offshore Leaks database. Use when\nasked who owns or controls a company, to find a person's other directorships, or to unpick a\ngroup structure. Applies to KYB and UBO verification, AML and sanctions screening, nominee\nand shell-company detection, procurement integrity, and M&A diligence. Reference at\nuseosint.com/skills/who-really-owns-it.",
+      "tokens": 3691,
+      "discovery_tokens": 172
+    },
+    {
+      "name": "whose-number-is-this",
+      "folder": "whose-number-is-this",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Investigate a phone number — E.164 normalisation with libphonenumber, phoneinfoga scanning,\ncarrier and line-type identification, VoIP and burner detection, messaging-app registration\nchecks, and reverse-lookup and caller-ID sources. Use for phone OSINT and reverse phone\nlookup, \"who owns this number\", identifying a burner or VoIP number, or checking whether a\nnumber is registered on WhatsApp, Telegram or Signal. Applies to vishing and business email\ncompromise investigation, verifying a counterparty before sending payment, recruitment and\nmarketplace scam checks, and fraud triage. Reference at\nuseosint.com/skills/whose-number-is-this.",
+      "tokens": 2761,
+      "discovery_tokens": 165
+    },
+    {
+      "name": "write-the-intel-brief",
+      "folder": "write-the-intel-brief",
+      "category": "Recherche & Verifikation",
+      "description": "Turn findings into a defensible intelligence product — BLUF key judgements, standardised\nestimative probability language, per-claim sourcing with timestamps and archived copies,\nseparated observation, inference and assessment, documented negative findings and gaps,\nchain of custody and hashing, and redaction of uninvolved parties. Use when writing an\nintelligence report, due-diligence memo, evidence pack or executive summary, or when asked\nto write up an investigation so it survives challenge. Applies to regulated compliance\nreporting, litigation and disclosure, board and investment committee reporting, and\nlaw-enforcement referral. Reference at useosint.com/skills/write-the-intel-brief.",
+      "tokens": 3154,
+      "discovery_tokens": 179
+    },
+    {
+      "name": "x-ray-a-company",
+      "folder": "x-ray-a-company",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Corporate due-diligence workflow — resolve a brand or website to its registered legal\nentity, map group structure and beneficial ownership, profile officers and directors,\nenumerate the digital estate, and screen litigation, insolvency, procurement, sanctions, PEP\nand adverse media. Use when asked to check out, vet or research a company, verify a supplier\nor counterparty before signing or paying, or assess whether a business is real. Applies to\nvendor and third-party risk, KYC and KYB onboarding, M&A and investor diligence, procurement\nintegrity, and shell-company assessment. Reference at useosint.com/skills/x-ray-a-company.",
+      "tokens": 3593,
+      "discovery_tokens": 161
+    },
+    {
+      "name": "yeet",
+      "folder": "yeet",
+      "category": "Spezial- & Hilfsskills",
+      "description": "Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).",
+      "tokens": 1738,
+      "discovery_tokens": 34
+    }
+  ]
+}

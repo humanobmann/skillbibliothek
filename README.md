@@ -19,7 +19,9 @@ Die Quellen werden nur gelesen; alle konsolidierten Änderungen erfolgen hier.
 
 ## Aktueller Bestand
 
-Der aktuelle konsolidierte Bestand umfasst 91 Skill-Verzeichnisse mit `SKILL.md`.
+Der aktuelle konsolidierte Bestand umfasst 93 Skill-Verzeichnisse mit `SKILL.md`.
+Davon bilden 91 Skills die zusammengeführte Fachbibliothek; `core-routing` und
+`skill-security-auditor` ergänzen die Control-Plane- und Security-Gates.
 
 ### Kernbereiche
 
