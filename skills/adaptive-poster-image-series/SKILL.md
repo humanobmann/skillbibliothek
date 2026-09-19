@@ -46,7 +46,10 @@ Fuer die eigentliche Bildproduktion gilt ein exklusiver Werkzeugvertrag:
 15. Die drei gebuendelten Stilanker und das Profil `austria-editorial-civic-v1` sind standardmaessig fuer jede Ausgabe verbindlich. Die Anlehnung betrifft nur Design: Layoutsprache, Typografiecharakter, Farbklima, Proportionen und grafische Mittel.
 16. Fehlende Schrift oder fehlendes Grafikdesign ist ein Hard Fail. Ein blosses Hintergrundbild oder Rohfoto ist nie freigabefaehig.
 17. Jede Grafik muss sichtbar als vollstaendig gestaltetes Editorialposter erscheinen: warme helle Grundflaeche, Signalrot, Graphit, grosse Grotesk-Typografie, klare Hierarchie und mindestens ein grafisches Signal- oder Bewegungselement.
-18. Referenzinhalt niemals automatisch kopieren. Flagge, Menschen, Landschaft, Parlament oder Referenztext nur verwenden, wenn der aktuelle Inhalt dies verlangt.\n19. Sicherheitsbereiche sind Release-Gates. Fuer 4:5, 1:1 und 9:16 gelten die konservativen internen Profile aus [references/platform-safe-zones.md](references/platform-safe-zones.md); sie duerfen nie als offizielle Plattform-Safe-Zones bezeichnet werden.\n20. Plattformvarianten werden immer neu komponiert. Automatisches Cropping, blosses Resizing oder das Verschieben bereits zu randnaher Typografie ist unzulaessig.\n21. Wenn der Nutzer Facebook und Instagram plus Story/Reel/TikTok oder sinngemaess alle Social-Formate verlangt, ist `delivery_mode=full_social_30`: zehn 4:5, zehn 1:1 und zehn 9:16 Enddateien.
+18. Referenzinhalt niemals automatisch kopieren. Flagge, Menschen, Landschaft, Parlament oder Referenztext nur verwenden, wenn der aktuelle Inhalt dies verlangt.
+19. Sicherheitsbereiche sind Release-Gates. Fuer 4:5, 1:1 und 9:16 gelten die konservativen internen Profile aus [references/platform-safe-zones.md](references/platform-safe-zones.md); sie duerfen nie als offizielle Plattform-Safe-Zones bezeichnet werden.
+20. Plattformvarianten werden immer neu komponiert. Automatisches Cropping, blosses Resizing oder das Verschieben bereits zu randnaher Typografie ist unzulaessig.
+21. Wenn der Nutzer Facebook und Instagram plus Story/Reel/TikTok oder sinngemaess alle Social-Formate verlangt, ist `delivery_mode=full_social_30`: zehn 4:5, zehn 1:1 und zehn 9:16 Enddateien.
 
 ## Workflow
 
@@ -210,7 +213,13 @@ Die technische Pruefung darf keine Bilddatei veraendern.
 
 Immer [references/platform-safe-zones.md](references/platform-safe-zones.md) lesen. Wenn der Nutzer mehrere Plattformformate oder alle Social-Formate verlangt, zusaetzlich [references/platform-delivery-schema.md](references/platform-delivery-schema.md) verwenden. Fuer Facebook-Mehrbildsets weiterhin [references/facebook-publication-strategy.md](references/facebook-publication-strategy.md) und [references/publication-plan-schema.md](references/publication-plan-schema.md) verwenden.
 
-Bei plattformuebergreifender Ausgabe `platform-delivery.json` separat vom Masterplan anlegen und validieren:\n\n```bash\npython scripts/validate_platform_delivery.py platform-delivery.json production-plan.json\n```\n\nBei Facebook-Mehrbildsets zusaetzlich `publication-plan.json` anlegen und validieren:
+Bei plattformuebergreifender Ausgabe `platform-delivery.json` separat vom Masterplan anlegen und validieren:
+
+```bash
+python scripts/validate_platform_delivery.py platform-delivery.json production-plan.json
+```
+
+Bei Facebook-Mehrbildsets zusaetzlich `publication-plan.json` anlegen und validieren:
 
 ```bash
 python scripts/validate_publication_plan.py publication-plan.json production-plan.json
