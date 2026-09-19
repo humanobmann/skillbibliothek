@@ -22,7 +22,7 @@ Jede tatsaechliche Endausgabe einzeln ansehen. Kein JSON, Score oder Dateitest e
 - keine abgeschnittene Typografie
 - mobile Lesbarkeit
 - ausreichender Kontrast
-- sichere Innenraender
+- sichere Innenraender gemaess aktivem Safe-Zone-Profil\n- Hero-Zahl oder dominantes Keyword mit mindestens 8 % optischer Reserve\n- zentraler Motivkern mit mindestens 12 % Crop-Reserve\n- Quellenzeile vollstaendig innerhalb des sicheren Bereichs\n- keine automatische Crop-/Resize-Adaption als finale Plattformvariante
 - klare Hierarchie
 - professionelle Typografiewirkung
 - Motiv passt zur Aussage
@@ -88,7 +88,7 @@ Pruefen:
 - Hook und Schluss klar verschieden
 - Stilanker bleiben als Designreferenz erkennbar
 
-## Facebook Bundle QA
+## Plattform-Safe-Zone-QA\n\nVor Freigabe jede konkrete Datei gegen [platform-safe-zones.md](platform-safe-zones.md) pruefen.\n\n- 4:5 bei 1080 x 1350: mindestens 72 px links/rechts, 90 px oben, 110 px unten fuer kritischen Text.\n- 1:1 bei 1080 x 1080: kritischer Inhalt innerhalb des zentrierten 900 x 900 px Bereichs.\n- 9:16 bei 1080 x 1920: mindestens 90 px links, 160 px rechts, 288 px oben, 384 px unten fuer kritische Information.\n- Diese Werte sind interne konservative Produktionsreserven und duerfen nicht als offizielle Plattform-Safe-Zones bezeichnet werden.\n- Bei staerkerer UI-Ueberlagerung oder konkretem Placement immer den groesseren Abstand verwenden.\n\n## Facebook Bundle QA
 
 Bei Mehrbildsets zusaetzlich:
 
