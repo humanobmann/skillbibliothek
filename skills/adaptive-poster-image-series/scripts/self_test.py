@@ -119,7 +119,7 @@ def platform_delivery_plan():
                 "file": f"{slot:02d}-{suffix}.png",
                 "width": width,
                 "height": height,
-                "safe_area_px": safe,
+                "safe_area_px": dict(safe),
                 "hero_clearance_percent": 8,
                 "motif_crop_reserve_percent": 12,
                 "source_inside_safe_area": True,
@@ -258,6 +258,11 @@ def main():
     bad_delivery = copy.deepcopy(delivery)
     bad_delivery["outputs"][0]["safe_area_px"]["left"] = 10
     expect_fail("unsafe 4:5 left margin", lambda: validate_platform_delivery(bad_delivery, prod))
+
+    stricter_delivery = copy.deepcopy(delivery)
+    stricter_delivery["outputs"][0]["safe_area_px"]["left"] = 100
+    validate_platform_delivery(stricter_delivery, prod)
+    print("PASS positive: stricter safe margin accepted")
 
     bad_delivery = copy.deepcopy(delivery)
     bad_delivery["outputs"][20]["recompose_not_crop"] = False
