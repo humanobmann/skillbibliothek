@@ -9,8 +9,3 @@ interface:
     isoliere die aktuelle Quelle und verwirf jede Mehrfachausgabe.
 policy:
   allow_implicit_invocation: true
-  products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
