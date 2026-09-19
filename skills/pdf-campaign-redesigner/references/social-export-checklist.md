@@ -10,6 +10,16 @@ Nur verwenden, wenn der Nutzer Social-Assets oder eine Export-Checkliste ausdrue
 - Pressefolie: 1920 x 1080.
 - Dokument: A4 hoch.
 
+## Algorithmusfit
+
+Wenn Social-Assets organisch verteilt werden sollen, `social-platform-algorithm-core` verwenden. Die Exportcheckliste definiert Layout und Lesbarkeit, nicht den Rankingalgorithmus.
+
+- erster Frame beziehungsweise erstes Motiv muss den tatsaechlichen Kern ohne Vorwissen vermitteln.
+- Save-/Share-Wert entsteht aus Nutzwert, Beleg oder klarer Einordnung.
+- Reel-/Video-Cover darf kein Versprechen setzen, das das Video nicht einloest.
+- keine Engagement-Bait-Elemente oder algorithmischen Reichweitenversprechen.
+- Hashtags, Textlaenge und Postingzeit nicht als universelle Rankingformel behandeln.
+
 ## Bildtext
 
 - Feed: max. 5 Woerter.
