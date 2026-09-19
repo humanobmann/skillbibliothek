@@ -16,11 +16,15 @@ def test_social_framework_and_profiles_exist():
 
 def test_tiktok_separates_ranking_search_and_monetization():
     skill = (SKILLS / "tiktok-content-optimizer" / "SKILL.md").read_text(encoding="utf-8")
-    profile = (CORE / "references" / "platform-profiles.md").read_text(encoding="utf-8")
+    evidence = json.loads((CORE / "references" / "evidence-records.json").read_text(encoding="utf-8"))
+    records = {record["source_id"]: record for record in evidence["records"]}
+
     assert "Creator-Rewards-Metriken sind MONETIZATION" in skill
     assert "nicht als bestaetigte For-You-Ranking-Signale" in skill
-    assert "TIKTOK_CREATOR_REWARDS_2024 | MONETIZATION" in profile
-    assert "How TikTok recommends content" in profile
+    assert records["TIKTOK_FYF_RANKING_2026"]["mechanism"] == "RANKING"
+    assert records["TIKTOK_SEARCH_2026"]["mechanism"] == "SEARCH"
+    assert records["TIKTOK_CREATOR_REWARDS_2024"]["mechanism"] == "MONETIZATION"
+    assert records["TIKTOK_FYF_RANKING_2026"]["title"] == "How TikTok recommends content"
 
 
 def test_framework_models_surfaces_evidence_and_learning():
