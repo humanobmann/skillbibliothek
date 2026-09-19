@@ -24,20 +24,20 @@ Nicht aktivieren bei direktem Aufruf eines bekannten Skills oder einer eindeutig
 
 ## Routing Decision Logic
 
-1. Sicherheit/Audit -> skills/skill-security-auditor
-2. aktuelle oder mehrstufige Recherche -> skills/deep-research
+1. Sicherheit/Audit -> `skills/skill-security-auditor`
+2. aktuelle oder mehrstufige Recherche -> `skills/deep-research`
 3. Social Media:
-   - plattformuebergreifender Algorithmus, Ranking, Reach, Discovery oder Search -> skills/social-platform-algorithm-core
-   - Facebook Text -> skills/facebook-text-optimizer
-   - Instagram Text -> skills/instagram-text-optimizer
-   - Instagram Hashtags -> skills/instagram-hashtag-research
-   - TikTok -> skills/tiktok-content-optimizer
-   - YouTube/Shorts -> skills/youtube-content-optimizer
-   - LinkedIn -> skills/linkedin-content-optimizer
-   - Social Poster-/Bildserie -> skills/adaptive-poster-image-series
+   - plattformuebergreifender Algorithmus, Ranking, Reach, Discovery oder Search -> `skills/social-platform-algorithm-core`
+   - Facebook Text -> `skills/facebook-text-optimizer`
+   - Instagram Text -> `skills/instagram-text-optimizer`
+   - Instagram Hashtags -> `skills/instagram-hashtag-research`
+   - TikTok -> `skills/tiktok-content-optimizer`
+   - YouTube/Shorts -> `skills/youtube-content-optimizer`
+   - LinkedIn -> `skills/linkedin-content-optimizer`
+   - Social Poster-/Bildserie -> `skills/adaptive-poster-image-series`
    Bei plattformspezifischer Algorithmusoptimierung wird der Plattformskill ausgefuehrt und social-platform-algorithm-core als gemeinsame Evidenzschicht geladen.
-4. Frontend/Design -> skills/web-design-guidelines
-5. Skill-Suche -> skills/find-skills
+4. Frontend/Design -> `skills/web-design-guidelines`
+5. Skill-Suche -> `skills/find-skills`
 6. andere Fachaufgaben -> spezifischsten vorhandenen Skill aktivieren; bei echter Luecke nichts erfinden.
 
 ## Workflow
