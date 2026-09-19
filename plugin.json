@@ -1,0 +1,44 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "skillbibliothek",
+  "version": "1.0.0",
+  "description": "Kanonische Skill-Bibliothek mit zentralem Routing, Security-Gates und wiederverwendbaren Workflows fuer ChatGPT und Codex.",
+  "author": {
+    "name": "Peter Schuller",
+    "url": "https://github.com/humanobmann"
+  },
+  "homepage": "https://github.com/humanobmann/skillbibliothek",
+  "repository": "https://github.com/humanobmann/skillbibliothek",
+  "keywords": [
+    "skills",
+    "agents",
+    "workflows",
+    "routing",
+    "research",
+    "osint",
+    "design",
+    "automation",
+    "security"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Skillbibliothek",
+        "shortDescription": "Kuratierte Skills mit Routing und Security-Gates",
+        "longDescription": "Kanonische, konsolidierte Skillbibliothek fuer Recherche, OSINT, Entwicklung, Design, Content und Automatisierung. Enthaelt zentrales Intent-Routing, Progressive Disclosure, Validierung und ein Zero-Trust-Sicherheitsgate.",
+        "developerName": "Peter Schuller",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://github.com/humanobmann/skillbibliothek",
+        "defaultPrompt": [
+          "Finde fuer diese Aufgabe den passendsten Skill aus der Skillbibliothek und fuehre ihn aus.",
+          "Pruefe einen neuen oder geaenderten Skill gegen Routing, Provenienz, Validierung und Security-Gates.",
+          "Analysiere die Skillbibliothek auf Ueberschneidungen, Luecken und Routing-Konflikte."
+        ]
+      }
+    }
+  }
+}
