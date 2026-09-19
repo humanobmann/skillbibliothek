@@ -7,7 +7,7 @@ description: Recherchiert und bewertet aktuelle Instagram-Hashtags ohne MCP-Serv
 
 ## Ziel
 
-Eine kleine, aktuelle und nachvollziehbar geprüfte Hashtag-Auswahl liefern. Nicht aus vermeintlichen Algorithmus-Tricks, generischen Generatorlisten oder erfundenen Kennzahlen ableiten.
+Eine kleine, aktuelle und nachvollziehbar geprüfte Hashtag-Auswahl liefern. Hashtags als semantische Kontext- und Discovery-Signale behandeln, nicht als primaeren Reichweitenhebel. Nicht aus vermeintlichen Algorithmus-Tricks, generischen Generatorlisten oder erfundenen Kennzahlen ableiten.
 
 Keine MCP-Server, Docker-Container oder lokalen Dienste voraussetzen. Keine Installation externer Scraper verlangen.
 
@@ -111,7 +111,7 @@ Eine sinnvolle Mischung bevorzugen aus:
 - einem Orts- oder Regionstag, falls relevant,
 - einem Ereignis-, Organisations- oder Kampagnentag nur bei belegter Passung.
 
-Keine Kategorie künstlich füllen.
+Keine Kategorie künstlich füllen. Semantische Praezision ist wichtiger als Menge oder vermeintliche Groesse eines Tags.
 
 ## Quellen- und Evidenzregeln
 
