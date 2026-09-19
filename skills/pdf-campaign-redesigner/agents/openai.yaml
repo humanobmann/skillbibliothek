@@ -7,8 +7,3 @@ interface:
     Sektion VII zu prüfen.
 policy:
   allow_implicit_invocation: true
-  products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
