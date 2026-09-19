@@ -48,6 +48,20 @@ Fuer die eigentliche Bildproduktion gilt ein exklusiver Werkzeugvertrag:
 17. Jede Grafik muss sichtbar als vollstaendig gestaltetes Editorialposter erscheinen: warme helle Grundflaeche, Signalrot, Graphit, grosse Grotesk-Typografie, klare Hierarchie und mindestens ein grafisches Signal- oder Bewegungselement.
 18. Referenzinhalt niemals automatisch kopieren. Flagge, Menschen, Landschaft, Parlament oder Referenztext nur verwenden, wenn der aktuelle Inhalt dies verlangt.
 
+## Algorithmus- und Plattformfit
+
+Wenn die Bildserie fuer organische Social-Distribution optimiert werden soll, zusaetzlich `social-platform-algorithm-core` verwenden.
+
+Visuelle Optimierung muss reale Konsumsignale unterstuetzen:
+- Feed: sofort erkennbare Kernaussage, mobile Lesbarkeit und echter Save-/Share-Wert.
+- Reel-/Story-Cover: Motiv und Headline muessen das tatsaechliche Video korrekt versprechen.
+- keine ueberladene Typografie, die Betrachtungsdauer durch Entziffern statt Nutzwert erzeugt.
+- keine fremden Wasserzeichen, Repost-Aesthetik oder minimal veraenderten Drittinhalte als vermeintliche Reichweitenstrategie.
+- Plattformvarianten neu komponieren statt blind croppen.
+- Social-SEO-Begriffe nur sichtbar einsetzen, wenn sie inhaltlich zum Motiv gehoeren.
+
+Algorithmusfit ersetzt nie Fakten-, Text-, Design- oder Safe-Zone-QA.
+
 ## Workflow
 
 ### 1. Eingabemodus bestimmen
