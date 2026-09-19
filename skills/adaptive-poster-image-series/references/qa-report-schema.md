@@ -1,4 +1,4 @@
-# Final QA Report Schema v5
+# Final QA Report Schema v6
 
 ```json
 {
@@ -18,7 +18,7 @@
         "no_extra_text": true,
         "mobile_readable": true,
         "contrast_safe": true,
-        "safe_margins": true,
+        "safe_margins": true,\n        "safe_zone_profile_passed": true,\n        "hero_clearance_passed": true,\n        "motif_crop_reserve_passed": true,\n        "source_inside_safe_area": true,\n        "recompose_not_crop_confirmed": true,
         "hierarchy_clear": true,
         "typography_professional": true,
         "composition_balanced": true,
@@ -73,4 +73,4 @@
 
 Exakt zehn Items sind Pflicht.
 
-Jede Enddatei muss tatsaechlich angesehen worden sein. Alle Hard Gates muessen `true` sein, `issues` leer, jeder Score 4 oder 5 und Summe mindestens 44 von 50.
+Jede Enddatei muss tatsaechlich angesehen worden sein. Safe-Zone-Gates werden gegen das aktive Profil aus `platform-safe-zones.md` geprueft und sind bei Plattformadaptionen zwingend. Alle Hard Gates muessen `true` sein, `issues` leer, jeder Score 4 oder 5 und Summe mindestens 44 von 50.
