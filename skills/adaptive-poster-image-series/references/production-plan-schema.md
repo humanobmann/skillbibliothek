@@ -76,6 +76,9 @@
       "visible_text_required": true,
       "full_design_required": true,
       "raw_photo_forbidden": true,
+      "hero_clearance_percent": 8,
+      "motif_crop_reserve_percent": 12,
+      "source_inside_safe_area": true,
       "design_brief": "Fertiges 4:5 Editorialposter im verbindlichen Ivory-Rot-Graphit-Referenzdesign. Grosse linksausgerichtete Headline im oberen Bereich, thematisches Foto darunter, rote geschwungene Signalform als Verbindung. Kein Rohfoto und kein Platzhalter fuer spaetere Schrift.",
       "image_brief": "Ein einzelnes vollstaendig gestaltetes 4:5 Social-Media-Editorialmotiv mit fertiger Typografie, sichtbarer Grafikgestaltung und thematisch glaubwuerdigem Bildraum.",
       "risk_overclaim": false,
@@ -155,6 +158,9 @@ Jeder Slot braucht zusaetzlich zu Inhalt und Layout:
 - `visible_text_required=true`
 - `full_design_required=true`
 - `raw_photo_forbidden=true`
+- `hero_clearance_percent >= 8`
+- `motif_crop_reserve_percent >= 12`
+- `source_inside_safe_area=true`
 - `design_brief` mit konkreter Typografie, Bildintegration und grafischem Element
 
 Ein `design_brief` darf nicht nur `freie Textzone`, `Negativraum fuer Text` oder `Foto mit Platz fuer Schrift` verlangen. Fuer 4:5 Master gelten zusaetzlich die verbindlichen internen Sicherheitsbereiche aus [platform-safe-zones.md](platform-safe-zones.md): 72 px links/rechts, 90 px oben, 110 px unten bei 1080 x 1350. Hero-Elemente brauchen mindestens acht Prozent optische Reserve; zentrale Motive mindestens zwoelf Prozent Crop-Reserve.
