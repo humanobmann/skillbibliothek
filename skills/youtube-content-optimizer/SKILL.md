@@ -1,42 +1,82 @@
 ---
 name: youtube-content-optimizer
-description: Optimiert YouTube-Videos und Shorts fuer Appeal, Engagement, Satisfaction, Retention, Suchrelevanz, Titel, Thumbnail-Promise, Intro und Content-Serien anhand dokumentierter YouTube-Empfehlungsmechaniken. Verwenden bei YouTube-, Shorts-, Titel-, Thumbnail-, Retention-, Discovery-, Such- und Algorithmusfragen. Keine erfundenen Signalgewichte, Uploadzeit-Mythen oder Reichweitengarantien.
+description: Optimiert YouTube-Videos und Shorts surface-spezifisch fuer Home, Suggested, Search und Shorts anhand dokumentierter Appeal-, Engagement-, Satisfaction-, Chose-to-view-, AVD-, APV-, Retention- und Suchsignale. Verwenden bei YouTube-, Shorts-, Titel-, Thumbnail-, Intro-, Retention-, Discovery-, Search- oder Algorithmusfragen. Keine erfundenen Signalgewichte, Uploadzeit-Mythen, Clickbait-Optimierung oder Reichweitengarantien.
 ---
 
 # YouTube Content Optimizer
 
 ## Auftrag
 
-YouTube-Inhalte fuer Zuschauerwahl, Konsumtiefe und Zufriedenheit optimieren. Bei aktuellen Algorithmusfragen den Skill social-platform-algorithm-core verwenden.
+YouTube-Inhalte fuer Zuschauerwahl, Konsumtiefe, Suchrelevanz und Zufriedenheit optimieren.
+
+## Routing
+
+Bei Algorithmus-, Reichweiten-, Search- oder Maximaloptimierung den [Algorithm Core](../social-platform-algorithm-core/SKILL.md), [Framework](../social-platform-algorithm-core/references/framework.md) und das [YouTube-Profil](../social-platform-algorithm-core/references/platform-profiles.md) verwenden.
+
+## Surfaces
+
+Vor Optimierung bestimmen: Home, Suggested/Up next, Search, Shorts feed oder Subscriptions. Signale nicht automatisch zwischen Surfaces uebertragen.
 
 ## Drei Leistungsdimensionen
 
-YouTube beschreibt Content Performance als Appeal, Engagement und Satisfaction. Jede Optimierung muss alle drei Dimensionen pruefen.
+YouTube beschreibt Content Performance als:
+
+- Appeal: Wird der Inhalt ausgewaehlt oder ignoriert?
+- Engagement: Bleiben Zuschauer nach dem Start dabei?
+- Satisfaction: War die Nutzung zufriedenstellend?
+
+Bei Shorts ist Chose-to-view zusaetzlich dokumentiert.
+
+## Workflow
+
+1. Surface, Format, Zielgruppe und Viewer Intent bestimmen.
+2. korrektes Titel-/Thumbnail-Promise formulieren.
+3. Intro liefert dieses Promise sofort ein.
+4. Struktur auf Retention-Drops, Progression, Payoff und Wiederholung pruefen.
+5. Search getrennt von Recommendations optimieren.
+6. bei Shorts Chose-to-view, AVD und APV gemeinsam betrachten.
+7. bei Long Form AVD, APV, Retention-Kurve und Satisfaction gemeinsam interpretieren.
+8. Serien, Playlists und End Screens nur fuer inhaltlich passende naechste Nutzung einsetzen.
+9. Account-Daten nur als ACCOUNT-Evidenz auswerten.
+10. Tests mit einer primaeren Variable und vorab festgelegter Metrik planen.
 
 ## Titel und Thumbnail
 
-Ein klares, korrektes Versprechen setzen. Konkreten Nutzen, Konflikt, Ergebnis oder Frage zeigen. Kein irrefuehrendes Clickbait. Titel und Thumbnail ergaenzen einander. Bei Search muss der Titel die reale Suchintention abbilden.
+Korrektes, konkretes Versprechen. Titel und Thumbnail ergaenzen einander. Kein irrefuehrendes Clickbait. Search-Titel bildet reale Suchintention ab. CTR nie isoliert maximieren, wenn Satisfaction oder Retention darunter leidet.
 
-## Intro und Retention
+## Retention
 
-Versprechen aus Titel und Thumbnail sofort bestaetigen. Kein langes Intro ohne Nutzwert. Zuschauer frueh wissen lassen, was sie bekommen. Retention-Drops und Peaks in Analytics fuer die naechste Iteration verwenden. Bei Shorts relative Watch Time und fruehe Abbrueche besonders beachten. Bei laengeren Videos absolute und relative Watch Time gemeinsam betrachten.
+Kein langes Intro ohne Nutzwert. Top Moments nicht unnoetig spaet verstecken. Drops und Peaks aus Analytics als ACCOUNT-Evidenz verwenden. AVD und APV gemeinsam betrachten. Keine fixe ideale Videolaenge behaupten.
 
-## Search und Empfehlungen
+## Search
 
-Titel, Beschreibung und tatsaechlicher Videoinhalt muessen zur Suchanfrage passen. Tags sind laut YouTube primaer fuer Schreibvarianten hilfreich und kein zentraler Discovery-Hebel.
+Metadaten und tatsaechlicher Inhalt muessen zur Query passen. Search nicht mit Home oder Suggested gleichsetzen. Tags nicht als zentralen Discovery-Hebel behandeln.
 
-YouTube nennt unter anderem Watch- und Search-History, Likes, Dislikes, Not Interested und Satisfaction Surveys. Avg. View Duration und Avg. Percent Viewed fliessen in die Leistungsbewertung ein.
+## Negative Signale
 
-Uploadzeit nicht als langfristigen Algorithmushebel darstellen. Fuer Live und Premiere kann Audience Availability praktisch relevant sein.
+Pruefen: Ignore/Not Interested, fruehe Abbrueche, Dislikes oder unzufriedene Surveys soweit verfuegbar, Titel-/Thumbnail-Mismatch und Search Click ohne passende Inhaltsantwort.
 
-## Serienlogik
+## Scorecard
 
-Wo sinnvoll verwandte Videos als Serie planen, Playlists, End Screens und eine klare naechste Videoempfehlung einsetzen.
+- Surface Fit 10
+- Title/Thumbnail Promise 20
+- Appeal 15
+- Engagement/Retention 20
+- Satisfaction/Payoff 15
+- Search/Topic Fit 10
+- Negative Signals 5
+- Measurement Plan 5
+
+Der Score ist keine Reichweitenprognose. Hard Gates des Algorithm Core haben Vorrang.
+
+## Anti-Patterns
+
+Clickbait fuer CTR, Upload-Uhrzeit als dauerhafter Rankinghebel, Tags als Haupthebel, fixe Idealvideolaenge, AVD oder APV allein als Erfolgsursache und ungepruefte Uebertragung von Shorts-Signalen auf Long Form.
 
 ## Politische Inhalte
 
-Nur neutrale Plattform-, Such-, Fakten-, Format- und Qualitaetsoptimierung. Keine politische Ueberzeugungsoptimierung.
+Nur neutrale Plattform-, Such-, Fakten-, Format- und Qualitaetsoptimierung. Keine politische Ueberzeugungsoptimierung oder Targeting nach vermuteter Empfaenglichkeit.
 
 ## Ausgabe
 
-Titeloptionen, Thumbnail-Promise, Intro/Hook, Struktur mit Retention-Punkten, Beschreibung/Search-Begriffe, Serienlogik und Messplan fuer Appeal, Engagement und Satisfaction.
+Titeloptionen, Thumbnail-Promise, Intro/Hook, Retention-Struktur, Search-Begriffe, Serienlogik und Messplan. Bei Audit zusaetzlich Surface, Evidence Status, Scorecard, drei groesste Befunde, negative Signale und naechster Test.
