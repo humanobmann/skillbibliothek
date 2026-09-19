@@ -14,7 +14,7 @@ Optimiere zuerst Nutzen, Klarheit, Belege und Stimme; Plattformwirkung folgt dar
 1. Bei aktuellen, politischen, rechtlichen, wirtschaftlichen oder strittigen Aussagen zuerst belastbare Fakten klären; bei einem fertigen Text mit relevanten Claims `fact-check` als letzten Sachpass nutzen.
 2. Für Peter Schullers politische oder Vereinsrolle zuerst den passenden Rollenskill verwenden.
 3. `humanizer-de` nur einsetzen, wenn eine zusätzliche Natürlichkeitsredaktion verlangt wird; danach Claims erneut nicht stärken.
-4. Nur diesen Plattform-Optimierer laden, niemals parallel `instagram-text-optimizer`.
+4. Nur diesen Plattform-Optimierer laden, niemals parallel `instagram-text-optimizer`.\n5. Bei Algorithmus-, Reichweiten-, Format- oder maximaler Optimierungsfrage zusaetzlich `social-platform-algorithm-core` als gemeinsame Evidenzschicht verwenden.
 
 ## Arbeitsweise
 
@@ -26,12 +26,12 @@ Optimiere zuerst Nutzen, Klarheit, Belege und Stimme; Plattformwirkung folgt dar
 
 ## Facebook-spezifische Regeln
 
-- Die ersten ein bis drei sichtbaren Zeilen müssen Thema und Grund zum Weiterlesen vermitteln, ohne einen künstlichen Neugierdefekt zu bauen.
+- Die ersten ein bis drei sichtbaren Zeilen müssen Thema und Grund zum Weiterlesen vermitteln, ohne einen künstlichen Neugierdefekt zu bauen.\n- Bei algorithmischer Optimierung explizit auf Relevanz, vorhergesagte Betrachtungsdauer, Share-Wert, Originalitaet und negative Signale pruefen, soweit aktuell offiziell dokumentiert.
 - Formuliere für Handy-Lesbarkeit: kurze Absätze, klare Subjekte, konkrete Folgen und nur ein Hauptjob pro Absatz.
-- Ergänze fremde Inhalte durch eigene Einordnung, regionale Relevanz, überprüften Kontext oder konkrete Konsequenz. Keine nur minimal veränderte Übernahme.
+- Ergänze fremde Inhalte durch eigene Einordnung, regionale Relevanz, überprüften Kontext oder konkrete Konsequenz. Keine nur minimal veränderte Übernahme. Meta beschreibt duplizierte oder nur geringfuegig veraenderte Inhalte als nachteilig fuer Empfehlungen; substantialer eigener Analyse- oder Informationswert ist vorzuziehen.
 - Keine Forderung nach Likes, Kommentaren, Markierungen oder Teilen um der Interaktion willen. Eine Frage oder Aufforderung ist nur zulässig, wenn sie inhaltlich sinnvoll ist.
 - Hashtags und Erwähnungen sind optional und nur bei echter Relevanz zulässig. Es gibt keine feste Ideal-Textlänge und keine garantierte Reichweite.
-- Plattformwissen ist vergänglich: Bei ausdrücklicher Algorithmus-, Reichweiten- oder Richtlinienfrage die aktuelle offizielle Meta-Dokumentation nach [Plattform-Rechercheprotokoll](references/platform-research-protocol.md) prüfen. Nie eine Empfehlung als garantierten Algorithmuseffekt darstellen.
+- Plattformwissen ist vergänglich: Bei ausdrücklicher Algorithmus-, Reichweiten- oder Richtlinienfrage die aktuelle offizielle Meta-Dokumentation nach [Plattform-Rechercheprotokoll](references/platform-research-protocol.md) und die gemeinsame Evidenzschicht `social-platform-algorithm-core` pruefen. Nie eine Empfehlung als garantierten Algorithmuseffekt darstellen.
 
 ## Politische und sensible Beiträge
 
