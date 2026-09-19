@@ -39,3 +39,15 @@ Dieses Dokument erfasst die Herkunft, Urheber, Lizenzen und Integrationsarten al
 `references/PROFILES.md` are original repository maintenance artifacts. The
 `deep-research` evidence boundary, router transitivity rules, and auditor gates
 are target rewrites of existing local material; no source tree was modified.
+
+
+## 5. Social algorithm evidence layer
+
+The `social-platform-algorithm-core`, TikTok, YouTube and LinkedIn optimizer
+hardening in PR #4 is target-authored repository material. Platform facts are
+grounded in publicly available first-party documentation from Meta Transparency
+and Meta Newsroom, TikTok Support and TikTok Newsroom, YouTube Help, and
+LinkedIn Help/Engineering. The repository records URLs, retrieval date, surface,
+mechanism and claim scope; it does not copy platform source code or proprietary
+ranking weights. Creator monetization documentation is explicitly separated
+from recommendation-ranking evidence.
