@@ -7,8 +7,3 @@ interface:
     auszuarbeiten.
 policy:
   allow_implicit_invocation: false
-  products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
