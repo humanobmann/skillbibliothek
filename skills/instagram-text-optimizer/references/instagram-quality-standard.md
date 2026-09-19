@@ -9,3 +9,16 @@ Die Caption muss auf einem Telefon ohne Kontextverlust verständlich bleiben. St
 - Ergänze ein Bild oder Reel mit Bedeutung, Kontext, Quelle oder Handlung; wiederhole nicht nur sichtbaren Text.
 - Verwende Emojis, Erwähnungen, Orte und Hashtags nur wenn sie semantisch oder kommunikativ tragen.
 - Politische Reichweite, Explore-/Reel-Empfehlungen und Followerwachstum sind Ergebnisse, keine Zusagen. Bei solchen Fragen aktuelle Meta-Primärquellen prüfen.
+
+
+## Algorithmus-Fit
+
+Bei maximaler Optimierung zusaetzlich pruefen:
+
+- Feed/Explore: klare Themenrelevanz, Betrachtungsdauer und echter Save-/Share-Wert.
+- Reels: erste Sekunden, frueher Skip, Watch Time, Completion und Shares/Sends.
+- Originalitaet: kein sichtbares Fremdplattform-Wasserzeichen, kein blosses Reposting oder Sammeln fremder Inhalte.
+- Empfehlungseignung: bei Reichweitenproblemen Account Status beziehungsweise Recommendation Eligibility pruefen.
+- Hashtags und Caption liefern Kontext und semantische Passung, keine Reichweitengarantie.
+
+Keine festen Signalgewichte oder universellen Laengenregeln erfinden.
