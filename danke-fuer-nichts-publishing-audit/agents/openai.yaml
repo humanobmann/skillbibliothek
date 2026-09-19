@@ -1,0 +1,15 @@
+interface:
+  display_name: Danke für nichts Publishing Audit
+  short_description: Trennt Editionen, Dateien und Handelsstatus
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  brand_color: '#1BA5CF'
+  default_prompt: Nutze $danke-fuer-nichts-publishing-audit, um Editionen, Produktionsdateien,
+    Presseunterlagen und Händlerstatus evidenzbasiert zu prüfen.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

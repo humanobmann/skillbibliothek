@@ -1,0 +1,15 @@
+interface:
+  display_name: Danke für nichts Operations
+  short_description: Steuert Gates, Prioritäten und Übergaben
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  brand_color: '#3C5CD8'
+  default_prompt: Nutze $danke-fuer-nichts-operations, um den Gesamtstatus, die Freigabegates
+    und die nächsten sicheren Schritte zu prüfen.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

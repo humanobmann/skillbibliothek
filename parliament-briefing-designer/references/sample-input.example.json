@@ -1,0 +1,50 @@
+{
+  "document_label": "PARLAMENTARISCHES BRIEFING",
+  "title": "Beispielthema für eine parlamentarische Entscheidung",
+  "subtitle": "Neutrale Testdaten für Struktur und Rendering",
+  "metadata": {
+    "Für": "[bestätigte Person oder Funktion]",
+    "Anlass": "Ausschussvorbereitung",
+    "Stand": "[Datum]",
+    "Status": "Arbeitsfassung"
+  },
+  "purpose": "Dieses Beispiel prüft Aufbau und Rendering. Es enthält keine realen politischen Behauptungen.",
+  "kurzlage": "Die Ausgangslage, Zuständigkeit und Datenbasis werden vor Verwendung mit Primärquellen geprüft.",
+  "politische_hauptlinie": "Vorgeschlagene Linie, die erst nach Faktenprüfung und politischer Freigabe verwendet wird.",
+  "facts": [
+    {
+      "label": "Faktenstatus",
+      "value": "zu prüfen",
+      "note": "Quelle, Zeitraum, Einheit und Bezugsbasis ergänzen."
+    },
+    {
+      "label": "Zuständigkeit",
+      "value": "offen",
+      "note": "Parlamentarische Kompetenz vor Release bestätigen."
+    }
+  ],
+  "bewertung": {
+    "Fakt": "Die Testdaten enthalten keine reale Tatsachenbehauptung.",
+    "Politische Bewertung": "Eine Bewertung darf erst nach Quellenprüfung ergänzt werden.",
+    "Parlamentarische Schlussfolgerung": "Der konkrete Hebel bleibt bis zur Zuständigkeitsprüfung offen."
+  },
+  "line_to_take": "Vorgeschlagene Sprechlinie mit transparentem Prüfstatus.",
+  "gegenargumente": [
+    {
+      "einwand": "Stärkstes plausibles Gegenargument ergänzen.",
+      "antwort": "Nur mit geprüfter Evidenz beantworten."
+    }
+  ],
+  "hebel": [
+    "Zuständige Stelle und parlamentarisches Instrument prüfen.",
+    "Konkreten nächsten Schritt nach Freigabe festlegen."
+  ],
+  "fragen": [
+    "Welche geprüften Daten liegen zum definierten Zeitraum vor?",
+    "Welche Stelle ist für die Umsetzung zuständig?"
+  ],
+  "kernforderung": "Konkrete, zuständige und überprüfbare Forderung ergänzen.",
+  "sources": [
+    "Testdatensatz ohne reale Quellen. Vor inhaltlicher Nutzung vollständig ersetzen."
+  ]
+}

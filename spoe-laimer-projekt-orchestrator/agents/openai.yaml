@@ -1,0 +1,15 @@
+interface:
+  display_name: SPÖ Laimer Projekt Orchestrator
+  short_description: Koordiniert Wahlkreisarbeit mit Quellen und strenger QA
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  brand_color: '#C8102E'
+  default_prompt: Nutze $spoe-laimer-projekt-orchestrator für diese mehrstufige politische
+    Projektarbeit mit Quellenprüfung, Zuständigkeit, Umsetzung und QA.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

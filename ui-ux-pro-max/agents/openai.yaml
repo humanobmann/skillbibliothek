@@ -1,0 +1,15 @@
+interface:
+  display_name: UI UX Pro Max
+  short_description: Plant, prüft und implementiert produktionsreife UI/UX
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  brand_color: '#175CD3'
+  default_prompt: Nutze $ui-ux-pro-max, um diese Oberfläche systematisch zu analysieren,
+    ein passendes Designsystem abzuleiten und die UI produktionsreif umzusetzen.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

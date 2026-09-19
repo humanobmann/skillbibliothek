@@ -1,0 +1,15 @@
+interface:
+  display_name: Document Development
+  short_description: Entwickelt und finalisiert strukturierte Langdokumente
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  brand_color: '#4B5563'
+  default_prompt: Nutze $document-development, um dieses umfangreiche Dokument inhaltlich
+    zu entwickeln.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

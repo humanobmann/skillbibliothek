@@ -1,0 +1,15 @@
+interface:
+  display_name: Danke für nichts Content und SEO
+  short_description: Prüft Landingpage, SEO und Conversion
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  brand_color: '#FFA43D'
+  default_prompt: Nutze $danke-fuer-nichts-content-seo, um Live-Seite, CMS-Fassung,
+    mobile Conversion, SEO und Releasegates zu prüfen.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

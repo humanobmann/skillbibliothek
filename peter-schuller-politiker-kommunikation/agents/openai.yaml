@@ -1,0 +1,14 @@
+interface:
+  display_name: Peter Schuller Politiker-Kommunikation
+  short_description: Politische Texte rollenrein und glaubwürdig verfassen
+  default_prompt: Nutze $peter-schuller-politiker-kommunikation, um daraus eine glaubwürdige
+    politische Antwort in meinem Namen zu verfassen.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

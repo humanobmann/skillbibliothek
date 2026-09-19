@@ -1,0 +1,12 @@
+interface:
+  display_name: UI Design Engineering
+  short_description: Audit, polish, document, and harden production interfaces
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

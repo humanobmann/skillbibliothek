@@ -1,0 +1,14 @@
+interface:
+  display_name: Peter Schullers Schreibstil
+  short_description: Texte klar und persönlich endredigieren
+  default_prompt: Nutze $peter-schuller-schreibstil, um diesen Text in meinem bestätigten
+    Stil zu verfassen.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

@@ -1,0 +1,12 @@
+interface:
+  display_name: Manifest 2.0 Author
+  short_description: Schreibt und prüft die Buchserie Manifest 2.0 konsistent.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

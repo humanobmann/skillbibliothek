@@ -1,0 +1,1216 @@
+{
+  "styles": [
+    {
+      "id": "minimal",
+      "name": "Precision Minimalism",
+      "keywords": "minimal clean calm professional content-first whitespace enterprise saas public service",
+      "guidance": "Use strong hierarchy, restrained surfaces, 1px borders, low shadow count, semantic tokens, and one clear accent. Let typography and spacing carry hierarchy."
+    },
+    {
+      "id": "bento",
+      "name": "Bento Grid",
+      "keywords": "bento modular dashboard ai saas portfolio cards asymmetric modular responsive",
+      "guidance": "Use an intentional modular grid with varied card spans, clear alignment, and content-driven card sizes. Collapse to a single logical reading order on small screens."
+    },
+    {
+      "id": "editorial",
+      "name": "Editorial Narrative",
+      "keywords": "editorial publishing news culture campaign story report content typography",
+      "guidance": "Lead with typography, strong image rhythm, clear reading measure, sectional pacing, and restrained interactive chrome. Avoid dashboard-like card saturation."
+    },
+    {
+      "id": "data-dense",
+      "name": "Operational Data Dense",
+      "keywords": "analytics dashboard admin operations monitoring finance enterprise table charts",
+      "guidance": "Optimize scanning: compact spacing, persistent labels, tabular numerals, stable table geometry, restrained color, explicit status semantics, and drill-down hierarchy."
+    },
+    {
+      "id": "soft-ui",
+      "name": "Soft UI Evolution",
+      "keywords": "wellness beauty hospitality lifestyle calm premium organic warm soft",
+      "guidance": "Use soft surfaces and gentle depth without low-contrast neumorphism. Keep form controls, focus states, and text contrast explicit."
+    },
+    {
+      "id": "neo-brutal",
+      "name": "Neo Brutal",
+      "keywords": "bold youth creative campaign culture gaming high contrast poster expressive",
+      "guidance": "Use hard borders, oversized type, purposeful asymmetry, and limited high-contrast colors. Keep interaction semantics conventional and readable."
+    },
+    {
+      "id": "glass",
+      "name": "Controlled Glass",
+      "keywords": "glassmorphism premium immersive media spatial dark translucent blur",
+      "guidance": "Use glass only for layered overlays or contextual surfaces. Measure composed contrast, keep blur purposeful, and provide opaque fallbacks."
+    },
+    {
+      "id": "dark-product",
+      "name": "Dark Product UI",
+      "keywords": "dark developer cybersecurity ai media gaming terminal code",
+      "guidance": "Use near-black layered surfaces rather than pure black everywhere, high legibility, restrained luminous accents, and independent dark-mode contrast checks."
+    },
+    {
+      "id": "fluent",
+      "name": "Fluent 2 Inspired",
+      "keywords": "microsoft productivity enterprise windows office collaboration fluent",
+      "guidance": "Use layered neutral surfaces, clear command hierarchy, familiar controls, consistent tokens, and restrained motion suitable for productivity software."
+    },
+    {
+      "id": "material",
+      "name": "Material Expressive",
+      "keywords": "android material mobile consumer dynamic expressive cards app",
+      "guidance": "Use tokenized color roles, clear state layers, adaptive layout, platform-appropriate touch targets, and motion that explains hierarchy."
+    },
+    {
+      "id": "polaris",
+      "name": "Commerce System",
+      "keywords": "shopify commerce ecommerce merchant admin inventory checkout",
+      "guidance": "Prioritize trustworthy commerce patterns, predictable forms, clear monetary hierarchy, inventory state clarity, and conservative interaction behavior."
+    },
+    {
+      "id": "spectrum",
+      "name": "Creative Tool System",
+      "keywords": "adobe spectrum creative editor design professional tool desktop",
+      "guidance": "Use dense professional controls, predictable panels, precise states, keyboard support, and strong selection/focus differentiation."
+    },
+    {
+      "id": "liquid-glass",
+      "name": "Layered Platform Material",
+      "keywords": "apple ios macos liquid glass translucent native platform",
+      "guidance": "Use platform material only where it reinforces hierarchy. Respect system conventions, safe areas, legibility, and reduced-transparency preferences."
+    },
+    {
+      "id": "warm-human",
+      "name": "Warm Humanist",
+      "keywords": "nonprofit social community healthcare education public civic trust human",
+      "guidance": "Use approachable typography, documentary imagery, generous spacing, plain-language actions, and calm trustworthy surfaces. Avoid charity clichés and manipulative urgency."
+    },
+    {
+      "id": "luxury-editorial",
+      "name": "Luxury Editorial",
+      "keywords": "luxury fashion hotel premium real estate beauty sophisticated serif",
+      "guidance": "Use refined serif display type, spacious composition, large art-directed imagery, subtle motion, and very limited accents. Preserve conversion clarity."
+    }
+  ],
+  "palettes": [
+    {
+      "id": "blue-trust",
+      "name": "Trust Blue",
+      "keywords": "saas enterprise finance public healthcare trust professional",
+      "tokens": {
+        "primary": "#175CD3",
+        "on-primary": "#FFFFFF",
+        "secondary": "#344054",
+        "accent": "#0E9384",
+        "background": "#F8FAFC",
+        "surface": "#FFFFFF",
+        "text": "#101828",
+        "muted": "#667085",
+        "border": "#D0D5DD",
+        "danger": "#B42318",
+        "focus": "#1570EF"
+      }
+    },
+    {
+      "id": "human-red",
+      "name": "Human Red",
+      "keywords": "nonprofit civic social campaign community warm public",
+      "tokens": {
+        "primary": "#B42318",
+        "on-primary": "#FFFFFF",
+        "secondary": "#7A271A",
+        "accent": "#B54708",
+        "background": "#FFFDFC",
+        "surface": "#FFFFFF",
+        "text": "#1D2939",
+        "muted": "#667085",
+        "border": "#EAECF0",
+        "danger": "#B42318",
+        "focus": "#175CD3"
+      }
+    },
+    {
+      "id": "fintech-navy",
+      "name": "Fintech Navy",
+      "keywords": "fintech banking insurance security premium trust",
+      "tokens": {
+        "primary": "#0B4A6F",
+        "on-primary": "#FFFFFF",
+        "secondary": "#123047",
+        "accent": "#067647",
+        "background": "#F6F8FA",
+        "surface": "#FFFFFF",
+        "text": "#0C111D",
+        "muted": "#475467",
+        "border": "#D0D5DD",
+        "danger": "#B42318",
+        "focus": "#1570EF"
+      }
+    },
+    {
+      "id": "developer-dark",
+      "name": "Developer Dark",
+      "keywords": "developer cybersecurity ai code dark terminal",
+      "tokens": {
+        "primary": "#84ADFF",
+        "on-primary": "#101828",
+        "secondary": "#98A2B3",
+        "accent": "#47CD89",
+        "background": "#0C111D",
+        "surface": "#161B26",
+        "text": "#F5F5F6",
+        "muted": "#94969C",
+        "border": "#333741",
+        "danger": "#F97066",
+        "focus": "#84ADFF"
+      }
+    },
+    {
+      "id": "wellness",
+      "name": "Wellness Warm",
+      "keywords": "wellness beauty spa calm hospitality lifestyle",
+      "tokens": {
+        "primary": "#A15C69",
+        "on-primary": "#FFFFFF",
+        "secondary": "#52796F",
+        "accent": "#9A6A12",
+        "background": "#FFF8F6",
+        "surface": "#FFFFFF",
+        "text": "#2D2A2E",
+        "muted": "#6B656B",
+        "border": "#E7DCD9",
+        "danger": "#B42318",
+        "focus": "#175CD3"
+      }
+    },
+    {
+      "id": "commerce",
+      "name": "Commerce Clear",
+      "keywords": "ecommerce retail marketplace shopping conversion",
+      "tokens": {
+        "primary": "#175CD3",
+        "on-primary": "#FFFFFF",
+        "secondary": "#344054",
+        "accent": "#067647",
+        "background": "#F9FAFB",
+        "surface": "#FFFFFF",
+        "text": "#101828",
+        "muted": "#667085",
+        "border": "#D0D5DD",
+        "danger": "#B42318",
+        "focus": "#1570EF"
+      }
+    },
+    {
+      "id": "editorial-ink",
+      "name": "Editorial Ink",
+      "keywords": "news editorial publishing culture portfolio",
+      "tokens": {
+        "primary": "#1D2939",
+        "on-primary": "#FFFFFF",
+        "secondary": "#475467",
+        "accent": "#C11574",
+        "background": "#FCFCFD",
+        "surface": "#FFFFFF",
+        "text": "#101828",
+        "muted": "#667085",
+        "border": "#EAECF0",
+        "danger": "#B42318",
+        "focus": "#175CD3"
+      }
+    },
+    {
+      "id": "education",
+      "name": "Learning Bright",
+      "keywords": "education learning children course academy accessible",
+      "tokens": {
+        "primary": "#175CD3",
+        "on-primary": "#FFFFFF",
+        "secondary": "#7A5AF8",
+        "accent": "#079455",
+        "background": "#F8FAFC",
+        "surface": "#FFFFFF",
+        "text": "#101828",
+        "muted": "#667085",
+        "border": "#D0D5DD",
+        "danger": "#B42318",
+        "focus": "#175CD3"
+      }
+    },
+    {
+      "id": "creative",
+      "name": "Creative Contrast",
+      "keywords": "creative agency design portfolio gaming bold",
+      "tokens": {
+        "primary": "#7F56D9",
+        "on-primary": "#FFFFFF",
+        "secondary": "#344054",
+        "accent": "#C4320A",
+        "background": "#FCFCFD",
+        "surface": "#FFFFFF",
+        "text": "#101828",
+        "muted": "#667085",
+        "border": "#D0D5DD",
+        "danger": "#B42318",
+        "focus": "#6941C6"
+      }
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics Neutral",
+      "keywords": "analytics dashboard admin operations monitoring data",
+      "tokens": {
+        "primary": "#175CD3",
+        "on-primary": "#FFFFFF",
+        "secondary": "#475467",
+        "accent": "#067647",
+        "background": "#F2F4F7",
+        "surface": "#FFFFFF",
+        "text": "#101828",
+        "muted": "#667085",
+        "border": "#D0D5DD",
+        "danger": "#B42318",
+        "focus": "#1570EF"
+      }
+    },
+    {
+      "id": "hospitality",
+      "name": "Hospitality Premium",
+      "keywords": "hotel travel restaurant luxury booking premium",
+      "tokens": {
+        "primary": "#713B12",
+        "on-primary": "#FFFFFF",
+        "secondary": "#475467",
+        "accent": "#A15C07",
+        "background": "#FFFCF5",
+        "surface": "#FFFFFF",
+        "text": "#1D2939",
+        "muted": "#667085",
+        "border": "#E4E7EC",
+        "danger": "#B42318",
+        "focus": "#175CD3"
+      }
+    },
+    {
+      "id": "neutral",
+      "name": "Neutral Product",
+      "keywords": "default product utility professional clean",
+      "tokens": {
+        "primary": "#344054",
+        "on-primary": "#FFFFFF",
+        "secondary": "#667085",
+        "accent": "#175CD3",
+        "background": "#F9FAFB",
+        "surface": "#FFFFFF",
+        "text": "#101828",
+        "muted": "#667085",
+        "border": "#D0D5DD",
+        "danger": "#B42318",
+        "focus": "#1570EF"
+      }
+    }
+  ],
+  "typography": [
+    {
+      "id": "inter-source",
+      "name": "Inter + Source Serif 4",
+      "keywords": "professional editorial public readable trustworthy",
+      "heading": "Source Serif 4",
+      "body": "Inter",
+      "guidance": "Use serif selectively for editorial or institutional hierarchy; keep UI controls and dense data in Inter."
+    },
+    {
+      "id": "manrope-inter",
+      "name": "Manrope + Inter",
+      "keywords": "saas modern clean technology enterprise",
+      "heading": "Manrope",
+      "body": "Inter",
+      "guidance": "Use Manrope 600-700 for concise headings and Inter 400-500 for interface text."
+    },
+    {
+      "id": "space-inter",
+      "name": "Space Grotesk + Inter",
+      "keywords": "ai developer creative technology bold",
+      "heading": "Space Grotesk",
+      "body": "Inter",
+      "guidance": "Use the display face for identity and Inter for operational clarity; avoid dense paragraphs in the display face."
+    },
+    {
+      "id": "cormorant-montserrat",
+      "name": "Cormorant Garamond + Montserrat",
+      "keywords": "luxury beauty spa hotel editorial elegant",
+      "heading": "Cormorant Garamond",
+      "body": "Montserrat",
+      "guidance": "Use large serif headings with restrained tracking; keep actions and forms in the sans serif."
+    },
+    {
+      "id": "ibm-plex",
+      "name": "IBM Plex Sans + Mono",
+      "keywords": "developer enterprise data technical security",
+      "heading": "IBM Plex Sans",
+      "body": "IBM Plex Sans",
+      "guidance": "Use IBM Plex Mono only for code, identifiers, and tabular technical data."
+    },
+    {
+      "id": "dm-lora",
+      "name": "DM Sans + Lora",
+      "keywords": "human nonprofit education community story",
+      "heading": "Lora",
+      "body": "DM Sans",
+      "guidance": "Use Lora for human warmth in headings and DM Sans for accessible everyday interface copy."
+    },
+    {
+      "id": "system",
+      "name": "System UI",
+      "keywords": "native mobile platform performance windows ios android",
+      "heading": "System UI",
+      "body": "System UI",
+      "guidance": "Prefer the platform type system for native software; map semantic roles instead of fixed pixel sizes."
+    },
+    {
+      "id": "inter",
+      "name": "Inter",
+      "keywords": "dashboard analytics admin dense data neutral",
+      "heading": "Inter",
+      "body": "Inter",
+      "guidance": "Use weight, size, spacing, and tabular numerals rather than a second family in dense operational interfaces."
+    },
+    {
+      "id": "fraunces-inter",
+      "name": "Fraunces + Inter",
+      "keywords": "editorial culture creative publishing distinctive",
+      "heading": "Fraunces",
+      "body": "Inter",
+      "guidance": "Use Fraunces for expressive editorial moments; preserve Inter for long reading and controls."
+    },
+    {
+      "id": "outfit-inter",
+      "name": "Outfit + Inter",
+      "keywords": "consumer app modern friendly mobile",
+      "heading": "Outfit",
+      "body": "Inter",
+      "guidance": "Keep headings compact and friendly; maintain body legibility at 16px or platform equivalent."
+    },
+    {
+      "id": "playfair-inter",
+      "name": "Playfair Display + Inter",
+      "keywords": "fashion luxury hospitality real estate",
+      "heading": "Playfair Display",
+      "body": "Inter",
+      "guidance": "Use only at display sizes. Avoid fine thin weights for small text or low-contrast imagery."
+    },
+    {
+      "id": "nunito-inter",
+      "name": "Nunito Sans + Inter",
+      "keywords": "education healthcare friendly accessible family",
+      "heading": "Nunito Sans",
+      "body": "Inter",
+      "guidance": "Use rounded warmth without becoming childish; keep information hierarchy disciplined."
+    }
+  ],
+  "patterns": [
+    {
+      "id": "outcome-saas",
+      "name": "Outcome First SaaS",
+      "keywords": "saas b2b software product ai",
+      "structure": "Hero with measurable outcome and primary CTA -> trust proof -> problem/solution -> product workflow -> integrations -> evidence -> pricing/CTA -> FAQ."
+    },
+    {
+      "id": "dashboard",
+      "name": "Operational Dashboard",
+      "keywords": "dashboard analytics admin monitoring operations",
+      "structure": "Global context and filters -> KPI summary -> primary trends -> exceptions/actions -> detail tables -> drill-down. Keep priority actions above secondary metrics."
+    },
+    {
+      "id": "service-booking",
+      "name": "Service Booking",
+      "keywords": "service spa beauty legal clinic booking appointment",
+      "structure": "Value proposition + booking CTA -> services -> proof/credentials -> process -> testimonials -> availability/booking -> location/contact -> FAQ."
+    },
+    {
+      "id": "commerce",
+      "name": "Commerce Conversion",
+      "keywords": "ecommerce shop retail marketplace product",
+      "structure": "Category/value header -> discovery/filtering -> product proof -> product detail with price/availability/returns -> cart -> checkout with minimal friction and trust cues."
+    },
+    {
+      "id": "editorial",
+      "name": "Editorial Story",
+      "keywords": "news publishing report culture story campaign",
+      "structure": "Strong title/deck -> lead visual -> readable narrative -> evidence/figures -> contextual modules -> related content -> clear next action. Avoid repetitive card grids."
+    },
+    {
+      "id": "community",
+      "name": "Community Participation",
+      "keywords": "nonprofit social civic community association membership donation",
+      "structure": "Human outcome -> current need -> credible evidence -> ways to participate -> projects/impact -> transparency -> donation/member CTA -> contact."
+    },
+    {
+      "id": "developer",
+      "name": "Developer Product",
+      "keywords": "developer api cli sdk technical security",
+      "structure": "One-sentence utility -> install/try command -> capabilities -> working example -> docs/integration -> performance/security proof -> pricing or open-source CTA."
+    },
+    {
+      "id": "portfolio",
+      "name": "Portfolio Case Study",
+      "keywords": "portfolio agency creative design photography",
+      "structure": "Identity statement -> selected work -> case study outcomes -> capabilities -> process -> client proof -> contact. Let work lead; minimize decorative navigation."
+    },
+    {
+      "id": "education",
+      "name": "Learning Journey",
+      "keywords": "education course school training learning",
+      "structure": "Learner outcome -> audience fit -> curriculum/path -> instructor credibility -> sample content -> outcomes/testimonials -> enrollment CTA -> support/FAQ."
+    },
+    {
+      "id": "trust-compliance",
+      "name": "Trust and Compliance",
+      "keywords": "finance healthcare government security insurance legal",
+      "structure": "Primary service/value -> credentials and safeguards -> clear process -> detailed proof -> policies/FAQ -> human support -> action. Make risk and eligibility information easy to find."
+    }
+  ],
+  "products": [
+    {
+      "id": "saas",
+      "name": "B2B SaaS",
+      "keywords": "saas b2b software crm workflow productivity enterprise",
+      "style": "minimal",
+      "palette": "blue-trust",
+      "typography": "manrope-inter",
+      "pattern": "outcome-saas",
+      "avoid": [
+        "AI-purple gradient as default identity",
+        "too many equal-weight cards",
+        "feature lists before user outcome"
+      ],
+      "priorities": [
+        "Make the product promise measurable",
+        "Show real workflow or product UI early",
+        "Keep one primary CTA per viewport"
+      ]
+    },
+    {
+      "id": "ai-tool",
+      "name": "AI Product",
+      "keywords": "ai assistant chatbot search generator copilot agent",
+      "style": "bento",
+      "palette": "developer-dark",
+      "typography": "space-inter",
+      "pattern": "outcome-saas",
+      "avoid": [
+        "generic neon purple branding",
+        "mystery-meat sparkle icons",
+        "hiding latency or model state"
+      ],
+      "priorities": [
+        "Explain what the AI is doing and its state",
+        "Expose controls, sources, undo and error recovery",
+        "Demonstrate concrete outputs instead of abstract AI imagery"
+      ]
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics and Operations",
+      "keywords": "analytics dashboard admin operations monitoring kpi metrics business intelligence",
+      "style": "data-dense",
+      "palette": "analytics",
+      "typography": "inter",
+      "pattern": "dashboard",
+      "avoid": [
+        "chart wall without hierarchy",
+        "color-only status",
+        "decorative 3D charts"
+      ],
+      "priorities": [
+        "Design for scanning and exceptions",
+        "Use stable tables and tabular numerals",
+        "Choose charts from the analytical question"
+      ]
+    },
+    {
+      "id": "fintech",
+      "name": "Fintech and Banking",
+      "keywords": "fintech banking finance investing insurance payment wallet",
+      "style": "minimal",
+      "palette": "fintech-navy",
+      "typography": "manrope-inter",
+      "pattern": "trust-compliance",
+      "avoid": [
+        "gamified risk cues",
+        "ambiguous monetary states",
+        "overly playful motion"
+      ],
+      "priorities": [
+        "Make amounts, fees, status and next consequences explicit",
+        "Use strong trust and security signals",
+        "Require confirmation for irreversible actions"
+      ]
+    },
+    {
+      "id": "health",
+      "name": "Healthcare",
+      "keywords": "healthcare clinic hospital medical patient pharmacy therapy health",
+      "style": "warm-human",
+      "palette": "blue-trust",
+      "typography": "nunito-inter",
+      "pattern": "trust-compliance",
+      "avoid": [
+        "diagnostic claims without context",
+        "low-contrast pastel interfaces",
+        "hiding urgent support paths"
+      ],
+      "priorities": [
+        "Prioritize clarity and accessibility",
+        "Separate informational content from clinical actions",
+        "Make privacy and human support visible"
+      ]
+    },
+    {
+      "id": "nonprofit",
+      "name": "Nonprofit and Civic",
+      "keywords": "nonprofit ngo association charity civic social justice community public service",
+      "style": "warm-human",
+      "palette": "human-red",
+      "typography": "dm-lora",
+      "pattern": "community",
+      "avoid": [
+        "poverty porn or exploitative imagery",
+        "manipulative countdown urgency",
+        "party or corporate visual clichés unless requested"
+      ],
+      "priorities": [
+        "Lead with human outcomes and concrete impact",
+        "Show transparency and accountability",
+        "Offer clear participation paths beyond donation"
+      ]
+    },
+    {
+      "id": "government",
+      "name": "Government and Public Service",
+      "keywords": "government municipality public administration service citizen civic",
+      "style": "minimal",
+      "palette": "blue-trust",
+      "typography": "inter-source",
+      "pattern": "trust-compliance",
+      "avoid": [
+        "marketing language in transactional tasks",
+        "unclear eligibility rules",
+        "PDF-only critical information"
+      ],
+      "priorities": [
+        "Use plain language and task-oriented navigation",
+        "Make requirements and status explicit",
+        "Meet accessibility and resilience standards"
+      ]
+    },
+    {
+      "id": "commerce",
+      "name": "E-commerce",
+      "keywords": "ecommerce retail shop store marketplace shopping product checkout",
+      "style": "polaris",
+      "palette": "commerce",
+      "typography": "manrope-inter",
+      "pattern": "commerce",
+      "avoid": [
+        "hidden fees",
+        "fake scarcity",
+        "CTA competition in checkout"
+      ],
+      "priorities": [
+        "Make price, availability, delivery and returns obvious",
+        "Keep checkout friction low",
+        "Use product imagery as evidence, not decoration"
+      ]
+    },
+    {
+      "id": "education",
+      "name": "Education and Learning",
+      "keywords": "education course school university training learning academy",
+      "style": "warm-human",
+      "palette": "education",
+      "typography": "nunito-inter",
+      "pattern": "education",
+      "avoid": [
+        "childish gamification for adult learners",
+        "dense walls of curriculum text",
+        "progress indicators without meaning"
+      ],
+      "priorities": [
+        "Show learning outcome and path",
+        "Make progress and next step clear",
+        "Support keyboard, captions, text scaling and low bandwidth"
+      ]
+    },
+    {
+      "id": "editorial",
+      "name": "Editorial and Publishing",
+      "keywords": "news editorial publishing magazine report article journalism book",
+      "style": "editorial",
+      "palette": "editorial-ink",
+      "typography": "fraunces-inter",
+      "pattern": "editorial",
+      "avoid": [
+        "card grid everywhere",
+        "short line lengths on desktop",
+        "intrusive overlays before reading starts"
+      ],
+      "priorities": [
+        "Optimize reading measure and hierarchy",
+        "Use images and data with captions/context",
+        "Keep navigation secondary to the story"
+      ]
+    },
+    {
+      "id": "creative",
+      "name": "Creative Portfolio",
+      "keywords": "agency portfolio designer photographer artist studio creative",
+      "style": "editorial",
+      "palette": "creative",
+      "typography": "fraunces-inter",
+      "pattern": "portfolio",
+      "avoid": [
+        "effects that hide the work",
+        "unreadable experimental navigation",
+        "auto-playing heavy media without controls"
+      ],
+      "priorities": [
+        "Let selected work dominate",
+        "Explain role and outcomes in case studies",
+        "Preserve fast loading and accessibility"
+      ]
+    },
+    {
+      "id": "developer",
+      "name": "Developer Tool",
+      "keywords": "developer api sdk cli code ide platform devtool open source",
+      "style": "dark-product",
+      "palette": "developer-dark",
+      "typography": "ibm-plex",
+      "pattern": "developer",
+      "avoid": [
+        "marketing before a runnable example",
+        "syntax screenshots instead of copyable code",
+        "hidden system requirements"
+      ],
+      "priorities": [
+        "Show a working example immediately",
+        "Make install and compatibility explicit",
+        "Use precise error and empty states"
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Cybersecurity",
+      "keywords": "cybersecurity security soc threat identity zero trust",
+      "style": "dark-product",
+      "palette": "developer-dark",
+      "typography": "ibm-plex",
+      "pattern": "trust-compliance",
+      "avoid": [
+        "hacker stock-photo clichés",
+        "red everywhere",
+        "alarm fatigue"
+      ],
+      "priorities": [
+        "Differentiate severity and confidence",
+        "Make remediation actions explicit",
+        "Design for high-density operational scanning"
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "Beauty and Wellness",
+      "keywords": "beauty wellness spa salon skincare meditation yoga",
+      "style": "soft-ui",
+      "palette": "wellness",
+      "typography": "cormorant-montserrat",
+      "pattern": "service-booking",
+      "avoid": [
+        "low-contrast beige-on-beige",
+        "decorative script fonts in controls",
+        "hidden booking terms"
+      ],
+      "priorities": [
+        "Create calm without sacrificing contrast",
+        "Make services, price range and availability findable",
+        "Use authentic imagery and restrained motion"
+      ]
+    },
+    {
+      "id": "hospitality",
+      "name": "Hospitality and Travel",
+      "keywords": "hotel travel tourism restaurant resort booking accommodation",
+      "style": "luxury-editorial",
+      "palette": "hospitality",
+      "typography": "playfair-inter",
+      "pattern": "service-booking",
+      "avoid": [
+        "huge video blocking booking",
+        "unclear cancellation terms",
+        "image-only navigation"
+      ],
+      "priorities": [
+        "Lead with place and availability",
+        "Expose price and booking conditions early",
+        "Use imagery as evidence of the experience"
+      ]
+    },
+    {
+      "id": "mobile",
+      "name": "Consumer Mobile Utility",
+      "keywords": "mobile app utility tracker calendar task habit weather consumer ios android",
+      "style": "material",
+      "palette": "neutral",
+      "typography": "system",
+      "pattern": "outcome-saas",
+      "avoid": [
+        "desktop patterns squeezed onto mobile",
+        "gesture-only critical actions",
+        "tiny touch targets"
+      ],
+      "priorities": [
+        "Respect platform navigation and safe areas",
+        "Keep core action thumb-reachable",
+        "Support text scaling and reduced motion"
+      ]
+    },
+    {
+      "id": "social",
+      "name": "Social and Community Product",
+      "keywords": "social community messaging forum network creator feed",
+      "style": "bento",
+      "palette": "creative",
+      "typography": "outfit-inter",
+      "pattern": "community",
+      "avoid": [
+        "engagement dark patterns",
+        "unbounded notification urgency",
+        "ambiguous privacy controls"
+      ],
+      "priorities": [
+        "Make audience and privacy state visible",
+        "Provide reporting/blocking controls",
+        "Design graceful empty and new-user states"
+      ]
+    },
+    {
+      "id": "legal",
+      "name": "Legal and Professional Service",
+      "keywords": "legal lawyer consultant accounting professional service",
+      "style": "minimal",
+      "palette": "fintech-navy",
+      "typography": "inter-source",
+      "pattern": "trust-compliance",
+      "avoid": [
+        "legalese in primary tasks",
+        "vague contact funnels",
+        "decorative prestige signals without evidence"
+      ],
+      "priorities": [
+        "Explain scope, process and credentials",
+        "Use plain-language next steps",
+        "Keep sensitive intake clear and private"
+      ]
+    },
+    {
+      "id": "luxury",
+      "name": "Luxury and Premium",
+      "keywords": "luxury fashion premium real estate jewelry high end",
+      "style": "luxury-editorial",
+      "palette": "hospitality",
+      "typography": "playfair-inter",
+      "pattern": "portfolio",
+      "avoid": [
+        "multiple accent colors",
+        "cheap-looking gradients",
+        "excessive motion over product detail"
+      ],
+      "priorities": [
+        "Use spacing and art direction as primary luxury signals",
+        "Keep conversion paths obvious",
+        "Preserve text contrast over imagery"
+      ]
+    },
+    {
+      "id": "default",
+      "name": "General Product",
+      "keywords": "website web app product landing page interface ui ux",
+      "style": "minimal",
+      "palette": "neutral",
+      "typography": "manrope-inter",
+      "pattern": "outcome-saas",
+      "avoid": [
+        "generic AI visual tropes",
+        "equal emphasis everywhere",
+        "inconsistent component states"
+      ],
+      "priorities": [
+        "Establish one dominant hierarchy",
+        "Use a small token system",
+        "Test responsive, keyboard and error states"
+      ]
+    }
+  ],
+  "charts": [
+    {
+      "id": "trend",
+      "name": "Line chart",
+      "keywords": "trend time series change over time continuous",
+      "guidance": "Use line for continuous trends. Keep series count low, direct-label when possible, and provide a table or textual summary."
+    },
+    {
+      "id": "comparison",
+      "name": "Bar chart",
+      "keywords": "compare categories ranking value differences",
+      "guidance": "Use sorted bars for categorical comparison. Start quantitative axes at zero unless a justified analytical exception is clearly signaled."
+    },
+    {
+      "id": "composition",
+      "name": "Stacked bar",
+      "keywords": "composition part whole categories share percentage",
+      "guidance": "Use stacked bars when both totals and composition matter. Avoid too many segments and color-only differentiation."
+    },
+    {
+      "id": "distribution",
+      "name": "Histogram or box plot",
+      "keywords": "distribution spread variance outliers frequency",
+      "guidance": "Use histogram for shape and box/violin for compact group comparisons. Explain outliers and sample size."
+    },
+    {
+      "id": "correlation",
+      "name": "Scatter plot",
+      "keywords": "correlation relationship two variables clusters",
+      "guidance": "Use scatter for relationships. Add trend line only when analytically justified; do not imply causation."
+    },
+    {
+      "id": "funnel",
+      "name": "Funnel or staged bars",
+      "keywords": "funnel conversion stages dropoff pipeline",
+      "guidance": "Prefer aligned staged bars with counts and rates over decorative funnel shapes. Make denominator changes explicit."
+    },
+    {
+      "id": "kpi",
+      "name": "KPI card plus context",
+      "keywords": "kpi metric headline number status summary",
+      "guidance": "Never show a naked number. Include period, comparison baseline, direction, unit, and accessible status text."
+    },
+    {
+      "id": "heatmap",
+      "name": "Heatmap",
+      "keywords": "matrix calendar intensity density two dimensions",
+      "guidance": "Use only when ordered dimensions and intensity are the analytical question. Provide labels/tooltips and a non-color fallback."
+    },
+    {
+      "id": "geo",
+      "name": "Map",
+      "keywords": "geographic region location spatial choropleth",
+      "guidance": "Use a map only when geography is analytically meaningful. Normalize choropleth values when comparing differently sized populations."
+    },
+    {
+      "id": "flow",
+      "name": "Sankey",
+      "keywords": "flow movement source destination transfer",
+      "guidance": "Use for a small number of meaningful flows. Avoid when precise comparison matters more than flow structure."
+    },
+    {
+      "id": "timeline",
+      "name": "Timeline",
+      "keywords": "events milestones chronology history sequence",
+      "guidance": "Use for ordered events and milestones, not for quantitative trends. Ensure readable date hierarchy and mobile reflow."
+    },
+    {
+      "id": "table",
+      "name": "Data table",
+      "keywords": "exact values dense compare records audit details",
+      "guidance": "Use tables when users need exact values, scanning, sorting, filtering, or copy/export. Keep columns prioritized and headers sticky only when helpful."
+    }
+  ],
+  "ux": [
+    {
+      "id": "focus",
+      "name": "Visible keyboard focus",
+      "keywords": "accessibility keyboard focus focus ring modal sticky",
+      "severity": "critical",
+      "guidance": "Do not remove focus indication. Keep the focused control visible and unobscured by sticky UI or overlays."
+    },
+    {
+      "id": "contrast",
+      "name": "Contrast by role",
+      "keywords": "accessibility contrast text icon dark mode",
+      "severity": "critical",
+      "guidance": "Target 4.5:1 for normal text and 3:1 for meaningful non-text UI boundaries/icons. Test both themes independently."
+    },
+    {
+      "id": "targets",
+      "name": "Pointer and touch targets",
+      "keywords": "touch target tap mobile pointer wcag",
+      "severity": "critical",
+      "guidance": "Use platform minimums for native touch targets. On web, design generous targets and spacing; never rely on tiny glyph bounds."
+    },
+    {
+      "id": "forms",
+      "name": "Forms and errors",
+      "keywords": "form validation error input label submit",
+      "severity": "critical",
+      "guidance": "Use persistent labels, field-level errors, clear recovery, and an error summary when many fields fail. Preserve entered values."
+    },
+    {
+      "id": "motion",
+      "name": "Reduced motion",
+      "keywords": "animation motion reduced motion transition",
+      "severity": "high",
+      "guidance": "Motion must explain state or hierarchy, not delay tasks. Respect reduced-motion preferences and keep final semantic state correct when animation is skipped."
+    },
+    {
+      "id": "layout",
+      "name": "Responsive reflow",
+      "keywords": "responsive mobile overflow zoom text scaling layout",
+      "severity": "critical",
+      "guidance": "Support narrow widths, zoom and enlarged text without clipping, horizontal page scroll, or hidden controls."
+    },
+    {
+      "id": "text",
+      "name": "Resilient text",
+      "keywords": "long text chip badge truncation wrapping localization",
+      "severity": "high",
+      "guidance": "Prefer wrapping. Let long tokens break safely. If truncation is unavoidable, provide an operable full-value path for keyboard, pointer and touch."
+    },
+    {
+      "id": "async",
+      "name": "Async feedback",
+      "keywords": "loading submit async progress skeleton latency",
+      "severity": "high",
+      "guidance": "Give immediate acknowledgement, prevent duplicate submission when needed, retain context, and distinguish loading from empty and error states."
+    },
+    {
+      "id": "nav",
+      "name": "Predictable navigation",
+      "keywords": "navigation back breadcrumbs tabs deep link",
+      "severity": "high",
+      "guidance": "Back behavior, hierarchy and selected state must be predictable. Do not overload primary navigation with secondary destinations."
+    },
+    {
+      "id": "color",
+      "name": "Do not rely on color alone",
+      "keywords": "color state error success chart accessibility",
+      "severity": "critical",
+      "guidance": "Pair functional color with text, icon, pattern or position. Ensure state remains understandable in grayscale and high contrast."
+    },
+    {
+      "id": "icons",
+      "name": "Semantic icons",
+      "keywords": "icon aria label decorative accessible name",
+      "severity": "critical",
+      "guidance": "Hide decorative icons from the accessibility tree. Standalone meaningful icons need text alternatives; icon buttons need accessible names and state."
+    },
+    {
+      "id": "performance",
+      "name": "Stable perceived performance",
+      "keywords": "performance cls image lazy load skeleton layout shift",
+      "severity": "high",
+      "guidance": "Reserve media space, optimize noncritical assets, avoid layout shifts, split heavy features, and keep input feedback immediate."
+    },
+    {
+      "id": "density",
+      "name": "Density follows task",
+      "keywords": "density dashboard whitespace spacing hierarchy",
+      "severity": "medium",
+      "guidance": "Dense operational screens can be compact; marketing and reading screens need more breathing room. Preserve a consistent 4/8-derived spacing system."
+    },
+    {
+      "id": "dark",
+      "name": "Dark mode is not inversion",
+      "keywords": "dark mode theme tokens contrast",
+      "severity": "high",
+      "guidance": "Map semantic tokens per theme, use layered near-black surfaces, and tune accents/disabled states independently."
+    },
+    {
+      "id": "empty",
+      "name": "Empty states are task states",
+      "keywords": "empty no data onboarding first run",
+      "severity": "medium",
+      "guidance": "Explain why the state is empty and offer the next useful action. Do not fill empty states with decorative copy that hides the task."
+    },
+    {
+      "id": "destructive",
+      "name": "Destructive action safety",
+      "keywords": "delete destructive confirm undo irreversible",
+      "severity": "critical",
+      "guidance": "Prefer undo for reversible actions. For irreversible actions, clearly name the object and consequence before confirmation."
+    },
+    {
+      "id": "auth",
+      "name": "Accessible authentication",
+      "keywords": "authentication login password manager paste captcha",
+      "severity": "critical",
+      "guidance": "Allow password managers and paste. Avoid cognitive puzzles as the only path and provide accessible recovery."
+    },
+    {
+      "id": "drag",
+      "name": "Drag alternatives",
+      "keywords": "drag drop swipe gesture accessibility keyboard",
+      "severity": "critical",
+      "guidance": "Every essential drag or swipe interaction needs a visible single-pointer and keyboard alternative."
+    },
+    {
+      "id": "localization",
+      "name": "Localization resilience",
+      "keywords": "localization translation rtl long labels internationalization",
+      "severity": "high",
+      "guidance": "Do not size components to English strings. Support expansion, RTL where applicable, locale-aware dates/numbers, and flexible labels."
+    },
+    {
+      "id": "tables",
+      "name": "Operational tables",
+      "keywords": "table data grid sort filter pagination responsive",
+      "severity": "high",
+      "guidance": "Use real headers and relationships, keyboard-operable controls, predictable column priority, and alternatives to horizontal overflow on small screens."
+    }
+  ],
+  "stacks": [
+    {
+      "id": "react",
+      "name": "React",
+      "keywords": "react jsx hooks components",
+      "guidance": "Keep state local, derive rather than duplicate state, stabilize expensive trees only when measured, and preserve semantic HTML."
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "keywords": "nextjs next.js app router server components",
+      "guidance": "Prefer server rendering for static/data-heavy content, keep client boundaries narrow, stream meaningful sections, and optimize images/fonts through framework primitives."
+    },
+    {
+      "id": "vue",
+      "name": "Vue",
+      "keywords": "vue composition api pinia",
+      "guidance": "Keep components focused, use computed state for derivation, preserve native semantics, and avoid unnecessary deep watchers."
+    },
+    {
+      "id": "svelte",
+      "name": "Svelte",
+      "keywords": "svelte sveltekit runes",
+      "guidance": "Use reactive primitives deliberately, keep DOM semantic, and avoid effects for values that can be derived."
+    },
+    {
+      "id": "astro",
+      "name": "Astro",
+      "keywords": "astro islands content",
+      "guidance": "Ship static HTML by default and hydrate only interactive islands. Keep content hierarchy and no-JS resilience strong."
+    },
+    {
+      "id": "html-tailwind",
+      "name": "HTML + Tailwind",
+      "keywords": "html tailwind css utility",
+      "guidance": "Use semantic HTML first, reusable token classes/variables, responsive utilities intentionally, and avoid unreadable one-off class sprawl."
+    },
+    {
+      "id": "shadcn",
+      "name": "shadcn/ui",
+      "keywords": "shadcn radix tailwind components",
+      "guidance": "Compose primitives rather than restyling every part, preserve Radix semantics, centralize tokens, and verify focus/disabled/error states after customization."
+    },
+    {
+      "id": "angular",
+      "name": "Angular",
+      "keywords": "angular signals components templates",
+      "guidance": "Use standalone components and signals appropriately, keep templates semantic, and prefer framework control flow and change-detection-friendly patterns."
+    },
+    {
+      "id": "nuxtjs",
+      "name": "Nuxt",
+      "keywords": "nuxt nuxtjs vue ssr",
+      "guidance": "Use SSR and data composables deliberately, minimize client-only islands, and preserve accessible navigation during transitions."
+    },
+    {
+      "id": "nuxt-ui",
+      "name": "Nuxt UI",
+      "keywords": "nuxt ui components tailwind",
+      "guidance": "Use the system tokens/components consistently before custom variants; verify accessible names, focus, contrast, and responsive overflow."
+    },
+    {
+      "id": "react-native",
+      "name": "React Native",
+      "keywords": "react native expo mobile ios android",
+      "guidance": "Use platform semantics, safe areas, performant lists, correct accessibility props, and platform-specific touch behavior. Test text scaling."
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter",
+      "keywords": "flutter dart material cupertino",
+      "guidance": "Use theme extensions/tokens, semantic widgets, adaptive controls where needed, efficient lists, and text scaling without hard-coded heights."
+    },
+    {
+      "id": "swiftui",
+      "name": "SwiftUI",
+      "keywords": "swiftui ios macos apple",
+      "guidance": "Prefer native controls and semantic styles, Dynamic Type, safe areas, accessibility modifiers, and platform navigation conventions."
+    },
+    {
+      "id": "jetpack-compose",
+      "name": "Jetpack Compose",
+      "keywords": "jetpack compose android kotlin material",
+      "guidance": "Use Material semantics and tokens, remember state at the correct owner, lazy layouts for lists, and content descriptions only where meaningful."
+    },
+    {
+      "id": "threejs",
+      "name": "Three.js",
+      "keywords": "threejs webgl 3d canvas",
+      "guidance": "Treat 3D as enhancement, cap device pixel ratio, provide loading and reduced-motion strategies, keep primary tasks outside the canvas, and offer accessible equivalents."
+    },
+    {
+      "id": "laravel",
+      "name": "Laravel",
+      "keywords": "laravel blade livewire php",
+      "guidance": "Keep server-rendered forms and validation semantic, progressive-enhance interactivity, and return errors adjacent to fields with preserved input."
+    },
+    {
+      "id": "javafx",
+      "name": "JavaFX",
+      "keywords": "javafx desktop java controls tableview",
+      "guidance": "Use native controls and CSS tokens, keyboard navigation, clear selection/focus, virtualized tables, and density suited to enterprise desktop work."
+    },
+    {
+      "id": "wpf",
+      "name": "WPF",
+      "keywords": "wpf xaml windows desktop",
+      "guidance": "Centralize resources/styles, preserve automation properties, use virtualization, and make keyboard/focus behavior explicit."
+    },
+    {
+      "id": "winui",
+      "name": "WinUI 3",
+      "keywords": "winui windows app sdk xaml fluent",
+      "guidance": "Follow Fluent patterns, system backdrops where appropriate, keyboard/access keys, automation properties, and responsive window resizing."
+    },
+    {
+      "id": "avalonia",
+      "name": "Avalonia",
+      "keywords": "avalonia xaml cross platform desktop",
+      "guidance": "Use theme resources and responsive layouts, preserve keyboard/focus semantics, and test platform differences rather than assuming WPF parity."
+    },
+    {
+      "id": "uno",
+      "name": "Uno Platform",
+      "keywords": "uno platform xaml cross platform",
+      "guidance": "Prefer shared semantic components with platform adaptation, central theme tokens, and verify input/focus across target platforms."
+    },
+    {
+      "id": "uwp",
+      "name": "UWP Legacy",
+      "keywords": "uwp legacy windows xaml",
+      "guidance": "Treat UWP as legacy maintenance. Preserve accessibility and existing platform conventions; prefer migration planning for new strategic work."
+    }
+  ],
+  "quality_gates": [
+    "One dominant visual and information hierarchy is evident within five seconds.",
+    "Normal text meets at least 4.5:1 contrast; meaningful non-text UI reaches 3:1 where applicable.",
+    "Keyboard focus is visible, logical, and not obscured; icon controls have accessible names.",
+    "Responsive behavior is checked at narrow mobile, tablet, desktop, zoomed text, and long-content conditions.",
+    "No essential interaction depends only on hover, color, drag, animation, or a tiny pointer target.",
+    "Loading, empty, error, disabled, success, permission, offline, and destructive states are intentionally designed where relevant.",
+    "Motion is purposeful, interruptible where needed, and has a reduced-motion behavior.",
+    "Typography, color, spacing, radius, elevation, icon sizing, and z-index are tokenized rather than arbitrary per component.",
+    "Charts answer a specific analytical question and have accessible text/table fallback when needed.",
+    "The final UI avoids generic AI tropes, decorative card saturation, fake urgency, and copy that competes with the primary task."
+  ]
+}

@@ -1,0 +1,14 @@
+interface:
+  display_name: Automator
+  short_description: Plant sichere, konkrete Prozessautomationen
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  brand_color: '#B91C1C'
+  default_prompt: Nutze $automator, um diesen Ablauf sicher und konkret zu automatisieren.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

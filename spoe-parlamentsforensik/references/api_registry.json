@@ -1,0 +1,812 @@
+{
+  "version": "2.0.0",
+  "verified_doc_date": "2026-08-24",
+  "base_url": "https://www.parlament.gv.at",
+  "runtime_verified": false,
+  "detail_json_rule": {
+    "input": "relative_url",
+    "canonical": "https://www.parlament.gv.at<relative_url>?json=TRUE"
+  },
+  "canonical_gp_policy": "discover current GP live; never assume XXVIII remains current",
+  "datasets": [
+    {
+      "id": "OD01_MOTIONS_NR",
+      "name": "Antraege Nationalrat",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "NR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "ANTR"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/antraege/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XX. GP",
+      "notes": "Primärscan ohne DOKTYP; beobachtete DOKTYP danach als Kontrollpartition verwenden."
+    },
+    {
+      "id": "OD01_MOTIONS_BR",
+      "name": "Antraege Bundesrat",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "BR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "ANTR"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/antraege/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XX. GP"
+    },
+    {
+      "id": "OD02_COMMITTEE_REPORTS_NR",
+      "name": "Ausschussberichte Nationalrat",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "NR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "AUB"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/ausschussberichte/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XX. GP"
+    },
+    {
+      "id": "OD02_COMMITTEE_REPORTS_BR",
+      "name": "Ausschussberichte Bundesrat",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "BR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "AUB-BR"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/ausschussberichte/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XX. GP"
+    },
+    {
+      "id": "OD03_DECISIONS_NR",
+      "name": "Beschluesse Nationalrat",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "NR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "BNR"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/beschluesse/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XXII. GP",
+      "notes": "DOKTYP dokumentiert: BNR, BS, BSE, BSESM; BR zusätzlich BS-BR. XX/XXI historisch aus Verfahrensgeschichte, Protokollen, BGBl/RIS rekonstruieren."
+    },
+    {
+      "id": "OD03_DECISIONS_BR",
+      "name": "Beschluesse Bundesrat",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "BR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "BNR"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/beschluesse/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XXII. GP"
+    },
+    {
+      "id": "OD04_BR_BILLS",
+      "name": "Gesetzesantraege Bundesrat",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "NR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "GABR"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/gesetzesantraege-des-br/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XX. GP",
+      "notes": "Offizielle Dokumentation verlangt kontraintuitiv NRBR=NR. Ab XXV zusätzlich GABR13 getrennt; XX-XXIV unter GABR zusammengefasst."
+    },
+    {
+      "id": "OD04_BR_BILLS_ONE_THIRD",
+      "name": "Gesetzesantraege eines Drittels des Bundesrats",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "NR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "GABR13"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/gesetzesantraege-des-br/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XXV. GP"
+    },
+    {
+      "id": "OD05_GOVERNMENT_BILLS",
+      "name": "Regierungsvorlagen",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "NR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "RV"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/regierungsvorlagen/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XX. GP"
+    },
+    {
+      "id": "OD06_CURRENT_PARTICIPATION",
+      "name": "Aktuelle Beteiligungen",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/143?js=eval&showAll=true",
+      "body_template": {
+        "AKTIV": [
+          "J"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "BEGUTTYP": [
+          "RGES"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/beteiligungen/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": false,
+      "available": "aktuell",
+      "notes": "DOKTYP u.a. EBR, GABR, A, GABR13, RV, VOLKBG. Ministerialentwürfe und Stellungnahmen sind nicht Teil dieses Open-Data-Datensatzes."
+    },
+    {
+      "id": "OD07_CITIZEN_INITIATIVES",
+      "name": "Buergerinitiativen",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "NR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "BI"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/buergerinitiativen/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": false,
+      "available": "ab XX. GP"
+    },
+    {
+      "id": "OD08_PETITIONS_NR",
+      "name": "Petitionen Nationalrat",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "NR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "PET"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/petitionen/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": false,
+      "available": "ab XX. GP"
+    },
+    {
+      "id": "OD08_PETITIONS_BR",
+      "name": "Petitionen Bundesrat",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "BR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "PET"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/petitionen/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": false,
+      "available": "ab XX. GP"
+    },
+    {
+      "id": "OD09_STENO_NR",
+      "name": "Stenographische Protokolle Nationalrat",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/211?js=eval&showAll=true",
+      "body_template": {
+        "NBVS": [
+          "NRSITZ"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/stenographische-protkolle/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "HTML ab XX. GP",
+      "notes": "DATUM im Format yyyy-mm-dd. Einzelreden HTML erst ab XXVI über Plenarsitzungen."
+    },
+    {
+      "id": "OD09_STENO_BR",
+      "name": "Stenographische Protokolle Bundesrat",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/211?js=eval&showAll=true",
+      "body_template": {
+        "NBVS": [
+          "BRSITZ"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/stenographische-protkolle/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "HTML ab XX. GP",
+      "notes": "Bundesrat zusätzlich mit unabhängigen Datumsfenstern kontrollieren."
+    },
+    {
+      "id": "OD10_PLENARY_NR",
+      "name": "Plenarsitzungen Nationalrat",
+      "method": "POST",
+      "endpoint": "/Filter/api/json/post?jsMode=EVAL&FBEZ=WFP_007&listeId=11070&showAll=true",
+      "body_template": {
+        "NRBRBV": [
+          "NR"
+        ],
+        "GP": [
+          "<GP>"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/plenarsitzungen/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XX. GP",
+      "notes": "Mehrere GP in einem Call laut Dokumentation nicht möglich. Offizielles Beispiel zeigt listeId=undefined; dokumentierter Endpoint nennt 11070. Live prüfen."
+    },
+    {
+      "id": "OD10_PLENARY_BR",
+      "name": "Plenarsitzungen Bundesrat",
+      "method": "POST",
+      "endpoint": "/Filter/api/json/post?jsMode=EVAL&FBEZ=WFP_007&listeId=11070&showAll=true",
+      "body_template": {
+        "NRBRBV": [
+          "BR"
+        ],
+        "GP": [
+          "<DATE_RANGE>"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/plenarsitzungen/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XX. GP",
+      "notes": "Bei BR bezeichnet GP laut Dokumentation den Zeitraum; live Datumsformat aus Filterexport übernehmen."
+    },
+    {
+      "id": "OD11_PARLIAMENTARIANS",
+      "name": "Parlamentarierinnen und Parlamentarier seit 1918",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/409?1=1&showAll=true&export=true",
+      "body_template": {
+        "ATTR_JSON.mandate_detail.gremium_name": [
+          "Nationalrat",
+          "Bundesrat"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/parlamentarierinnen/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "seit 1918"
+    },
+    {
+      "id": "OD12_CURRENT_NR",
+      "name": "Aktuelle Abgeordnete zum Nationalrat",
+      "method": "POST",
+      "endpoint": "/Filter/api/json/post?jsMode=EVAL&FBEZ=WFW_002&listeId=10002&showAll=true",
+      "body_template": {
+        "M": [
+          "M"
+        ],
+        "W": [
+          "W"
+        ],
+        "FUNK": [
+          "ALLE"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/aktuelle-abgeordnete-nr-",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": false,
+      "available": "aktuell",
+      "notes": "Geschlechtsdimensionen müssen laut Dokumentation gesetzt werden, wenn vollständige Liste über diesen Filter erzeugt wird."
+    },
+    {
+      "id": "OD13_CURRENT_BR",
+      "name": "Aktuelle Mitglieder des Bundesrats",
+      "method": "POST",
+      "endpoint": "/Filter/api/json/post?jsMode=EVAL&FBEZ=WFW_005&listeId=10005&showAll=true",
+      "body_template": {
+        "M": [
+          "M"
+        ],
+        "W": [
+          "W"
+        ],
+        "FUNK": [
+          "ALLE"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/aktuelle-mitglieder-br-/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": false,
+      "available": "aktuell"
+    },
+    {
+      "id": "OD14_CORRESPONDENCE",
+      "name": "Parlamentskorrespondenz",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/110?js=eval&showAll=true",
+      "body_template": {
+        "JAHR": [
+          "<YEAR>"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/parlamentskorrespondenz/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab 1997",
+      "notes": "Dimensionen STW, SACHB, THEMEN, JAHR. Jahrweise partitionieren."
+    },
+    {
+      "id": "OD15_EVENTS",
+      "name": "Termine",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/600?js=eval&showAll=true",
+      "body_template": {
+        "DATERANGE": [
+          "<YYYY-MM-DD>",
+          "<YYYY-MM-DD>"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/termine/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": false,
+      "available": "unterschiedlich nach Terminart",
+      "notes": "Dimensionen GREMIUM, TERMINART, ORT, THEMEN, DATERANGE, FORMAT."
+    },
+    {
+      "id": "OD16_COMMITTEES_NR",
+      "name": "Ausschuesse Nationalrat",
+      "method": "POST",
+      "endpoint": "/Filter/api/json/post?jsMode=EVAL&FBEZ=WFP_009&listeId=undefined&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "NR"
+        ],
+        "GP": [
+          "<GP>"
+        ],
+        "UA": [
+          "J"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/datensatz-ausschuesse/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XX. GP",
+      "notes": "PERM optional. UA=J schließt Unterausschüsse ein."
+    },
+    {
+      "id": "OD16_COMMITTEES_BR_ACTIVE",
+      "name": "Ausschuesse Bundesrat aktiv",
+      "method": "POST",
+      "endpoint": "/Filter/api/json/post?jsMode=EVAL&FBEZ=WFP_009&listeId=undefined&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "BR"
+        ],
+        "R_AKTAUF": [
+          "AKT"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/datensatz-ausschuesse/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "aktuell/historisch"
+    },
+    {
+      "id": "OD16_COMMITTEES_BR_CLOSED",
+      "name": "Ausschuesse Bundesrat aufgeloest",
+      "method": "POST",
+      "endpoint": "/Filter/api/json/post?jsMode=EVAL&FBEZ=WFP_009&listeId=undefined&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "BR"
+        ],
+        "R_AKTAUF": [
+          "AUF"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/datensatz-ausschuesse/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "historisch"
+    },
+    {
+      "id": "OD17_COMMITTEE_MEMBERSHIPS",
+      "name": "Ausschussmitgliedschaften",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/250?js=eval&showAll=true&export=true",
+      "body_template": {
+        "PAD_INTERN": [
+          "<PAD>"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/datensatz-ausschussmitgliedschaften",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XX. GP"
+    },
+    {
+      "id": "OD18_WRITTEN_QUESTIONS_NR_MIN",
+      "name": "Schriftliche Anfragen NR an Bundesregierung/Ministerium",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "NR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "J_JPR_M"
+        ],
+        "DOKTYP": [
+          "J"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/datensatz-schriftliche-anfragen-nr/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XX. GP",
+      "notes": "Antwortverknüpfung aus Detailseiten/Verfahrensstufen extrahieren. Titel/Kurzbeschreibung/Dokumente/Volltexte sind von freier Weiterverwendung ausgenommen."
+    },
+    {
+      "id": "OD18_WRITTEN_QUESTIONS_NR_PRES",
+      "name": "Schriftliche Anfragen NR an Praesidium",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "NR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "J_JPR_M"
+        ],
+        "DOKTYP": [
+          "JPR"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/datensatz-schriftliche-anfragen-nr/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XX. GP"
+    },
+    {
+      "id": "OD19_WRITTEN_QUESTIONS_BR_MIN",
+      "name": "Schriftliche Anfragen BR an Ministerium",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "BR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "J_JPR_M-BR"
+        ],
+        "VHG2": [
+          "JMIN-BR"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/datensatz-schriftliche-anfragen-br/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XX. GP",
+      "notes": "Die offizielle Beispielabfrage zeigt einmal JMIN ohne -BR, während Dimensionsbeschreibung und Ergebnis JMIN-BR zeigen. JMIN-BR kanonisch, live gegenprüfen."
+    },
+    {
+      "id": "OD19_WRITTEN_QUESTIONS_BR_PRES",
+      "name": "Schriftliche Anfragen BR an Praesidium",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "BR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "J_JPR_M-BR"
+        ],
+        "VHG2": [
+          "JPRPR-BR"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/datensatz-schriftliche-anfragen-br/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": true,
+      "available": "ab XX. GP"
+    },
+    {
+      "id": "OD20_EU_HA_STATEMENTS",
+      "name": "Stellungnahmen des EU-Hauptausschusses",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "NR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "EU"
+        ],
+        "VHG2": [
+          "S"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/stellungnahmen-eu-hauptausschuss/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": false,
+      "available": "ab XIX./Verfahrensdaten laut Doku"
+    },
+    {
+      "id": "OD21_EU_UA_MESSAGES",
+      "name": "Mitteilungen des EU-Unterausschusses",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "NR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "EU"
+        ],
+        "VHG2": [
+          "MTEU"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/mitteilungen-eu-unterausschuss/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": false,
+      "available": "ab XXIV. GP"
+    },
+    {
+      "id": "OD22_EU_UA_HA_STATEMENTS",
+      "name": "Stellungnahmen des Staendigen UA des Hauptausschusses EU",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "NR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "EU"
+        ],
+        "VHG2": [
+          "SEU"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/stellungnahmen-ua-hautausschuss/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": false,
+      "available": "ab XXI./Verfahrensdaten ab XXIV laut Doku"
+    },
+    {
+      "id": "OD23_EU_BR_REASONED",
+      "name": "Begruendete Stellungnahmen des EU-Ausschusses BR",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "BR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "EU"
+        ],
+        "VHG2": [
+          "SB-BR"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/begruendete-stellungnahmen-eu-ausschuss-br/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": false,
+      "available": "ab XXIV. GP"
+    },
+    {
+      "id": "OD24_EU_BR_MESSAGES",
+      "name": "Mitteilungen des EU-Ausschusses BR",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "BR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "EU"
+        ],
+        "VHG2": [
+          "MT-BR"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/datensatz-mitteilungen-eu-ausschuss-br/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": false,
+      "available": "ab XXIV. GP"
+    },
+    {
+      "id": "OD25_EU_BR_STATEMENTS",
+      "name": "Stellungnahmen des EU-Ausschusses BR",
+      "method": "POST",
+      "endpoint": "/Filter/api/filter/data/101?js=eval&showAll=true",
+      "body_template": {
+        "NRBR": [
+          "BR"
+        ],
+        "GP_CODE": [
+          "<GP>"
+        ],
+        "VHG": [
+          "EU"
+        ],
+        "VHG2": [
+          "S-BR"
+        ]
+      },
+      "docs_url": "https://www.parlament.gv.at/recherchieren/open-data/daten-und-lizenz/stellungnahmen-eu-ausschuss-br/index.html",
+      "status": "VERIFIED_DOC",
+      "required_for_masterprompt": false,
+      "available": "ab XXIV. GP"
+    }
+  ],
+  "auxiliary_queries": [
+    {
+      "id": "AUX_VTS_PROTOCOL_DISCOVERY",
+      "method": "POST",
+      "endpoint": "/Filter/api/filterform/vts/data?FBEZ=VTS_01&showAll=true&export=true",
+      "body_template": {
+        "searchType": [
+          "all"
+        ],
+        "searchScope": [
+          "all"
+        ],
+        "category": [
+          "Protokolle"
+        ]
+      },
+      "status": "AUXILIARY_UNVERIFIED",
+      "notes": "User-provided discovery endpoint. Never outrank documented Open Data datasets."
+    }
+  ],
+  "coverage_rules": {
+    "show_all_is_not_proof": true,
+    "require_count_rows_or_documented_pagination": true,
+    "require_canonical_identity": true,
+    "require_independent_partition_for_full_corpus": true,
+    "preferred_partitions": [
+      "observed_document_type",
+      "disjoint_date_windows"
+    ],
+    "adaptive_date_split": [
+      "gp",
+      "year",
+      "halfyear",
+      "quarter",
+      "month",
+      "day"
+    ],
+    "max_status_without_runtime_test": "VERIFIED_DOC_NOT_RUNTIME"
+  }
+}

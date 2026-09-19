@@ -1,0 +1,16 @@
+interface:
+  display_name: 10 Separate Images
+  short_description: Erzwingt zehn getrennte Einzelbilder mit strikter Slotkontrolle
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  brand_color: '#E30613'
+  default_prompt: Nutze $ten-separate-images und liefere exakt zehn eigenständige
+    Bilddateien. Bearbeite jeden Slot seriell in einem eigenen Bildaufruf mit n=1,
+    isoliere die aktuelle Quelle und verwirf jede Mehrfachausgabe.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

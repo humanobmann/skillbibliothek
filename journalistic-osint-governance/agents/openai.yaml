@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investigative OSINT Governance"
+  short_description: "Rechts- und quellenfeste OSINT-Recherche fuer investigativen Journalismus"
+  default_prompt: "Rahme diese Recherche zuerst als rechtlich und journalistisch vertretbaren OSINT-Fall: oeffentliches Interesse, Verhaeltnismaessigkeit, Quellen- und Datenschutz, Stop-Gates und Belegplan."

@@ -1,0 +1,13 @@
+interface:
+  display_name: seo review
+  short_description: Perform a focused SEO audit on JavaScript concept pages to maximize
+    search visibility, featured snippet optimization, and ranking potential
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

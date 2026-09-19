@@ -1,0 +1,12 @@
+interface:
+  display_name: OSINT Investigator
+  short_description: Lawful public-interest OSINT with evidence logs and verification.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

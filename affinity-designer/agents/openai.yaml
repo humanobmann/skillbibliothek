@@ -1,0 +1,4 @@
+interface:
+  display_name: "Affinity Designer"
+  short_description: "Affinity-Dokumente sicher analysieren und bearbeiten"
+  default_prompt: "Use $affinity-designer to inspect and safely edit this Affinity document, then export and visually verify the result."

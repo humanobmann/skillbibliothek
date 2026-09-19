@@ -1,0 +1,15 @@
+interface:
+  display_name: Danke für nichts Outreach
+  short_description: Schützt Zustellbarkeit und Kontaktqualität
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  brand_color: '#FEBD08'
+  default_prompt: Nutze $danke-fuer-nichts-outreach, um Zustellbarkeit, Empfängerhistorie
+    und eine kleine individuelle Kontaktwelle sicher zu prüfen.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

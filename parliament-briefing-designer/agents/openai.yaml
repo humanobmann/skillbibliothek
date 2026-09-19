@@ -1,0 +1,15 @@
+interface:
+  display_name: Parliament Briefing Designer
+  short_description: Erstellt österreichische Parlamentsbriefings als PDF
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  brand_color: '#C8102E'
+  default_prompt: Nutze $parliament-briefing-designer, um aus diesen Quellen ein kompaktes
+    österreichisches Parlamentsbriefing als geprüfte PDF zu erstellen.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

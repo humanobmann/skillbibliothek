@@ -1,0 +1,12 @@
+interface:
+  display_name: Instagram-Text verbessern
+  short_description: Erstellt kurze Instagram-Captions mit transparenter Länge und
+    verpflichtender aktueller Hashtag-Recherche – ohne Reichweitenversprechen oder
+    Hashtag-Spam.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

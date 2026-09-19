@@ -1,0 +1,14 @@
+interface:
+  display_name: Peter Schuller Obmann Kommunikation
+  short_description: Seriöse öffentliche Vereinskommunikation
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  default_prompt: Nutze $peter-schuller-obmann-kommunikation für eine klare und vertrauensbildende
+    Vereinsfassung.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

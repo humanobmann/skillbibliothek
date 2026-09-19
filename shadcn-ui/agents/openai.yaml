@@ -1,0 +1,12 @@
+interface:
+  display_name: shadcn/ui
+  short_description: Build, redesign and debug production shadcn/ui apps
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

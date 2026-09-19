@@ -1,0 +1,3 @@
+interface:
+  display_name: "Security Gate"
+  short_description: "Route code changes through the right security review"

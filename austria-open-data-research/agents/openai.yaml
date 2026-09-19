@@ -1,0 +1,12 @@
+interface:
+  display_name: Austria Open Data Research
+  short_description: Reproduzierbare Recherche in österreichischen Open Data Quellen
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

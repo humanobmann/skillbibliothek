@@ -1,0 +1,14 @@
+interface:
+  display_name: Brainstorming
+  short_description: Klärt größere Ideen und vergleicht Lösungswege
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  default_prompt: Nutze $brainstorming, um diese größere oder noch unklare Idee strukturiert
+    auszuarbeiten.
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

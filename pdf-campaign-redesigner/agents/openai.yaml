@@ -1,0 +1,14 @@
+interface:
+  display_name: PDF Campaign Redesigner
+  short_description: Prüft und gestaltet Sektion-VII-Dossiers
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  default_prompt: Nutze $pdf-campaign-redesigner, um dieses Dossier im Stil der SPÖ
+    Sektion VII zu prüfen.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

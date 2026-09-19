@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="de-AT">
+<head>
+  <meta charset="utf-8">
+  <title>Optimiertes Dossier</title>
+  <link rel="stylesheet" href="dossier-styles.css">
+</head>
+<body>
+  <section class="page title-page">
+    <p class="kicker">Interne Arbeitsunterlage · Stand: [Datum]</p>
+    <h1>[Dossier-Titel]</h1>
+    <p class="lead">[Untertitel mit Zweck, Status und Nutzen. Maximal drei Zeilen.]</p>
+    <div class="callout check">
+      <span class="status unsicher">Status</span>
+      <p>[Publikationsstatus, Quellenstand, Freigabestatus.]</p>
+    </div>
+  </section>
+
+  <section class="page">
+    <div class="running-head"><span>[Dossier]</span><span>Urteil</span></div>
+    <h2 class="rule-red">Das Urteil</h2>
+    <p class="lead">[Eine klare Hauptaussage. Was haelt, was blockiert, was wird entschieden?]</p>
+    <div class="grid-3">
+      <div class="card"><span class="status fact">Fakt</span><div class="card-title">Was gesichert ist</div><p>[gesicherter Punkt]</p><p class="source-line">Quelle: [Quelle, Stand]</p></div>
+      <div class="card"><span class="status unsicher">Pruefen</span><div class="card-title">Was Kontext braucht</div><p>[pruefpunkt]</p><p class="source-line">Quelle/Status: [offen]</p></div>
+      <div class="card"><span class="status stop">Stop</span><div class="card-title">Was nicht raus darf</div><p>[gesperrte Aussage]</p><p class="source-line">Grund: [falsch / unbelegt / nicht freigegeben]</p></div>
+    </div>
+    <div class="footer"><span>[Dossier]</span><span>2</span></div>
+  </section>
+
+  <section class="page">
+    <div class="running-head"><span>[Dossier]</span><span>Beweisgrafik</span></div>
+    <h2 class="rule-red">[Kernaussage der Grafik]</h2>
+    <p class="lead">[Warum diese Grafik die wichtigste Behauptung beweist.]</p>
+    <figure>
+      <div class="bar-row"><span>[Kategorie A]</span><div class="bar-track"><div class="bar highlight" style="width: 70%"></div></div><strong class="num">[Wert]</strong></div>
+      <div class="bar-row"><span>[Kategorie B]</span><div class="bar-track"><div class="bar" style="width: 45%"></div></div><strong class="num">[Wert]</strong></div>
+      <div class="bar-row"><span>[Kategorie C]</span><div class="bar-track"><div class="bar" style="width: 25%"></div></div><strong class="num">[Wert]</strong></div>
+      <figcaption><strong>Quelle:</strong> [Primaerquelle, Stand]. <strong>Methodik:</strong> [kurz erklaeren].</figcaption>
+    </figure>
+    <div class="footer"><span>[Dossier]</span><span>3</span></div>
+  </section>
+
+  <section class="page sources">
+    <div class="running-head"><span>[Dossier]</span><span>Quellen</span></div>
+    <h2 class="rule-red">Quellenapparat</h2>
+    <ol>
+      <li>[Quelle 1, Dokumentnummer/URL/Abrufdatum, relevante Zahl.]</li>
+      <li>[Quelle 2, Dokumentnummer/URL/Abrufdatum, relevante Zahl.]</li>
+    </ol>
+    <div class="footer"><span>[Dossier]</span><span>[n]</span></div>
+  </section>
+</body>
+</html>

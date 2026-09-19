@@ -1,0 +1,28 @@
+interface:
+  display_name: Adaptive Poster Image Series
+  short_description: Zehn vollstaendig gestaltete Editorialposter im festen Referenzdesign
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  brand_color: '#D71920'
+  default_prompt: 'Nutze $adaptive-poster-image-series fuer genau zehn getrennte,
+    hochwertige Endmotive. Verwende fuer jedes Motiv verbindlich das gebuendelte Referenzprofil
+    austria-editorial-civic-v1 und die drei Stilanker ausschliesslich fuer die Designsprache.
+    Jede Ausgabe muss ein vollstaendig fertig gestaltetes Editorialposter sein: warme
+    Ivory- oder Cremegrundflaeche, Signalrot, Graphit, sehr grosse moderne Grotesk-Typografie,
+    klare linke Hierarchie, thematische Bild- oder Grafikinhaltszone und mindestens
+    ein sichtbares rotes grafisches Signal wie Kurve, Band, Linie oder Flaeche. Niemals
+    nur Rohfoto, Hintergrundbild oder freien Platz fuer spaetere Schrift erzeugen.
+    Inhalt, Personen, Landschaften, Flaggen und Text der Stilanker nicht kopieren.
+    Finale Bilder ausschliesslich mit dem normalen ChatGPT-Bilderstellungstool erzeugen
+    oder bearbeiten, pro Aufruf genau ein Slot, ein Bild und n=1. Sichtbaren Text
+    zeichengetreu pruefen, Collagen, Fake-Evidence und ungefragtes Branding blockieren
+    und nur fehlerhafte Slots mit demselben Bilderstellungstool korrigieren. Fuer
+    Facebook Mehrbildsets jede 1:1 Variante separat im selben Referenzdesign neu komponieren
+    und niemals ein Raster als Enddatei erzeugen.'
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

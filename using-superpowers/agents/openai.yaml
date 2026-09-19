@@ -1,0 +1,14 @@
+interface:
+  display_name: using superpowers
+  short_description: Use when starting any conversation - establishes how to find
+    and use skills, requiring Skill tool invocation before ANY response including
+    clarifying questions
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

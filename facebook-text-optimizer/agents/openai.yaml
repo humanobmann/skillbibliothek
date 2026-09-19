@@ -1,0 +1,14 @@
+interface:
+  display_name: Facebook-Text verbessern
+  short_description: Überarbeitet Facebook-Beiträge für Klarheit, Glaubwürdigkeit,
+    mobile Lesbarkeit und eine passende Handlungsaufforderung – ohne Algorithmusmythen,
+    Clickbait oder Engagement-Bait.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

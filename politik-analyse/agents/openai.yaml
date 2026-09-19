@@ -1,0 +1,14 @@
+interface:
+  display_name: Politik Analyse
+  short_description: Politische Fakten und Strategien prüfen
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  default_prompt: Nutze $politik-analyse, um dieses politische Thema quellenbewusst
+    einzuordnen.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

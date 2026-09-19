@@ -1,0 +1,3 @@
+interface:
+  display_name: "OpenAI Workflow Router"
+  short_description: "Routes work across Chat, Work, Codex, Skills and plugins."
