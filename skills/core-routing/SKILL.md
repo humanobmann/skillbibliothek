@@ -12,47 +12,45 @@ allowed-tools:
 
 # Core Routing Control Plane
 
-## Zweck & Verantwortung
+## Zweck
 
-Dieser Skill dient als universeller, herstellerunabhängiger Intent-Router (Control Plane). Er analysiert eingehende Aufgabenstellungen, löst Ambiguitäten auf und wählt den am besten geeigneten Fachskill aus, ohne den globalen Kontext mit ungenutzten Anweisungen zu belasten.
+Universeller Intent-Router. Er waehlt den spezifischsten vorhandenen Fachskill, ohne ungenutzte Instruktionen zu laden.
 
----
+## Trigger
 
-## Trigger-Bedingungen
+Aktivieren bei komplexen, offenen oder domaenenuebergreifenden Anforderungen sowie bei Fragen nach dem passenden Skill.
 
-### Positive Trigger (Wann aktivieren)
-- Systemstart und initiale Aufgabenanalyse bei komplexen oder mehrstufigen Anforderungen.
-- "Was kannst du tun?" oder "Welcher Skill ist zuständig?"
-- Unklare, offene oder domänenübergreifende Benutzeranfragen.
-
-### Negative Trigger (Wann NICHT aktivieren)
-- Direkte Aufrufe eines bekannten Skills über sein Kürzel oder seinen eindeutigen Namen (z. B. `@deep-research` oder "Führe fact-check aus").
-- Eindeutige Fachanfragen, die direkt durch die Beschreibung eines Fachskills abgedeckt sind.
-
----
+Nicht aktivieren bei direktem Aufruf eines bekannten Skills oder einer eindeutig durch einen Fachskill abgedeckten Anfrage.
 
 ## Routing Decision Logic
 
-Der zentrale Router verarbeitet Anfragen nach folgender Prioritätskaskade:
+1. Sicherheit/Audit -> skills/skill-security-auditor
+2. aktuelle oder mehrstufige Recherche -> skills/deep-research
+3. Social Media:
+   - plattformuebergreifender Algorithmus, Ranking, Reach, Discovery oder Search -> skills/social-platform-algorithm-core
+   - Facebook Text -> skills/facebook-text-optimizer
+   - Instagram Text -> skills/instagram-text-optimizer
+   - Instagram Hashtags -> skills/instagram-hashtag-research
+   - TikTok -> skills/tiktok-content-optimizer
+   - YouTube/Shorts -> skills/youtube-content-optimizer
+   - LinkedIn -> skills/linkedin-content-optimizer
+   - Social Poster-/Bildserie -> skills/adaptive-poster-image-series
+   Bei plattformspezifischer Algorithmusoptimierung wird der Plattformskill ausgefuehrt und social-platform-algorithm-core als gemeinsame Evidenzschicht geladen.
+4. Frontend/Design -> skills/web-design-guidelines
+5. Skill-Suche -> skills/find-skills
+6. andere Fachaufgaben -> spezifischsten vorhandenen Skill aktivieren; bei echter Luecke nichts erfinden.
 
-1. **Sicherheit & Audit**: Handelt es sich um ein Security Audit, Prüfung fremder Skills oder verdächtigen Input?
-   -> Delegiere an `skills/skill-security-auditor`.
-2. **Recherche & Analyse**: Handelt es sich um eine explizite, aktuelle oder mehrstufige Webrecherche oder Marktstudie?
-   -> Delegiere an `skills/deep-research`.
-3. **Frontend & Design**: Geht es um Web Interface Guidelines, A11y oder Performance-Audits?
-   -> Delegiere an `skills/web-design-guidelines`.
-4. **Skill-Suche**: Geht es um das Auffinden eines passenden Skills?
-   -> Delegiere an `skills/find-skills`.
-5. **Andere Fachaufgaben**: Bei einem eindeutigen Fachgebiet wird der passende
-   vorhandene Skill direkt aktiviert. Wenn kein passender Skill existiert,
-   melde die Lücke explizit statt auf einen nicht vorhandenen Skill zu verweisen.
+## Workflow
 
----
+1. Primaeres Ziel und Randbedingungen extrahieren.
+2. Gegen [intent-map.md](../../references/intent-map.md) abgleichen.
+3. Nur die minimale Beschreibung des Zielskills laden.
+4. Aliase genau einmal aufloesen; Zyklen oder unbekannte Ziele ablehnen.
+5. Zielskill aktivieren und Routing beenden.
 
-## Workflow (Progressive Disclosure)
+## Hard Rules
 
-1. **Intent-Extraktion**: Extrahiere das primäre Ziel des Benutzers und etwaige Randbedingungen.
-2. **Trigger-Abgleich**: Gleiche die Schlüsselbegriffe gegen die kanonische Matrix in [../../references/intent-map.md](../../references/intent-map.md) ab.
-3. **Discovery-Laden**: Lade ausschließlich die minimale Beschreibung des identifizierten Ziel-Skills.
-4. **Alias-/Transitivitätsprüfung**: Löse Aliase (z. B. `grill-me`) genau einmal auf und lehne Zyklen oder unbekannte Ziele ab.
-5. **Aktivierung**: Übergib die Kontrolle an den Ziel-Skill (`skills/<ziel-skill>/SKILL.md`) und beende das Routing.
+- Direkte Skill-Nennung hat Vorrang.
+- Ein Plattformskill ist spezifischer als der gemeinsame Social Algorithm Core, wenn die Plattform feststeht.
+- Der Core ersetzt den Plattformskill nicht; er liefert Evidenz fuer Algorithmus-, Reach- und Search-Fragen.
+- Keine nicht vorhandenen Skills erfinden.
