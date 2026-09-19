@@ -7,6 +7,7 @@ from pathlib import Path
 from validate_plan import validate as validate_plan
 from validate_publication_plan import validate as validate_publication_plan
 from validate_publication_qa import validate as validate_publication_qa
+from validate_platform_delivery import validate as validate_platform_delivery
 
 
 def expect_fail(label, fn):
@@ -55,6 +56,9 @@ def production_plan():
             "visible_text_required": True,
             "full_design_required": True,
             "raw_photo_forbidden": True,
+            "hero_clearance_percent": 8,
+            "motif_crop_reserve_percent": 12,
+            "source_inside_safe_area": True,
             "design_brief": "A finished four-to-five editorial poster in the locked ivory red graphite reference design, with large left-aligned grotesk type in the upper area, an integrated thematic image zone below, and a visible red signal curve connecting text and image. Never output a raw photo or an empty text placeholder.",
             "image_brief": "A single fully designed editorial social image with finished typography, visible graphic design and a credible thematic visual zone.",
             "risk_overclaim": False,
@@ -74,6 +78,9 @@ def production_plan():
             "design_lock": True,
             "design_required": True,
             "raw_photo_forbidden": True,
+            "safe_zone_profile": "feed_4x5",
+            "safe_zone_contract": "internal_conservative_v1",
+            "official_platform_safe_zone": False,
         },
         "creative_direction": {
             "design_intent": "A finished civic editorial poster series with bold type, ivory ground, signal red accents and integrated thematic visuals.",
@@ -95,6 +102,38 @@ def production_plan():
         "slots": slots,
     }
 
+
+
+def platform_delivery_plan():
+    outputs = []
+    variants = {
+        "feed_4x5": (1080, 1350, {"left": 72, "right": 72, "top": 90, "bottom": 110}, "feed-4x5"),
+        "square_1x1": (1080, 1080, {"left": 90, "right": 90, "top": 90, "bottom": 90}, "square-1x1"),
+        "vertical_9x16": (1080, 1920, {"left": 90, "right": 160, "top": 288, "bottom": 384}, "vertical-9x16"),
+    }
+    for slot in range(1, 11):
+        for variant, (width, height, safe, suffix) in variants.items():
+            outputs.append({
+                "slot": slot,
+                "variant": variant,
+                "file": f"{slot:02d}-{suffix}.png",
+                "width": width,
+                "height": height,
+                "safe_area_px": safe,
+                "hero_clearance_percent": 8,
+                "motif_crop_reserve_percent": 12,
+                "source_inside_safe_area": True,
+                "recompose_not_crop": True,
+            })
+    return {
+        "series_id": "self-test-series",
+        "delivery_mode": "full_social_30",
+        "image_tool_only": True,
+        "recompose_not_crop": True,
+        "safe_zone_contract": "internal_conservative_v1",
+        "official_platform_safe_zone": False,
+        "outputs": outputs,
+    }
 
 def publication_plan():
     return {
@@ -211,6 +250,23 @@ def main():
     bad["slots"] = bad["slots"][:9]
     expect_fail("nine slots", lambda: validate_plan(bad, None))
 
+
+    delivery = platform_delivery_plan()
+    validate_platform_delivery(delivery, prod)
+    print("PASS positive: full social 30 delivery plan")
+
+    bad_delivery = copy.deepcopy(delivery)
+    bad_delivery["outputs"][0]["safe_area_px"]["left"] = 10
+    expect_fail("unsafe 4:5 left margin", lambda: validate_platform_delivery(bad_delivery, prod))
+
+    bad_delivery = copy.deepcopy(delivery)
+    bad_delivery["outputs"][20]["recompose_not_crop"] = False
+    expect_fail("automatic crop adaptation", lambda: validate_platform_delivery(bad_delivery, prod))
+
+    bad_delivery = copy.deepcopy(delivery)
+    bad_delivery["outputs"] = bad_delivery["outputs"][:-1]
+    expect_fail("missing one of thirty platform outputs", lambda: validate_platform_delivery(bad_delivery, prod))
+
     pub = publication_plan()
     validate_publication_plan(pub, prod)
     print("PASS positive: trio publication plan")
@@ -239,7 +295,7 @@ def main():
     bad_qa["items"][0]["reference_design_dna_present"] = False
     expect_fail("publication image drifts from reference design", lambda: validate_publication_qa(bad_qa, pub))
 
-    print("SELFTEST PASS: contracts enforce ten separate fully designed masters, locked reference design, Facebook bundle rules and exclusive image-tool production without generating images.")
+    print("SELFTEST PASS: contracts enforce ten separate masters, conservative safe zones, thirty-file cross-platform recomposition, locked reference design, Facebook bundle rules and exclusive image-tool production without generating images.")
 
 
 if __name__ == "__main__":
