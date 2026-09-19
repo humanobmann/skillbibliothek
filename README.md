@@ -19,8 +19,8 @@ Die Quellen werden nur gelesen; alle konsolidierten Änderungen erfolgen hier.
 
 ## Aktueller Bestand
 
-Der aktuelle konsolidierte Bestand umfasst 93 Skill-Verzeichnisse mit `SKILL.md`.
-Davon bilden 91 Skills die zusammengeführte Fachbibliothek; `core-routing` und
+Der aktuelle konsolidierte Bestand umfasst 95 Skill-Verzeichnisse mit `SKILL.md`.
+Davon bilden 93 Skills die zusammengeführte Fachbibliothek; `core-routing` und
 `skill-security-auditor` ergänzen die Control-Plane- und Security-Gates.
 
 ### Kernbereiche
@@ -31,6 +31,12 @@ Davon bilden 91 Skills die zusammengeführte Fachbibliothek; `core-routing` und
 - Automatisierung und Entwicklung: `automator`, `cli-creator`, `gh-fix-ci`, `migrate-to-codex`, `prompt-architect`
 - Sicherheit und Governance: `security-best-practices`, `security-gate`, `security-threat-model`, `security-ownership-map`
 - Content und Kommunikation: `facebook-text-optimizer`, `instagram-text-optimizer`, `humanizer-de`, `peter-schuller-politiker-kommunikation`, `politik-analyse`
+- Engineering und Bibliothekspflege: `code-review`, `library-skill-authoring`
+
+Die kanonische Routing-Matrix steht in [references/intent-map.md](references/intent-map.md);
+Profile und Laufzeitadapter sind in [references/PROFILES.md](references/PROFILES.md)
+dokumentiert. `grilling` ist der kanonische Skill; `grill-me` bleibt als
+kompatibler Alias erhalten.
 
 ## Weitere Dokumentation
 

@@ -1,6 +1,10 @@
 ---
 name: skill-security-auditor
 description: Security audit and vulnerability scanning for AI agent skills before installation or activation. Detects prompt injection, zero-width unicode attacks, dangerous code execution (eval, exec, shell=True), credential harvesting, and supply chain risks.
+metadata:
+  canonical: true
+  profile: security-gate
+  provenance: target-hardening-of-existing-auditor
 allowed-tools:
   - Read
   - Glob
@@ -26,7 +30,7 @@ Der `skill-security-auditor` fungiert als das primäre Sicherheitsgate (P0) für
 - Vor jeder Neuaufnahme eines externen Skills in die Registry.
 
 ### Negative Trigger (Wann NICHT aktivieren)
-- Standardmäßige Review-Anfragen von Anwendungs- oder Projekt-Code (dafür `code-review-excellence` nutzen).
+- Standardmäßige Review-Anfragen von Anwendungs- oder Projekt-Code (dafür `code-review` nutzen).
 - Reine Code-Linter-Aufrufe ohne Sicherheitskontext.
 - Normale Git-Status- oder Commit-Fragen.
 
@@ -70,3 +74,7 @@ Der `skill-security-auditor` fungiert als das primäre Sicherheitsgate (P0) für
 
 - **Strict Mode Gate**: Jedes Vorkommen von `HIGH` oder `CRITICAL` Severity führt automatisch zum Verdikt `FAIL`.
 - **Zero-Trust Fallback**: Kann ein Skript nicht statisch analysiert werden (z. B. Syntaxfehler oder Binärformat), gilt das Zero-Trust-Prinzip (`FAIL`). Keine automatische Aktivierung eines `FAIL`-Kandidaten.
+- **Completeness Gate**: Fehlendes Ziel, fehlende Scanner, nicht lesbare Dateien oder ein abgebrochener Scan sind `FAIL`, nicht `WARN`.
+- **Evidence Gate**: Jeder Befund muss Datei, Zeile/Muster, Severity und reproduzierbaren Scanner-Schritt enthalten. Unbelegte Entwarnung ist unzulässig.
+- **Error path**: Bei `FAIL` Installation/Aktivierung stoppen, betroffene Dateien isolieren, keine automatische Bereinigung ausführen und den Fehler an den Auftraggeber melden.
+- **Fallback path**: Wenn ein spezialisierter Scanner fehlt, nur die vorhandenen Prüfungen ausführen und das Ergebnis als `FAIL (incomplete)` kennzeichnen.

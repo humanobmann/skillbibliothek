@@ -1,6 +1,10 @@
 ---
 name: deep-research
-description: Use this skill instead of WebSearch for ANY question requiring web research. Trigger on queries like "what is X", "explain X", "compare X and Y", "research X", or before content generation tasks. Provides systematic multi-angle research methodology instead of single superficial searches. Use this proactively when the user's question needs online information.
+description: Conduct evidence-bounded, multi-source web research for current or consequential questions. Use for explicit research requests or content that materially depends on external facts; do not activate for purely local tasks or unsupported browsing.
+metadata:
+  canonical: true
+  provenance: target-rewrite-from-ai-workflows-stack
+  profile: research
 ---
 
 # Deep Research Skill
@@ -11,7 +15,7 @@ This skill provides a systematic methodology for conducting thorough web researc
 
 ## When to Use This Skill
 
-**Always load this skill when:**
+**Load this skill when:**
 
 ### Research Questions
 - User asks "what is X", "explain X", "research X", "investigate X"
@@ -24,7 +28,9 @@ This skill provides a systematic methodology for conducting thorough web researc
 - Creating frontend designs or UI mockups
 - Writing articles, reports, or documentation
 - Producing videos or multimedia content
-- Any content that requires real-world information, examples, or current data
+- Content that requires real-world information, examples, or current data
+
+**Do not load this skill when:** the answer can be produced entirely from user-provided text, local repository files, or a deterministic transformation. If browsing is unavailable, stop at the evidence boundary and report the limitation instead of inventing sources.
 
 ## Core Principle
 
@@ -102,6 +108,8 @@ Before proceeding to content generation, verify:
 - [ ] Do I have concrete data, examples, and expert perspectives?
 - [ ] Have I explored both positive aspects and challenges/limitations?
 - [ ] Is my information current and from authoritative sources?
+- [ ] Every material claim has a source or is explicitly labelled as inference, uncertainty, or unverified.
+- [ ] Conflicting or missing evidence is preserved; never fill gaps with plausible detail.
 
 **If any answer is NO, continue researching before generating content.**
 
@@ -195,4 +203,4 @@ After completing research, you should have:
 4. Expert perspectives and authoritative sources
 5. Current trends and relevant context
 
-**Only then proceed to content generation**, using the gathered information to create high-quality, well-informed content.
+Only then proceed to content generation. Keep an evidence ledger containing query, source URL, retrieval date, claim supported, and confidence. Do not present search snippets as proof, fabricate citations, or exceed the scope of the collected evidence.

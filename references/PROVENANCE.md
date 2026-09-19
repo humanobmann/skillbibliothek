@@ -32,3 +32,10 @@ Dieses Dokument erfasst die Herkunft, Urheber, Lizenzen und Integrationsarten al
 - Alle Quell-Lizenzen (Apache 2.0, MIT) sind freie, kommerziell und privat uneingeschränkt nutzbare Open-Source-Lizenzen.
 - Keine GPL- oder proprietär geschützten Komponenten ohne Weitergaberecht wurden in diese Bibliothek integriert.
 - Alle Skripte enthalten standardkonforme Lizenz- und Funktions-Header.
+
+## 4. Target-authored hardening
+
+`code-review`, `library-skill-authoring`, `references/intent-map.md` and
+`references/PROFILES.md` are original repository maintenance artifacts. The
+`deep-research` evidence boundary, router transitivity rules, and auditor gates
+are target rewrites of existing local material; no source tree was modified.

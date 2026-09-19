@@ -1,5 +1,5 @@
 {
-  "total_skills": 93,
+  "total_skills": 95,
   "skills": [
     {
       "name": "adaptive-poster-image-series",
@@ -104,6 +104,14 @@
       "description": "Use this skill instead of WebSearch for ANY question requiring web research. Trigger on queries like \"what is X\", \"explain X\", \"compare X and Y\", \"research X\", or before content generation tasks. Provides systematic multi-angle research methodology instead of single superficial searches. Use this proactively when the user's question needs online information.",
       "tokens": 1961,
       "discovery_tokens": 93
+    },
+    {
+      "name": "code-review",
+      "folder": "code-review",
+      "category": "Engineering & Review",
+      "description": "Review a code diff or bounded file scope for correctness, security, maintainability, and test regressions, reporting actionable findings before praise.",
+      "tokens": 267,
+      "discovery_tokens": 24
     },
     {
       "name": "define-goal",
@@ -352,6 +360,14 @@
       "description": "Entwickelt, schreibt, überarbeitet und prüft die Buchserie „Das Kommunistische Manifest 2.0“ über Arbeit, Eigentum, Daten, KI, Klassen, Demokratie und Zukunft im digitalen Zeitalter. Verwenden für Bandplanung, Kapitelentwürfe, Serienkontinuität, Marx-1848-zu-Gegenwart-Vergleiche, verständliche Sachbuchprosa, Gegenargumente, Claim-Planung und redaktionelle Qualitätsgates innerhalb dieser konkreten Buchserie. Nicht als Ersatz für externe Recherche oder den separaten abschließenden Faktencheck verwenden.",
       "tokens": 581,
       "discovery_tokens": 131
+    },
+    {
+      "name": "library-skill-authoring",
+      "folder": "library-skill-authoring",
+      "category": "Orchestrierung & Control Plane",
+      "description": "Create or update a maintainable skill in this library with valid frontmatter, progressive disclosure, safe links, provenance, and deterministic validation.",
+      "tokens": 303,
+      "discovery_tokens": 23
     },
     {
       "name": "migrate-to-codex",

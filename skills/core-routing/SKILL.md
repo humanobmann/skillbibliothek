@@ -1,6 +1,10 @@
 ---
 name: core-routing
 description: Central intent router for identifying user goals and delegating execution to specialized skills with zero unnecessary context consumption.
+metadata:
+  canonical: true
+  profile: control-plane
+  provenance: target-rewrite
 allowed-tools:
   - Read
   - Glob
@@ -33,7 +37,7 @@ Der zentrale Router verarbeitet Anfragen nach folgender Prioritätskaskade:
 
 1. **Sicherheit & Audit**: Handelt es sich um ein Security Audit, Prüfung fremder Skills oder verdächtigen Input?
    -> Delegiere an `skills/skill-security-auditor`.
-2. **Recherche & Analyse**: Handelt es sich um eine mehrstufige Webrecherche oder Marktstudie?
+2. **Recherche & Analyse**: Handelt es sich um eine explizite, aktuelle oder mehrstufige Webrecherche oder Marktstudie?
    -> Delegiere an `skills/deep-research`.
 3. **Frontend & Design**: Geht es um Web Interface Guidelines, A11y oder Performance-Audits?
    -> Delegiere an `skills/web-design-guidelines`.
@@ -48,6 +52,7 @@ Der zentrale Router verarbeitet Anfragen nach folgender Prioritätskaskade:
 ## Workflow (Progressive Disclosure)
 
 1. **Intent-Extraktion**: Extrahiere das primäre Ziel des Benutzers und etwaige Randbedingungen.
-2. **Trigger-Abgleich**: Gleiche die Schlüsselbegriffe gegen die Matrix in [references/intent-map.md](references/intent-map.md) ab.
+2. **Trigger-Abgleich**: Gleiche die Schlüsselbegriffe gegen die kanonische Matrix in [../../references/intent-map.md](../../references/intent-map.md) ab.
 3. **Discovery-Laden**: Lade ausschließlich die minimale Beschreibung des identifizierten Ziel-Skills.
-4. **Aktivierung**: Übergib die Kontrolle an den Ziel-Skill (`skills/<ziel-skill>/SKILL.md`) und beende das Routing.
+4. **Alias-/Transitivitätsprüfung**: Löse Aliase (z. B. `grill-me`) genau einmal auf und lehne Zyklen oder unbekannte Ziele ab.
+5. **Aktivierung**: Übergib die Kontrolle an den Ziel-Skill (`skills/<ziel-skill>/SKILL.md`) und beende das Routing.
