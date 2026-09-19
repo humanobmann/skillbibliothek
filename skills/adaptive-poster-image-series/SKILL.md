@@ -245,11 +245,14 @@ Fuer jede Publikationsdatei:
 1. genau einen ausgewaehlten Master-Slot verwenden
 2. Zielverhaeltnis im Bildtool neu komponieren
 3. bei 1:1 den Text und die Bildhierarchie fuer Quadrat neu anordnen
-4. Crop-Resilienz beruecksichtigen
-5. das aktive Designprofil und die Stilanker sichtbar beibehalten
-6. nur das Bilderstellungstool verwenden
-7. wieder `n=1`
-8. jede Datei separat visuell pruefen
+4. bei 9:16 die obere, untere und rechte UI-Reserve aus dem Safe-Zone-Profil freihalten
+5. bei 4:5, 1:1 und 9:16 Headline, Hero-Zahl, Quelle und Motivkern innerhalb der definierten Sicherheitsbereiche halten
+6. Hero-Elementen mindestens 8 % optische Reserve und zentralen Motiven mindestens 12 % Crop-Reserve geben
+7. Crop-Resilienz beruecksichtigen
+8. das aktive Designprofil und die Stilanker sichtbar beibehalten
+9. nur das Bilderstellungstool verwenden
+10. wieder `n=1`
+11. jede Datei separat visuell pruefen
 
 Mehrbildmodus bedeutet mehrere getrennte Dateien, niemals ein Rasterbild.
 
@@ -290,8 +293,10 @@ Nur freigeben, wenn:
 5. keine Fake-Evidence oder ungefragtes Branding vorliegt
 6. Serienvariation und Stilzusammenhalt PASS sind
 7. die Designbindung an das aktive Referenzprofil sichtbar ist
-8. optionale Facebook-Dateien einzeln neu komponiert und separat PASS sind
-9. keine alternative Bildproduktionsmethode verwendet wurde
+8. alle angeforderten Plattformdateien einzeln neu komponiert und separat PASS sind
+9. jede Plattformdatei ihr Safe-Zone-Profil erfuellt
+10. bei `full_social_30` exakt 30 getrennte Enddateien vorhanden sind
+11. keine alternative Bildproduktionsmethode verwendet wurde
 
 ## Regressionstest
 
