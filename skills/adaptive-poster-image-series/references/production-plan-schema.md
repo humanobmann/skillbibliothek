@@ -16,7 +16,10 @@
     "design_system": "civic_editorial_red_ivory",
     "design_lock": true,
     "design_required": true,
-    "raw_photo_forbidden": true,\n    "safe_zone_profile": "feed_4x5",\n    "safe_zone_contract": "internal_conservative_v1",\n    "official_platform_safe_zone": false
+    "raw_photo_forbidden": true,
+    "safe_zone_profile": "feed_4x5",
+    "safe_zone_contract": "internal_conservative_v1",
+    "official_platform_safe_zone": false
   },
   "creative_direction": {
     "design_intent": "Eine fertig gestaltete Editorialserie mit grosser Typografie, warmer Ivory-Grundflaeche, Signalrot und integriertem thematischem Bildraum.",
@@ -97,7 +100,10 @@
 - `design_system`: exakt `civic_editorial_red_ivory`
 - `design_lock`: exakt `true`, ausser der Nutzer verlangt ausdruecklich einen anderen Stil
 - `design_required`: exakt `true`
-- `raw_photo_forbidden`: exakt `true`\n- `safe_zone_profile`: exakt `feed_4x5` fuer die Masterserie\n- `safe_zone_contract`: exakt `internal_conservative_v1`\n- `official_platform_safe_zone`: exakt `false`; die Werte sind interne konservative Produktionsreserven
+- `raw_photo_forbidden`: exakt `true`
+- `safe_zone_profile`: exakt `feed_4x5` fuer die Masterserie
+- `safe_zone_contract`: exakt `internal_conservative_v1`
+- `official_platform_safe_zone`: exakt `false`; die Werte sind interne konservative Produktionsreserven
 - `creative_direction.design_reference_mode`: exakt `anchored`
 - `creative_direction.design_reference_profile`: exakt `austria-editorial-civic-v1`
 - `creative_direction.style_anchor_assets`: exakt die drei gebuendelten Stilanker
