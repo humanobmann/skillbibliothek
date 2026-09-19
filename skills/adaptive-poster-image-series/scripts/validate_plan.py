@@ -70,6 +70,12 @@ def validate(data: dict[str, Any], claims: dict[str, dict[str, Any]] | None = No
         fail("job.design_required must be true")
     if strict_bool(job.get("raw_photo_forbidden"), "job.raw_photo_forbidden") is not True:
         fail("job.raw_photo_forbidden must be true")
+    if norm_lower(job.get("safe_zone_profile")) != "feed_4x5":
+        fail("job.safe_zone_profile must be feed_4x5")
+    if norm_lower(job.get("safe_zone_contract")) != "internal_conservative_v1":
+        fail("job.safe_zone_contract must be internal_conservative_v1")
+    if strict_bool(job.get("official_platform_safe_zone"), "job.official_platform_safe_zone") is not False:
+        fail("internal safe-zone contract must not be labelled official")
 
     if len(norm(cd.get("design_intent"))) < 20:
         fail("creative_direction.design_intent is too short")
@@ -181,6 +187,12 @@ def validate(data: dict[str, Any], claims: dict[str, dict[str, Any]] | None = No
             fail(f"slot {expected}: full_design_required must be true")
         if strict_bool(slot.get("raw_photo_forbidden"), f"slot {expected}.raw_photo_forbidden") is not True:
             fail(f"slot {expected}: raw_photo_forbidden must be true")
+        if finite_float(slot.get("hero_clearance_percent"), f"slot {expected}.hero_clearance_percent", 0) < 8:
+            fail(f"slot {expected}: hero_clearance_percent must be >= 8")
+        if finite_float(slot.get("motif_crop_reserve_percent"), f"slot {expected}.motif_crop_reserve_percent", 0) < 12:
+            fail(f"slot {expected}: motif_crop_reserve_percent must be >= 12")
+        if strict_bool(slot.get("source_inside_safe_area"), f"slot {expected}.source_inside_safe_area") is not True:
+            fail(f"slot {expected}: source_inside_safe_area must be true")
         if len(norm(slot.get("design_brief"))) < 120:
             fail(f"slot {expected}: design_brief too short")
         if len(norm(slot.get("image_brief"))) < 50:
