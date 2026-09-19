@@ -12,3 +12,8 @@ Bei Audit, Vergleich oder maximaler Optimierung auf 100 Punkte bewerten:
 8. Hashtag-Recherche und Passung: 10
 
 Ein Score ersetzt keine harten Stopps: unbelegte Kernbehauptung, irreführende Verkürzung, erfundene Trenddaten, Hashtag-Spam, Clickbait oder ein Widerspruch zwischen Caption und Medium verhindern eine Freigabe.
+
+
+## Algorithmus-Fit Zusatzgate
+
+Bei Algorithmus- oder Maximaloptimierung innerhalb der bestehenden Kategorien zusaetzlich bewerten: Hook in den ersten Sekunden beziehungsweise Zeilen, Retention-Potenzial, Save-/Share-Wert, Originalitaet, Empfehlungseignung und semantische Themenpassung. Keine erfundenen Gewichte vergeben.
