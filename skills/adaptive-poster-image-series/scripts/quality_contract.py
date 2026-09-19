@@ -49,7 +49,9 @@ DENSITIES = {"low", "medium", "high"}
 END_GATES = {
     "single_image", "text_exact", "facts_exact", "headline_breaks_controlled",
     "no_text_clipping", "no_extra_text", "mobile_readable", "contrast_safe",
-    "safe_margins", "hierarchy_clear", "typography_professional",
+    "safe_margins", "safe_zone_profile_passed", "hero_clearance_passed",
+    "motif_crop_reserve_passed", "source_inside_safe_area", "recompose_not_crop_confirmed",
+    "hierarchy_clear", "typography_professional",
     "composition_balanced", "image_integrity_credible", "fake_evidence_free",
     "visual_claim_safe", "generic_ai_look_absent", "symbolism_restrained",
     "no_unrequested_branding", "standalone_effective", "series_role_clear",

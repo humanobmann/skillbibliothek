@@ -3,7 +3,7 @@ name: adaptive-poster-image-series
 description: >-
   Erzeuge genau zehn getrennte, hochwertige Editorial-, Fakten-, NGO-, politische
   oder gesellschaftliche Social-Media-Bilder aus einem Thema, zehn Texten oder zehn
-  Vorlagen. Verwende den Skill auch fuer Facebook-optimierte Einzel- und Mehrbildsets.
+  Vorlagen. Verwende den Skill auch fuer Facebook-, Instagram-, Story-, Reel- und TikTok-Adaptionen mit verbindlichen internen Sicherheitsbereichen.
   Fuer jede finale Bilddatei ausschliesslich das normale ChatGPT-Bilderstellungstool
   verwenden: ein Slot, ein Aufruf, ein Bild, n=1; keine SVG-, Canvas-, Adobe-, Firefly-,
   Python- oder sonstige externe Bildproduktion. Arbeite standardmaessig mit einem
@@ -47,6 +47,9 @@ Fuer die eigentliche Bildproduktion gilt ein exklusiver Werkzeugvertrag:
 16. Fehlende Schrift oder fehlendes Grafikdesign ist ein Hard Fail. Ein blosses Hintergrundbild oder Rohfoto ist nie freigabefaehig.
 17. Jede Grafik muss sichtbar als vollstaendig gestaltetes Editorialposter erscheinen: warme helle Grundflaeche, Signalrot, Graphit, grosse Grotesk-Typografie, klare Hierarchie und mindestens ein grafisches Signal- oder Bewegungselement.
 18. Referenzinhalt niemals automatisch kopieren. Flagge, Menschen, Landschaft, Parlament oder Referenztext nur verwenden, wenn der aktuelle Inhalt dies verlangt.
+19. Sicherheitsbereiche sind Release-Gates. Fuer 4:5, 1:1 und 9:16 gelten die konservativen internen Profile aus [references/platform-safe-zones.md](references/platform-safe-zones.md); sie duerfen nie als offizielle Plattform-Safe-Zones bezeichnet werden.
+20. Plattformvarianten werden immer neu komponiert. Automatisches Cropping, blosses Resizing oder das Verschieben bereits zu randnaher Typografie ist unzulaessig.
+21. Wenn der Nutzer Facebook und Instagram plus Story/Reel/TikTok oder sinngemaess alle Social-Formate verlangt, ist `delivery_mode=full_social_30`: zehn 4:5, zehn 1:1 und zehn 9:16 Enddateien.
 
 ## Workflow
 
@@ -206,11 +209,17 @@ python scripts/inspect_outputs.py release/masters --count 10 --aspect-ratio 4:5
 
 Die technische Pruefung darf keine Bilddatei veraendern.
 
-### 8. Facebook-Veröffentlichung planen
+### 8. Plattform-Ausgabe und Sicherheitsbereiche planen
 
-Wenn Facebook Zielplattform ist oder der Nutzer nach optimaler Mehrbilddarstellung fragt, [references/facebook-publication-strategy.md](references/facebook-publication-strategy.md) und [references/publication-plan-schema.md](references/publication-plan-schema.md) lesen.
+Immer [references/platform-safe-zones.md](references/platform-safe-zones.md) lesen. Wenn der Nutzer mehrere Plattformformate oder alle Social-Formate verlangt, zusaetzlich [references/platform-delivery-schema.md](references/platform-delivery-schema.md) verwenden. Fuer Facebook-Mehrbildsets weiterhin [references/facebook-publication-strategy.md](references/facebook-publication-strategy.md) und [references/publication-plan-schema.md](references/publication-plan-schema.md) verwenden.
 
-`publication-plan.json` separat vom Masterplan anlegen und validieren:
+Bei plattformuebergreifender Ausgabe `platform-delivery.json` separat vom Masterplan anlegen und validieren:
+
+```bash
+python scripts/validate_platform_delivery.py platform-delivery.json production-plan.json
+```
+
+Bei Facebook-Mehrbildsets zusaetzlich `publication-plan.json` anlegen und validieren:
 
 ```bash
 python scripts/validate_publication_plan.py publication-plan.json production-plan.json
@@ -227,20 +236,23 @@ Unterstuetzte Modi:
 
 Weniger Bilder bevorzugen, wenn sie die Aussage vollstaendig tragen.
 
-### 9. Facebook-Varianten ebenfalls nur mit dem Bilderstellungstool erzeugen
+### 9. Plattformvarianten ebenfalls nur mit dem Bilderstellungstool erzeugen
 
-Facebook-Adaptionen niemals programmatisch croppen oder umformatieren.
+Adaptionen fuer Facebook, Instagram, Stories, Reels oder TikTok niemals programmatisch croppen oder umformatieren. Jede Variante ist eine eigenstaendige Neu-Komposition innerhalb ihres Safe-Zone-Profils.
 
 Fuer jede Publikationsdatei:
 
 1. genau einen ausgewaehlten Master-Slot verwenden
 2. Zielverhaeltnis im Bildtool neu komponieren
 3. bei 1:1 den Text und die Bildhierarchie fuer Quadrat neu anordnen
-4. Crop-Resilienz beruecksichtigen
-5. das aktive Designprofil und die Stilanker sichtbar beibehalten
-6. nur das Bilderstellungstool verwenden
-7. wieder `n=1`
-8. jede Datei separat visuell pruefen
+4. bei 9:16 die obere, untere und rechte UI-Reserve aus dem Safe-Zone-Profil freihalten
+5. bei 4:5, 1:1 und 9:16 Headline, Hero-Zahl, Quelle und Motivkern innerhalb der definierten Sicherheitsbereiche halten
+6. Hero-Elementen mindestens 8 % optische Reserve und zentralen Motiven mindestens 12 % Crop-Reserve geben
+7. Crop-Resilienz beruecksichtigen
+8. das aktive Designprofil und die Stilanker sichtbar beibehalten
+9. nur das Bilderstellungstool verwenden
+10. wieder `n=1`
+11. jede Datei separat visuell pruefen
 
 Mehrbildmodus bedeutet mehrere getrennte Dateien, niemals ein Rasterbild.
 
@@ -281,8 +293,10 @@ Nur freigeben, wenn:
 5. keine Fake-Evidence oder ungefragtes Branding vorliegt
 6. Serienvariation und Stilzusammenhalt PASS sind
 7. die Designbindung an das aktive Referenzprofil sichtbar ist
-8. optionale Facebook-Dateien einzeln neu komponiert und separat PASS sind
-9. keine alternative Bildproduktionsmethode verwendet wurde
+8. alle angeforderten Plattformdateien einzeln neu komponiert und separat PASS sind
+9. jede Plattformdatei ihr Safe-Zone-Profil erfuellt
+10. bei `full_social_30` exakt 30 getrennte Enddateien vorhanden sind
+11. keine alternative Bildproduktionsmethode verwendet wurde
 
 ## Regressionstest
 
@@ -292,4 +306,4 @@ Nach jeder Skill-Aenderung ausfuehren:
 python scripts/self_test.py
 ```
 
-Der Test prueft Claims, Zehn-Slot-Plan, Facebook-Publication-Plan und QA-Vertraege. Er erzeugt bewusst keine Bilder; Bildproduktion bleibt exklusiv dem Bilderstellungstool vorbehalten.
+Der Test prueft Claims, Zehn-Slot-Plan, Safe-Zone- und Plattform-Delivery-Vertrag, Facebook-Publication-Plan und QA-Vertraege. Er erzeugt bewusst keine Bilder; Bildproduktion bleibt exklusiv dem Bilderstellungstool vorbehalten.

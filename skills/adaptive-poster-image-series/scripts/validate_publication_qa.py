@@ -11,6 +11,7 @@ from quality_contract import norm, norm_lower, strict_bool, strict_int
 
 ITEM_BOOL_FIELDS = {
     "visual_reviewed", "text_exact", "mobile_readable", "crop_resilient",
+    "safe_zone_profile_passed", "source_inside_safe_area", "recompose_not_crop_confirmed",
     "standalone_effective", "facts_exact", "no_collage", "no_unrequested_branding",
     "full_graphic_design_present", "reference_design_dna_present", "raw_photo_absent",
 }

@@ -15,9 +15,9 @@ Ziel:
 - 4:5
 - bevorzugt 1080 x 1350
 - maximale mobile Feedflaeche
-- interne Editorial Design Margin ungefaehr 80 bis 100 px bei 1080 Breite
+- verbindliches internes Profil `feed_4x5`: 72 px links/rechts, 90 px oben, 110 px unten fuer kritischen Text bei 1080 x 1350
 
-Die Margin ist keine behauptete offizielle Meta Safe Zone.
+Diese Werte sind interne konservative Produktionsreserven und keine behauptete offizielle Meta Safe Zone.
 
 ## Pair
 
@@ -64,9 +64,9 @@ Regeln:
 
 ## 1:1 Crop Resilience
 
-Bei 1080 x 1080 zentrale Inhalte nach Moeglichkeit innerhalb ungefaehr 108 px Randabstand halten.
+Bei 1080 x 1080 kritische Inhalte innerhalb des zentrierten 900 x 900 px Bereichs halten. Das entspricht 90 px Innenrand auf allen Seiten. Fuer Hero-Elemente zusaetzlich mindestens 8 % optische Reserve und fuer zentrale Motive mindestens 12 % Crop-Reserve vorsehen.
 
-Diese zehnprozentige Zone ist eine interne robuste Designregel, keine offizielle Meta Safe Zone.
+Diese Zone ist eine interne robuste Designregel, keine offizielle Meta Safe Zone.
 
 ## Tool Only
 

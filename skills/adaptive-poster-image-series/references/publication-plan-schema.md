@@ -1,4 +1,4 @@
-# Publication Plan Schema v2
+# Publication Plan Schema v3
 
 ## Struktur
 
@@ -16,11 +16,10 @@
   "design_system": "civic_editorial_red_ivory",
   "design_reference_profile": "austria-editorial-civic-v1",
   "design_lock": true,
-  "design_margin": {
-    "type": "crop_resilience",
-    "value_percent": 10,
-    "official_platform_safe_zone": false
-  },
+  "safe_zone_profile": "square_1x1",
+  "safe_area_px": {"left": 90, "right": 90, "top": 90, "bottom": 90},
+  "recompose_not_crop": true,
+  "official_platform_safe_zone": false,
   "sequence": [
     {"slot": 1, "function": "hook"},
     {"slot": 4, "function": "evidence"},
@@ -65,4 +64,4 @@ Jede Facebook-Adaption bleibt an dasselbe Designprofil wie die Masterserie gebun
 - Single standardmaessig 4:5.
 - Gallery braucht `gallery_reason` mit konkreter Begruendung.
 - Bei Gallery duerfen zentrale unverzichtbare Aussagen nicht nur in spaeten Slots liegen.
-- `official_platform_safe_zone` darf fuer die interne 10-Prozent-Zone nicht `true` sein.
+- `safe_zone_profile` muss zum Seitenverhaeltnis passen: `feed_4x5` fuer 4:5, `square_1x1` fuer 1:1.\n- `safe_area_px` muss mindestens die Werte aus `platform-safe-zones.md` einhalten.\n- `recompose_not_crop` muss `true` sein.\n- `official_platform_safe_zone` muss `false` sein.
