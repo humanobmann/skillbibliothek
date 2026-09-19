@@ -37,4 +37,4 @@
 
 `items` muss exakt die im `publication-plan.json` ausgewaehlten Slots enthalten.
 
-Jede Publikationsdatei muss ein vollstaendig gestaltetes Poster sein. Das aktive Safe-Zone-Profil muss visuell bestanden sein, Quellen muessen innerhalb des sicheren Bereichs liegen und die Datei muss als Neu-Komposition statt als automatischer Crop entstanden sein. Rohfoto, fehlende sichtbare Typografie oder sichtbarer Stilbruch zum Referenzprofil sind Hard Fail.
+Jede Publikationsdatei muss ein vollstaendig gestaltetes Poster sein. Das aktive Safe-Zone-Profil muss visuell bestanden sein, Quellen muessen innerhalb des sicheren Bereichs liegen und die Datei muss als Neu-Komposition statt als automatischer Crop entstanden sein. Das aktive Safe-Zone-Profil muss visuell bestanden sein, Quellen muessen innerhalb des sicheren Bereichs liegen und die Datei muss als Neu-Komposition statt als automatischer Crop entstanden sein. Rohfoto, fehlende sichtbare Typografie oder sichtbarer Stilbruch zum Referenzprofil sind Hard Fail.
