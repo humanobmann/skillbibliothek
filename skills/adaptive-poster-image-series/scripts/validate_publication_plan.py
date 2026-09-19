@@ -10,6 +10,10 @@ from typing import Any
 from quality_contract import norm, norm_lower, strict_bool, strict_int
 
 MODE_COUNTS = {"single": 1, "pair": 2, "trio": 3, "quad": 4}
+SAFE_PROFILES = {
+    "feed_4x5": {"left": 72, "right": 72, "top": 90, "bottom": 110},
+    "square_1x1": {"left": 90, "right": 90, "top": 90, "bottom": 90},
+}
 
 
 def fail(message: str) -> None:
@@ -70,16 +74,21 @@ def validate(plan: dict[str, Any], production: dict[str, Any]) -> None:
     if aspect == "4:5" and width * 5 != height * 4:
         fail("4:5 target dimensions must match 4:5")
 
-    margin = plan.get("design_margin")
-    if not isinstance(margin, dict):
-        fail("design_margin object required")
-    if norm_lower(margin.get("type")) not in {"editorial", "crop_resilience"}:
-        fail("invalid design_margin.type")
-    value = margin.get("value_percent")
-    if not isinstance(value, (int, float)) or not 0 <= float(value) <= 20:
-        fail("design_margin.value_percent must be 0..20")
-    if strict_bool(margin.get("official_platform_safe_zone"), "official_platform_safe_zone") is not False:
-        fail("internal design margin must not be labelled an official platform safe zone")
+    expected_profile = "feed_4x5" if aspect == "4:5" else "square_1x1"
+    profile = norm_lower(plan.get("safe_zone_profile"))
+    if profile != expected_profile:
+        fail(f"safe_zone_profile must be {expected_profile} for aspect ratio {aspect}")
+    safe = plan.get("safe_area_px")
+    if not isinstance(safe, dict) or set(safe) != {"left", "right", "top", "bottom"}:
+        fail("safe_area_px must contain left/right/top/bottom")
+    for edge, minimum in SAFE_PROFILES[profile].items():
+        actual = strict_int(safe.get(edge), f"safe_area_px.{edge}", 0)
+        if actual < minimum:
+            fail(f"safe_area_px.{edge} must be >= {minimum}")
+    if strict_bool(plan.get("recompose_not_crop"), "recompose_not_crop") is not True:
+        fail("recompose_not_crop must be true")
+    if strict_bool(plan.get("official_platform_safe_zone"), "official_platform_safe_zone") is not False:
+        fail("internal safe zone must not be labelled an official platform safe zone")
 
     sequence = plan.get("sequence")
     if not isinstance(sequence, list) or len(sequence) != len(selected):
