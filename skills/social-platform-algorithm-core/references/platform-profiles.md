@@ -2,7 +2,7 @@
 
 Pruefstand: 2026-09-19. Volatile Regeln bei spaeteren zeitkritischen Aufgaben erneut gegen die verlinkten Primaerquellen pruefen.
 
-Die kanonischen Source Records stehen in [evidence-records.json](evidence-records.json). Jeder Record verwendet genau einen Mechanismustyp aus `RANKING`, `SEARCH`, `RECOMMENDATION_ELIGIBILITY`, `POLICY` oder `MONETIZATION`. Kombinierte Typen wie `RANKING/SEARCH` sind unzulaessig.
+Die kanonischen Source Records stehen in [evidence-records.json](evidence-records.json). Jeder Record verwendet genau einen Mechanismustyp aus `RANKING`, `SEARCH`, `RECOMMENDATION_ELIGIBILITY`, `POLICY` oder `MONETIZATION`. Kombinierte Mechanismustypen sind unzulaessig.
 
 ## Facebook
 
