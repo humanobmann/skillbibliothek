@@ -149,11 +149,10 @@ def publication_plan():
         "design_system": "civic_editorial_red_ivory",
         "design_reference_profile": "austria-editorial-civic-v1",
         "design_lock": True,
-        "design_margin": {
-            "type": "crop_resilience",
-            "value_percent": 10,
-            "official_platform_safe_zone": False,
-        },
+        "safe_zone_profile": "square_1x1",
+        "safe_area_px": {"left": 90, "right": 90, "top": 90, "bottom": 90},
+        "recompose_not_crop": True,
+        "official_platform_safe_zone": False,
         "sequence": [
             {"slot": 1, "function": "hook"},
             {"slot": 4, "function": "explanation"},
@@ -179,6 +178,9 @@ def publication_qa():
             "text_exact": True,
             "mobile_readable": True,
             "crop_resilient": True,
+            "safe_zone_profile_passed": True,
+            "source_inside_safe_area": True,
+            "recompose_not_crop_confirmed": True,
             "standalone_effective": True,
             "facts_exact": True,
             "no_collage": True,
@@ -283,6 +285,15 @@ def main():
     bad_pub = copy.deepcopy(pub)
     bad_pub["image_tool_only"] = False
     expect_fail("publication uses other image tooling", lambda: validate_publication_plan(bad_pub, prod))
+
+
+    bad_pub = copy.deepcopy(pub)
+    bad_pub["safe_area_px"]["left"] = 20
+    expect_fail("publication safe area too small", lambda: validate_publication_plan(bad_pub, prod))
+
+    bad_pub = copy.deepcopy(pub)
+    bad_pub["recompose_not_crop"] = False
+    expect_fail("publication automatic crop", lambda: validate_publication_plan(bad_pub, prod))
 
     bad_pub = copy.deepcopy(pub)
     bad_pub["design_lock"] = False
