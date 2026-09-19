@@ -14,7 +14,8 @@ Optimiere zuerst Nutzen, Klarheit, Belege und Stimme; Plattformwirkung folgt dar
 1. Bei aktuellen, politischen, rechtlichen, wirtschaftlichen oder strittigen Aussagen zuerst belastbare Fakten klären; bei einem fertigen Text mit relevanten Claims `fact-check` als letzten Sachpass nutzen.
 2. Für Peter Schullers politische oder Vereinsrolle zuerst den passenden Rollenskill verwenden.
 3. `humanizer-de` nur einsetzen, wenn eine zusätzliche Natürlichkeitsredaktion verlangt wird; danach Claims erneut nicht stärken.
-4. Nur diesen Plattform-Optimierer laden, niemals parallel `instagram-text-optimizer`.\n5. Bei Algorithmus-, Reichweiten-, Format- oder maximaler Optimierungsfrage zusaetzlich `social-platform-algorithm-core` als gemeinsame Evidenzschicht verwenden.
+4. Nur diesen Plattform-Optimierer laden, niemals parallel `instagram-text-optimizer`.
+5. Bei Algorithmus-, Reichweiten-, Format- oder maximaler Optimierungsfrage zusaetzlich `social-platform-algorithm-core` als gemeinsame Evidenzschicht verwenden.
 
 ## Arbeitsweise
 
