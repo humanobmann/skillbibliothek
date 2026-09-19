@@ -21,7 +21,9 @@ Eine Regel darf nur dann von einer Surface auf eine andere uebertragen werden, w
 
 ## 2. Evidence Records
 
-Jede volatile Plattformquelle soll enthalten:
+Die kanonischen Records stehen in [evidence-records.json](evidence-records.json) und werden deterministisch mit `python scripts/validate_social_evidence.py` geprueft.
+
+Jede volatile Plattformquelle muss enthalten:
 
     source_id
     platform
@@ -43,6 +45,8 @@ Jeder Algorithmusclaim soll enthalten:
     surface
     observed_at
     limitation
+
+Ein Record darf genau einen Mechanismustyp enthalten. Kombinierte Werte wie `RANKING/SEARCH` sind unzulaessig; dieselbe Quelle wird bei Bedarf in getrennte Records fuer getrennte Mechanismen aufgeteilt.
 
 Freshness Gate: bei zeitkritischen Aufgaben offizielle Quelle erneut pruefen. Aktuelle Surface-Dokumentation hat Vorrang vor aelteren allgemeinen oder Engineering-Quellen.
 
