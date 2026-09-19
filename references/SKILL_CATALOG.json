@@ -364,8 +364,8 @@
     {
       "name": "linkedin-content-optimizer",
       "folder": "linkedin-content-optimizer",
-      "category": "Spezial- & Hilfsskills",
-      "description": "Optimiert LinkedIn-Beitraege fuer professionelle Relevanz, Expertise, Dwell Time, konstruktive Konversation, Originalitaet und Feed-Qualitaet anhand dokumentierter LinkedIn-Signale.",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Optimiert LinkedIn-Beitraege surface-spezifisch fuer Feed und Suggested Posts anhand dokumentierter professioneller Relevanz, Qualitaet, Dwell-/Skip-Signale und Recommendation Eligibility.",
       "tokens": 0,
       "discovery_tokens": 0
     },
@@ -620,8 +620,8 @@
     {
       "name": "social-platform-algorithm-core",
       "folder": "social-platform-algorithm-core",
-      "category": "Spezial- & Hilfsskills",
-      "description": "Analysiert und optimiert Social-Media-Inhalte plattformuebergreifend anhand aktueller dokumentierter Ranking-, Empfehlungs-, Originalitaets-, Qualitaets- und Anti-Spam-Signale fuer Facebook, Instagram, TikTok, YouTube und LinkedIn.",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Analysiert und optimiert Social-Media-Inhalte plattformuebergreifend anhand aktueller belegter Ranking-, Search-, Recommendation-Eligibility-, Originalitaets-, Qualitaets- und Anti-Spam-Signale fuer Facebook, Instagram, TikTok, YouTube und LinkedIn.",
       "tokens": 0,
       "discovery_tokens": 0
     },
@@ -660,8 +660,8 @@
     {
       "name": "tiktok-content-optimizer",
       "folder": "tiktok-content-optimizer",
-      "category": "Spezial- & Hilfsskills",
-      "description": "Optimiert TikTok-Videoideen, Hooks, Skripte, Captions und Discovery fuer Themenrelevanz, Watch Time, Completion, Search Value, Originalitaet und sinnvolle Interaktion.",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Optimiert TikTok-Videoideen, Hooks, Skripte, Captions und Search fuer For You und TikTok Search anhand dokumentierter Surface-Signale und trennt Creator-Rewards-Monetarisierung strikt von Ranking.",
       "tokens": 0,
       "discovery_tokens": 0
     },
@@ -788,8 +788,8 @@
     {
       "name": "youtube-content-optimizer",
       "folder": "youtube-content-optimizer",
-      "category": "Spezial- & Hilfsskills",
-      "description": "Optimiert YouTube-Videos und Shorts fuer Appeal, Engagement, Satisfaction, Retention, Suchrelevanz, Titel, Thumbnail-Promise und Intro.",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Optimiert YouTube-Videos und Shorts surface-spezifisch fuer Home, Suggested, Search und Shorts anhand dokumentierter Appeal-, Engagement-, Satisfaction-, AVD-, APV- und Retention-Signale.",
       "tokens": 0,
       "discovery_tokens": 0
     }
