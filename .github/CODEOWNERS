@@ -1,0 +1,7 @@
+# Default ownership for the canonical skill library.
+* @humanobmann
+
+# Security-sensitive control plane and CI.
+/.github/ @humanobmann
+/skills/skill-security-auditor/ @humanobmann
+/references/SECURITY_POLICY.md @humanobmann
