@@ -1,0 +1,7 @@
+interface:
+  display_name: Low-Code / No-Code Engineering
+  short_description: Govern low-code solutions with software-grade ALM
+  default_prompt: Use $low-code-no-code-engineering to turn this automation into a governed, testable and supportable solution.
+policy:
+  allow_implicit_invocation: true
+  products: [CHAT, CODEX]
