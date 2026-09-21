@@ -1,5 +1,5 @@
 {
-  "total_skills": 103,
+  "total_skills": 106,
   "skills": [
     {
       "name": "adaptive-poster-image-series",
@@ -18,6 +18,14 @@
       "discovery_tokens": 88
     },
     {
+      "name": "agentic-ai-orchestration-governance",
+      "folder": "agentic-ai-orchestration-governance",
+      "category": "Agentic AI Orchestration Governance",
+      "description": "Design and govern multi-agent and autonomous agent orchestration, including least-privilege tool-permission scoping, iteration and context-window budgets, loop and runaway-cost prevention, human-escalation triggers, and kill switches. Use for multi-agent systems, autonomous CLI/agent loops, tool-use governance, agent-to-agent delegation, guardrails against infinite loops or context-window overflow, agent cost caps, or agent incident response. Prefer hard iteration/token/cost ceilings, explicit least-privilege tool scopes, and mandatory human-escalation triggers over unbounded autonomous execution.",
+      "tokens": 957,
+      "discovery_tokens": 159
+    },
+    {
       "name": "agents-md",
       "folder": "agents-md",
       "category": "Spezial- & Hilfsskills",
@@ -32,6 +40,14 @@
       "description": "Recherchiere, inventarisiere, extrahiere und normalisiere maschinenlesbare öffentliche Daten aus Österreich mit reproduzierbarer Provenienz. Verwenden bei Anfragen zu data.gv.at, Piveau, DCAT-AP, Statistik Austria, RIS, Parlament, Länder- oder Gemeindedaten, Open-Data-APIs, JSON/CSV/GeoJSON/WFS, Vollerhebungen, Delta-Abfragen, Gemeinde- und Regionalprofilen, Datenkatalogen oder belastbaren Datenquellen für nachgelagerte Analysen. Nicht für reine Textrecherche verwenden, wenn keine strukturierte Datenquelle oder reproduzierbare Datenerhebung erforderlich ist.",
       "tokens": 1924,
       "discovery_tokens": 147
+    },
+    {
+      "name": "automated-sre-observability",
+      "folder": "automated-sre-observability",
+      "category": "SRE & Observability",
+      "description": "Design and operate automated Site Reliability Engineering workflows across SLIs/SLOs, error budgets, symptom-based alerting, on-call escalation, incident response, and observability-as-code (metrics, logs, traces). Use for SRE, observability, incident management, alert-fatigue reduction, error-budget policy, paging, escalation runbooks, blameless postmortems, or reliability reviews. Prefer symptom-based alerts, actionable pages, explicit escalation paths, and measurable error-budget policies over ad hoc dashboards.",
+      "tokens": 880,
+      "discovery_tokens": 136
     },
     {
       "name": "automator",
@@ -208,6 +224,14 @@
       "description": "Reverse image search across Yandex, Google Lens, Bing Visual Search, TinEye and Baidu to\nfind where a picture came from and who published it first. Use when reverse image searching,\nidentifying a photo, face, logo, product, uniform or building, tracing a profile picture or\navatar, finding the oldest copy of an image, checking whether a photo is stock or a repost,\nor reverse-searching a video by keyframes. Applies to romance and investment scam\ninvestigation, fake-profile and synthetic-identity detection, disinformation and media\nverification, counterfeit and brand-infringement work, and insurance claim review. Reference\nat useosint.com/skills/find-the-original-image.",
       "tokens": 3093,
       "discovery_tokens": 174
+    },
+    {
+      "name": "finops-cloud-governance",
+      "folder": "finops-cloud-governance",
+      "category": "FinOps & Cloud Cost Governance",
+      "description": "Design and operate FinOps cloud cost governance across budgets, cost-allocation tagging, anomaly alerting, unit economics, showback/chargeback, and commitment or reserved-capacity strategy. Use for cloud cost governance, budget guardrails, tagging policy, cost-anomaly detection, rightsizing, FinOps maturity, showback, chargeback, or reservation/savings-plan planning. Prefer mandatory cost-allocation tags, automated budget guardrails, and unit-economics metrics over static spend dashboards.",
+      "tokens": 820,
+      "discovery_tokens": 129
     },
     {
       "name": "follow-the-crypto",

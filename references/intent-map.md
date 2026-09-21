@@ -17,6 +17,9 @@ a gap, never guessed.
 | MLOps, LLMOps, model lifecycle, model release or AI operations | `mlops-ai-operations` | workload type, data/model provenance, release criteria |
 | Kubernetes, container, GitOps or cloud-native security review | `cloud-native-security` | workload/cluster scope, identities, manifests, trust boundaries |
 | low-code/no-code governance, ALM or enterprise automation engineering | `low-code-no-code-engineering` | platform, connectors, data classification, environment strategy |
+| SRE, SLO/error-budget design, alerting, on-call escalation or incident response | `automated-sre-observability` | service, SLI type, target, current alerting/runbook state |
+| FinOps, cloud budget guardrails, cost tagging, anomaly detection or commitment strategy | `finops-cloud-governance` | workload, cost center, current budget/tagging state |
+| multi-agent or autonomous agent orchestration, tool-scope governance, loop/context-overflow guardrails | `agentic-ai-orchestration-governance` | agent task, autonomy level, tool access needed |
 | political text in an abstracted Philip Kucher rhetoric profile | `philip-kucher-writing` | draft or topic, factual basis, output format |
 | Facebook post or caption optimization | `facebook-text-optimizer` | post, audience, communication goal |
 | Instagram caption, Feed, Carousel or Reel text optimization | `instagram-text-optimizer` | content, format, audience |

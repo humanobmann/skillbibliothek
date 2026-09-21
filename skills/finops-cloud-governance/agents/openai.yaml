@@ -1,0 +1,7 @@
+interface:
+  display_name: FinOps & Cloud Cost Governance
+  short_description: Cloud cost budgets, tagging and anomaly guardrails design
+  default_prompt: Use $finops-cloud-governance to define cost-allocation tags, budget guardrails, anomaly alerting and a commitment strategy.
+policy:
+  allow_implicit_invocation: true
+  products: [CHAT, CODEX]

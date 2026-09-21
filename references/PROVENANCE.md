@@ -65,3 +65,15 @@ Reference standards and first-party guidance used for architecture decisions:
 - Microsoft Power Platform ALM and governance documentation for low-code lifecycle controls.
 
 No external source code is copied into these skills. Examples are repository-authored and provider-neutral where practical.
+
+## 7. 2026 SRE, FinOps and agentic-governance expansion
+
+The `automated-sre-observability`, `finops-cloud-governance` and `agentic-ai-orchestration-governance` skills are target-authored repository material, added to extend the existing single-source `skills/<name>/SKILL.md` architecture (no structural fork or parallel tree was introduced).
+
+Reference standards and first-party guidance used for architecture decisions:
+
+- Google SRE workbook concepts (error budgets, symptom-based alerting, burn-rate alerting) as a publicly documented reliability-engineering baseline.
+- FinOps Foundation Framework (Inform/Optimize/Operate phases and shared-responsibility principle) for cloud cost governance.
+- NIST AI Risk Management Framework and OWASP guidance on LLM/agent risks (excessive agency, insecure tool use, resource exhaustion) for the agentic orchestration guardrails.
+
+No external source code is copied into these skills. Examples, manifest schemas and validator scripts are repository-authored and provider-neutral.

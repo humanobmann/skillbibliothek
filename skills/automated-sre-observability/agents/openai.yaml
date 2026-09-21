@@ -1,0 +1,7 @@
+interface:
+  display_name: Automated SRE & Observability
+  short_description: Design SLOs, error budgets and actionable on-call alerting
+  default_prompt: Use $automated-sre-observability to define SLIs/SLOs, an error-budget policy, and symptom-based alerting with escalation and runbooks.
+policy:
+  allow_implicit_invocation: true
+  products: [CHAT, CODEX]
