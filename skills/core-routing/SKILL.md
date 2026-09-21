@@ -36,9 +36,12 @@ Nicht aktivieren bei direktem Aufruf eines bekannten Skills oder einer eindeutig
    - LinkedIn -> `skills/linkedin-content-optimizer`
    - Social Poster-/Bildserie -> `skills/adaptive-poster-image-series`
    Bei plattformspezifischer Algorithmusoptimierung wird der Plattformskill ausgefuehrt und social-platform-algorithm-core als gemeinsame Evidenzschicht geladen.
-4. Frontend/Design -> `skills/web-design-guidelines`
-5. Skill-Suche -> `skills/find-skills`
-6. andere Fachaufgaben -> spezifischsten vorhandenen Skill aktivieren; bei echter Luecke nichts erfinden.
+4. AI/ML Operations, model lifecycle oder LLMOps -> `skills/mlops-ai-operations`
+5. Kubernetes, Container, GitOps oder Cloud-Native Security -> `skills/cloud-native-security`
+6. Low-Code/No-Code Governance und ALM -> `skills/low-code-no-code-engineering`
+7. Frontend/Design -> `skills/web-design-guidelines`
+8. Skill-Suche -> `skills/find-skills`
+9. andere Fachaufgaben -> spezifischsten vorhandenen Skill aktivieren; bei echter Luecke nichts erfinden.
 
 ## Workflow
 
