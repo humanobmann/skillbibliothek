@@ -17,7 +17,7 @@
       "file": "01-feed-4x5.png",
       "width": 1080,
       "height": 1350,
-      "safe_area_px": {"left": 72, "right": 72, "top": 90, "bottom": 110},
+      "safe_area_px": {"left": 100, "right": 100, "top": 100, "bottom": 120},
       "hero_clearance_percent": 8,
       "motif_crop_reserve_percent": 12,
       "source_inside_safe_area": true,
@@ -37,10 +37,11 @@
 ### `feed_4x5`
 
 - 1080 x 1350
-- links 72
-- rechts 72
-- oben 90
-- unten 110
+- aeusserster technischer Rand: keine kritische Information innerhalb der aeussersten 40 px
+- links 100
+- rechts 100
+- oben 100
+- unten 120
 
 ### `square_1x1`
 

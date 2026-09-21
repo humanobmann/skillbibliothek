@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "retrieved": "2026-09-19",
+  "retrieved": "2026-09-22",
   "allowed_mechanisms": [
     "RANKING",
     "SEARCH",
@@ -10,238 +10,72 @@
   ],
   "records": [
     {
-      "source_id": "META_FB_FEED_RECS_2026",
-      "platform": "facebook",
-      "surface": "feed_recommendations",
-      "mechanism": "RANKING",
-      "publisher": "Meta Transparency",
-      "title": "Facebook Feed Recommendations",
-      "url": "https://transparency.meta.com/features/explaining-ranking/fb-feed-recommendations/",
-      "retrieved": "2026-09-19",
-      "claim_scope": [
-        "personalized_predictions",
-        "viewing_duration",
-        "share_probability",
-        "like_probability"
-      ],
-      "volatility": "high"
-    },
-    {
-      "source_id": "META_FB_FEED_2026",
-      "platform": "facebook",
-      "surface": "feed",
-      "mechanism": "RANKING",
-      "publisher": "Meta Transparency",
-      "title": "Facebook Feed",
-      "url": "https://transparency.meta.com/features/explaining-ranking/fb-feed",
-      "retrieved": "2026-09-19",
-      "claim_scope": [
-        "personalized_ranking",
-        "relationship_signals",
-        "interest_signals"
-      ],
-      "volatility": "high"
-    },
-    {
-      "source_id": "META_FB_ORIGINAL_2026",
-      "platform": "facebook",
-      "surface": "feed_reels",
-      "mechanism": "RECOMMENDATION_ELIGIBILITY",
-      "publisher": "Meta Newsroom",
-      "title": "Rewarding Original Creators on Facebook",
-      "url": "https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/",
-      "retrieved": "2026-09-19",
-      "claim_scope": [
-        "original_content",
-        "substantial_transformation",
-        "duplicate_content",
-        "minimal_edits"
-      ],
-      "volatility": "high"
-    },
-    {
-      "source_id": "META_IG_FEED_RECS_2026",
-      "platform": "instagram",
-      "surface": "feed_recommendations",
-      "mechanism": "RANKING",
-      "publisher": "Meta Transparency",
-      "title": "Instagram Feed Recommendations",
-      "url": "https://transparency.meta.com/features/explaining-ranking/ig-feed-recommendations",
-      "retrieved": "2026-09-19",
-      "claim_scope": [
-        "personalized_recommendations",
-        "interaction_predictions",
-        "viewing"
-      ],
-      "volatility": "high"
-    },
-    {
-      "source_id": "META_IG_FEED_2026",
-      "platform": "instagram",
-      "surface": "feed",
-      "mechanism": "RANKING",
-      "publisher": "Meta Transparency",
-      "title": "Instagram Feed",
-      "url": "https://transparency.meta.com/features/explaining-ranking/ig-feed",
-      "retrieved": "2026-09-19",
-      "claim_scope": [
-        "feed_ranking",
-        "relationship_signals",
-        "interest_signals"
-      ],
-      "volatility": "high"
-    },
-    {
-      "source_id": "META_IG_EXPLORE_2026",
-      "platform": "instagram",
-      "surface": "explore",
-      "mechanism": "RANKING",
-      "publisher": "Meta Transparency",
-      "title": "Instagram Explore",
-      "url": "https://transparency.meta.com/features/explaining-ranking/ig-explore/",
-      "retrieved": "2026-09-19",
-      "claim_scope": [
-        "like_probability",
-        "save_probability",
-        "viewing",
-        "negative_feedback"
-      ],
-      "volatility": "high"
-    },
-    {
-      "source_id": "META_IG_REELS_2026",
-      "platform": "instagram",
-      "surface": "reels",
-      "mechanism": "RANKING",
-      "publisher": "Meta Transparency",
-      "title": "Instagram Reels Chaining",
-      "url": "https://transparency.meta.com/features/explaining-ranking/ig-reels-chaining/",
-      "retrieved": "2026-09-19",
-      "claim_scope": [
-        "watch_behavior",
-        "selection_behavior",
-        "interest_similarity"
-      ],
-      "volatility": "high"
-    },
-    {
-      "source_id": "TIKTOK_FYF_RANKING_2026",
-      "platform": "tiktok",
-      "surface": "for_you",
-      "mechanism": "RANKING",
-      "publisher": "TikTok Support",
-      "title": "How TikTok recommends content",
-      "url": "https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content",
-      "retrieved": "2026-09-19",
-      "claim_scope": [
-        "user_interactions",
-        "full_watch",
-        "skip",
-        "content_information",
-        "user_information"
-      ],
-      "volatility": "high"
-    },
-    {
-      "source_id": "TIKTOK_SEARCH_2026",
-      "platform": "tiktok",
-      "surface": "search",
-      "mechanism": "SEARCH",
-      "publisher": "TikTok Support",
-      "title": "How TikTok recommends content",
-      "url": "https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content",
-      "retrieved": "2026-09-19",
-      "claim_scope": [
-        "query_match",
-        "search_history",
-        "watch_history",
-        "hashtags",
-        "sounds"
-      ],
-      "volatility": "high"
-    },
-    {
-      "source_id": "TIKTOK_FYF_ELIGIBILITY_2026",
-      "platform": "tiktok",
-      "surface": "for_you",
-      "mechanism": "RECOMMENDATION_ELIGIBILITY",
-      "publisher": "TikTok Support",
-      "title": "For You feed video eligibility",
-      "url": "https://support.tiktok.com/en/safety-hc/account-and-user-safety/for-you-feed-video-eligibility",
-      "retrieved": "2026-09-19",
-      "claim_scope": [
-        "for_you_eligibility",
-        "ineligible_content"
-      ],
-      "volatility": "high"
-    },
-    {
-      "source_id": "TIKTOK_CREATOR_REWARDS_2024",
-      "platform": "tiktok",
-      "surface": "creator_rewards",
-      "mechanism": "MONETIZATION",
-      "publisher": "TikTok Newsroom",
-      "title": "Introducing the New Creator Rewards Program",
-      "url": "https://newsroom.tiktok.com/en-us/introducing-the-new-creator-rewards-program",
-      "retrieved": "2026-09-19",
-      "claim_scope": [
-        "originality",
-        "play_duration",
-        "search_value",
-        "audience_engagement"
-      ],
-      "volatility": "medium"
-    },
-    {
-      "source_id": "YT_RECOMMENDATION_PERFORMANCE_2026",
-      "platform": "youtube",
+      "source_id": "LI_CONTENT_RECS_2026",
+      "platform": "linkedin",
       "surface": "recommendations",
-      "mechanism": "RANKING",
-      "publisher": "YouTube Help",
-      "title": "Understand your content performance for YouTube's recommendation system",
-      "url": "https://support.google.com/youtube/answer/16559650?hl=en",
+      "mechanism": "RECOMMENDATION_ELIGIBILITY",
+      "publisher": "LinkedIn Help",
+      "title": "Content Recommendations on LinkedIn",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a7142408",
       "retrieved": "2026-09-19",
       "claim_scope": [
-        "appeal",
-        "engagement",
-        "satisfaction",
-        "average_view_duration",
-        "average_percent_viewed"
+        "professional_relevance",
+        "recommendation_quality",
+        "eligibility"
       ],
-      "volatility": "high"
+      "volatility": "high",
+      "status": "active"
     },
     {
-      "source_id": "YT_SEARCH_DISCOVERY_2026",
-      "platform": "youtube",
-      "surface": "search",
-      "mechanism": "SEARCH",
-      "publisher": "YouTube Help",
-      "title": "Search & discovery tips",
-      "url": "https://support.google.com/youtube/answer/11914225?hl=en",
+      "source_id": "LI_DWELL_ENGINEERING",
+      "platform": "linkedin",
+      "surface": "feed",
+      "mechanism": "RANKING",
+      "publisher": "LinkedIn Engineering",
+      "title": "Leveraging Dwell Time to Improve Member Experiences on the LinkedIn Feed",
+      "url": "https://www.linkedin.com/blog/engineering/feed/leveraging-dwell-time-to-improve-member-experiences-on-the-linkedin-feed",
       "retrieved": "2026-09-19",
       "claim_scope": [
-        "query_relevance",
-        "metadata_match",
-        "viewer_response"
+        "dwell_time",
+        "skip",
+        "feed_relevance"
       ],
-      "volatility": "high"
+      "volatility": "medium",
+      "status": "active"
     },
     {
-      "source_id": "YT_SHORTS_RANKING_2026",
-      "platform": "youtube",
-      "surface": "shorts",
-      "mechanism": "RANKING",
-      "publisher": "YouTube Help",
-      "title": "Search & discovery tips for Shorts",
-      "url": "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+      "source_id": "LI_ENGAGEMENT_POLICY_2026",
+      "platform": "linkedin",
+      "surface": "cross_platform",
+      "mechanism": "POLICY",
+      "publisher": "LinkedIn Help",
+      "title": "Engagement manipulation",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1338787",
       "retrieved": "2026-09-19",
       "claim_scope": [
-        "chose_to_view",
-        "average_view_duration",
-        "average_percent_viewed",
-        "viewer_response"
+        "engagement_manipulation",
+        "inauthentic_activity",
+        "pods_bots"
       ],
-      "volatility": "high"
+      "volatility": "high",
+      "status": "active"
+    },
+    {
+      "source_id": "LI_FEED_ENGINEERING_2026",
+      "platform": "linkedin",
+      "surface": "feed",
+      "mechanism": "RANKING",
+      "publisher": "LinkedIn Engineering",
+      "title": "Engineering the next generation of LinkedIn's Feed",
+      "url": "https://www.linkedin.com/blog/engineering/feed/engineering-the-next-generation-of-linkedins-feed",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "feed_modeling",
+        "active_interactions",
+        "passive_signals"
+      ],
+      "volatility": "medium",
+      "status": "active"
     },
     {
       "source_id": "LI_FEED_HELP_2026",
@@ -259,23 +93,8 @@
         "network",
         "activity"
       ],
-      "volatility": "high"
-    },
-    {
-      "source_id": "LI_CONTENT_RECS_2026",
-      "platform": "linkedin",
-      "surface": "recommendations",
-      "mechanism": "RECOMMENDATION_ELIGIBILITY",
-      "publisher": "LinkedIn Help",
-      "title": "Content Recommendations on LinkedIn",
-      "url": "https://www.linkedin.com/help/linkedin/answer/a7142408",
-      "retrieved": "2026-09-19",
-      "claim_scope": [
-        "professional_relevance",
-        "recommendation_quality",
-        "eligibility"
-      ],
-      "volatility": "high"
+      "volatility": "high",
+      "status": "active"
     },
     {
       "source_id": "LI_SUGGESTED_2026",
@@ -291,55 +110,634 @@
         "out_of_network_recommendations",
         "professional_relevance"
       ],
-      "volatility": "high"
+      "volatility": "high",
+      "status": "active"
     },
     {
-      "source_id": "LI_ENGAGEMENT_POLICY_2026",
-      "platform": "linkedin",
+      "source_id": "META_AI_LABELING_2024",
+      "platform": "facebook",
       "surface": "cross_platform",
       "mechanism": "POLICY",
-      "publisher": "LinkedIn Help",
-      "title": "Engagement manipulation",
-      "url": "https://www.linkedin.com/help/linkedin/answer/a1338787",
-      "retrieved": "2026-09-19",
+      "publisher": "Meta Newsroom",
+      "title": "Labeling AI-Generated Images on Facebook, Instagram and Threads",
+      "url": "https://about.fb.com/news/2024/02/labeling-ai-generated-images-on-facebook-instagram-and-threads/",
+      "retrieved": "2026-09-22",
       "claim_scope": [
-        "engagement_manipulation",
-        "inauthentic_activity",
-        "pods_bots"
+        "ai_generated_labeling",
+        "manipulated_media_policy",
+        "transparency"
       ],
-      "volatility": "high"
+      "volatility": "medium",
+      "status": "active"
     },
     {
-      "source_id": "LI_FEED_ENGINEERING_2026",
-      "platform": "linkedin",
-      "surface": "feed",
-      "mechanism": "RANKING",
-      "publisher": "LinkedIn Engineering",
-      "title": "Engineering the next generation of LinkedIn's Feed",
-      "url": "https://www.linkedin.com/blog/engineering/feed/engineering-the-next-generation-of-linkedins-feed",
-      "retrieved": "2026-09-19",
+      "source_id": "META_EU_POLITICAL_ADS_2025",
+      "platform": "facebook",
+      "surface": "paid_media",
+      "mechanism": "POLICY",
+      "publisher": "Meta Newsroom",
+      "title": "Ending Political, Electoral and Social Issue Advertising in the EU",
+      "url": "https://about.fb.com/news/2025/07/ending-political-electoral-and-social-issue-advertising-in-the-eu/",
+      "retrieved": "2026-09-22",
       "claim_scope": [
-        "feed_modeling",
-        "active_interactions",
-        "passive_signals"
+        "eu_political_ads",
+        "electoral_ads",
+        "social_issue_ads",
+        "paid_media_policy"
       ],
-      "volatility": "medium"
+      "volatility": "low",
+      "status": "active"
     },
     {
-      "source_id": "LI_DWELL_ENGINEERING",
-      "platform": "linkedin",
+      "source_id": "META_FB_DISTRIBUTION_GUIDELINES_2021",
+      "platform": "facebook",
+      "surface": "feed",
+      "mechanism": "POLICY",
+      "publisher": "Meta Newsroom",
+      "title": "Content Distribution Guidelines",
+      "url": "https://about.fb.com/news/2021/09/content-distribution-guidelines/",
+      "retrieved": "2026-09-22",
+      "claim_scope": [
+        "distribution_eligibility",
+        "borderline_content",
+        "content_guidelines"
+      ],
+      "volatility": "medium",
+      "status": "active"
+    },
+    {
+      "source_id": "META_FB_ENGAGEMENT_BAIT_2017",
+      "platform": "facebook",
+      "surface": "feed",
+      "mechanism": "POLICY",
+      "publisher": "Meta Newsroom",
+      "title": "News Feed FYI: Fighting Engagement Bait on Facebook",
+      "url": "https://about.fb.com/news/2017/12/news-feed-fyi-fighting-engagement-bait-on-facebook/",
+      "retrieved": "2026-09-22",
+      "claim_scope": [
+        "engagement_bait",
+        "vote_baiting",
+        "tag_baiting",
+        "share_baiting",
+        "comment_baiting"
+      ],
+      "volatility": "low",
+      "status": "active"
+    },
+    {
+      "source_id": "META_FB_FEED_2026",
+      "platform": "facebook",
       "surface": "feed",
       "mechanism": "RANKING",
-      "publisher": "LinkedIn Engineering",
-      "title": "Leveraging Dwell Time to Improve Member Experiences on the LinkedIn Feed",
-      "url": "https://www.linkedin.com/blog/engineering/feed/leveraging-dwell-time-to-improve-member-experiences-on-the-linkedin-feed",
+      "publisher": "Meta Transparency",
+      "title": "Facebook Feed",
+      "url": "https://transparency.meta.com/features/explaining-ranking/fb-feed",
       "retrieved": "2026-09-19",
       "claim_scope": [
-        "dwell_time",
+        "personalized_ranking",
+        "relationship_signals",
+        "interest_signals"
+      ],
+      "volatility": "high",
+      "status": "active"
+    },
+    {
+      "source_id": "META_FB_FEED_RECS_2026",
+      "platform": "facebook",
+      "surface": "feed_recommendations",
+      "mechanism": "RANKING",
+      "publisher": "Meta Transparency",
+      "title": "Facebook Feed Recommendations",
+      "url": "https://transparency.meta.com/features/explaining-ranking/fb-feed-recommendations/",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "personalized_predictions",
+        "viewing_duration",
+        "share_probability",
+        "like_probability"
+      ],
+      "volatility": "high",
+      "status": "active"
+    },
+    {
+      "source_id": "META_FB_ORIGINAL_2026",
+      "platform": "facebook",
+      "surface": "feed_reels",
+      "mechanism": "RECOMMENDATION_ELIGIBILITY",
+      "publisher": "Meta Newsroom",
+      "title": "Rewarding Original Creators on Facebook",
+      "url": "https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "original_content",
+        "substantial_transformation",
+        "duplicate_content",
+        "minimal_edits"
+      ],
+      "volatility": "high",
+      "status": "active"
+    },
+    {
+      "source_id": "META_FB_SPAM_CRACKDOWN_2025",
+      "platform": "facebook",
+      "surface": "feed",
+      "mechanism": "POLICY",
+      "publisher": "Meta Newsroom",
+      "title": "Cracking Down on Spammy Content on Facebook",
+      "url": "https://about.fb.com/news/2025/04/cracking-down-spammy-content-facebook/",
+      "retrieved": "2026-09-22",
+      "claim_scope": [
+        "spam_content",
+        "unoriginal_content",
+        "engagement_farming"
+      ],
+      "volatility": "medium",
+      "status": "active"
+    },
+    {
+      "source_id": "META_HOW_AI_RANKS_2023",
+      "platform": "facebook",
+      "surface": "feed",
+      "mechanism": "RANKING",
+      "publisher": "Meta Newsroom",
+      "title": "How AI ranks content on Facebook and Instagram",
+      "url": "https://about.fb.com/news/2023/06/how-ai-ranks-content-on-facebook-and-instagram/",
+      "retrieved": "2026-09-22",
+      "claim_scope": [
+        "personalized_predictions",
+        "value_scoring",
+        "ranking_pipeline"
+      ],
+      "volatility": "medium",
+      "status": "active"
+    },
+    {
+      "source_id": "META_IG_CREATOR_BEST_PRACTICES_2024",
+      "platform": "instagram",
+      "surface": "cross_platform",
+      "mechanism": "RECOMMENDATION_ELIGIBILITY",
+      "publisher": "Meta Newsroom",
+      "title": "Best Practices Education Hub for Creators on Instagram",
+      "url": "https://about.fb.com/news/2024/10/best-practices-education-hub-creators-instagram/",
+      "retrieved": "2026-09-22",
+      "claim_scope": [
+        "originality_guidance",
+        "recommendation_eligibility",
+        "creator_education"
+      ],
+      "volatility": "medium",
+      "status": "active"
+    },
+    {
+      "source_id": "META_IG_EXPLORE_2026",
+      "platform": "instagram",
+      "surface": "explore",
+      "mechanism": "RANKING",
+      "publisher": "Meta Transparency",
+      "title": "Instagram Explore",
+      "url": "https://transparency.meta.com/features/explaining-ranking/ig-explore/",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "like_probability",
+        "save_probability",
+        "viewing",
+        "negative_feedback"
+      ],
+      "volatility": "high",
+      "status": "active"
+    },
+    {
+      "source_id": "META_IG_FEED_2026",
+      "platform": "instagram",
+      "surface": "feed",
+      "mechanism": "RANKING",
+      "publisher": "Meta Transparency",
+      "title": "Instagram Feed",
+      "url": "https://transparency.meta.com/features/explaining-ranking/ig-feed",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "feed_ranking",
+        "relationship_signals",
+        "interest_signals"
+      ],
+      "volatility": "high",
+      "status": "active"
+    },
+    {
+      "source_id": "META_IG_FEED_RECS_2026",
+      "platform": "instagram",
+      "surface": "feed_recommendations",
+      "mechanism": "RANKING",
+      "publisher": "Meta Transparency",
+      "title": "Instagram Feed Recommendations",
+      "url": "https://transparency.meta.com/features/explaining-ranking/ig-feed-recommendations",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "personalized_recommendations",
+        "interaction_predictions",
+        "viewing"
+      ],
+      "volatility": "high",
+      "status": "active"
+    },
+    {
+      "source_id": "META_IG_REELS_2026",
+      "platform": "instagram",
+      "surface": "reels",
+      "mechanism": "RANKING",
+      "publisher": "Meta Transparency",
+      "title": "Instagram Reels Chaining",
+      "url": "https://transparency.meta.com/features/explaining-ranking/ig-reels-chaining/",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "watch_behavior",
+        "selection_behavior",
+        "interest_similarity"
+      ],
+      "volatility": "high",
+      "status": "active"
+    },
+    {
+      "source_id": "META_NEWSFEED_PREDICT_2021",
+      "platform": "facebook",
+      "surface": "feed",
+      "mechanism": "RANKING",
+      "publisher": "Meta Newsroom",
+      "title": "How does News Feed predict what you want to see?",
+      "url": "https://about.fb.com/news/2021/01/how-does-news-feed-predict-what-you-want-to-see/",
+      "retrieved": "2026-09-22",
+      "claim_scope": [
+        "predicted_actions",
+        "personalized_ranking",
+        "signal_examples"
+      ],
+      "volatility": "medium",
+      "status": "superseded"
+    },
+    {
+      "source_id": "META_RECOMMENDATION_GUIDELINES_2020",
+      "platform": "facebook",
+      "surface": "feed_recommendations",
+      "mechanism": "RECOMMENDATION_ELIGIBILITY",
+      "publisher": "Meta Newsroom",
+      "title": "Recommendations Guidelines",
+      "url": "https://about.fb.com/news/2020/08/recommendation-guidelines/",
+      "retrieved": "2026-09-22",
+      "claim_scope": [
+        "recommendation_eligibility",
+        "community_standards_vs_recommendable",
+        "account_restrictions"
+      ],
+      "volatility": "medium",
+      "status": "active"
+    },
+    {
+      "source_id": "TIKTOK_CREATOR_REWARDS_2024",
+      "platform": "tiktok",
+      "surface": "creator_rewards",
+      "mechanism": "MONETIZATION",
+      "publisher": "TikTok Newsroom",
+      "title": "Introducing the New Creator Rewards Program",
+      "url": "https://newsroom.tiktok.com/en-us/introducing-the-new-creator-rewards-program",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "originality",
+        "play_duration",
+        "search_value",
+        "audience_engagement"
+      ],
+      "volatility": "medium",
+      "status": "active"
+    },
+    {
+      "source_id": "TIKTOK_FYF_ELIGIBILITY_2026",
+      "platform": "tiktok",
+      "surface": "for_you",
+      "mechanism": "RECOMMENDATION_ELIGIBILITY",
+      "publisher": "TikTok Support",
+      "title": "For You feed video eligibility",
+      "url": "https://support.tiktok.com/en/safety-hc/account-and-user-safety/for-you-feed-video-eligibility",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "for_you_eligibility",
+        "ineligible_content"
+      ],
+      "volatility": "high",
+      "status": "active"
+    },
+    {
+      "source_id": "TIKTOK_FYF_RANKING_2026",
+      "platform": "tiktok",
+      "surface": "for_you",
+      "mechanism": "RANKING",
+      "publisher": "TikTok Support",
+      "title": "How TikTok recommends content",
+      "url": "https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "user_interactions",
+        "full_watch",
         "skip",
-        "feed_relevance"
+        "content_information",
+        "user_information"
       ],
-      "volatility": "medium"
+      "volatility": "high",
+      "status": "active"
+    },
+    {
+      "source_id": "TIKTOK_SEARCH_2026",
+      "platform": "tiktok",
+      "surface": "search",
+      "mechanism": "SEARCH",
+      "publisher": "TikTok Support",
+      "title": "How TikTok recommends content",
+      "url": "https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "query_match",
+        "search_history",
+        "watch_history",
+        "hashtags",
+        "sounds"
+      ],
+      "volatility": "high",
+      "status": "active"
+    },
+    {
+      "source_id": "YT_RECOMMENDATION_PERFORMANCE_2026",
+      "platform": "youtube",
+      "surface": "recommendations",
+      "mechanism": "RANKING",
+      "publisher": "YouTube Help",
+      "title": "Understand your content performance for YouTube's recommendation system",
+      "url": "https://support.google.com/youtube/answer/16559650?hl=en",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "appeal",
+        "engagement",
+        "satisfaction",
+        "average_view_duration",
+        "average_percent_viewed"
+      ],
+      "volatility": "high",
+      "status": "active"
+    },
+    {
+      "source_id": "YT_SEARCH_DISCOVERY_2026",
+      "platform": "youtube",
+      "surface": "search",
+      "mechanism": "SEARCH",
+      "publisher": "YouTube Help",
+      "title": "Search & discovery tips",
+      "url": "https://support.google.com/youtube/answer/11914225?hl=en",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "query_relevance",
+        "metadata_match",
+        "viewer_response"
+      ],
+      "volatility": "high",
+      "status": "active"
+    },
+    {
+      "source_id": "YT_SHORTS_RANKING_2026",
+      "platform": "youtube",
+      "surface": "shorts",
+      "mechanism": "RANKING",
+      "publisher": "YouTube Help",
+      "title": "Search & discovery tips for Shorts",
+      "url": "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+      "retrieved": "2026-09-19",
+      "claim_scope": [
+        "chose_to_view",
+        "average_view_duration",
+        "average_percent_viewed",
+        "viewer_response"
+      ],
+      "volatility": "high",
+      "status": "active"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Facebook Feed Recommendations personalizes ranking using predicted viewing duration, share probability and like probability.",
+      "evidence_level": "OFFICIAL",
+      "mechanism": "RANKING",
+      "source_id": "META_FB_FEED_RECS_2026",
+      "surface": "feed_recommendations",
+      "observed_at": "2026-09-22",
+      "limitation": "Meta does not publish exact weights; signals are documented qualitatively, not as a fixed formula.",
+      "status": "active"
+    },
+    {
+      "claim": "Instagram Explore ranks candidates using like probability, save probability, viewing behavior and negative feedback signals.",
+      "evidence_level": "OFFICIAL",
+      "mechanism": "RANKING",
+      "source_id": "META_IG_EXPLORE_2026",
+      "surface": "explore",
+      "observed_at": "2026-09-22",
+      "limitation": "Signal list is not exhaustive and does not transfer automatically to Feed or Reels without separate evidence.",
+      "status": "active"
+    },
+    {
+      "claim": "Meta prioritizes original or substantially transformed content over duplicated or minimally edited content for Facebook Recommendation Eligibility.",
+      "evidence_level": "OFFICIAL",
+      "mechanism": "RECOMMENDATION_ELIGIBILITY",
+      "source_id": "META_FB_ORIGINAL_2026",
+      "surface": "feed_reels",
+      "observed_at": "2026-09-22",
+      "limitation": "Documented for Facebook; treating this as automatically identical on Instagram requires separate current evidence.",
+      "status": "active"
+    },
+    {
+      "claim": "Meta demotes and restricts engagement-bait tactics (vote baiting, tag baiting, share baiting, comment baiting) in Facebook Feed.",
+      "evidence_level": "OFFICIAL",
+      "mechanism": "POLICY",
+      "source_id": "META_FB_ENGAGEMENT_BAIT_2017",
+      "surface": "feed",
+      "observed_at": "2026-09-22",
+      "limitation": "Source dates from 2017; current enforcement mechanics may have changed, but the demotion principle is reaffirmed by later spam-crackdown guidance.",
+      "status": "active"
+    },
+    {
+      "claim": "Community Standards compliance and Recommendation Eligibility are separate states; a compliant post can still be excluded from non-follower recommendations or have distribution limited.",
+      "evidence_level": "OFFICIAL",
+      "mechanism": "RECOMMENDATION_ELIGIBILITY",
+      "source_id": "META_RECOMMENDATION_GUIDELINES_2020",
+      "surface": "feed_recommendations",
+      "observed_at": "2026-09-22",
+      "limitation": "Guidelines describe categories qualitatively; account-specific eligibility status is not independently verifiable without platform tools.",
+      "status": "active"
+    },
+    {
+      "claim": "Meta labels AI-generated and manipulated media on Facebook, Instagram and Threads as a policy/integrity function.",
+      "evidence_level": "OFFICIAL",
+      "mechanism": "POLICY",
+      "source_id": "META_AI_LABELING_2024",
+      "surface": "cross_platform",
+      "observed_at": "2026-09-22",
+      "limitation": "Labeling policy is documented; it is a separate mechanism from organic ranking and must not be conflated with a ranking claim.",
+      "status": "active"
+    },
+    {
+      "claim": "As of 6 October 2025, Meta ends political, electoral and social-issue advertising in the EU; this is a paid-media policy change and must not be equated with organic distribution.",
+      "evidence_level": "OFFICIAL",
+      "mechanism": "POLICY",
+      "source_id": "META_EU_POLITICAL_ADS_2025",
+      "surface": "paid_media",
+      "observed_at": "2026-09-22",
+      "limitation": "Applies to paid advertising in the EU only; organic reach and Recommendation Eligibility for political content follow separate, unrelated mechanisms.",
+      "status": "active"
+    },
+    {
+      "claim": "Instagram for Creators guidance emphasizes originality and documents that reposts or content with visible third-party watermarks have lower recommendation likelihood.",
+      "evidence_level": "OFFICIAL",
+      "mechanism": "RECOMMENDATION_ELIGIBILITY",
+      "source_id": "META_IG_CREATOR_BEST_PRACTICES_2024",
+      "surface": "cross_platform",
+      "observed_at": "2026-09-22",
+      "limitation": "Creator education content; not a numeric ranking weight, and does not specify an exact penalty magnitude.",
+      "status": "active"
+    },
+    {
+      "claim": "Hashtags erhoehen automatisch die Reichweite.",
+      "evidence_level": "HYPOTHESIS",
+      "mechanism": "RANKING",
+      "source_id": "META_IG_FEED_2026",
+      "surface": "feed",
+      "observed_at": "2026-09-22",
+      "limitation": "Kein aktueller offizieller Meta-Record listet Hashtag-Anzahl oder -Nutzung als Ranking- oder Reichweitensignal; Hashtags dienen dokumentiert Kontext und Discovery/Search.",
+      "status": "rejected"
+    },
+    {
+      "claim": "Facebook bestraft grundsaetzlich jeden externen Link.",
+      "evidence_level": "HYPOTHESIS",
+      "mechanism": "RANKING",
+      "source_id": "META_FB_FEED_2026",
+      "surface": "feed",
+      "observed_at": "2026-09-22",
+      "limitation": "Keine aktuelle offizielle Quelle dokumentiert eine pauschale Link-Strafe; problematisch sind belegt Clickbait, irrefuehrende Zielseiten und Spam-Domains, nicht Links an sich.",
+      "status": "rejected"
+    },
+    {
+      "claim": "Mehr Text im Bild reduziert automatisch die organische Reichweite.",
+      "evidence_level": "HYPOTHESIS",
+      "mechanism": "RANKING",
+      "source_id": "META_FB_FEED_2026",
+      "surface": "feed",
+      "observed_at": "2026-09-22",
+      "limitation": "Die historische 20-Prozent-Textregel war eine Werbeanzeigen-Richtlinie fuer Paid Media, nie ein organischer Rankingfaktor, und ist auch dort nicht mehr aktuell durchgesetzt.",
+      "status": "rejected"
+    },
+    {
+      "claim": "Kommentare sind immer wichtiger als Likes.",
+      "evidence_level": "HYPOTHESIS",
+      "mechanism": "RANKING",
+      "source_id": "META_FB_FEED_RECS_2026",
+      "surface": "feed_recommendations",
+      "observed_at": "2026-09-22",
+      "limitation": "Meta dokumentiert mehrere parallele Signale (Likes, Kommentare, Shares, Viewing) ohne fixe Rangfolge oder Gewichtungsformel zwischen ihnen.",
+      "status": "rejected"
+    },
+    {
+      "claim": "4:5 erhaelt automatisch mehr Reichweite als 1:1.",
+      "evidence_level": "HYPOTHESIS",
+      "mechanism": "RANKING",
+      "source_id": "META_FB_FEED_2026",
+      "surface": "feed",
+      "observed_at": "2026-09-22",
+      "limitation": "4:5 ist ein interner Produktionsstandard wegen mobiler Bildschirmflaeche; kein offizieller Record dokumentiert einen Rankingbonus fuer ein Seitenverhaeltnis.",
+      "status": "rejected"
+    },
+    {
+      "claim": "4:5 erhaelt automatisch mehr Reichweite als 1:1 (Instagram).",
+      "evidence_level": "HYPOTHESIS",
+      "mechanism": "RANKING",
+      "source_id": "META_IG_FEED_2026",
+      "surface": "feed",
+      "observed_at": "2026-09-22",
+      "limitation": "Analog zu Facebook: kein offizieller Instagram-Record dokumentiert einen Rankingbonus fuer ein Seitenverhaeltnis.",
+      "status": "rejected"
+    },
+    {
+      "claim": "Meta erkennt KI-Bilder und reduziert deshalb automatisch die Reichweite.",
+      "evidence_level": "HYPOTHESIS",
+      "mechanism": "RANKING",
+      "source_id": "META_AI_LABELING_2024",
+      "surface": "cross_platform",
+      "observed_at": "2026-09-22",
+      "limitation": "Die zitierte Quelle beschreibt eine Kennzeichnungs-/Integritaetsrichtlinie, keine automatische organische Ranking-Demotion allein aufgrund von KI-Herkunft.",
+      "status": "rejected"
+    },
+    {
+      "claim": "Bearbeitete Beitraege werden generell bestraft.",
+      "evidence_level": "HYPOTHESIS",
+      "mechanism": "RECOMMENDATION_ELIGIBILITY",
+      "source_id": "META_FB_ORIGINAL_2026",
+      "surface": "feed_reels",
+      "observed_at": "2026-09-22",
+      "limitation": "Dokumentiert ist eine Bevorzugung origineller/substanziell transformierter Inhalte gegenueber Duplikaten oder minimalen Edits, nicht eine Strafe fuer Bearbeitung an sich.",
+      "status": "rejected"
+    },
+    {
+      "claim": "Das Wort 'Link' im Text reduziert die Reichweite.",
+      "evidence_level": "HYPOTHESIS",
+      "mechanism": "RANKING",
+      "source_id": "META_FB_FEED_2026",
+      "surface": "feed",
+      "observed_at": "2026-09-22",
+      "limitation": "Keine offizielle Quelle dokumentiert eine Textmuster- oder Wort-Strafe dieser Art.",
+      "status": "rejected"
+    },
+    {
+      "claim": "Der Link muss in den ersten Kommentar gesetzt werden.",
+      "evidence_level": "HYPOTHESIS",
+      "mechanism": "RANKING",
+      "source_id": "META_FB_FEED_2026",
+      "surface": "feed",
+      "observed_at": "2026-09-22",
+      "limitation": "Kein offizieller Record belegt einen Rankingvorteil durch Verschieben des Links in den ersten Kommentar.",
+      "status": "rejected"
+    },
+    {
+      "claim": "Die ersten 60 Minuten entscheiden endgueltig ueber die Reichweite eines Posts.",
+      "evidence_level": "HYPOTHESIS",
+      "mechanism": "RANKING",
+      "source_id": "META_FB_FEED_RECS_2026",
+      "surface": "feed_recommendations",
+      "observed_at": "2026-09-22",
+      "limitation": "Meta beschreibt Ranking als fortlaufend personalisiert und dynamisch neu bewertet, nicht als einmaliges Zeitfenster mit endgueltiger Entscheidung.",
+      "status": "rejected"
+    },
+    {
+      "claim": "Viele Kommentare bedeuten automatisch hochwertigen Content.",
+      "evidence_level": "HYPOTHESIS",
+      "mechanism": "RANKING",
+      "source_id": "META_FB_FEED_RECS_2026",
+      "surface": "feed_recommendations",
+      "observed_at": "2026-09-22",
+      "limitation": "Kommentarzahl ist ein Signal unter mehreren; negative oder kontroverse Kommentare korrelieren nicht automatisch mit inhaltlicher Qualitaet oder positiver Nutzerzufriedenheit.",
+      "status": "rejected"
+    },
+    {
+      "claim": "Gesichter erhalten automatisch einen Rankingbonus.",
+      "evidence_level": "HYPOTHESIS",
+      "mechanism": "RANKING",
+      "source_id": "META_IG_FEED_2026",
+      "surface": "feed",
+      "observed_at": "2026-09-22",
+      "limitation": "Kein offizieller Record dokumentiert Gesichtserkennung als Rankingfaktor; UX-Aufmerksamkeit fuer Gesichter ist eine Designheuristik, kein belegter Algorithmusfaktor.",
+      "status": "rejected"
+    },
+    {
+      "claim": "Alt-Text erzeugt automatisch zusaetzliche Reichweite.",
+      "evidence_level": "HYPOTHESIS",
+      "mechanism": "RANKING",
+      "source_id": "META_IG_FEED_2026",
+      "surface": "feed",
+      "observed_at": "2026-09-22",
+      "limitation": "Alt-Text ist eine Accessibility-Funktion; kein offizieller Record dokumentiert einen daraus resultierenden Reichweitenbonus.",
+      "status": "rejected"
     }
   ]
 }

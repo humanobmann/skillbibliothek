@@ -38,6 +38,24 @@ Dieser Index bietet einen kompakten Überblick aller verfügbaren Skills zur res
 |---|---|---|---:|
 | **`low-code-no-code-engineering`** | [`skills/low-code-no-code-engineering`](low-code-no-code-engineering/SKILL.md) | Software-grade ALM, Governance, DLP, Source Control, Tests und Betrieb für Low-Code- und No-Code-Lösungen. | ~105 |
 
+## SRE & Observability (1)
+
+| Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
+|---|---|---|---:|
+| **`automated-sre-observability`** | [`skills/automated-sre-observability`](automated-sre-observability/SKILL.md) | SLO-basierte Zuverlässigkeit, Error-Budget-Policy, symptomorientiertes Burn-Rate-Alerting, Eskalation und blameless Incident Response. | ~136 |
+
+## FinOps & Cloud Cost Governance (1)
+
+| Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
+|---|---|---|---:|
+| **`finops-cloud-governance`** | [`skills/finops-cloud-governance`](finops-cloud-governance/SKILL.md) | Cost-Allocation-Tagging, Budget-Guardrails, Anomalieerkennung, Showback/Chargeback und Commitment-Strategie über Cloud-Provider hinweg. | ~129 |
+
+## Agentic AI Orchestration Governance (1)
+
+| Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
+|---|---|---|---:|
+| **`agentic-ai-orchestration-governance`** | [`skills/agentic-ai-orchestration-governance`](agentic-ai-orchestration-governance/SKILL.md) | Guardrails für autonome und Multi-Agent-Läufe: Iterations-/Kontext-/Kostenbudgets, Schleifenerkennung, Least-Privilege-Tool-Scoping, Kill Switch, Human-Escalation. | ~159 |
+
 ## Content, Kampagnen & Kommunikation (20)
 
 | Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |

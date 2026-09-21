@@ -19,7 +19,7 @@ Die Quellen werden nur gelesen; alle konsolidierten Änderungen erfolgen hier.
 
 ## Aktueller Bestand
 
-Der aktuelle konsolidierte Bestand umfasst 103 Skill-Verzeichnisse mit `SKILL.md`.
+Der aktuelle konsolidierte Bestand umfasst 106 Skill-Verzeichnisse mit `SKILL.md`.
 `core-routing` und `skill-security-auditor` ergänzen die Fachbibliothek um Control-Plane- und Security-Gates.
 
 ### Kernbereiche
@@ -31,6 +31,9 @@ Der aktuelle konsolidierte Bestand umfasst 103 Skill-Verzeichnisse mit `SKILL.md
 - AI/ML & MLOps: `mlops-ai-operations`
 - Cloud-Native & Platform Security: `cloud-native-security`
 - Low-Code / No-Code Engineering: `low-code-no-code-engineering`
+- SRE & Observability: `automated-sre-observability`
+- FinOps & Cloud Cost Governance: `finops-cloud-governance`
+- Agentic AI Orchestration Governance: `agentic-ai-orchestration-governance`
 - Sicherheit und Governance: `security-best-practices`, `security-gate`, `security-threat-model`, `security-ownership-map`
 - Content und Kommunikation: `facebook-text-optimizer`, `instagram-text-optimizer`, `humanizer-de`, `peter-schuller-politiker-kommunikation`, `philip-kucher-writing`, `politik-analyse`
 - Engineering und Bibliothekspflege: `code-review`, `library-skill-authoring`

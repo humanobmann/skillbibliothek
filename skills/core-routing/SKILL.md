@@ -39,9 +39,12 @@ Nicht aktivieren bei direktem Aufruf eines bekannten Skills oder einer eindeutig
 4. AI/ML Operations, model lifecycle oder LLMOps -> `skills/mlops-ai-operations`
 5. Kubernetes, Container, GitOps oder Cloud-Native Security -> `skills/cloud-native-security`
 6. Low-Code/No-Code Governance und ALM -> `skills/low-code-no-code-engineering`
-7. Frontend/Design -> `skills/web-design-guidelines`
-8. Skill-Suche -> `skills/find-skills`
-9. andere Fachaufgaben -> spezifischsten vorhandenen Skill aktivieren; bei echter Luecke nichts erfinden.
+7. SLOs, Error Budgets, Alerting, Observability oder Incident Response -> `skills/automated-sre-observability`
+8. Cloud-Kostenguardrails, Tagging, Budget oder Commitment-Strategie -> `skills/finops-cloud-governance`
+9. Multi-Agent-/autonome Agent-Orchestrierung, Tool-Scoping oder Guardrails gegen Endlosschleifen/Kontextueberlauf -> `skills/agentic-ai-orchestration-governance`
+10. Frontend/Design -> `skills/web-design-guidelines`
+11. Skill-Suche -> `skills/find-skills`
+12. andere Fachaufgaben -> spezifischsten vorhandenen Skill aktivieren; bei echter Luecke nichts erfinden.
 
 ## Workflow
 

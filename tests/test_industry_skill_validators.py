@@ -61,3 +61,59 @@ def test_low_code_solution_contract():
     assert module.validate(valid) == []
     invalid = dict(valid, dlp_reviewed=False)
     assert module.validate(invalid)
+
+
+def test_slo_manifest_contract():
+    module = load_module("slo_manifest", "skills/automated-sre-observability/scripts/validate_slo_manifest.py")
+    valid = {
+        "service_name": "checkout-api",
+        "sli_type": "availability",
+        "slo_target": 99.9,
+        "measurement_window_days": 28,
+        "error_budget_policy": "Feature-Release-Freeze bei Budgetverbrauch > 80%",
+        "burn_rate_alerting": [
+            {"window_hours": 1, "threshold_multiplier": 14.4, "severity": "page"},
+            {"window_hours": 6, "threshold_multiplier": 6, "severity": "ticket"},
+        ],
+        "escalation_owner": "checkout-oncall",
+        "runbook_url": "https://runbooks.internal/checkout-api-availability",
+    }
+    assert module.validate(valid) == []
+    invalid = dict(valid, slo_target=100)
+    assert module.validate(invalid)
+
+
+def test_finops_cost_guardrail_contract():
+    module = load_module("cost_guardrail", "skills/finops-cloud-governance/scripts/validate_cost_guardrail.py")
+    valid = {
+        "cost_center": "platform-payments",
+        "workload_name": "checkout-api",
+        "monthly_budget_usd": 12000,
+        "alert_thresholds_pct": [50, 80, 100],
+        "required_tags": ["cost-center", "owner", "environment", "service"],
+        "owner": "payments-platform-team",
+        "commitment_strategy": "savings-plan",
+        "anomaly_detection": True,
+    }
+    assert module.validate(valid) == []
+    invalid = dict(valid, anomaly_detection=False)
+    assert module.validate(invalid)
+
+
+def test_agent_run_contract():
+    module = load_module("agent_run_contract", "skills/agentic-ai-orchestration-governance/scripts/validate_agent_run_contract.py")
+    valid = {
+        "agent_name": "pr-triage-agent",
+        "max_iterations": 40,
+        "max_tool_calls": 120,
+        "context_budget_tokens": 150000,
+        "tool_scope": ["github.read_pr", "github.comment", "ci.read_logs"],
+        "kill_switch": True,
+        "human_escalation_trigger": "vor jedem Force-Push, Merge oder externen Kommentar an Dritte",
+        "cost_ceiling_usd": 5.0,
+    }
+    assert module.validate(valid) == []
+    invalid = dict(valid, tool_scope=["*"])
+    assert module.validate(invalid)
+    unbounded = dict(valid, max_iterations=100000)
+    assert module.validate(unbounded)

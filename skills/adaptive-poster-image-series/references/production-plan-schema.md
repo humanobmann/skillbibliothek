@@ -163,7 +163,7 @@ Jeder Slot braucht zusaetzlich zu Inhalt und Layout:
 - `source_inside_safe_area=true`
 - `design_brief` mit konkreter Typografie, Bildintegration und grafischem Element
 
-Ein `design_brief` darf nicht nur `freie Textzone`, `Negativraum fuer Text` oder `Foto mit Platz fuer Schrift` verlangen. Fuer 4:5 Master gelten zusaetzlich die verbindlichen internen Sicherheitsbereiche aus [platform-safe-zones.md](platform-safe-zones.md): 72 px links/rechts, 90 px oben, 110 px unten bei 1080 x 1350. Hero-Elemente brauchen mindestens acht Prozent optische Reserve; zentrale Motive mindestens zwoelf Prozent Crop-Reserve.
+Ein `design_brief` darf nicht nur `freie Textzone`, `Negativraum fuer Text` oder `Foto mit Platz fuer Schrift` verlangen. Fuer 4:5 Master gelten zusaetzlich die verbindlichen internen Sicherheitsbereiche aus [platform-safe-zones.md](platform-safe-zones.md): 100 px links/rechts, 100 px oben, 120 px unten bei 1080 x 1350, mit keiner kritischen Information innerhalb der aeussersten 40 px. Hero-Elemente brauchen mindestens acht Prozent optische Reserve; zentrale Motive mindestens zwoelf Prozent Crop-Reserve.
 
 ## Sichtbarer Text
 

@@ -17,6 +17,9 @@ ALLOWED_MECHANISMS = {
 }
 ALLOWED_VOLATILITY = {"high", "medium", "low"}
 ALLOWED_PLATFORMS = {"facebook", "instagram", "tiktok", "youtube", "linkedin"}
+ALLOWED_EVIDENCE_LEVELS = {"OFFICIAL", "ACCOUNT", "OBSERVED", "HYPOTHESIS"}
+ALLOWED_STATUS = {"active", "superseded", "deprecated", "rejected"}
+INACTIVE_STATUS = {"deprecated", "rejected"}
 REQUIRED_FIELDS = {
     "source_id",
     "platform",
@@ -28,6 +31,17 @@ REQUIRED_FIELDS = {
     "retrieved",
     "claim_scope",
     "volatility",
+    "status",
+}
+REQUIRED_CLAIM_FIELDS = {
+    "claim",
+    "evidence_level",
+    "mechanism",
+    "source_id",
+    "surface",
+    "observed_at",
+    "limitation",
+    "status",
 }
 
 
@@ -106,6 +120,65 @@ def validate_document(document: dict[str, Any]) -> None:
         volatility = _nonempty_string(record.get("volatility"), "volatility", source_id)
         if volatility not in ALLOWED_VOLATILITY:
             raise ValueError(f"{source_id}: volatility must be high, medium or low")
+
+        status = _nonempty_string(record.get("status"), "status", source_id)
+        if status not in ALLOWED_STATUS:
+            raise ValueError(f"{source_id}: status must be one of {sorted(ALLOWED_STATUS)}")
+
+    record_status_by_id = {r["source_id"]: r["status"] for r in records}
+
+    claims = document.get("claims", [])
+    if not isinstance(claims, list):
+        raise ValueError("claims must be a list when present")
+
+    seen_claims: set[str] = set()
+    for index, claim in enumerate(claims, start=1):
+        if not isinstance(claim, dict):
+            raise ValueError(f"claim {index}: object required")
+
+        missing = REQUIRED_CLAIM_FIELDS - set(claim)
+        if missing:
+            raise ValueError(f"claim {index}: missing fields: {', '.join(sorted(missing))}")
+
+        claim_text = _nonempty_string(claim.get("claim"), "claim", f"claim {index}")
+        if claim_text in seen_claims:
+            raise ValueError(f"claim {index}: duplicate claim text")
+        seen_claims.add(claim_text)
+
+        evidence_level = _nonempty_string(claim.get("evidence_level"), "evidence_level", claim_text)
+        if evidence_level not in ALLOWED_EVIDENCE_LEVELS:
+            raise ValueError(f"{claim_text}: evidence_level must be one of {sorted(ALLOWED_EVIDENCE_LEVELS)}")
+
+        mechanism = _nonempty_string(claim.get("mechanism"), "mechanism", claim_text)
+        if mechanism not in ALLOWED_MECHANISMS:
+            raise ValueError(f"{claim_text}: invalid mechanism {mechanism}")
+        if "/" in mechanism:
+            raise ValueError(f"{claim_text}: combined mechanism values are forbidden")
+
+        claim_source_id = _nonempty_string(claim.get("source_id"), "source_id", claim_text)
+        if claim_source_id not in record_status_by_id:
+            raise ValueError(f"{claim_text}: source_id {claim_source_id} has no matching source record")
+
+        _nonempty_string(claim.get("surface"), "surface", claim_text)
+
+        observed_at = _nonempty_string(claim.get("observed_at"), "observed_at", claim_text)
+        _valid_iso_date(observed_at, "observed_at", claim_text)
+
+        _nonempty_string(claim.get("limitation"), "limitation", claim_text)
+
+        claim_status = _nonempty_string(claim.get("status"), "status", claim_text)
+        if claim_status not in ALLOWED_STATUS:
+            raise ValueError(f"{claim_text}: status must be one of {sorted(ALLOWED_STATUS)}")
+
+        if claim_status not in INACTIVE_STATUS and record_status_by_id[claim_source_id] in INACTIVE_STATUS:
+            raise ValueError(
+                f"{claim_text}: an active/superseded claim must not cite a deprecated/rejected source ({claim_source_id})"
+            )
+
+        if mechanism == "MONETIZATION" and claim_status not in INACTIVE_STATUS:
+            scope_terms = {"ranking", "recommendation", "reach", "distribution"}
+            if any(term in claim_text.lower() for term in scope_terms):
+                raise ValueError(f"{claim_text}: a ranking/reach claim must not be derived from MONETIZATION-only evidence")
 
 
 def parse_args() -> argparse.Namespace:

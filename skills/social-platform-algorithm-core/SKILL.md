@@ -43,7 +43,7 @@ MONETIZATION darf niemals automatisch zu RANKING umklassifiziert werden.
 ## Workflow
 
 1. Plattform, Surface, Format und Kommunikationsziel bestimmen.
-2. [platform-profiles.md](references/platform-profiles.md) auf aktuelle OFFICIAL-Evidenz pruefen.
+2. [platform-profiles.md](references/platform-profiles.md) auf aktuelle OFFICIAL-Evidenz pruefen; bei Facebook oder Instagram zusaetzlich [meta-feed-strategy.md](references/meta-feed-strategy.md) als kanonische Meta-Feed-Quelle verwenden.
 3. Surface, Objective, Signal und Mechanismustyp festlegen.
 4. Inhalt auf Auswahl, Konsumtiefe, Payoff, Originalitaet, Relevanz und negative Signale pruefen.
 5. Search nur mit Query- und Themenpassung optimieren, kein Keyword Stuffing.
@@ -100,6 +100,10 @@ Nicht freigeben, wenn:
 - Engagement-Bait, Pods, Bots oder inauthentische Interaktion empfohlen werden.
 - Originalitaets- oder Eligibility-Risiken ignoriert werden.
 - politische Inhalte nach Ueberzeugbarkeit optimiert werden.
+
+## Meta Feed Strategy
+
+Fuer Facebook- oder Instagram-Feed-Posts, -Grafiken, -Algorithmus-, Reichweiten-, Hashtag-, Originalitaets- oder Recommendation-Eligibility-Fragen ist [meta-feed-strategy.md](references/meta-feed-strategy.md) verbindlich und kanonisch. Sie fasst Ranking-Modell, Originalitaets-Taxonomie, Hashtag-Regeln (Instagram: maximal 5), Feed-Grafik-Standard (4:5, 1080x1350), Recommendation-Eligibility-Zustaende und regressionsgesicherte Mythen zusammen. Facebook- und Instagram-Fachskills sowie visuelle Feed-Skills muessen diese Datei referenzieren statt eigene, moeglicherweise widerspruechliche Kopien zu fuehren.
 
 ## Ausgabe
 

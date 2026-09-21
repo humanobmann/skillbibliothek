@@ -1,5 +1,5 @@
 {
-  "total_skills": 103,
+  "total_skills": 106,
   "skills": [
     {
       "name": "adaptive-poster-image-series",
@@ -18,6 +18,14 @@
       "discovery_tokens": 88
     },
     {
+      "name": "agentic-ai-orchestration-governance",
+      "folder": "agentic-ai-orchestration-governance",
+      "category": "Agentic AI Orchestration Governance",
+      "description": "Design and govern multi-agent and autonomous agent orchestration, including least-privilege tool-permission scoping, iteration and context-window budgets, loop and runaway-cost prevention, human-escalation triggers, and kill switches. Use for multi-agent systems, autonomous CLI/agent loops, tool-use governance, agent-to-agent delegation, guardrails against infinite loops or context-window overflow, agent cost caps, or agent incident response. Prefer hard iteration/token/cost ceilings, explicit least-privilege tool scopes, and mandatory human-escalation triggers over unbounded autonomous execution.",
+      "tokens": 957,
+      "discovery_tokens": 159
+    },
+    {
       "name": "agents-md",
       "folder": "agents-md",
       "category": "Spezial- & Hilfsskills",
@@ -32,6 +40,14 @@
       "description": "Recherchiere, inventarisiere, extrahiere und normalisiere maschinenlesbare öffentliche Daten aus Österreich mit reproduzierbarer Provenienz. Verwenden bei Anfragen zu data.gv.at, Piveau, DCAT-AP, Statistik Austria, RIS, Parlament, Länder- oder Gemeindedaten, Open-Data-APIs, JSON/CSV/GeoJSON/WFS, Vollerhebungen, Delta-Abfragen, Gemeinde- und Regionalprofilen, Datenkatalogen oder belastbaren Datenquellen für nachgelagerte Analysen. Nicht für reine Textrecherche verwenden, wenn keine strukturierte Datenquelle oder reproduzierbare Datenerhebung erforderlich ist.",
       "tokens": 1924,
       "discovery_tokens": 147
+    },
+    {
+      "name": "automated-sre-observability",
+      "folder": "automated-sre-observability",
+      "category": "SRE & Observability",
+      "description": "Design and operate automated Site Reliability Engineering workflows across SLIs/SLOs, error budgets, symptom-based alerting, on-call escalation, incident response, and observability-as-code (metrics, logs, traces). Use for SRE, observability, incident management, alert-fatigue reduction, error-budget policy, paging, escalation runbooks, blameless postmortems, or reliability reviews. Prefer symptom-based alerts, actionable pages, explicit escalation paths, and measurable error-budget policies over ad hoc dashboards.",
+      "tokens": 880,
+      "discovery_tokens": 136
     },
     {
       "name": "automator",
@@ -210,6 +226,14 @@
       "discovery_tokens": 174
     },
     {
+      "name": "finops-cloud-governance",
+      "folder": "finops-cloud-governance",
+      "category": "FinOps & Cloud Cost Governance",
+      "description": "Design and operate FinOps cloud cost governance across budgets, cost-allocation tagging, anomaly alerting, unit economics, showback/chargeback, and commitment or reserved-capacity strategy. Use for cloud cost governance, budget guardrails, tagging policy, cost-anomaly detection, rightsizing, FinOps maturity, showback, chargeback, or reservation/savings-plan planning. Prefer mandatory cost-allocation tags, automated budget guardrails, and unit-economics metrics over static spend dashboards.",
+      "tokens": 820,
+      "discovery_tokens": 129
+    },
+    {
       "name": "follow-the-crypto",
       "folder": "follow-the-crypto",
       "category": "OSINT & Forensic Investigation",
@@ -301,9 +325,9 @@
       "name": "instagram-hashtag-research",
       "folder": "instagram-hashtag-research",
       "category": "Content, Kampagnen & Kommunikation",
-      "description": "Recherchiert und bewertet aktuelle Instagram-Hashtags ohne MCP-Server, Docker oder lokale Serverinstallation. Verwenden bei Anfragen nach Instagram-Hashtags, Hashtag-Recherche, Hashtag-Auswahl, Social-SEO-Tags, regionalen oder thematischen Tags sowie zur belegbaren Hashtag-Prüfung für Feed, Carousel oder Reel. Arbeitet mit verfügbarer Browser- oder Web-Recherche, optional mit einer normalen eingeloggten Instagram-Sitzung, trennt Kandidaten von verifizierter Evidenz, erfindet keine Reichweiten-, Trend- oder Volumenwerte und liefert standardmäßig 3 bis 8 belastbare Hashtags mit Prüfdatum, Quellenbasis, Evidenzstatus und relevanten Ausschlüssen.",
-      "tokens": 1859,
-      "discovery_tokens": 169
+      "description": "Recherchiert und bewertet aktuelle Instagram-Hashtags ohne MCP-Server, Docker oder lokale Serverinstallation. Verwenden bei Anfragen nach Instagram-Hashtags, Hashtag-Recherche, Hashtag-Auswahl, Social-SEO-Tags, regionalen oder thematischen Tags sowie zur belegbaren Hashtag-Prüfung für Feed, Carousel oder Reel. Arbeitet mit verfügbarer Browser- oder Web-Recherche, optional mit einer normalen eingeloggten Instagram-Sitzung, trennt Kandidaten von verifizierter Evidenz, erfindet keine Reichweiten-, Trend- oder Volumenwerte und liefert standardmäßig 3 bis maximal 5 belastbare Hashtags mit Prüfdatum, Quellenbasis, Evidenzstatus und relevanten Ausschlüssen.",
+      "tokens": 2031,
+      "discovery_tokens": 171
     },
     {
       "name": "instagram-text-optimizer",

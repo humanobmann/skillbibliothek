@@ -1,0 +1,7 @@
+interface:
+  display_name: Agentic AI Orchestration Governance
+  short_description: Guardrails for autonomous and multi-agent execution
+  default_prompt: Use $agentic-ai-orchestration-governance to set iteration, context and cost budgets, a kill switch and human-escalation triggers for an autonomous agent run.
+policy:
+  allow_implicit_invocation: true
+  products: [CHAT, CODEX]

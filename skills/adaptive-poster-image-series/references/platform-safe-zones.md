@@ -12,13 +12,15 @@ Wenn aktuelle Plattformdokumentation, reale UI-Tests oder ein konkreter Placemen
 
 - Canvas: 1080 x 1350 px
 - Profil: `feed_4x5`
-- kritischer Text links: mindestens 72 px
-- kritischer Text rechts: mindestens 72 px
-- kritischer Text oben: mindestens 90 px
-- kritischer Text unten: mindestens 110 px
+- aeusserster technischer Rand: keine kritische Information innerhalb der aeussersten 40 px
+- kritischer Text links: mindestens 100 px
+- kritischer Text rechts: mindestens 100 px
+- kritischer Text oben: mindestens 100 px
+- kritischer Text unten: mindestens 120 px
+- empfohlener Hauptinhaltsbereich: x = 100 bis 980, y = 100 bis 1230
 - Hero-Zahlen oder dominante Keywords: mindestens 8 % zusaetzlicher optischer Freiraum
-- Quelle vollstaendig innerhalb des sicheren Innenbereichs
-- zentrale Gesichter, Haende, Maschinen oder andere Motive: mindestens 12 % Crop-Reserve um den relevanten Motivkern
+- Quelle vollstaendig innerhalb des sicheren Innenbereichs; Quellen, Namen, Zahlen, CTA oder Logos nie ausserhalb des Hauptinhaltsbereichs
+- zentrale Gesichter, Haende, Maschinen oder andere bedeutungstragende Motive: mindestens 12 % Crop-Reserve um den relevanten Motivkern
 
 ### Feed 1:1
 

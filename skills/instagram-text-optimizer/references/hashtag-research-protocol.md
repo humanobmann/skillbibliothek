@@ -1,6 +1,6 @@
 # Hashtag-Rechercheprotokoll
 
-Jede Caption braucht eine neue, dokumentierte Hashtag-Prüfung.
+Jede Caption braucht eine neue, dokumentierte Hashtag-Prüfung. Instagram-Hardcap gemaess [meta-feed-strategy.md](../../social-platform-algorithm-core/references/meta-feed-strategy.md) Abschnitt 4: maximal 5 Hashtags, nie mehr.
 
 1. Extrahiere Thema, Zielgruppe, Sprache, Land/Ort, Organisation, Anlass und mögliche Kampagnenbegriffe.
 2. Suche aktuelle öffentliche Informationen zuerst in der Instagram-Suche bzw. bei verfügbarer offizieller Meta-Dokumentation; ergänze bei Bedarf mit einer Websuche nach aktuellen, öffentlich sichtbaren Verwendungen. Drittanbieter-Metriken gelten nicht als Wahrheit ohne offen benannte Quelle und Datum.
