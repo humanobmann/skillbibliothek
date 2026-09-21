@@ -14,6 +14,9 @@ a gap, never guessed.
 | author or maintain a library skill | `library-skill-authoring` | skill purpose, inputs, links, provenance |
 | UI/accessibility/performance guidance | `web-design-guidelines` | route/component and acceptance criteria |
 | cross-platform social algorithm, reach, discovery or ranking analysis | `social-platform-algorithm-core` | platform, surface, format, current evidence |
+| MLOps, LLMOps, model lifecycle, model release or AI operations | `mlops-ai-operations` | workload type, data/model provenance, release criteria |
+| Kubernetes, container, GitOps or cloud-native security review | `cloud-native-security` | workload/cluster scope, identities, manifests, trust boundaries |
+| low-code/no-code governance, ALM or enterprise automation engineering | `low-code-no-code-engineering` | platform, connectors, data classification, environment strategy |
 | political text in an abstracted Philip Kucher rhetoric profile | `philip-kucher-writing` | draft or topic, factual basis, output format |
 | Facebook post or caption optimization | `facebook-text-optimizer` | post, audience, communication goal |
 | Instagram caption, Feed, Carousel or Reel text optimization | `instagram-text-optimizer` | content, format, audience |
