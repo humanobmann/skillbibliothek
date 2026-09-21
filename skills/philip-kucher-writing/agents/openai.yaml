@@ -1,0 +1,6 @@
+interface:
+  display_name: Philip Kucher Writing
+  short_description: Pointierte politische Texte mit abstrahiertem Kucher-Rhetorikprofil
+  default_prompt: Nutze $philip-kucher-writing, um diesen politischen Text mit direkter Alltagssprache, klaren Bildern und einer belastbaren Pointe zu überarbeiten.
+policy:
+  allow_implicit_invocation: true
