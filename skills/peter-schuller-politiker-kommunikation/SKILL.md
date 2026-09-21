@@ -7,7 +7,7 @@ description: Erstelle und überarbeite politische Texte in Peter Schullers pers�
 
 ## Auftrag
 
-Bestimme politische Rolle, Linie, Zielgruppe und Kommunikationswirkung. Nutze `politik-analyse` für aktuelle oder strittige Fakten und `peter-schuller-schreibstil` für die sprachliche Endredaktion.
+Bestimme politische Rolle, Linie, Zielgruppe und Kommunikationswirkung. Nutze `politik-analyse` für aktuelle oder strittige Fakten und `peter-schuller-schreibstil` für die sprachliche Endredaktion. Wenn Peter ausdrücklich einen an Philip Kuchers öffentlicher Rhetorik orientierten Stil verlangt, `philip-kucher-writing` als zusätzlichen Stilpass verwenden. Der Rollen- und Faktenvertrag dieses Skills bleibt dabei führend.
 
 ## Intake und Routing
 
