@@ -20,7 +20,7 @@ Dieser Index bietet einen kompakten Überblick aller verfügbaren Skills zur res
 | **`powershell-senior-expert`** | [`skills/powershell-senior-expert`](powershell-senior-expert/SKILL.md) | Erstellt, prüft und diagnostiziert PowerShell-Befehle, Skripte und Runbooks für Windows, Microsoft 365 und Azure. Nutze ... | ~105 |
 | **`screenshot`** | [`skills/screenshot`](screenshot/SKILL.md) | Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel re... | ~57 |
 
-## Content, Kampagnen & Kommunikation (19)
+## Content, Kampagnen & Kommunikation (20)
 
 | Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
 |---|---|---|---:|
