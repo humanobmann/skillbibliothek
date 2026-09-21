@@ -20,6 +20,24 @@ Dieser Index bietet einen kompakten Überblick aller verfügbaren Skills zur res
 | **`powershell-senior-expert`** | [`skills/powershell-senior-expert`](powershell-senior-expert/SKILL.md) | Erstellt, prüft und diagnostiziert PowerShell-Befehle, Skripte und Runbooks für Windows, Microsoft 365 und Azure. Nutze ... | ~105 |
 | **`screenshot`** | [`skills/screenshot`](screenshot/SKILL.md) | Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel re... | ~57 |
 
+## AI/ML & MLOps (1)
+
+| Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
+|---|---|---|---:|
+| **`mlops-ai-operations`** | [`skills/mlops-ai-operations`](mlops-ai-operations/SKILL.md) | Produktionsorientierte AI/ML-Lieferketten mit Provenienz, Evaluation, Registry, Deployment, Observability, Rollback und AI Governance. | ~105 |
+
+## Cloud-Native & Platform Security (1)
+
+| Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
+|---|---|---|---:|
+| **`cloud-native-security`** | [`skills/cloud-native-security`](cloud-native-security/SKILL.md) | End-to-End-Härtung für Kubernetes, Container, GitOps, Admission, Workload Identity, Netzwerk und Software Supply Chain. | ~100 |
+
+## Low-Code / No-Code Engineering (1)
+
+| Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
+|---|---|---|---:|
+| **`low-code-no-code-engineering`** | [`skills/low-code-no-code-engineering`](low-code-no-code-engineering/SKILL.md) | Software-grade ALM, Governance, DLP, Source Control, Tests und Betrieb für Low-Code- und No-Code-Lösungen. | ~105 |
+
 ## Content, Kampagnen & Kommunikation (20)
 
 | Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
