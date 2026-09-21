@@ -16,4 +16,4 @@ Ein Score ersetzt keine harten Stopps: unbelegte Kernbehauptung, irreführende V
 
 ## Algorithmus-Fit Zusatzgate
 
-Bei Algorithmus- oder Maximaloptimierung innerhalb der bestehenden Kategorien zusaetzlich bewerten: Hook in den ersten Sekunden beziehungsweise Zeilen, Retention-Potenzial, Save-/Share-Wert, Originalitaet, Empfehlungseignung und semantische Themenpassung. Keine erfundenen Gewichte vergeben.
+Bei Algorithmus- oder Maximaloptimierung innerhalb der bestehenden Kategorien zusaetzlich bewerten: Hook in den ersten Sekunden beziehungsweise Zeilen, Retention-Potenzial, Save-/Share-Wert, Originalitaet, Empfehlungseignung und semantische Themenpassung. Keine erfundenen Gewichte vergeben. Kanonische Regeln und Mythenliste: [meta-feed-strategy.md](../../social-platform-algorithm-core/references/meta-feed-strategy.md).

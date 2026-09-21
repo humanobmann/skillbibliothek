@@ -42,7 +42,7 @@ Für 20 bis 40 Startkandidaten keine vollständige Tiefenprüfung vortäuschen.
 1. Kandidaten semantisch triagieren.
 2. 8 bis 15 Kandidaten aktuell prüfen.
 3. Die stärksten 5 bis 10 tiefer prüfen.
-4. 3 bis 8 finale Tags auswählen.
+4. 3 bis maximal 5 finale Tags auswählen (Instagram-Hardcap).
 
 Wenn direkte Instagram-Ansicht verfügbar ist, bei starken Kandidaten nach Möglichkeit mehrere aktuelle Beiträge unterschiedlicher Accounts ansehen.
 

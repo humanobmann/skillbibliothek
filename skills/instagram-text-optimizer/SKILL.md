@@ -15,7 +15,7 @@ Erstelle eine kurze, eigenständige Caption, die das Medium ergänzt statt es zu
 2. Bei Peter Schullers Rollenkommunikation zuerst den politischen oder Vereins-Rollenskill einsetzen.
 3. Nutze genau einen Plattform-Optimierer: Instagram statt Facebook.
 4. `humanizer-de` ist nur ein optionaler Stil-Endpass und darf keinen Claim verstärken.
-5. Bei Algorithmus-, Reichweiten-, Reel-, Explore- oder Maximaloptimierung `social-platform-algorithm-core` als Evidenzschicht verwenden.
+5. Bei Algorithmus-, Reichweiten-, Feed-, Explore-, Discovery-, Search-, Recommendation- oder Maximaloptimierung zwingend `social-platform-algorithm-core` und dessen kanonische [meta-feed-strategy.md](../social-platform-algorithm-core/references/meta-feed-strategy.md) als Evidenzschicht verwenden. Keine lokale, davon abweichende Algorithmus-Behauptung treffen.
 
 ## Format und Länge
 

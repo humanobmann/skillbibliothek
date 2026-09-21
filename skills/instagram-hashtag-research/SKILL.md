@@ -1,6 +1,6 @@
 ---
 name: instagram-hashtag-research
-description: Recherchiert und bewertet aktuelle Instagram-Hashtags ohne MCP-Server, Docker oder lokale Serverinstallation. Verwenden bei Anfragen nach Instagram-Hashtags, Hashtag-Recherche, Hashtag-Auswahl, Social-SEO-Tags, regionalen oder thematischen Tags sowie zur belegbaren Hashtag-Prüfung für Feed, Carousel oder Reel. Arbeitet mit verfügbarer Browser- oder Web-Recherche, optional mit einer normalen eingeloggten Instagram-Sitzung, trennt Kandidaten von verifizierter Evidenz, erfindet keine Reichweiten-, Trend- oder Volumenwerte und liefert standardmäßig 3 bis 8 belastbare Hashtags mit Prüfdatum, Quellenbasis, Evidenzstatus und relevanten Ausschlüssen.
+description: Recherchiert und bewertet aktuelle Instagram-Hashtags ohne MCP-Server, Docker oder lokale Serverinstallation. Verwenden bei Anfragen nach Instagram-Hashtags, Hashtag-Recherche, Hashtag-Auswahl, Social-SEO-Tags, regionalen oder thematischen Tags sowie zur belegbaren Hashtag-Prüfung für Feed, Carousel oder Reel. Arbeitet mit verfügbarer Browser- oder Web-Recherche, optional mit einer normalen eingeloggten Instagram-Sitzung, trennt Kandidaten von verifizierter Evidenz, erfindet keine Reichweiten-, Trend- oder Volumenwerte und liefert standardmäßig 3 bis maximal 5 belastbare Hashtags mit Prüfdatum, Quellenbasis, Evidenzstatus und relevanten Ausschlüssen.
 ---
 
 # Instagram Hashtag Research
@@ -8,6 +8,8 @@ description: Recherchiert und bewertet aktuelle Instagram-Hashtags ohne MCP-Serv
 ## Ziel
 
 Eine kleine, aktuelle und nachvollziehbar geprüfte Hashtag-Auswahl liefern. Hashtags als semantische Kontext- und Discovery-Signale behandeln, nicht als primaeren Reichweitenhebel. Nicht aus vermeintlichen Algorithmus-Tricks, generischen Generatorlisten oder erfundenen Kennzahlen ableiten.
+
+Instagram-Hardcap gemaess [meta-feed-strategy.md](../social-platform-algorithm-core/references/meta-feed-strategy.md) Abschnitt 4: **maximal 5 Hashtags**. Dieser Cap gilt fuer jede Ausgabe dieses Skills, unabhaengig von Auftragsgroesse oder Nutzerwunsch nach mehr Tags.
 
 Keine MCP-Server, Docker-Container oder lokalen Dienste voraussetzen. Keine Installation externer Scraper verlangen.
 
@@ -102,7 +104,7 @@ Keine Scheingenauigkeit erzeugen. Ein numerischer Score ist nur ein internes Ord
 
 ### 6. Auswahl bilden
 
-Standardmäßig 3 bis 8 Tags auswählen. Weniger ausgeben, wenn weniger belastbar sind.
+Standardmäßig 3 bis maximal 5 Tags auswählen (Instagram-Hardcap gemaess [meta-feed-strategy.md](../social-platform-algorithm-core/references/meta-feed-strategy.md)). Weniger ausgeben, wenn weniger belastbar sind. Nie mehr als 5 Tags ausgeben, auch bei ausdruecklichem Nutzerwunsch nach mehr.
 
 Eine sinnvolle Mischung bevorzugen aus:
 
@@ -147,7 +149,7 @@ Das Ausgabeformat aus [references/output-patterns.md](references/output-patterns
 
 Standardmäßig kompakt ausgeben:
 
-1. **Empfohlene Hashtags:** 3 bis 8 Tags in einer kopierbaren Zeile.
+1. **Empfohlene Hashtags:** 3 bis maximal 5 Tags in einer kopierbaren Zeile.
 2. **Warum diese:** je Tag kurze sachliche Begründung und Evidenzstatus.
 3. **Ausgeschlossen:** höchstens fünf relevante Kandidaten mit Grund.
 4. **Recherche:** Prüfdatum, Suchbasis, Stichprobe und wichtigste Einschränkung.

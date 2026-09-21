@@ -11,7 +11,7 @@ from quality_contract import norm, norm_lower, strict_bool, strict_int
 
 MODE_COUNTS = {"single": 1, "pair": 2, "trio": 3, "quad": 4}
 SAFE_PROFILES = {
-    "feed_4x5": {"left": 72, "right": 72, "top": 90, "bottom": 110},
+    "feed_4x5": {"left": 100, "right": 100, "top": 100, "bottom": 120},
     "square_1x1": {"left": 90, "right": 90, "top": 90, "bottom": 90},
 }
 

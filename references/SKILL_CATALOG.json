@@ -325,9 +325,9 @@
       "name": "instagram-hashtag-research",
       "folder": "instagram-hashtag-research",
       "category": "Content, Kampagnen & Kommunikation",
-      "description": "Recherchiert und bewertet aktuelle Instagram-Hashtags ohne MCP-Server, Docker oder lokale Serverinstallation. Verwenden bei Anfragen nach Instagram-Hashtags, Hashtag-Recherche, Hashtag-Auswahl, Social-SEO-Tags, regionalen oder thematischen Tags sowie zur belegbaren Hashtag-Prüfung für Feed, Carousel oder Reel. Arbeitet mit verfügbarer Browser- oder Web-Recherche, optional mit einer normalen eingeloggten Instagram-Sitzung, trennt Kandidaten von verifizierter Evidenz, erfindet keine Reichweiten-, Trend- oder Volumenwerte und liefert standardmäßig 3 bis 8 belastbare Hashtags mit Prüfdatum, Quellenbasis, Evidenzstatus und relevanten Ausschlüssen.",
-      "tokens": 1859,
-      "discovery_tokens": 169
+      "description": "Recherchiert und bewertet aktuelle Instagram-Hashtags ohne MCP-Server, Docker oder lokale Serverinstallation. Verwenden bei Anfragen nach Instagram-Hashtags, Hashtag-Recherche, Hashtag-Auswahl, Social-SEO-Tags, regionalen oder thematischen Tags sowie zur belegbaren Hashtag-Prüfung für Feed, Carousel oder Reel. Arbeitet mit verfügbarer Browser- oder Web-Recherche, optional mit einer normalen eingeloggten Instagram-Sitzung, trennt Kandidaten von verifizierter Evidenz, erfindet keine Reichweiten-, Trend- oder Volumenwerte und liefert standardmäßig 3 bis maximal 5 belastbare Hashtags mit Prüfdatum, Quellenbasis, Evidenzstatus und relevanten Ausschlüssen.",
+      "tokens": 2031,
+      "discovery_tokens": 171
     },
     {
       "name": "instagram-text-optimizer",

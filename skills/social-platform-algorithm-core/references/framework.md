@@ -1,6 +1,6 @@
 # Social Algorithm Framework
 
-Pruefstand: 2026-09-19.
+Pruefstand: 2026-09-22.
 
 ## 1. Platform -> Surface -> Objective -> Signal
 
@@ -21,7 +21,7 @@ Eine Regel darf nur dann von einer Surface auf eine andere uebertragen werden, w
 
 ## 2. Evidence Records
 
-Die kanonischen Records stehen in [evidence-records.json](evidence-records.json) und werden deterministisch mit `python scripts/validate_social_evidence.py` geprueft.
+Die kanonischen Records stehen in [evidence-records.json](evidence-records.json) und werden deterministisch mit `python scripts/validate_social_evidence.py` geprueft. Fuer Facebook und Instagram fasst [meta-feed-strategy.md](meta-feed-strategy.md) diese Records zu verbindlichen Produktionsregeln zusammen.
 
 Jede volatile Plattformquelle muss enthalten:
 
@@ -35,8 +35,9 @@ Jede volatile Plattformquelle muss enthalten:
     retrieved
     claim_scope
     volatility: high | medium | low
+    status: active | superseded | deprecated | rejected
 
-Jeder Algorithmusclaim soll enthalten:
+Jeder Algorithmusclaim (optionales `claims`-Array) muss enthalten:
 
     claim
     evidence_level: OFFICIAL | ACCOUNT | OBSERVED | HYPOTHESIS
@@ -45,6 +46,9 @@ Jeder Algorithmusclaim soll enthalten:
     surface
     observed_at
     limitation
+    status: active | superseded | deprecated | rejected
+
+`deprecated`- und `rejected`-Claims sind niemals aktive Optimierungsregeln; sie dokumentieren widerlegte oder veraltete Aussagen und werden fuer die Mythen-Regressionspruefung verwendet (siehe [meta-feed-strategy.md](meta-feed-strategy.md) Abschnitt 19). Ein aktiver oder superseded Claim darf keinen `deprecated`/`rejected` Source Record zitieren.
 
 Ein Record darf genau einen Mechanismustyp enthalten. Kombinierte Werte wie `RANKING/SEARCH` sind unzulaessig; dieselbe Quelle wird bei Bedarf in getrennte Records fuer getrennte Mechanismen aufgeteilt.
 
@@ -140,3 +144,5 @@ Hard Gates haben Vorrang vor dem Score.
 ## 9. Anti-Patterns
 
 Keine universelle fixe Ideal-Laenge, keine dauerhafte Golden-Hour-Regel, keine erfundenen Signalgewichte, keine Hashtag-Magie, keine FYP-Magie, keine kuenstliche Watch-Time-Verlaengerung, kein Minimaledit-Reupload als Originalitaetsstrategie, kein einzelner viraler Post als Beweis und keine Monetarisierungsformel als Rankingmodell.
+
+Fuer Facebook und Instagram ist die maschinenpruefbare, regressionsgesicherte Mythenliste in [meta-feed-strategy.md](meta-feed-strategy.md) Abschnitt 19 und in `evidence-records.json` (`claims` mit `status: "rejected"`) verbindlich; dieser Abschnitt dupliziert sie nicht, sondern verweist darauf.

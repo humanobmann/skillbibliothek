@@ -13,7 +13,7 @@ from quality_contract import finite_float, norm, norm_lower, strict_bool, strict
 PROFILES = {
     "feed_4x5": {
         "width": 1080, "height": 1350,
-        "safe": {"left": 72, "right": 72, "top": 90, "bottom": 110},
+        "safe": {"left": 100, "right": 100, "top": 100, "bottom": 120},
         "suffix": "feed-4x5",
     },
     "square_1x1": {

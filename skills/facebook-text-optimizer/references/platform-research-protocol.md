@@ -11,4 +11,6 @@ Meta beschreibt Empfehlungen als personalisiert und weist auf den Vorrang origin
 
 ## Aktueller Evidenzkern
 
-Pruefstand 19.09.2026: Offizielle Meta-Quellen dokumentieren unter anderem personalisierte Relevanzmodelle, vorhergesagte Betrachtungsdauer, Shares und Likes als Signale sowie die Priorisierung origineller beziehungsweise substantial transformierter Inhalte gegenueber duplizierten oder minimal veraenderten Inhalten. Vor jeder spaeteren zeitkritischen Aussage erneut pruefen.
+Pruefstand 22.09.2026: Offizielle Meta-Quellen dokumentieren unter anderem personalisierte Relevanzmodelle, vorhergesagte Betrachtungsdauer, Shares und Likes als Signale sowie die Priorisierung origineller beziehungsweise substantial transformierter Inhalte gegenueber duplizierten oder minimal veraenderten Inhalten. Vor jeder spaeteren zeitkritischen Aussage erneut pruefen.
+
+Kanonische, regressionsgepruefte Detailregeln (Links, Captions, Hashtags, 4:5-Grafikstandard, Recommendation Eligibility, Mythenliste): [social-platform-algorithm-core/references/meta-feed-strategy.md](../../social-platform-algorithm-core/references/meta-feed-strategy.md).

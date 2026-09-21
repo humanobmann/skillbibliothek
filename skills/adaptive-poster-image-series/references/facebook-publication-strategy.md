@@ -15,7 +15,7 @@ Ziel:
 - 4:5
 - bevorzugt 1080 x 1350
 - maximale mobile Feedflaeche
-- verbindliches internes Profil `feed_4x5`: 72 px links/rechts, 90 px oben, 110 px unten fuer kritischen Text bei 1080 x 1350
+- verbindliches internes Profil `feed_4x5`: 100 px links/rechts, 100 px oben, 120 px unten fuer kritischen Text bei 1080 x 1350, keine kritische Information innerhalb der aeussersten 40 px
 
 Diese Werte sind interne konservative Produktionsreserven und keine behauptete offizielle Meta Safe Zone.
 

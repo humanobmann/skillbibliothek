@@ -96,7 +96,7 @@ Pruefen:
 
 Vor Freigabe jede konkrete Datei gegen [platform-safe-zones.md](platform-safe-zones.md) pruefen.
 
-- 4:5 bei 1080 x 1350: mindestens 72 px links/rechts, 90 px oben, 110 px unten fuer kritischen Text.
+- 4:5 bei 1080 x 1350: mindestens 100 px links/rechts, 100 px oben, 120 px unten fuer kritischen Text; keine kritische Information innerhalb der aeussersten 40 px.
 - 1:1 bei 1080 x 1080: kritischer Inhalt innerhalb des zentrierten 900 x 900 px Bereichs.
 - 9:16 bei 1080 x 1920: mindestens 90 px links, 160 px rechts, 288 px oben, 384 px unten fuer kritische Information.
 - Diese Werte sind interne konservative Produktionsreserven und duerfen nicht als offizielle Plattform-Safe-Zones bezeichnet werden.

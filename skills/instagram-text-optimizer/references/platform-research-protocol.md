@@ -9,4 +9,6 @@ Bei politischem Inhalt zusätzlich erläutern, dass Sichtbarkeit personalisiert 
 
 ## Aktueller Evidenzkern
 
-Pruefstand 19.09.2026: Meta Transparency dokumentiert fuer Instagram je nach Surface unter anderem Betrachtungsdauer, 3-Sekunden-Views, sehr fruehe Skips, Like-, Save- und Share-Wahrscheinlichkeit. Instagram for Creators betont Originalitaet, Recommendation Eligibility und die geringere Empfehlungswahrscheinlichkeit von Reposts oder Inhalten mit auffaelligen Wasserzeichen. Vor spaeteren zeitkritischen Aussagen erneut pruefen.
+Pruefstand 22.09.2026: Meta Transparency dokumentiert fuer Instagram je nach Surface unter anderem Betrachtungsdauer, 3-Sekunden-Views, sehr fruehe Skips, Like-, Save- und Share-Wahrscheinlichkeit. Instagram for Creators betont Originalitaet, Recommendation Eligibility und die geringere Empfehlungswahrscheinlichkeit von Reposts oder Inhalten mit auffaelligen Wasserzeichen. Vor spaeteren zeitkritischen Aussagen erneut pruefen.
+
+Kanonische, regressionsgepruefte Detailregeln (Hashtag-Hardcap 5, Kernsignale, 4:5-Grafikstandard, Recommendation Eligibility, Mythenliste): [social-platform-algorithm-core/references/meta-feed-strategy.md](../../social-platform-algorithm-core/references/meta-feed-strategy.md).

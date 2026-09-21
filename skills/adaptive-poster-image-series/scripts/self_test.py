@@ -107,7 +107,7 @@ def production_plan():
 def platform_delivery_plan():
     outputs = []
     variants = {
-        "feed_4x5": (1080, 1350, {"left": 72, "right": 72, "top": 90, "bottom": 110}, "feed-4x5"),
+        "feed_4x5": (1080, 1350, {"left": 100, "right": 100, "top": 100, "bottom": 120}, "feed-4x5"),
         "square_1x1": (1080, 1080, {"left": 90, "right": 90, "top": 90, "bottom": 90}, "square-1x1"),
         "vertical_9x16": (1080, 1920, {"left": 90, "right": 160, "top": 288, "bottom": 384}, "vertical-9x16"),
     }
@@ -262,9 +262,13 @@ def main():
     expect_fail("unsafe 4:5 left margin", lambda: validate_platform_delivery(bad_delivery, prod))
 
     stricter_delivery = copy.deepcopy(delivery)
-    stricter_delivery["outputs"][0]["safe_area_px"]["left"] = 100
+    stricter_delivery["outputs"][0]["safe_area_px"]["left"] = 150
     validate_platform_delivery(stricter_delivery, prod)
     print("PASS positive: stricter safe margin accepted")
+
+    x70_delivery = copy.deepcopy(delivery)
+    x70_delivery["outputs"][0]["safe_area_px"]["left"] = 70
+    expect_fail("critical text at x=70 must not be feed_4x5-safe (AUFTRAG Test 10)", lambda: validate_platform_delivery(x70_delivery, prod))
 
     bad_delivery = copy.deepcopy(delivery)
     bad_delivery["outputs"][20]["recompose_not_crop"] = False

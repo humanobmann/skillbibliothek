@@ -15,7 +15,7 @@ Optimiere zuerst Nutzen, Klarheit, Belege und Stimme; Plattformwirkung folgt dar
 2. Für Peter Schullers politische oder Vereinsrolle zuerst den passenden Rollenskill verwenden.
 3. `humanizer-de` nur einsetzen, wenn eine zusätzliche Natürlichkeitsredaktion verlangt wird; danach Claims erneut nicht stärken.
 4. Nur diesen Plattform-Optimierer laden, niemals parallel `instagram-text-optimizer`.
-5. Bei Algorithmus-, Reichweiten-, Format- oder maximaler Optimierungsfrage zusaetzlich `social-platform-algorithm-core` als gemeinsame Evidenzschicht verwenden.
+5. Bei Algorithmus-, Reichweiten-, Format- oder maximaler Optimierungsfrage, Feed-Ranking, Originalitaet, Recommendation Eligibility oder Text-Bild-Strategie zwingend `social-platform-algorithm-core` und dessen kanonische [meta-feed-strategy.md](../social-platform-algorithm-core/references/meta-feed-strategy.md) als gemeinsame Evidenzschicht verwenden. Keine lokale, davon abweichende Algorithmus-Behauptung treffen.
 
 ## Arbeitsweise
 
