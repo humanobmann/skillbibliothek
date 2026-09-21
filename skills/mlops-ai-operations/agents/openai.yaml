@@ -1,0 +1,7 @@
+interface:
+  display_name: MLOps & AI Operations
+  short_description: Production AI/ML releases reproducibly design and operate
+  default_prompt: Use $mlops-ai-operations to design a reproducible production AI/ML lifecycle with explicit release gates and rollback.
+policy:
+  allow_implicit_invocation: true
+  products: [CHAT, CODEX]
