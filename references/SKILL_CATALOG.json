@@ -1,5 +1,5 @@
 {
-  "total_skills": 99,
+  "total_skills": 103,
   "skills": [
     {
       "name": "adaptive-poster-image-series",
@@ -56,6 +56,14 @@
       "description": "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from any repo, expose composable read/write commands, return stable JSON, manage auth, and pair with a companion skill.",
       "tokens": 2625,
       "discovery_tokens": 86
+    },
+    {
+      "name": "cloud-native-security",
+      "folder": "cloud-native-security",
+      "category": "Cloud-Native & Platform Security",
+      "description": "Design and review security controls for Kubernetes, containers, GitOps, CI/CD and cloud-native workloads. Use for Pod Security Standards, least-privilege RBAC, workload identity, admission controls, image provenance, secrets handling, runtime hardening, network isolation, supply-chain controls, multi-tenant clusters, or cloud-native threat modeling. Prefer secure defaults, immutable artifacts, explicit trust boundaries, policy-as-code, and controls that can be verified in CI before deployment.",
+      "tokens": 373,
+      "discovery_tokens": 80
     },
     {
       "name": "code-review",
@@ -370,6 +378,14 @@
       "discovery_tokens": 0
     },
     {
+      "name": "low-code-no-code-engineering",
+      "folder": "low-code-no-code-engineering",
+      "category": "Low-Code / No-Code Engineering",
+      "description": "Design, review, govern, and release low-code/no-code solutions as maintainable software products rather than unmanaged app artifacts. Use for Power Platform, Power Apps, Power Automate, Copilot Studio, Make, n8n, Zapier, Airtable-style automations, citizen-development governance, DLP, connector reviews, environment strategy, ALM, source control, testing, observability, solution ownership, or migration from prototypes to enterprise-managed workflows.",
+      "tokens": 331,
+      "discovery_tokens": 70
+    },
+    {
       "name": "manifest-2-0-author",
       "folder": "manifest-2-0-author",
       "category": "Automation, CLI & Testing",
@@ -384,6 +400,14 @@
       "description": "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.",
       "tokens": 1981,
       "discovery_tokens": 30
+    },
+    {
+      "name": "mlops-ai-operations",
+      "folder": "mlops-ai-operations",
+      "category": "AI/ML & MLOps",
+      "description": "Design, review, and operate production AI/ML delivery workflows across data lineage, experiment tracking, model registry, evaluation, deployment, observability, rollback, cost controls, and AI risk governance. Use for MLOps, LLMOps, model release gates, reproducibility, model cards, drift monitoring, inference operations, CI/CD for models, or productionizing Python/Jupyter AI work. Prefer explicit provenance, immutable versions, measurable quality gates, and reversible deployments.",
+      "tokens": 478,
+      "discovery_tokens": 78
     },
     {
       "name": "non-fiction-revision",
@@ -472,6 +496,14 @@
       "description": "Verfasse oder überarbeite kurze und mittlere Texte so, dass sie wie Peter Schuller klingen. Verwende den Skill als sprachliches Overlay für persönliche Nachrichten, E-Mails, Behördenkorrespondenz, Beschwerden, technische Supportanfragen sowie gemeinsam mit dem zuständigen Rollenskill für Vereins- oder politische Kommunikation. Verwende ihn nicht allein für Recherche, politische Analyse, Aufgabensteuerung, Dateierstellung, Connectoraktionen oder Texte, die nicht in Peters Stimme geschrieben werden sollen.",
       "tokens": 1154,
       "discovery_tokens": 133
+    },
+    {
+      "name": "philip-kucher-writing",
+      "folder": "philip-kucher-writing",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Erstelle oder überarbeite politische Texte mit einem abstrahierten rhetorischen Profil, das an Philip Kuchers öffentliche Kommunikationsweise angelehnt ist, ohne konkrete Formulierungen zu kopieren oder eine täuschend echte Personenimitation zu erzeugen. Verwende den Skill für Facebook-Beiträge, Kommentarantworten, politische Statements, Reden sowie Reels- und TikTok-Skripte, wenn direkte Alltagssprache, klare Gegensätze, bildhafte Vergleiche, Wiederholung, Humor und zitierfähige Pointen gewünscht sind. Aktuelle oder strittige politische Sachbehauptungen müssen vor Verwendung geprüft und von Interpretation sowie rhetorischer Zuspitzung getrennt werden.",
+      "tokens": 794,
+      "discovery_tokens": 100
     },
     {
       "name": "playwright",
