@@ -19,9 +19,8 @@ Die Quellen werden nur gelesen; alle konsolidierten Änderungen erfolgen hier.
 
 ## Aktueller Bestand
 
-Der aktuelle konsolidierte Bestand umfasst 96 Skill-Verzeichnisse mit `SKILL.md`.
-Davon bilden 94 Skills die zusammengeführte Fachbibliothek; `core-routing` und
-`skill-security-auditor` ergänzen die Control-Plane- und Security-Gates.
+Der aktuelle konsolidierte Bestand umfasst 103 Skill-Verzeichnisse mit `SKILL.md`.
+`core-routing` und `skill-security-auditor` ergänzen die Fachbibliothek um Control-Plane- und Security-Gates.
 
 ### Kernbereiche
 
@@ -29,6 +28,9 @@ Davon bilden 94 Skills die zusammengeführte Fachbibliothek; `core-routing` und
 - Recherche und Verifikation: `fact-check`, `deep-research`, `source-verification`, `read-deleted-pages`, `find-the-original-image`
 - Design und UX: `web-design-guidelines`, `ui-design-engineering`, `ui-ux-pro-max`, `shadcn-ui`, `interaction-design`
 - Automatisierung und Entwicklung: `automator`, `cli-creator`, `gh-fix-ci`, `migrate-to-codex`, `prompt-architect`
+- AI/ML & MLOps: `mlops-ai-operations`
+- Cloud-Native & Platform Security: `cloud-native-security`
+- Low-Code / No-Code Engineering: `low-code-no-code-engineering`
 - Sicherheit und Governance: `security-best-practices`, `security-gate`, `security-threat-model`, `security-ownership-map`
 - Content und Kommunikation: `facebook-text-optimizer`, `instagram-text-optimizer`, `humanizer-de`, `peter-schuller-politiker-kommunikation`, `philip-kucher-writing`, `politik-analyse`
 - Engineering und Bibliothekspflege: `code-review`, `library-skill-authoring`
