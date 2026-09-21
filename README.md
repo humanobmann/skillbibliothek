@@ -19,8 +19,8 @@ Die Quellen werden nur gelesen; alle konsolidierten Änderungen erfolgen hier.
 
 ## Aktueller Bestand
 
-Der aktuelle konsolidierte Bestand umfasst 95 Skill-Verzeichnisse mit `SKILL.md`.
-Davon bilden 93 Skills die zusammengeführte Fachbibliothek; `core-routing` und
+Der aktuelle konsolidierte Bestand umfasst 96 Skill-Verzeichnisse mit `SKILL.md`.
+Davon bilden 94 Skills die zusammengeführte Fachbibliothek; `core-routing` und
 `skill-security-auditor` ergänzen die Control-Plane- und Security-Gates.
 
 ### Kernbereiche
@@ -30,7 +30,7 @@ Davon bilden 93 Skills die zusammengeführte Fachbibliothek; `core-routing` und
 - Design und UX: `web-design-guidelines`, `ui-design-engineering`, `ui-ux-pro-max`, `shadcn-ui`, `interaction-design`
 - Automatisierung und Entwicklung: `automator`, `cli-creator`, `gh-fix-ci`, `migrate-to-codex`, `prompt-architect`
 - Sicherheit und Governance: `security-best-practices`, `security-gate`, `security-threat-model`, `security-ownership-map`
-- Content und Kommunikation: `facebook-text-optimizer`, `instagram-text-optimizer`, `humanizer-de`, `peter-schuller-politiker-kommunikation`, `politik-analyse`
+- Content und Kommunikation: `facebook-text-optimizer`, `instagram-text-optimizer`, `humanizer-de`, `peter-schuller-politiker-kommunikation`, `philip-kucher-writing`, `politik-analyse`
 - Engineering und Bibliothekspflege: `code-review`, `library-skill-authoring`
 
 Die kanonische Routing-Matrix steht in [references/intent-map.md](references/intent-map.md);
