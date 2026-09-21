@@ -51,3 +51,17 @@ LinkedIn Help/Engineering. The repository records URLs, retrieval date, surface,
 mechanism and claim scope; it does not copy platform source code or proprietary
 ranking weights. Creator monetization documentation is explicitly separated
 from recommendation-ranking evidence.
+
+
+## 6. 2026 architecture expansion
+
+The `mlops-ai-operations`, `cloud-native-security` and `low-code-no-code-engineering` skills are target-authored repository material.
+
+Reference standards and first-party guidance used for architecture decisions:
+
+- NIST AI Risk Management Framework and NIST AI 600-1 Generative AI Profile for AI governance.
+- CNCF cloud-native survey and Kubernetes first-party Pod Security Standards / security checklist for cloud-native controls.
+- SLSA and OpenSSF guidance for software supply-chain provenance and security posture.
+- Microsoft Power Platform ALM and governance documentation for low-code lifecycle controls.
+
+No external source code is copied into these skills. Examples are repository-authored and provider-neutral where practical.
