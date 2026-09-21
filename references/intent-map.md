@@ -14,7 +14,8 @@ a gap, never guessed.
 | author or maintain a library skill | `library-skill-authoring` | skill purpose, inputs, links, provenance |
 | UI/accessibility/performance guidance | `web-design-guidelines` | route/component and acceptance criteria |
 | cross-platform social algorithm, reach, discovery or ranking analysis | `social-platform-algorithm-core` | platform, surface, format, current evidence |
-| political text in an abstracted Philip Kucher rhetoric profile | `philip-kucher-writing` | draft or topic, factual basis, output format |\n| Facebook post or caption optimization | `facebook-text-optimizer` | post, audience, communication goal |
+| political text in an abstracted Philip Kucher rhetoric profile | `philip-kucher-writing` | draft or topic, factual basis, output format |
+| Facebook post or caption optimization | `facebook-text-optimizer` | post, audience, communication goal |
 | Instagram caption, Feed, Carousel or Reel text optimization | `instagram-text-optimizer` | content, format, audience |
 | Instagram hashtag research | `instagram-hashtag-research` | topic, language, region, format |
 | TikTok hook, script, For You or Search optimization | `tiktok-content-optimizer` | surface, video concept, audience, query intent |
