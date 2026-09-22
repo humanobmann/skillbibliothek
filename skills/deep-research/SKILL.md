@@ -99,7 +99,17 @@ Ensure comprehensive coverage by seeking diverse information types:
 | **Comparisons** | Context and alternatives | "vs", "comparison", "alternatives" |
 | **Challenges & Criticisms** | Balanced view | "challenges", "limitations", "criticism" |
 
-### Phase 4: Synthesis Check
+### Phase 4: Adversarial synthesis
+
+For contested, political, causal, strategic, or high-impact research, add an adversarial synthesis pass before final conclusions:
+
+1. **Blue case**: assemble the strongest evidence supporting the leading explanation.
+2. **Red case**: search deliberately for counterevidence, rival explanations, selection effects, confounders, scope limits, and failed replications.
+3. **Purple synthesis**: retain only conclusions that survive both passes and state boundary conditions explicitly.
+
+When the task is specifically about political framing, counternarratives, populist communication, prebunking, or counterframing, hand the verified evidence set to `framing-analysis` rather than recreating its communication model here.
+
+### Phase 5: Synthesis Check
 
 Before proceeding to content generation, verify:
 
