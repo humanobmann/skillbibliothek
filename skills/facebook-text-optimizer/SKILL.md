@@ -16,6 +16,7 @@ Optimiere zuerst Nutzen, Klarheit, Belege und Stimme; Plattformwirkung folgt dar
 3. `humanizer-de` nur einsetzen, wenn eine zusätzliche Natürlichkeitsredaktion verlangt wird; danach Claims erneut nicht stärken.
 4. Nur diesen Plattform-Optimierer laden, niemals parallel `instagram-text-optimizer`.
 5. Bei Algorithmus-, Reichweiten-, Format- oder maximaler Optimierungsfrage, Feed-Ranking, Originalitaet, Recommendation Eligibility oder Text-Bild-Strategie zwingend `social-platform-algorithm-core` und dessen kanonische [meta-feed-strategy.md](../social-platform-algorithm-core/references/meta-feed-strategy.md) als gemeinsame Evidenzschicht verwenden. Keine lokale, davon abweichende Algorithmus-Behauptung treffen.
+6. Wenn ein politischer Beitrag ausdrücklich einen gegnerischen Frame analysiert, korrigiert, prebunkt oder durch einen faktengestützten alternativen Deutungsrahmen ersetzt, zuerst `framing-analysis` verwenden. Dessen Faktenanker und Purple-Team-Risiken übernehmen, aber keine psychografische Zielgruppenoptimierung daraus ableiten.
 
 ## Arbeitsweise
 
@@ -23,7 +24,7 @@ Optimiere zuerst Nutzen, Klarheit, Belege und Stimme; Plattformwirkung folgt dar
 2. Erstelle für materielle Aussagen eine Claim-Karte: belegter Fakt, aktuelle Tatsache, Attribution, Schlussfolgerung, Meinung oder Forderung.
 3. Überarbeite von außen nach innen: Kernbotschaft, sichtbarer Einstieg, Reihenfolge, Relevanz, Belege, Schluss, Stimme, Kürzung und Korrektur.
 4. Prüfe bei Bild oder Video, ob Caption und Medium denselben Kern transportieren.
-5. Führe bei politischer oder konflikthafter Kommunikation einen Gegencheck durch: Kontextverlust, schwächste Behauptung, Kausalität, Motivunterstellung, Verallgemeinerung und Screenshot-Risiko.
+5. Führe bei politischer oder konflikthafter Kommunikation einen Gegencheck durch: Kontextverlust, schwächste Behauptung, Kausalität, Motivunterstellung, Verallgemeinerung und Screenshot-Risiko. Bei echtem Gegenframing zusätzlich prüfen, ob der Text den gegnerischen Slogan unnötig wiederholt, dessen Kausalmodell versehentlich bestätigt oder den Faktenanker hinter der Pointe versteckt.
 
 ## Facebook-spezifische Regeln
 
