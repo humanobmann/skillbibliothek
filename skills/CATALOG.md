@@ -56,7 +56,7 @@ Dieser Index bietet einen kompakten Überblick aller verfügbaren Skills zur res
 |---|---|---|---:|
 | **`agentic-ai-orchestration-governance`** | [`skills/agentic-ai-orchestration-governance`](agentic-ai-orchestration-governance/SKILL.md) | Guardrails für autonome und Multi-Agent-Läufe: Iterations-/Kontext-/Kostenbudgets, Schleifenerkennung, Least-Privilege-Tool-Scoping, Kill Switch, Human-Escalation. | ~159 |
 
-## Content, Kampagnen & Kommunikation (20)
+## Content, Kampagnen & Kommunikation (21)
 
 | Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
 |---|---|---|---:|
@@ -65,6 +65,7 @@ Dieser Index bietet einen kompakten Überblick aller verfügbaren Skills zur res
 | **`danke-fuer-nichts-outreach`** | [`skills/danke-fuer-nichts-outreach`](danke-fuer-nichts-outreach/SKILL.md) | Plane, prüfe und dokumentiere individuellen Presse-, Podcast-, Organisations-, Rezensions- und Buchhandels-Outreach für ... | ~139 |
 | **`danke-fuer-nichts-publishing-audit`** | [`skills/danke-fuer-nichts-publishing-audit`](danke-fuer-nichts-publishing-audit/SKILL.md) | Prüfe Editionen, Buchdaten, Druckdateien, Presseunterlagen und öffentliche Handelslistungen für „Danke für nichts“. Verw... | ~129 |
 | **`facebook-text-optimizer`** | [`skills/facebook-text-optimizer`](facebook-text-optimizer/SKILL.md) | Überarbeite Facebook-Beiträge und Captions für Klarheit, Glaubwürdigkeit, mobile Lesbarkeit und einen passenden Handlung... | ~99 |
+| **`framing-analysis`** | [`skills/framing-analysis`](framing-analysis/SKILL.md) | Analysiert politische Frames und Narrative mit Red-, Blue- und Purple-Team-Prüfung und entwickelt faktenbasiertes Gegenframing und Prebunking. | ~120 |
 | **`humanizer-de`** | [`skills/humanizer-de`](humanizer-de/SKILL.md) | Edit-Pass für bestehenden deutschen Text: Register/Rhythmus messen, belegtreu redigieren, Naturalness prüfen, KI-Schreib... | ~57 |
 | **`instagram-hashtag-research`** | [`skills/instagram-hashtag-research`](instagram-hashtag-research/SKILL.md) | Recherchiert und bewertet aktuelle Instagram-Hashtags ohne MCP-Server, Docker oder lokale Serverinstallation. Verwenden ... | ~169 |
 | **`instagram-text-optimizer`** | [`skills/instagram-text-optimizer`](instagram-text-optimizer/SKILL.md) | Überarbeite kurze Instagram-Captions für Feed, Carousel oder Reel mit klarer Kernbotschaft, mobiler Lesbarkeit, transpar... | ~100 |
