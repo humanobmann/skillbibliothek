@@ -1,5 +1,5 @@
 {
-  "total_skills": 106,
+  "total_skills": 107,
   "skills": [
     {
       "name": "adaptive-poster-image-series",
@@ -240,6 +240,14 @@
       "description": "Trace cryptocurrency addresses and transactions on public blockchains using block explorers\nincluding Etherscan, Blockchair, mempool.space and Blockscout. Covers common-input\nclustering, ENS resolution, exchange deposit addresses, mixers, CoinJoin, Tornado-style\npools, cross-chain bridges, and OFAC sanctions screening. Use when following a Bitcoin or\nEthereum wallet, investigating where a ransom or scam payment went, or checking an address\nagainst sanctions listings. Applies to ransomware incident response, AML and sanctions\ncompliance, fraud recovery and asset tracing, and financial-crime investigation. Reference\nat useosint.com/skills/follow-the-crypto.",
       "tokens": 3476,
       "discovery_tokens": 170
+    },
+    {
+      "name": "framing-analysis",
+      "folder": "framing-analysis",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Analyze political framing, populist or radical-right communication, counternarratives, propaganda-like techniques, crisis rhetoric, identity construction, blame attribution, nostalgia, media amplification, and rebuttal strategy. Use when ChatGPT must dissect a political message, speech, post, slogan, campaign frame, media clip, or narrative using framing theory and then perform Red Team, Blue Team, and Purple Team analysis. Also use for neutral counterframing, prebunking, fact-based rebuttal architecture, and response design that informs rather than tells people how to vote. For current political actors, laws, speeches, statistics, elections, party positions, or recent events, verify claims with current web or authoritative primary sources before drawing conclusions.",
+      "tokens": 1400,
+      "discovery_tokens": 120
     },
     {
       "name": "geolocate-from-pixels",
