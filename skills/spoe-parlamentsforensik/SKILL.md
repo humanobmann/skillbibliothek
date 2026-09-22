@@ -230,6 +230,8 @@ Jedes strategisch relevante Finding durchläuft strikt:
 
 Details und Einstufungen in `references/analysis-engine.md` verwenden.
 
+Wenn ein Finding anschließend als Frame-, Narrativ-, Gegenframing- oder Prebunking-Analyse genutzt werden soll, erst nach Purple-Freigabe an `framing-analysis` übergeben. Parlamentarische Evidenz bleibt dabei die Faktenbasis; `framing-analysis` ergänzt Kommunikationsarchitektur, ersetzt aber weder Coverage-, Symmetrie- noch Rechtsprüfung.
+
 ## Phase 10: Kontroversen und Rechtsrisiko
 
 Strikt unterscheiden:

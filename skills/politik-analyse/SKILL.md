@@ -17,7 +17,7 @@ Lade bei Bedarf `references/analyse-raster.md` für das vollständige Prüfraste
 2. Prüfe, ob das Thema aktuell, strittig, rechtlich relevant oder zahlenbasiert ist. Recherchiere dann vor der Bewertung mit den tatsächlich verfügbaren Recherchewerkzeugen und priorisiere Primärquellen.
 3. Trenne immer zwischen Faktenlage, Interpretation, politischer Bewertung und Empfehlung.
 4. Benenne Unsicherheiten ausdrücklich.
-5. Analysiere Akteure, Interessen, Zielgruppen, Frames, Risiken und mögliche Gegenargumente.
+5. Analysiere Akteure, Interessen, Zielgruppen, Frames, Risiken und mögliche Gegenargumente. Wenn Framing, Gegenframing, populistische Kommunikationsarchitektur, Prebunking oder Red/Blue/Purple-Team-Prüfung materieller Teil der Aufgabe ist, verwende `framing-analysis` als spezialisierten Analysepass statt die Logik lokal zu duplizieren.
 6. Erzeuge bei anschließender Kommunikation einen kompakten Faktenblock mit Quelle, Standdatum und offenen Prüfpunkten.
 7. Übergib diesen Faktenblock an `peter-schuller-politiker-kommunikation`. Nutze danach `peter-schuller-schreibstil` für die Endredaktion.
 8. Liefere am Ende eine verwertbare Handlungsempfehlung oder Kommunikationslinie, wenn der Nutzer danach fragt oder es naheliegt.
@@ -52,6 +52,7 @@ Bei kleinen Fragen darf die Struktur kürzer sein, aber die Trennung von Fakten,
 - Erkläre nicht nur, was gesagt wird, sondern wozu es politisch dient.
 - Frage: Wer profitiert? Wer trägt Kosten oder Risiken? Welche Gruppen werden adressiert? Welche Konfliktlinie wird geöffnet?
 - Erkenne Frames, Auslassungen, Scheinlösungen, Ablenkungen und moralische Umdeutungen.
+- Bei einer vertieften Frameanalyse übergib den geprüften Faktenkontext an `framing-analysis`; übernimm dessen Frame Map, Red-Team-Einwände und Purple-Team-Gegenstrategie nur soweit sie durch die Quellenlage gedeckt sind.
 - Unterscheide zwischen Sachargument, Wertargument, Machtinteresse und Kommunikationsstrategie.
 - Benenne schwache Stellen auch bei der eigenen gewünschten Position.
 - Keine Scheinsicherheit. Wenn Quellen fehlen, als Unsicherheit ausweisen.

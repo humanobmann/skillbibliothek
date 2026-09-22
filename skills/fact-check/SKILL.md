@@ -17,6 +17,8 @@ Run verification only after a draft or claim set exists.
 6. Correct contradicted claims. Narrow partially supported claims. Mark unverified claims explicitly.
 7. Recheck quotations and named attributions against the original source.
 8. Surface material disagreements between credible sources instead of choosing silently.
+9. For consequential or contested claims, run a compact adversarial check: strongest supporting evidence, strongest contradicting evidence, plausible alternative explanation, and the narrowest conclusion that survives both.
+10. If the draft makes claims about political framing, propaganda techniques, populist rhetoric, counternarratives, or counterframing, verify the factual substrate here and hand interpretation to `framing-analysis`.
 
 ## Source hierarchy
 
@@ -50,6 +52,7 @@ Before completion, confirm:
 - quotations were not reconstructed from memory
 - unsupported precision was removed
 - unverified claims are visibly marked
+- contested causal claims were tested against at least one plausible rival explanation
 
 ## Composition
 
