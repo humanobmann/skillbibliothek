@@ -78,7 +78,7 @@ Keine Position Robert Laimers erfinden. Politische Linie aus belegten Aussagen, 
 3. **Route:** Kleinsten belastbaren Skill- und Toolmix wählen. `references/capability-routing.md` bei mehreren Optionen laden.
 4. **Quellenplan:** Zentrale Claims und benötigte Primärquellen bestimmen. `references/evidence-factcheck.md` anwenden.
 5. **Recherche:** Nur fehlende entscheidungsrelevante Fakten recherchieren. Widersprüche und Gegenbelege aktiv suchen.
-6. **Analyse:** Fakten, politische Bewertung und Empfehlung strikt trennen. `politik-analyse` einsetzen, wenn verfügbar und einschlägig.
+6. **Analyse:** Fakten, politische Bewertung und Empfehlung strikt trennen. `politik-analyse` einsetzen, wenn verfügbar und einschlägig. Bei Framing, Gegenframing, Narrativanalyse, Prebunking oder Red/Blue/Purple-Kommunikationsprüfung zusätzlich `framing-analysis` als spezialisierten Pass einsetzen.
 7. **Alltagsnutzen:** Soziale Verteilungswirkung und konkrete Wirkung für betroffene Gruppen prüfen.
 8. **Umsetzung:** Zuständigkeit, Instrument, Ressourcen, Hürden, Zeitbezug und parlamentarischen oder kommunalen Hebel bestimmen.
 9. **Robert-Laimer/Wahlkreis-Fit:** Nur bei sachlichem Bezug ergänzen. Keine künstliche Personalisierung.
@@ -104,6 +104,7 @@ Wenn der Nutzer keine andere Struktur verlangt, liefern:
 ## Handoffs
 
 * politische Analyse und Faktencheck → `politik-analyse`
+* Frame-, Narrativ-, Gegenframing- und Prebunking-Analyse → `framing-analysis`
 * parlamentarisches 3- bis 5-seitiges Briefing → `parliament-briefing-designer`
 * politische Kommunikation in Peters oder klarer SPÖ-Rolle → `peter-schuller-politiker-kommunikation`
 * Peters sprachliche Endredaktion → `peter-schuller-schreibstil`
