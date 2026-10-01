@@ -7,6 +7,12 @@ on:
       - "scripts/build_plugin_bundles.py"
       - ".github/workflows/build-plugin-bundles.yml"
       - "skills/**"
+  pull_request:
+    paths:
+      - "scripts/build_plugin_bundles.py"
+      - ".github/workflows/build-plugin-bundles.yml"
+      - "skills/**"
+      - "PLUGIN_BUNDLES.md"
 
 permissions:
   contents: read
