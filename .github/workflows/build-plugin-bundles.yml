@@ -1,0 +1,99 @@
+name: Build Plugin Bundles
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/build_plugin_bundles.py"
+      - ".github/workflows/build-plugin-bundles.yml"
+      - "skills/**"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build plugin bundles
+        run: python scripts/build_plugin_bundles.py
+
+      - name: Upload build report
+        uses: actions/upload-artifact@v4
+        with:
+          name: plugin-bundles-report
+          path: dist/plugin-bundles-report.json
+
+      - name: Upload Research & Verification
+        uses: actions/upload-artifact@v4
+        with:
+          name: skillbibliothek-research
+          path: .build/plugin-bundles/skillbibliothek-research
+
+      - name: Upload OSINT & Investigations
+        uses: actions/upload-artifact@v4
+        with:
+          name: skillbibliothek-osint
+          path: .build/plugin-bundles/skillbibliothek-osint
+
+      - name: Upload Social Content
+        uses: actions/upload-artifact@v4
+        with:
+          name: skillbibliothek-social
+          path: .build/plugin-bundles/skillbibliothek-social
+
+      - name: Upload Design & Visual
+        uses: actions/upload-artifact@v4
+        with:
+          name: skillbibliothek-design
+          path: .build/plugin-bundles/skillbibliothek-design
+
+      - name: Upload Software Development
+        uses: actions/upload-artifact@v4
+        with:
+          name: skillbibliothek-development
+          path: .build/plugin-bundles/skillbibliothek-development
+
+      - name: Upload Security & Platform
+        uses: actions/upload-artifact@v4
+        with:
+          name: skillbibliothek-security
+          path: .build/plugin-bundles/skillbibliothek-security
+
+      - name: Upload Politik Österreich
+        uses: actions/upload-artifact@v4
+        with:
+          name: skillbibliothek-politik-at
+          path: .build/plugin-bundles/skillbibliothek-politik-at
+
+      - name: Upload Publishing & Writing
+        uses: actions/upload-artifact@v4
+        with:
+          name: skillbibliothek-publishing
+          path: .build/plugin-bundles/skillbibliothek-publishing
+
+      - name: Upload Automation & Workflows
+        uses: actions/upload-artifact@v4
+        with:
+          name: skillbibliothek-automation
+          path: .build/plugin-bundles/skillbibliothek-automation
+
+      - name: Upload Danke für nichts
+        uses: actions/upload-artifact@v4
+        with:
+          name: skillbibliothek-danke-fuer-nichts
+          path: .build/plugin-bundles/skillbibliothek-danke-fuer-nichts
+
+      - name: Upload Vereinskommunikation
+        uses: actions/upload-artifact@v4
+        with:
+          name: skillbibliothek-verein
+          path: .build/plugin-bundles/skillbibliothek-verein
