@@ -348,7 +348,7 @@
     {
       "name": "implementation-documentation-suite",
       "folder": "implementation-documentation-suite",
-      "category": "Design, UI/UX & Frontend",
+      "category": "Automation, CLI & Testing",
       "description": "Architekturiere und steuere eine kontrollierte Multi-Dokument-Spezifikationssuite für komplexe Software-, Produkt-, Design-, AI- oder bereichsübergreifende Vorhaben mit mehreren Quellen, Fachautoren, Abhängigkeiten und Prioritätsregeln. Verwenden, wenn eine einzelne technische Spezifikation nicht ausreicht. Nicht für kleine Änderungen, reine Projektplanung oder read-only Audits verwenden.",
       "tokens": 608,
       "discovery_tokens": 98
@@ -356,7 +356,7 @@
     {
       "name": "implementation-specification",
       "folder": "implementation-specification",
-      "category": "Design, UI/UX & Frontend",
+      "category": "Automation, CLI & Testing",
       "description": "Erstelle eine umsetzungsreife technische Spezifikation für eine klar abgegrenzte Software-, Web-, API-, Automations-, Daten-, AI-, Migrations- oder Refactoring-Änderung. Verwenden vor der Implementierung, wenn Anforderungen, betroffene Komponenten, Schnittstellen, Zustände, Fehlerfälle, Tests, Akzeptanzkriterien und geschützte Bereiche präzise festgelegt werden müssen. Nicht für die Implementierung selbst oder für komplette Multi-Dokument-Spezifikationssuiten verwenden.",
       "tokens": 582,
       "discovery_tokens": 119
@@ -748,7 +748,7 @@
     {
       "name": "specification-readiness-audit",
       "folder": "specification-readiness-audit",
-      "category": "Design, UI/UX & Frontend",
+      "category": "Automation, CLI & Testing",
       "description": "Prüfe technische Briefings, Spezifikationen, Projektordner und Coding-Agent-Handoffs streng read-only auf Vollständigkeit, Konsistenz, Autorität, Testbarkeit und Implementierungsreife. Verwenden vor Entwicklung oder Übergabe, wenn entschieden werden soll, ob die vorhandenen Unterlagen ohne unerlaubte Eigenentscheidungen umsetzbar sind. Dieser Skill repariert oder implementiert nichts.",
       "tokens": 502,
       "discovery_tokens": 97
