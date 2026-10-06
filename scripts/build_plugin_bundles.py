@@ -182,7 +182,7 @@ BUNDLES = {
         ],
     },
     "skillbibliothek-politik-at": {
-        "version": "1.0.1",
+        "version": "1.0.2",
         "display_name": "Politik Österreich",
         "short_description": "Politik und Parlament AT",
         "description": "Gebündelte Skills für österreichische Politikanalyse, Framing Analyse, Parlamentsforensik, parlamentarische Briefings, das Robert-Laimer-Wochendossier sowie klar zugeordnete politische Projekt und Kommunikationsworkflows.",
