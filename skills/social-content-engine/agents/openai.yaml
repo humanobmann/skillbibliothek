@@ -1,0 +1,7 @@
+interface:
+  display_name: "Social Content Engine"
+  short_description: "Content-System steuern"
+  default_prompt: "Baue aus meinen Zielen, Plattformen und Ressourcen ein wiederverwendbares Social-Content-System."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true
