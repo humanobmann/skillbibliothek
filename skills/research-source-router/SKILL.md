@@ -17,19 +17,22 @@ Wähle zuerst die Quelle, dann recherchiere. Vermeide fünf parallele Systeme oh
 2. **Peer-reviewed Literatur und Paper Discovery**  
    Verfügbare wissenschaftliche Such- oder Literaturconnectoren verwenden. Für medizinische Literatur bevorzugt offizielle biomedizinische Datenbanken.
 
-3. **Recht und Rechtsprechung**  
-   Verfügbare juristische Primärquellen oder Legal-Research-Connectoren verwenden. Gesetz, Judikatur und Sekundärkommentar trennen.
+3. **Quantitative Datenanalyse, KPI, Trends, Charts, Reports oder Dashboards**  
+   `data-analysis-router` verwenden, damit Datenerhebung, Spreadsheet-Bearbeitung und Data-Analytics-Workflows sauber getrennt bleiben.
 
-4. **Österreichische öffentliche Daten**  
+4. **Recht und Rechtsprechung**  
+   `legal-at-eu-router` verwenden. Gesetz, Judikatur, parlamentarische Materialien und politische Bewertung trennen.
+
+5. **Österreichische öffentliche Daten**  
    `austria-open-data-research`, amtliche Statistik, Parlament, Behörden und andere Primärquellen priorisieren.
 
-5. **Gesundheits-, Arzneimittel- oder Versorgungsdaten**  
+6. **Gesundheits-, Arzneimittel- oder Versorgungsdaten**  
    Nur die passende offizielle Spezialquelle verwenden, wenn sie für die konkrete Frage zuständig ist.
 
-6. **Nutzer- oder Organisationsdaten**  
+7. **Nutzer- oder Organisationsdaten**  
    Zuerst die freigegebene Datei oder den verbundenen Dienst verwenden, wenn die Antwort davon abhängt. Nicht durch Websuche ersetzen.
 
-7. **Breite, strittige oder folgenreiche Fragen**  
+8. **Breite, strittige oder folgenreiche Fragen**  
    Danach `deep-research` für Mehrquellen-Synthese und `source-verification` für kritische Evidenzprüfung verwenden.
 
 ## Auswahlregel
