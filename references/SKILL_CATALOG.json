@@ -1,5 +1,5 @@
 {
-  "total_skills": 119,
+  "total_skills": 121,
   "skills": [
     {
       "name": "action-register",
@@ -136,6 +136,14 @@
       "description": "Prüfe Editionen, Buchdaten, Druckdateien, Presseunterlagen und öffentliche Handelslistungen für „Danke für nichts“. Verwende den Skill für Canonical Book Data, tredition- und KDP-Abgrenzung, formatbezogene ISBN, Preise, Seiten, Beschnitt, Farbstatus, Händlerlinks, Listung, Bestellbarkeit, Lagerstatus, Lieferzeit, Rabatt, Remission und Buchhandelsfreigabe. Verwende ihn nicht für Outreach-Versand, allgemeine Contentplanung oder unbestätigte Änderungen bei Publishern und Händlern.",
       "tokens": 2183,
       "discovery_tokens": 129
+    },
+    {
+      "name": "data-analysis-router",
+      "folder": "data-analysis-router",
+      "category": "Recherche & Verifikation",
+      "description": "Route datenbezogene Aufgaben zur kleinsten geeigneten Analyseoberfläche und trenne Datenerhebung, Datenqualität, quantitative Analyse, Spreadsheet-Bearbeitung, KPI-Design, Reports und Dashboards sauber voneinander. Verwenden bei CSV/XLSX/TSV, Kennzahlen, Trends, KPIs, Charts, Dashboards, Reports, Marktgrößen, Datenqualität, Google Sheets oder österreichischen Open-Data-Datensätzen, wenn entschieden werden muss, welcher Datenworkflow die Aufgabe besitzt.",
+      "tokens": 115,
+      "discovery_tokens": 115
     },
     {
       "name": "deep-research",
@@ -432,6 +440,14 @@
       "description": "Govern a public-interest or investigative-journalism OSINT inquiry before collection, publication,\nor cross-border sharing. Use for corruption, public-office accountability, corporate ownership,\nhuman-rights, conflict, political, media-forensics, source-protection, or sensitive-personal-data\ninvestigations. Establishes lawful scope, necessity and proportionality, source protection, data\nminimisation, a verifiable evidence record, publication fairness and mandatory editor/legal stop-gates.",
       "tokens": 1868,
       "discovery_tokens": 130
+    },
+    {
+      "name": "legal-at-eu-router",
+      "folder": "legal-at-eu-router",
+      "category": "Recherche & Verifikation",
+      "description": "Route österreichische und europäische Rechtsfragen zur passenden Primärquelle oder Legal-Research-Engine und trenne Gesetzesstand, Judikatur, parlamentarische Entstehungsgeschichte, Verfahrensunterlagen und politische Bewertung. Verwenden bei österreichischem oder EU-Recht, RIS, EUR-Lex, CURIA, ECLI, CELEX, Gerichtsentscheidungen, Gesetzesmaterialien, Verfahren, Rechtsmemo, Rechtsvergleich oder rechtlich relevanten politischen Vorhaben.",
+      "tokens": 110,
+      "discovery_tokens": 110
     },
     {
       "name": "library-skill-authoring",
