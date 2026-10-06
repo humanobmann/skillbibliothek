@@ -98,6 +98,7 @@ BUNDLES = {
             "youtube-content-optimizer",
             "social-platform-algorithm-core",
             "humanizer-de",
+            "humanizer-de-natural",
             "peter-schuller-schreibstil",
             "philip-kucher-writing",
         ],
@@ -190,6 +191,7 @@ BUNDLES = {
             "parliament-briefing-designer",
             "peter-schuller-politiker-kommunikation",
             "spoe-laimer-projekt-orchestrator",
+            "weekly-dossier",
         ],
     },
     "skillbibliothek-publishing": {
