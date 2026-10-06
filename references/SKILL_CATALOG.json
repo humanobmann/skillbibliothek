@@ -1,5 +1,5 @@
 {
-  "total_skills": 107,
+  "total_skills": 109,
   "skills": [
     {
       "name": "adaptive-poster-image-series",
@@ -314,6 +314,14 @@
       "discovery_tokens": 57
     },
     {
+      "name": "humanizer-de-natural",
+      "folder": "humanizer-de-natural",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Redigiert bestehenden deutschen Text schnell und schonend so, dass er natürlicher, persönlicher und weniger schablonenhaft wirkt. Verwenden bei Anfragen wie humanisieren, natürlicher schreiben, ChatGPT-Stil reduzieren, KI-Tells entfernen oder Text weniger glatt machen, wenn kein umfangreicher Audit mit Linter- und Evidenzworkflow erforderlich ist. Bewahrt Fakten, Bedeutung, Namen, Zahlen, Zitate und Haltung.",
+      "tokens": 762,
+      "discovery_tokens": 103
+    },
+    {
       "name": "hunt-a-handle",
       "folder": "hunt-a-handle",
       "category": "OSINT & Forensic Investigation",
@@ -525,9 +533,9 @@
       "name": "peter-schuller-schreibstil",
       "folder": "peter-schuller-schreibstil",
       "category": "Content, Kampagnen & Kommunikation",
-      "description": "Verfasse oder überarbeite kurze und mittlere Texte so, dass sie wie Peter Schuller klingen. Verwende den Skill als sprachliches Overlay für persönliche Nachrichten, E-Mails, Behördenkorrespondenz, Beschwerden, technische Supportanfragen sowie gemeinsam mit dem zuständigen Rollenskill für Vereins- oder politische Kommunikation. Verwende ihn nicht allein für Recherche, politische Analyse, Aufgabensteuerung, Dateierstellung, Connectoraktionen oder Texte, die nicht in Peters Stimme geschrieben werden sollen.",
-      "tokens": 1154,
-      "discovery_tokens": 133
+      "description": "Verfasse oder überarbeite deutsche Texte in Peter Schullers persönlicher Stimme: direkt, klar, menschlich, österreichisch geprägt, mit wenig Dialekt, natürlichem Rhythmus und ohne typische KI-Schablonen. Verwende den Skill für persönliche Nachrichten, E-Mails, Behördenkorrespondenz, Beschwerden, technische Supporttexte sowie als sprachliches Overlay gemeinsam mit Vereins- oder politischen Rollenskills. Verwende ihn nicht als Primärskill für Recherche, politische Analyse, Aufgabensteuerung, Dateierstellung, Connectoraktionen oder Kommunikation im Namen anderer Personen.",
+      "tokens": 1362,
+      "discovery_tokens": 144
     },
     {
       "name": "philip-kucher-writing",
@@ -776,6 +784,14 @@
       "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
       "tokens": 307,
       "discovery_tokens": 51
+    },
+    {
+      "name": "weekly-dossier",
+      "folder": "weekly-dossier",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Erstelle, aktualisiere, verifiziere oder prüfe das interne Robert-Laimer-Wochendossier, sein Quellenbundle, die Qualitätsgates, den PDF-fertigen Dossierkörper oder den getrennten redaktionellen Wochenplan. Verwende den Skill auch zur Diagnose der bestehenden Make-Wochendossier-Pipeline vor der Produktion. Aktuelle Aussagen müssen aus frischen, nachvollziehbaren Quellen stammen.",
+      "tokens": 1111,
+      "discovery_tokens": 95
     },
     {
       "name": "what-an-email-reveals",

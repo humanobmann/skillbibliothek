@@ -20,7 +20,10 @@ a gap, never guessed.
 | SRE, SLO/error-budget design, alerting, on-call escalation or incident response | `automated-sre-observability` | service, SLI type, target, current alerting/runbook state |
 | FinOps, cloud budget guardrails, cost tagging, anomaly detection or commitment strategy | `finops-cloud-governance` | workload, cost center, current budget/tagging state |
 | multi-agent or autonomous agent orchestration, tool-scope governance, loop/context-overflow guardrails | `agentic-ai-orchestration-governance` | agent task, autonomy level, tool access needed |
+| quick natural German rewrite without a full audit | `humanizer-de-natural` | source text, locked facts, intended register |
+| personal text in Peter Schuller's voice or final voice pass | `peter-schuller-schreibstil` | draft, role, factual boundary, intended register |
 | political text in an abstracted Philip Kucher rhetoric profile | `philip-kucher-writing` | draft or topic, factual basis, output format |
+| Robert Laimer weekly dossier, source bundle, QA or editorial weekly plan | `weekly-dossier` | current week, source bundle, current official sources, Make pipeline state |
 | Facebook post or caption optimization | `facebook-text-optimizer` | post, audience, communication goal |
 | Instagram caption, Feed, Carousel or Reel text optimization | `instagram-text-optimizer` | content, format, audience |
 | Instagram hashtag research | `instagram-hashtag-research` | topic, language, region, format |

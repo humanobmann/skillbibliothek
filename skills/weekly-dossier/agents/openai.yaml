@@ -1,0 +1,7 @@
+interface:
+  display_name: "Laimer Wochendossier"
+  short_description: "Wochendossier prüfen"
+  default_prompt: "Erstelle oder prüfe das aktuelle Robert-Laimer-Wochendossier aus verifizierten Quellen."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true

@@ -83,7 +83,7 @@ BUNDLES = {
     "skillbibliothek-social": {
         "display_name": "Social Content",
         "short_description": "Social Content optimieren",
-        "description": "Gebündelte Skills für Facebook, Instagram, LinkedIn, TikTok und YouTube Content, Plattformlogik, Hashtag Recherche, natürliches Deutsch und wiederverwendbare Schreibprofile.",
+        "description": "Gebündelte Skills für Facebook, Instagram, LinkedIn, TikTok und YouTube Content, Plattformlogik, Hashtag Recherche, natürliches Deutsch, schnelle Humanisierung und wiederverwendbare Schreibprofile.",
         "keywords": ["social-media", "content", "facebook", "instagram", "tiktok", "youtube"],
         "prompts": [
             "Optimiere diesen Social Media Inhalt für die passende Plattform.",
@@ -98,6 +98,7 @@ BUNDLES = {
             "youtube-content-optimizer",
             "social-platform-algorithm-core",
             "humanizer-de",
+            "humanizer-de-natural",
             "peter-schuller-schreibstil",
             "philip-kucher-writing",
         ],
@@ -177,7 +178,7 @@ BUNDLES = {
     "skillbibliothek-politik-at": {
         "display_name": "Politik Österreich",
         "short_description": "Politik und Parlament AT",
-        "description": "Gebündelte Skills für österreichische Politikanalyse, Framing Analyse, Parlamentsforensik, parlamentarische Briefings sowie klar zugeordnete politische Projekt und Kommunikationsworkflows.",
+        "description": "Gebündelte Skills für österreichische Politikanalyse, Framing Analyse, Parlamentsforensik, parlamentarische Briefings, das Robert-Laimer-Wochendossier sowie klar zugeordnete politische Projekt und Kommunikationsworkflows.",
         "keywords": ["politik", "austria", "parlament", "framing", "briefing"],
         "prompts": [
             "Analysiere dieses politische Thema faktenbasiert und mit belastbaren Quellen.",
@@ -190,6 +191,7 @@ BUNDLES = {
             "parliament-briefing-designer",
             "peter-schuller-politiker-kommunikation",
             "spoe-laimer-projekt-orchestrator",
+            "weekly-dossier",
         ],
     },
     "skillbibliothek-publishing": {
