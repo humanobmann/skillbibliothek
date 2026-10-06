@@ -19,6 +19,9 @@ Diese Matrix definiert die deterministische Zuordnung von Benutzer-Intents zu sp
 | **OSINT & Firmenrecherche** | "wer besitzt diese firma", "wirtschaftliche eigentümer", "ubo recherche" | `skills/who-really-owns-it` | Technische Domain/DNS-Recherche | An `who-owns-this-domain` für DNS/WHOIS |
 | **Domain & DNS Ermittlung** | "whois lookup", "wer registrierte domain", "nameserver analyse" | `skills/who-owns-this-domain` | Firmenbuch- und Gesellschaftersuche | An `who-really-owns-it` für Unternehmensregister |
 | **Faktencheck & Verifikation** | "prüfe fakt", "stimmt diese aussage", "quellenverifikation", "fact check" | `skills/fact-check` | Generative Textentwürfe ohne Prüfbedarf | Vor Veröffentlichung an `source-verification` |
+| **Humanizer DE Natural** | "humanisieren", "natürlicher schreiben", "ChatGPT-Stil reduzieren", "KI-Tells entfernen" | `skills/humanizer-de-natural` | Detaillierter Audit mit Linter/Claim-Ledger | Bei Tiefenaudit an `humanizer-de` |
+| **Peter Schreibstil** | "in meinem Stil", "wie Peter schreiben", "persönlicher Ton", "meine Stimme" | `skills/peter-schuller-schreibstil` | Recherche, politische Analyse, Dateierstellung | Bei Politik mit `peter-schuller-politiker-kommunikation`, bei Verein mit `peter-schuller-obmann-kommunikation` |
+| **Laimer Wochendossier** | "Laimer Wochendossier", "Weekly Dossier", "Wochenplan Laimer", "Dossier prüfen" | `skills/weekly-dossier` | Einzelne politische Faktenfrage oder allgemeine Social-Copy | Quellen aus Make plus aktuelle Primärquellen; bei breiter Projektarbeit an `spoe-laimer-projekt-orchestrator` |
 | **Österreich Public Data** | "open data österreich", "data.gv.at", "parlamentsdaten wien" | `skills/austria-open-data-research` | Allgemeine weltweite Recherchen | An `politik-analyse` für Interpretation |
 
 ---
