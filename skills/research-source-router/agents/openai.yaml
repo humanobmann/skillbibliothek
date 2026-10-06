@@ -1,0 +1,7 @@
+interface:
+  display_name: "Research Source Router"
+  short_description: "Beste Evidenzquelle wählen"
+  default_prompt: "Wähle für diese Recherche zuerst die kleinste belastbare Quellenstrategie und vermeide unnötige Parallelsuchen."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true
