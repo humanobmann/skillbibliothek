@@ -22,10 +22,10 @@ SCHEMA = "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
 
 BUNDLES = {
     "skillbibliothek-research": {
-        "version": "1.0.1",
+        "version": "1.0.2",
         "display_name": "Research & Verification",
         "short_description": "Recherche und Faktenprüfung",
-        "description": "Gebündelte Skills für Deep Research, Faktenprüfung, Quellenverifikation, Quellenrouting, österreichische Open Data Recherche, Webarchive, Bildherkunft und Intelligence Briefs.",
+        "description": "Gebündelte Skills für Deep Research, Faktenprüfung, Quellenverifikation, Daten- und Rechtsrouting, österreichische Open Data Recherche, Webarchive, Bildherkunft und Intelligence Briefs.",
         "keywords": ["research", "verification", "fact-check", "sources", "open-data"],
         "prompts": [
             "Recherchiere dieses Thema gründlich und verifiziere die zentralen Aussagen.",
@@ -40,6 +40,8 @@ BUNDLES = {
             "find-the-original-image",
             "write-the-intel-brief",
             "research-source-router",
+            "data-analysis-router",
+            "legal-at-eu-router",
         ],
     },
     "skillbibliothek-osint": {

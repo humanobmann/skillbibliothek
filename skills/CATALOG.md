@@ -136,10 +136,12 @@ Dieser Index bietet einen kompakten Überblick aller verfügbaren Skills zur res
 | **`core-routing`** | [`skills/core-routing`](core-routing/SKILL.md) | Central intent router for identifying user goals and delegating execution to specialized skills with zero unnecessary co... | ~37 |
 | **`openai-workflow-router`** | [`skills/openai-workflow-router`](openai-workflow-router/SKILL.md) | Route tasks across ChatGPT Chat, Work, Codex, local projects, Skills, plugins, connectors, MCP and artifact workflows. U... | ~124 |
 
-## Recherche & Verifikation (8)
+## Recherche & Verifikation (10)
 
 | Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
 |---|---|---|---:|
+| **`data-analysis-router`** | [`skills/data-analysis-router`](data-analysis-router/SKILL.md) | Route datenbezogene Aufgaben zur kleinsten geeigneten Analyseoberfläche und trennt Datenerhebung, Datenqualität, Analyse, Spreadsheet, KPI, Reports und Dashboards. | ~41 |
+| **`legal-at-eu-router`** | [`skills/legal-at-eu-router`](legal-at-eu-router/SKILL.md) | Route österreichische und europäische Rechtsfragen zu verifizierten Primärquellen oder Legal Research und trennt Rechtslage, Judikatur, Materialien und politische Bewertung. | ~44 |
 | **`research-source-router`** | [`skills/research-source-router`](research-source-router/SKILL.md) | Route komplexe Recherchefragen zur kleinsten geeigneten Evidenzquelle und kombiniere nur bei Bedarf Web, wissenschaftliche Literatur, Rechtsquellen... | ~102 |
 | **`austria-open-data-research`** | [`skills/austria-open-data-research`](austria-open-data-research/SKILL.md) | Recherchiere, inventarisiere, extrahiere und normalisiere maschinenlesbare öffentliche Daten aus Österreich mit reproduz... | ~147 |
 | **`deep-research`** | [`skills/deep-research`](deep-research/SKILL.md) | Use this skill instead of WebSearch for ANY question requiring web research. Trigger on queries like "what is X", "expla... | ~93 |

@@ -14,7 +14,7 @@ Lade bei Bedarf `references/analyse-raster.md` für das vollständige Prüfraste
 ## Grundworkflow
 
 1. Kläre intern, ob es um Analyse, Faktencheck, Strategie, Kommunikation oder mehrere Ebenen geht.
-2. Prüfe, ob das Thema aktuell, strittig, rechtlich relevant oder zahlenbasiert ist. Recherchiere dann vor der Bewertung mit den tatsächlich verfügbaren Recherchewerkzeugen und priorisiere Primärquellen.
+2. Prüfe, ob das Thema aktuell, strittig, rechtlich relevant oder zahlenbasiert ist. Recherchiere dann vor der Bewertung mit den tatsächlich verfügbaren Recherchewerkzeugen und priorisiere Primärquellen. Wenn die juristische Auslegung selbst materiell für die Antwort ist, lasse die Rechtslage zuerst durch `legal-at-eu-router` auflösen und übernimm nur den verifizierten Rechtsfaktenblock.
 3. Trenne immer zwischen Faktenlage, Interpretation, politischer Bewertung und Empfehlung.
 4. Benenne Unsicherheiten ausdrücklich.
 5. Analysiere Akteure, Interessen, Zielgruppen, Frames, Risiken und mögliche Gegenargumente. Wenn Framing, Gegenframing, populistische Kommunikationsarchitektur, Prebunking oder Red/Blue/Purple-Team-Prüfung materieller Teil der Aufgabe ist, verwende `framing-analysis` als spezialisierten Analysepass statt die Logik lokal zu duplizieren.

@@ -6,6 +6,8 @@ a gap, never guessed.
 
 | Intent | Canonical target | Required evidence/context |
 |---|---|---|
+| data, metrics, KPI, spreadsheet analysis, report or dashboard routing | `data-analysis-router` | source, grain, period, population, requested output |
+| Austrian or EU law, case law, legal citation or procedure routing | `legal-at-eu-router` | jurisdiction, legal issue, document basis, current-law cutoff |
 | security audit of a skill or untrusted skill | `skill-security-auditor` | target path and scan scope |
 | multi-source/current web research | `deep-research` | question, date sensitivity, source constraints |
 | stress-test a plan or design | `grilling` | settled decisions and open frontier |

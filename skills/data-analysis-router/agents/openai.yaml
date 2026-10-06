@@ -1,0 +1,7 @@
+interface:
+  display_name: "Data Analysis Router"
+  short_description: "Datenworkflow richtig wählen"
+  default_prompt: "Route diese Datenaufgabe zum kleinsten passenden Analyse-, Spreadsheet- oder Dashboard-Workflow."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true
