@@ -81,10 +81,10 @@ BUNDLES = {
         ],
     },
     "skillbibliothek-social": {
-        "version": "1.0.1",
+        "version": "1.0.2",
         "display_name": "Social Content",
         "short_description": "Social Content optimieren",
-        "description": "Gebündelte Skills für Facebook, Instagram, LinkedIn, TikTok und YouTube Content, Plattformlogik, Hashtag Recherche, natürliches Deutsch, schnelle Humanisierung und wiederverwendbare Schreibprofile.",
+        "description": "Gebündelte Skills für Social Content, Plattformlogik, Content-Systeme, Repurposing, schnelle Humanisierung und wiederverwendbare Schreibprofile für Facebook, Instagram, LinkedIn, TikTok und YouTube.",
         "keywords": ["social-media", "content", "facebook", "instagram", "tiktok", "youtube"],
         "prompts": [
             "Optimiere diesen Social Media Inhalt für die passende Plattform.",
@@ -102,6 +102,7 @@ BUNDLES = {
             "humanizer-de-natural",
             "peter-schuller-schreibstil",
             "philip-kucher-writing",
+            "social-content-engine",
         ],
     },
     "skillbibliothek-design": {
@@ -122,9 +123,10 @@ BUNDLES = {
         ],
     },
     "skillbibliothek-development": {
+        "version": "1.0.1",
         "display_name": "Software Development",
         "short_description": "Software und GitHub",
-        "description": "Gebündelte Skills für Softwareentwicklung, GitHub Workflows, Code Review, CI, Browser Tests, PowerShell, React, shadcn, UI Engineering und Codex Projektsteuerung.",
+        "description": "Gebündelte Skills für Softwareentwicklung, GitHub Workflows, Code Review, CI, Browser Tests, PowerShell, React, UI Engineering sowie technische Spezifikationen und Readiness Audits.",
         "keywords": ["development", "github", "code-review", "react", "playwright", "powershell"],
         "prompts": [
             "Analysiere diese Entwicklungsaufgabe und führe den passendsten Workflow aus.",
@@ -151,6 +153,9 @@ BUNDLES = {
             "ui-ux-pro-max",
             "web-design-guidelines",
             "screenshot",
+            "implementation-specification",
+            "specification-readiness-audit",
+            "implementation-documentation-suite",
         ],
     },
     "skillbibliothek-security": {
@@ -214,9 +219,10 @@ BUNDLES = {
         ],
     },
     "skillbibliothek-automation": {
+        "version": "1.0.1",
         "display_name": "Automation & Workflows",
         "short_description": "Automation und Workflows",
-        "description": "Gebündelte Skills für Automatisierung, Workflow Routing, Zieldefinition, Prompt Architektur, Arbeitssteuerung, Skill Discovery und Skill Authoring sowie systematisches Stress Testing von Plänen.",
+        "description": "Gebündelte Skills für Automatisierung, Workflow Routing, Zieldefinition, Prompt Architektur, Arbeitssteuerung, Action Registers, Handoffs, SOPs, Skill Discovery und Skill Authoring.",
         "keywords": ["automation", "workflow", "prompts", "skills", "routing", "planning"],
         "prompts": [
             "Plane und automatisiere diesen wiederkehrenden Arbeitsablauf.",
@@ -233,6 +239,9 @@ BUNDLES = {
             "library-skill-authoring",
             "grill-me",
             "grilling",
+            "action-register",
+            "work-handoff",
+            "operating-procedure-builder",
         ],
     },
     "skillbibliothek-danke-fuer-nichts": {

@@ -2,11 +2,17 @@
 
 Dieser Index bietet einen kompakten Überblick aller verfügbaren Skills zur ressourcenschonenden Intent-Erkennung (Progressive Disclosure Phase 1).
 
-## Automation, CLI & Testing (13)
+## Automation, CLI & Testing (19)
 
 | Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
 |---|---|---|---:|
 | **`automator`** | [`skills/automator`](automator/SKILL.md) | Entwirft und implementiert konkrete, wiederholbare Automationen für Vereins-, Kommunikations- und Solo-Operations-Prozes... | ~111 |
+| **`action-register`** | [`skills/action-register`](action-register/SKILL.md) | Extrahiere aus Meetings, Chats, Dokumenten, Recherche und unstrukturiertem Material belastbare Entscheidungen, Aufgaben, Owner, Fristen, Abhängigke... | ~90 |
+| **`implementation-documentation-suite`** | [`skills/implementation-documentation-suite`](implementation-documentation-suite/SKILL.md) | Architekturiere und steuere eine kontrollierte Multi-Dokument-Spezifikationssuite für komplexe Software-, Produkt-, Design-, AI- oder bereichsüberg... | ~98 |
+| **`implementation-specification`** | [`skills/implementation-specification`](implementation-specification/SKILL.md) | Erstelle eine umsetzungsreife technische Spezifikation für eine klar abgegrenzte Software-, Web-, API-, Automations-, Daten-, AI-, Migrations- oder... | ~119 |
+| **`operating-procedure-builder`** | [`skills/operating-procedure-builder`](operating-procedure-builder/SKILL.md) | Erstelle aus realen Arbeitsabläufen klare, auditierbare SOPs, Playbooks, Runbooks und Checklisten mit Trigger, Rollen, Voraussetzungen, Schritten, ... | ~95 |
+| **`specification-readiness-audit`** | [`skills/specification-readiness-audit`](specification-readiness-audit/SKILL.md) | Prüfe technische Briefings, Spezifikationen, Projektordner und Coding-Agent-Handoffs streng read-only auf Vollständigkeit, Konsistenz, Autorität, T... | ~97 |
+| **`work-handoff`** | [`skills/work-handoff`](work-handoff/SKILL.md) | Erstelle oder prüfe einen selbstständigen, evidenzgebundenen Handoff zwischen Chats, Arbeitssitzungen, Personen oder Agents. Verwenden, wenn Arbeit... | ~94 |
 | **`cli-creator`** | [`skills/cli-creator`](cli-creator/SKILL.md) | Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin too... | ~86 |
 | **`dig-through-data-brokers`** | [`skills/dig-through-data-brokers`](dig-through-data-brokers/SKILL.md) | Use people-search aggregators and primary public records to find addresses, phone numbers, relatives, age and background... | ~212 |
 | **`gh-address-comments`** | [`skills/gh-address-comments`](gh-address-comments/SKILL.md) | Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and p... | ~46 |
@@ -56,10 +62,11 @@ Dieser Index bietet einen kompakten Überblick aller verfügbaren Skills zur res
 |---|---|---|---:|
 | **`agentic-ai-orchestration-governance`** | [`skills/agentic-ai-orchestration-governance`](agentic-ai-orchestration-governance/SKILL.md) | Guardrails für autonome und Multi-Agent-Läufe: Iterations-/Kontext-/Kostenbudgets, Schleifenerkennung, Least-Privilege-Tool-Scoping, Kill Switch, Human-Escalation. | ~159 |
 
-## Content, Kampagnen & Kommunikation (23)
+## Content, Kampagnen & Kommunikation (24)
 
 | Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
 |---|---|---|---:|
+| **`social-content-engine`** | [`skills/social-content-engine`](social-content-engine/SKILL.md) | Entwirf und betreibe ein wiederverwendbares Social-Content-System über mehrere Plattformen: Themenfelder, Formate, Ideenaufnahme, Produktion, Repur... | ~111 |
 | **`danke-fuer-nichts-content-seo`** | [`skills/danke-fuer-nichts-content-seo`](danke-fuer-nichts-content-seo/SKILL.md) | Prüfe und optimiere Landingpage, Content, Conversion und organische Auffindbarkeit für die private Autorenkampagne „Dank... | ~126 |
 | **`danke-fuer-nichts-operations`** | [`skills/danke-fuer-nichts-operations`](danke-fuer-nichts-operations/SKILL.md) | Orchestriere die private Autorenkampagne „Danke für nichts“, wenn mindestens zwei Fachbereiche wie Publishing, Outreach,... | ~136 |
 | **`danke-fuer-nichts-outreach`** | [`skills/danke-fuer-nichts-outreach`](danke-fuer-nichts-outreach/SKILL.md) | Plane, prüfe und dokumentiere individuellen Presse-, Podcast-, Organisations-, Rezensions- und Buchhandels-Outreach für ... | ~139 |

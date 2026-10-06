@@ -1,0 +1,7 @@
+interface:
+  display_name: "Implementation Documentation Suite"
+  short_description: "Komplexe Spec-Suite steuern"
+  default_prompt: "Ordne diese Projektquellen in eine kontrollierte Multi-Dokument-Spezifikationssuite und definiere Autorität, Abhängigkeiten und Gates."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true

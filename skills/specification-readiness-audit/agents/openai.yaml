@@ -1,0 +1,7 @@
+interface:
+  display_name: "Specification Readiness Audit"
+  short_description: "Tech-Spec read-only prüfen"
+  default_prompt: "Prüfe diese Spezifikation read-only auf Implementierungsreife und nenne nur belegte Findings."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true

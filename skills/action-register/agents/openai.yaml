@@ -1,0 +1,7 @@
+interface:
+  display_name: "Action Register"
+  short_description: "Aufgaben aus Material ziehen"
+  default_prompt: "Extrahiere aus diesem Material Entscheidungen, Aufgaben, Owner, Fristen, Risiken und offene Fragen."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true

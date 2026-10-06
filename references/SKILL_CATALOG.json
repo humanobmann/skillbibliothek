@@ -1,6 +1,14 @@
 {
-  "total_skills": 109,
+  "total_skills": 116,
   "skills": [
+    {
+      "name": "action-register",
+      "folder": "action-register",
+      "category": "Automation, CLI & Testing",
+      "description": "Extrahiere aus Meetings, Chats, Dokumenten, Recherche und unstrukturiertem Material belastbare Entscheidungen, Aufgaben, Owner, Fristen, Abhängigkeiten, Risiken, Fragen und Follow-ups. Verwenden für Meeting-Follow-up, Projektintake, Entscheidungsprotokolle und die Umwandlung von Information in konkrete Ausführung. Fehlende Owner oder Termine nie erfinden.",
+      "tokens": 330,
+      "discovery_tokens": 90
+    },
     {
       "name": "adaptive-poster-image-series",
       "folder": "adaptive-poster-image-series",
@@ -338,6 +346,22 @@
       "discovery_tokens": 126
     },
     {
+      "name": "implementation-documentation-suite",
+      "folder": "implementation-documentation-suite",
+      "category": "Automation, CLI & Testing",
+      "description": "Architekturiere und steuere eine kontrollierte Multi-Dokument-Spezifikationssuite für komplexe Software-, Produkt-, Design-, AI- oder bereichsübergreifende Vorhaben mit mehreren Quellen, Fachautoren, Abhängigkeiten und Prioritätsregeln. Verwenden, wenn eine einzelne technische Spezifikation nicht ausreicht. Nicht für kleine Änderungen, reine Projektplanung oder read-only Audits verwenden.",
+      "tokens": 608,
+      "discovery_tokens": 98
+    },
+    {
+      "name": "implementation-specification",
+      "folder": "implementation-specification",
+      "category": "Automation, CLI & Testing",
+      "description": "Erstelle eine umsetzungsreife technische Spezifikation für eine klar abgegrenzte Software-, Web-, API-, Automations-, Daten-, AI-, Migrations- oder Refactoring-Änderung. Verwenden vor der Implementierung, wenn Anforderungen, betroffene Komponenten, Schnittstellen, Zustände, Fehlerfälle, Tests, Akzeptanzkriterien und geschützte Bereiche präzise festgelegt werden müssen. Nicht für die Implementierung selbst oder für komplette Multi-Dokument-Spezifikationssuiten verwenden.",
+      "tokens": 582,
+      "discovery_tokens": 119
+    },
+    {
       "name": "instagram-hashtag-research",
       "folder": "instagram-hashtag-research",
       "category": "Content, Kampagnen & Kommunikation",
@@ -464,6 +488,14 @@
       "description": "Route tasks across ChatGPT Chat, Work, Codex, local projects, Skills, plugins, connectors, MCP and artifact workflows. Use whenever a request spans multiple OpenAI surfaces, asks where a task should run, needs a handoff between research, documents and code, or risks duplicate/conflicting Skills or plugins. Prefer portable Skills across surfaces, keep environment-specific capabilities only where their runtime exists, and define fallbacks when a capability is unavailable.",
       "tokens": 2616,
       "discovery_tokens": 124
+    },
+    {
+      "name": "operating-procedure-builder",
+      "folder": "operating-procedure-builder",
+      "category": "Automation, CLI & Testing",
+      "description": "Erstelle aus realen Arbeitsabläufen klare, auditierbare SOPs, Playbooks, Runbooks und Checklisten mit Trigger, Rollen, Voraussetzungen, Schritten, Entscheidungen, Kontrollen, Ausnahmen, Genehmigungen, Nachweisen und Versionierung. Verwenden zur Prozessstandardisierung, Einarbeitung und dokumentierten Betriebsführung. Nicht für reine Automatisierungsimplementierung verwenden.",
+      "tokens": 360,
+      "discovery_tokens": 95
     },
     {
       "name": "osint-investigator",
@@ -690,6 +722,14 @@
       "discovery_tokens": 67
     },
     {
+      "name": "social-content-engine",
+      "folder": "social-content-engine",
+      "category": "Content, Kampagnen & Kommunikation",
+      "description": "Entwirf und betreibe ein wiederverwendbares Social-Content-System über mehrere Plattformen: Themenfelder, Formate, Ideenaufnahme, Produktion, Repurposing, Redaktionsplanung, Experimente, KPI und Governance. Verwenden für Content-Strategie und wiederkehrende Produktion, nicht für die Optimierung eines einzelnen Posts. Für einzelne Plattforminhalte an die vorhandenen Facebook-, Instagram-, TikTok-, YouTube- oder LinkedIn-Skills delegieren.",
+      "tokens": 566,
+      "discovery_tokens": 111
+    },
+    {
       "name": "social-platform-algorithm-core",
       "folder": "social-platform-algorithm-core",
       "category": "Content, Kampagnen & Kommunikation",
@@ -704,6 +744,14 @@
       "description": "Verify sources, claims, images, video, documents, interviews, and synthetic media with SIFT and a durable evidence trail. Use before relying on uncertain material.",
       "tokens": 1357,
       "discovery_tokens": 45
+    },
+    {
+      "name": "specification-readiness-audit",
+      "folder": "specification-readiness-audit",
+      "category": "Automation, CLI & Testing",
+      "description": "Prüfe technische Briefings, Spezifikationen, Projektordner und Coding-Agent-Handoffs streng read-only auf Vollständigkeit, Konsistenz, Autorität, Testbarkeit und Implementierungsreife. Verwenden vor Entwicklung oder Übergabe, wenn entschieden werden soll, ob die vorhandenen Unterlagen ohne unerlaubte Eigenentscheidungen umsetzbar sind. Dieser Skill repariert oder implementiert nichts.",
+      "tokens": 502,
+      "discovery_tokens": 97
     },
     {
       "name": "spoe-laimer-projekt-orchestrator",
@@ -840,6 +888,14 @@
       "description": "Investigate a phone number — E.164 normalisation with libphonenumber, phoneinfoga scanning,\ncarrier and line-type identification, VoIP and burner detection, messaging-app registration\nchecks, and reverse-lookup and caller-ID sources. Use for phone OSINT and reverse phone\nlookup, \"who owns this number\", identifying a burner or VoIP number, or checking whether a\nnumber is registered on WhatsApp, Telegram or Signal. Applies to vishing and business email\ncompromise investigation, verifying a counterparty before sending payment, recruitment and\nmarketplace scam checks, and fraud triage. Reference at\nuseosint.com/skills/whose-number-is-this.",
       "tokens": 2761,
       "discovery_tokens": 165
+    },
+    {
+      "name": "work-handoff",
+      "folder": "work-handoff",
+      "category": "Automation, CLI & Testing",
+      "description": "Erstelle oder prüfe einen selbstständigen, evidenzgebundenen Handoff zwischen Chats, Arbeitssitzungen, Personen oder Agents. Verwenden, wenn Arbeit ohne Kontextverlust fortgesetzt, delegiert oder später wieder aufgenommen werden soll. Der Handoff trennt erledigte Arbeit, bestätigte Entscheidungen, offene Punkte, Evidenz, Berechtigungsgrenzen und die nächste sichere Aktion.",
+      "tokens": 435,
+      "discovery_tokens": 94
     },
     {
       "name": "write-the-intel-brief",

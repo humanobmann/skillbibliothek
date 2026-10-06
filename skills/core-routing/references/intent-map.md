@@ -11,6 +11,9 @@ Diese Matrix definiert die deterministische Zuordnung von Benutzer-Intents zu sp
 | **Security Audit** | "prüfe skill auf sicherheit", "scan skill", "security audit", "ist skill sicher" | `skills/skill-security-auditor` | Standard Anwendungs-Code Review | Bei reinem Code-Stil an `code-review-excellence` |
 | **Mehrstufige Recherche** | "deep research", "recherchiere tiefgehend", "umfassender marktbericht", "evidenz sammeln" | `skills/deep-research` | Einfache Faktenfragen (Wetter, Definitionen) | Nach Recherche an `fact-check` oder Text-Skills |
 | **Code Review & QA** | "review PR", "prüfe code-änderungen", "code review", "analysiere diff" | `skills/code-review-excellence` | Vollständiger Security Penetration Test | Bei schweren Schwachstellen an `skill-security-auditor` |
+| **Implementation Specification** | "technische spezifikation", "implementation spec", "vor coding spezifizieren" | `skills/implementation-specification` | Multi-Dokument-Suite oder reine Implementierung | Bei Suite an `implementation-documentation-suite`; danach Audit mit `specification-readiness-audit` |
+| **Specification Readiness Audit** | "spec audit", "implementierungsreife prüfen", "briefing prüfen" | `skills/specification-readiness-audit` | Reparatur oder Implementierung | Findings an zuständigen Autor zurückgeben |
+| **Implementation Documentation Suite** | "spec suite", "dokumentationssuite", "mehrere specs koordinieren" | `skills/implementation-documentation-suite` | einzelne technische Änderung | Einzelartefakte an `implementation-specification` |
 | **Skill-Erstellung** | "erstelle skill", "neuer agent skill", "validiere skill", "baue skill" | `skills/skill-creator` | Normale Anwendung existierender Skills | Nach Erstellung an `skill-security-auditor` |
 | **Git Commit & Release** | "erstelle commit", "conventional commit", "write release notes", "git commit" | `skills/git-commit-pro` | Reine Statusabfragen (`git status`, `git branch`) | - |
 | **Subagent Task Offloading** | "delegiere aufgabe", "günstig ausführen", "offload task", "qwen delegator" | `skills/qwen-task-delegator` | Komplexe Architektur-Entscheidungen | Nach Vorbereitung an Zielruntime |
@@ -23,6 +26,10 @@ Diese Matrix definiert die deterministische Zuordnung von Benutzer-Intents zu sp
 | **Peter Schreibstil** | "in meinem Stil", "wie Peter schreiben", "persönlicher Ton", "meine Stimme" | `skills/peter-schuller-schreibstil` | Recherche, politische Analyse, Dateierstellung | Bei Politik mit `peter-schuller-politiker-kommunikation`, bei Verein mit `peter-schuller-obmann-kommunikation` |
 | **Laimer Wochendossier** | "Laimer Wochendossier", "Weekly Dossier", "Wochenplan Laimer", "Dossier prüfen" | `skills/weekly-dossier` | Einzelne politische Faktenfrage oder allgemeine Social-Copy | Quellen aus Make plus aktuelle Primärquellen; bei breiter Projektarbeit an `spoe-laimer-projekt-orchestrator` |
 | **Österreich Public Data** | "open data österreich", "data.gv.at", "parlamentsdaten wien" | `skills/austria-open-data-research` | Allgemeine weltweite Recherchen | An `politik-analyse` für Interpretation |
+| **Action Register** | "aufgaben extrahieren", "entscheidungen und todos", "meeting follow-up" | `skills/action-register` | Fachausführung der Aufgaben | An Arbeitssteuerung oder Fachskill übergeben |
+| **Work Handoff** | "handoff", "neuer chat", "arbeit übergeben", "session fortsetzen" | `skills/work-handoff` | normale Zusammenfassung ohne Fortsetzungszweck | Zielsystem und Berechtigungen vor Ausführung prüfen |
+| **Operating Procedure Builder** | "sop", "runbook", "playbook", "prozess standardisieren" | `skills/operating-procedure-builder` | reine Automatisierungsimplementierung | Bei technischer Automation an `automator` |
+| **Social Content Engine** | "content system", "redaktionssystem", "content engine", "repurposing system" | `skills/social-content-engine` | einzelner Plattformpost | Einzelcontent an Plattformskill delegieren |
 
 ---
 
