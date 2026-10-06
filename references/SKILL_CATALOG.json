@@ -1,5 +1,5 @@
 {
-  "total_skills": 116,
+  "total_skills": 119,
   "skills": [
     {
       "name": "action-register",
@@ -152,6 +152,14 @@
       "description": "Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuzzy intention into a quantitative outcome. Use this skill for goal creation and goal refinement only; it does not manage durable snapshots, decision logs, or long-running execution artifacts.",
       "tokens": 1411,
       "discovery_tokens": 97
+    },
+    {
+      "name": "design-workflow-router",
+      "folder": "design-workflow-router",
+      "category": "Design, UI/UX & Frontend",
+      "description": "Route visuelle Aufgaben zum passenden Designworkflow für Bildgenerierung, Editorialgrafik, Affinity, Figma, PDF-Redesign, Präsentationen oder templatebasierte Designwerkzeuge. Verwenden, wenn das gewünschte Ergebnis klar visuell ist, aber Werkzeug, Produktionsweg oder Dateiformat noch gewählt werden muss. Keine Gestaltung simulieren, wenn das benötigte Werkzeug nicht verfügbar ist.",
+      "tokens": 436,
+      "discovery_tokens": 96
     },
     {
       "name": "dig-through-data-brokers",
@@ -594,6 +602,14 @@
       "discovery_tokens": 29
     },
     {
+      "name": "plugin-portfolio-control",
+      "folder": "plugin-portfolio-control",
+      "category": "Automation, CLI & Testing",
+      "description": "Inventarisiere, konsolidiere, migriere und überprüfe ein ChatGPT/Codex Plugin- und Skill-Portfolio mit klarer Trennung von sichtbaren Plugin-Namen, Backend-IDs, Skillpaketen, Releases und GitHub-Quellen. Verwenden für Plugin-Aufräumen, Redundanzanalyse, Migration, Versionierung, Berechtigungsprüfung und sichere Entfernung nach Null-Verlust-Gates.",
+      "tokens": 535,
+      "discovery_tokens": 87
+    },
+    {
       "name": "politik-analyse",
       "folder": "politik-analyse",
       "category": "Content, Kampagnen & Kommunikation",
@@ -640,6 +656,14 @@
       "description": "End-to-end passive reconnaissance for a domain, website or IP — builds an asset inventory\ncovering registration, DNS, subdomains, infrastructure, tech stack, history and ownership\nwithout sending a single packet to the target. Use when asked to research or profile a\ndomain or website, map what an organisation runs, or investigate a suspicious site without\nalerting its operator. Applies to vendor and third-party risk assessment, attack-surface\nreview, M&A technical diligence, phishing and fraud-site investigation, and pre-engagement\nscoping. Reference at useosint.com/skills/recon-a-domain-passively.",
       "tokens": 3367,
       "discovery_tokens": 157
+    },
+    {
+      "name": "research-source-router",
+      "folder": "research-source-router",
+      "category": "Recherche & Verifikation",
+      "description": "Route komplexe Recherchefragen zur kleinsten geeigneten Evidenzquelle und kombiniere nur bei Bedarf Web, wissenschaftliche Literatur, Rechtsquellen, öffentliche Daten, verbundene Dateien und Spezialdatenbanken. Verwenden vor Deep Research, wenn mehrere Recherchewerkzeuge verfügbar sind oder unnötige Parallelsuchen vermieden werden sollen. Nicht als Ersatz für die eigentliche fachliche Recherche verwenden.",
+      "tokens": 571,
+      "discovery_tokens": 102
     },
     {
       "name": "screenshot",

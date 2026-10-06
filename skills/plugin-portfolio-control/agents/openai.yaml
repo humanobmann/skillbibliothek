@@ -1,0 +1,7 @@
+interface:
+  display_name: "Plugin Portfolio Control"
+  short_description: "Plugins sicher konsolidieren"
+  default_prompt: "Analysiere mein Plugin- und Skill-Portfolio, konsolidiere Redundanzen und entferne nur vollständig ersetzte, eindeutig identifizierte Plugins."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: false

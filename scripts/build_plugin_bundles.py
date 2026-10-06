@@ -22,9 +22,10 @@ SCHEMA = "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
 
 BUNDLES = {
     "skillbibliothek-research": {
+        "version": "1.0.1",
         "display_name": "Research & Verification",
         "short_description": "Recherche und Faktenprüfung",
-        "description": "Gebündelte Skills für Deep Research, Faktenprüfung, Quellenverifikation, österreichische Open Data Recherche, Webarchive, Bildherkunft und Intelligence Briefs.",
+        "description": "Gebündelte Skills für Deep Research, Faktenprüfung, Quellenverifikation, Quellenrouting, österreichische Open Data Recherche, Webarchive, Bildherkunft und Intelligence Briefs.",
         "keywords": ["research", "verification", "fact-check", "sources", "open-data"],
         "prompts": [
             "Recherchiere dieses Thema gründlich und verifiziere die zentralen Aussagen.",
@@ -38,6 +39,7 @@ BUNDLES = {
             "read-deleted-pages",
             "find-the-original-image",
             "write-the-intel-brief",
+            "research-source-router",
         ],
     },
     "skillbibliothek-osint": {
@@ -106,9 +108,10 @@ BUNDLES = {
         ],
     },
     "skillbibliothek-design": {
+        "version": "1.0.1",
         "display_name": "Design & Visual",
         "short_description": "Design und Bildproduktion",
-        "description": "Gebündelte Skills für Editorial Design, Poster und Bildserien, Affinity Workflows, Kampagnen PDF Redesign und visuelle Qualitätskontrolle.",
+        "description": "Gebündelte Skills für Design-Routing, Editorial Design, Poster und Bildserien, Affinity Workflows, Kampagnen PDF Redesign und visuelle Qualitätskontrolle.",
         "keywords": ["design", "visual", "poster", "affinity", "image", "editorial"],
         "prompts": [
             "Entwickle für diese Aufgabe eine hochwertige visuelle Richtung und Produktion.",
@@ -120,6 +123,7 @@ BUNDLES = {
             "affinity-designer",
             "pdf-campaign-redesigner",
             "impeccable",
+            "design-workflow-router",
         ],
     },
     "skillbibliothek-development": {
@@ -219,10 +223,10 @@ BUNDLES = {
         ],
     },
     "skillbibliothek-automation": {
-        "version": "1.0.1",
+        "version": "1.0.2",
         "display_name": "Automation & Workflows",
         "short_description": "Automation und Workflows",
-        "description": "Gebündelte Skills für Automatisierung, Workflow Routing, Zieldefinition, Prompt Architektur, Arbeitssteuerung, Action Registers, Handoffs, SOPs, Skill Discovery und Skill Authoring.",
+        "description": "Gebündelte Skills für Automatisierung, Workflow Routing, Zieldefinition, Prompt Architektur, Arbeitssteuerung, Plugin-Portfolio-Kontrolle, Action Registers, Handoffs, SOPs, Skill Discovery und Skill Authoring.",
         "keywords": ["automation", "workflow", "prompts", "skills", "routing", "planning"],
         "prompts": [
             "Plane und automatisiere diesen wiederkehrenden Arbeitsablauf.",
@@ -242,6 +246,7 @@ BUNDLES = {
             "action-register",
             "work-handoff",
             "operating-procedure-builder",
+            "plugin-portfolio-control",
         ],
     },
     "skillbibliothek-danke-fuer-nichts": {

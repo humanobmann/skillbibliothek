@@ -1,0 +1,7 @@
+interface:
+  display_name: "Design Workflow Router"
+  short_description: "Designwerkzeug richtig wählen"
+  default_prompt: "Route diese visuelle Aufgabe zum passenden Produktionsworkflow und nenne den primären Bearbeitungsweg."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true
