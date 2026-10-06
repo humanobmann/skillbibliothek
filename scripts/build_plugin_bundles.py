@@ -81,6 +81,7 @@ BUNDLES = {
         ],
     },
     "skillbibliothek-social": {
+        "version": "1.0.1",
         "display_name": "Social Content",
         "short_description": "Social Content optimieren",
         "description": "Gebündelte Skills für Facebook, Instagram, LinkedIn, TikTok und YouTube Content, Plattformlogik, Hashtag Recherche, natürliches Deutsch, schnelle Humanisierung und wiederverwendbare Schreibprofile.",
@@ -176,6 +177,7 @@ BUNDLES = {
         ],
     },
     "skillbibliothek-politik-at": {
+        "version": "1.0.1",
         "display_name": "Politik Österreich",
         "short_description": "Politik und Parlament AT",
         "description": "Gebündelte Skills für österreichische Politikanalyse, Framing Analyse, Parlamentsforensik, parlamentarische Briefings, das Robert-Laimer-Wochendossier sowie klar zugeordnete politische Projekt und Kommunikationsworkflows.",
@@ -322,7 +324,7 @@ def plugin_manifest(slug: str, cfg: dict) -> dict:
     return {
         "$schema": SCHEMA,
         "name": slug,
-        "version": "1.0.0",
+        "version": cfg.get("version", "1.0.0"),
         "description": cfg["description"],
         "author": AUTHOR,
         "homepage": HOMEPAGE,
