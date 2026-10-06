@@ -52,3 +52,6 @@ kompatibler Alias erhalten.
 ## Hinweis
 
 Die Bibliothek enthält bereits die vollständigste bekannte Zusammenführung der drei Quellen. Weitere Erklärungen zu Herkunft, Deduplizierung und offenen Risiken finden sich im Konsolidierungsbericht.
+
+> Plugin-Architektur und Konsolidierungsregeln: [PLUGIN_MASTERPLAN.md](PLUGIN_MASTERPLAN.md)
+
