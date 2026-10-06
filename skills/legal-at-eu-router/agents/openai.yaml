@@ -1,0 +1,7 @@
+interface:
+  display_name: "Legal AT/EU Router"
+  short_description: "AT/EU-Rechtsquellen routen"
+  default_prompt: "Route diese österreichische oder europäische Rechtsfrage zur passenden Primärquelle und Rechtsrecherche."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true
