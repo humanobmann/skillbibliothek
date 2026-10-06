@@ -1,5 +1,5 @@
 {
-  "total_skills": 121,
+  "total_skills": 122,
   "skills": [
     {
       "name": "action-register",
@@ -936,6 +936,14 @@
       "description": "Erstelle oder prüfe einen selbstständigen, evidenzgebundenen Handoff zwischen Chats, Arbeitssitzungen, Personen oder Agents. Verwenden, wenn Arbeit ohne Kontextverlust fortgesetzt, delegiert oder später wieder aufgenommen werden soll. Der Handoff trennt erledigte Arbeit, bestätigte Entscheidungen, offene Punkte, Evidenz, Berechtigungsgrenzen und die nächste sichere Aktion.",
       "tokens": 435,
       "discovery_tokens": 94
+    },
+    {
+      "name": "workspace-organization",
+      "folder": "workspace-organization",
+      "category": "Automation, CLI & Testing",
+      "description": "Inventarisiere und ordne erreichbare Chats, Projekte, Dateien und Workflowdokumente mit kontrollierter Autonomie. Verwende den Skill für Workspace-Aufräumen, Chat-/Projekt-Zuordnung, Dublettenprüfung, Konsolidierung verstreuter Entscheidungen, Projektindizes sowie Reviews von GOAL.md, WORKFLOW.md, AGENTS.md und ähnlichen Arbeitsanweisungen. Nutze nur tatsächlich verfügbare Connectoren und stabile IDs, trenne private, Vereins-, Partei-, parlamentarische, Entwicklungs- und Buchkontexte, und führe nur nachweislich reversible risikoarme Ordnungsaktionen selbstständig aus.",
+      "tokens": 1120,
+      "discovery_tokens": 144
     },
     {
       "name": "write-the-intel-brief",
