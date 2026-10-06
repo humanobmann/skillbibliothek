@@ -18,6 +18,7 @@ a gap, never guessed.
 | controlled multi-document implementation documentation suite | `implementation-documentation-suite` | multiple authoritative sources/domains, precedence, specialist ownership |
 | author or maintain a library skill | `library-skill-authoring` | skill purpose, inputs, links, provenance |
 | consolidate, migrate, version or remove plugins and skills | `plugin-portfolio-control` | plugin inventory, backend IDs, releases, sources, authorization |
+| organize chats, projects, files, duplicates or workflow documents | `workspace-organization` | reachable providers, stable IDs, access boundaries, intended scope |
 | extract decisions, tasks, owners and deadlines from material | `action-register` | source material, project context, authority boundary |
 | transfer work between chats, sessions, agents or people | `work-handoff` | current state, source of truth, verified completion, next action |
 | build SOP, runbook, playbook or operational checklist | `operating-procedure-builder` | real process evidence, roles, systems, exception paths |
