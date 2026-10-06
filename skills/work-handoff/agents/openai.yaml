@@ -1,0 +1,7 @@
+interface:
+  display_name: "Work Handoff"
+  short_description: "Arbeit verlustfrei übergeben"
+  default_prompt: "Erstelle aus dem aktuellen Stand einen selbstständigen Handoff für die nächste Arbeitssitzung."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true
