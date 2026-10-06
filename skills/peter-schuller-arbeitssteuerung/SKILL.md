@@ -121,6 +121,7 @@ Wenn Peter etwas später, regelmäßig oder beim Eintritt einer Bedingung erhalt
 * Parteikommunikation: `peter-schuller-politiker-kommunikation` plus Schreibstil
 * politische Analyse oder Faktencheck: `politik-analyse`, danach bei Bedarf Rollen-Skill und Schreibstil
 * Prozessautomatisierung: `automator`
+* Workspace-Inventur, Chat-/Projekt-/Dateiordnung, Dubletten und Workflowdateien: `workspace-organization`
 * PowerShell: `powershell-senior-expert`
 
 Der Fachskill bestimmt Recherche, Tools, Dateiformat und Sicherheitsgrenzen. Der Rollenskill bestimmt Absenderrolle und Kontext. Der Schreibstil bestimmt Sprache und Endredaktion. Der Connector führt nur die ausdrücklich erlaubte externe Aktion aus.
@@ -129,7 +130,7 @@ Der Fachskill bestimmt Recherche, Tools, Dateiformat und Sicherheitsgrenzen. Der
 
 Verwende die kleinste ausreichende Kombination und lade nicht mehrere allgemeine Orchestratoren für dieselbe Aufgabe.
 
-1. `peter-schuller-arbeitssteuerung` ordnet nur gemischte Eingänge, Rollen, Systeme oder Prioritäten. Für eine bereits eindeutig zugeordnete Einzelaufgabe übernimmt sofort der Fachskill.
+1. `peter-schuller-arbeitssteuerung` ordnet nur gemischte Eingänge, Rollen, Systeme oder Prioritäten. Für strukturelles Aufräumen von Chats, Projekten, Dateien oder Workflowdokumenten übernimmt `workspace-organization`. Für eine bereits eindeutig zugeordnete Einzelaufgabe übernimmt sofort der Fachskill.
 2. Ein ausdrücklich genannter Skill oder der engste Fachskill bestimmt die Ausführung.
 3. Rollen- und Schreibstilskills ergänzen den Fachskill nur bei einem Kommunikationsauftrag.
 4. Dokument-, Tabellen-, Präsentations- oder PDF-Skills bestimmen das Dateiformat und die technische Qualitätsprüfung.

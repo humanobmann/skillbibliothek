@@ -2,10 +2,11 @@
 
 Dieser Index bietet einen kompakten Überblick aller verfügbaren Skills zur ressourcenschonenden Intent-Erkennung (Progressive Disclosure Phase 1).
 
-## Automation, CLI & Testing (20)
+## Automation, CLI & Testing (21)
 
 | Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
 |---|---|---|---:|
+| **`workspace-organization`** | [`skills/workspace-organization`](workspace-organization/SKILL.md) | Inventarisiere und ordne erreichbare Chats, Projekte, Dateien und Workflowdokumente mit kontrollierter Autonomie. Verwende den Skill für Workspace-... | ~144 |
 | **`plugin-portfolio-control`** | [`skills/plugin-portfolio-control`](plugin-portfolio-control/SKILL.md) | Inventarisiere, konsolidiere, migriere und überprüfe ein ChatGPT/Codex Plugin- und Skill-Portfolio mit klarer Trennung von sichtbaren Plugin-Namen,... | ~87 |
 | **`automator`** | [`skills/automator`](automator/SKILL.md) | Entwirft und implementiert konkrete, wiederholbare Automationen für Vereins-, Kommunikations- und Solo-Operations-Prozes... | ~111 |
 | **`action-register`** | [`skills/action-register`](action-register/SKILL.md) | Extrahiere aus Meetings, Chats, Dokumenten, Recherche und unstrukturiertem Material belastbare Entscheidungen, Aufgaben, Owner, Fristen, Abhängigke... | ~90 |

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Workspace Organization"
+  short_description: "Chats, Projekte und Dateien ordnen"
+  default_prompt: "Inventarisiere und ordne meinen erreichbaren Workspace sicher, ohne Kontext oder Berechtigungen zu vermischen."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true
