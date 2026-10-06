@@ -1,0 +1,7 @@
+interface:
+  display_name: "Operating Procedure Builder"
+  short_description: "SOP und Runbook bauen"
+  default_prompt: "Baue aus diesem realen Ablauf eine auditierbare SOP mit Rollen, Entscheidungen, Kontrollen und Ausnahmen."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true
