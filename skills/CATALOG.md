@@ -56,7 +56,7 @@ Dieser Index bietet einen kompakten Überblick aller verfügbaren Skills zur res
 |---|---|---|---:|
 | **`agentic-ai-orchestration-governance`** | [`skills/agentic-ai-orchestration-governance`](agentic-ai-orchestration-governance/SKILL.md) | Guardrails für autonome und Multi-Agent-Läufe: Iterations-/Kontext-/Kostenbudgets, Schleifenerkennung, Least-Privilege-Tool-Scoping, Kill Switch, Human-Escalation. | ~159 |
 
-## Content, Kampagnen & Kommunikation (21)
+## Content, Kampagnen & Kommunikation (23)
 
 | Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
 |---|---|---|---:|
@@ -67,6 +67,7 @@ Dieser Index bietet einen kompakten Überblick aller verfügbaren Skills zur res
 | **`facebook-text-optimizer`** | [`skills/facebook-text-optimizer`](facebook-text-optimizer/SKILL.md) | Überarbeite Facebook-Beiträge und Captions für Klarheit, Glaubwürdigkeit, mobile Lesbarkeit und einen passenden Handlung... | ~99 |
 | **`framing-analysis`** | [`skills/framing-analysis`](framing-analysis/SKILL.md) | Analysiert politische Frames und Narrative mit Red-, Blue- und Purple-Team-Prüfung und entwickelt faktenbasiertes Gegenframing und Prebunking. | ~120 |
 | **`humanizer-de`** | [`skills/humanizer-de`](humanizer-de/SKILL.md) | Edit-Pass für bestehenden deutschen Text: Register/Rhythmus messen, belegtreu redigieren, Naturalness prüfen, KI-Schreib... | ~57 |
+| **`humanizer-de-natural`** | [`skills/humanizer-de-natural`](humanizer-de-natural/SKILL.md) | Redigiert bestehenden deutschen Text schnell und schonend so, dass er natürlicher, persönlicher und weniger schablonenhaft wirkt. Verwenden bei Anf... | ~103 |
 | **`instagram-hashtag-research`** | [`skills/instagram-hashtag-research`](instagram-hashtag-research/SKILL.md) | Recherchiert und bewertet aktuelle Instagram-Hashtags ohne MCP-Server, Docker oder lokale Serverinstallation. Verwenden ... | ~169 |
 | **`instagram-text-optimizer`** | [`skills/instagram-text-optimizer`](instagram-text-optimizer/SKILL.md) | Überarbeite kurze Instagram-Captions für Feed, Carousel oder Reel mit klarer Kernbotschaft, mobiler Lesbarkeit, transpar... | ~100 |
 | **`linkedin-content-optimizer`** | [`skills/linkedin-content-optimizer`](linkedin-content-optimizer/SKILL.md) | Optimiert LinkedIn-Beitraege surface-spezifisch fuer Feed und Suggested Posts mit professioneller Relevanz, Dwell-/Skip-Signalen und Eligibility. | ~85 |
@@ -77,10 +78,11 @@ Dieser Index bietet einen kompakten Überblick aller verfügbaren Skills zur res
 | **`peter-schuller-obmann-kommunikation`** | [`skills/peter-schuller-obmann-kommunikation`](peter-schuller-obmann-kommunikation/SKILL.md) | Erstelle und überarbeite öffentliche Vereinskommunikation für Peter Schuller als Obmann oder Vertreter von Menschlichkei... | ~126 |
 | **`peter-schuller-politiker-kommunikation`** | [`skills/peter-schuller-politiker-kommunikation`](peter-schuller-politiker-kommunikation/SKILL.md) | Erstelle und überarbeite politische Texte in Peter Schullers persönlicher oder klar zugeordneter SPÖ-Rolle. Verwende den... | ~141 |
 | **`philip-kucher-writing`** | [`skills/philip-kucher-writing`](philip-kucher-writing/SKILL.md) | Erstellt und überarbeitet politische Texte mit einem abstrahierten Kucher-Rhetorikprofil: direkte Alltagssprache, klare Gegensätze, Bilder und pointierte Schlüsse ohne Personenimitation. | ~118 |
-| **`peter-schuller-schreibstil`** | [`skills/peter-schuller-schreibstil`](peter-schuller-schreibstil/SKILL.md) | Verfasse oder überarbeite kurze und mittlere Texte so, dass sie wie Peter Schuller klingen. Verwende den Skill als sprac... | ~133 |
+| **`peter-schuller-schreibstil`** | [`skills/peter-schuller-schreibstil`](peter-schuller-schreibstil/SKILL.md) | Verfasse oder überarbeite deutsche Texte in Peter Schullers persönlicher Stimme: direkt, klar, menschlich, österreichisch geprägt, mit wenig Dialek... | ~144 |
 | **`politik-analyse`** | [`skills/politik-analyse`](politik-analyse/SKILL.md) | Analysiere politische Themen, Aussagen, Programme, Medienberichte, Gesetzesvorhaben, Kampagnen, Framing, Akteure und str... | ~89 |
 | **`spoe-laimer-projekt-orchestrator`** | [`skills/spoe-laimer-projekt-orchestrator`](spoe-laimer-projekt-orchestrator/SKILL.md) | Orchestriere komplexe politische Projektarbeit für Robert Laimer und den Wahlkreis St. Pölten, wenn mindestens zwei Fach... | ~138 |
 | **`spoe-parlamentsforensik`** | [`skills/spoe-parlamentsforensik`](spoe-parlamentsforensik/SKILL.md) | Forensische Deep-Research-Pipeline für das österreichische Parlament mit reproduzierbarer Vollerhebung, Open-Data-API-Ab... | ~187 |
+| **`weekly-dossier`** | [`skills/weekly-dossier`](weekly-dossier/SKILL.md) | Erstelle, aktualisiere, verifiziere oder prüfe das interne Robert-Laimer-Wochendossier, sein Quellenbundle, die Qualitätsgates, den PDF-fertigen Do... | ~95 |
 
 ## Design, UI/UX & Frontend (9)
 
