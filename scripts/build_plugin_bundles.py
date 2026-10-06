@@ -225,10 +225,10 @@ BUNDLES = {
         ],
     },
     "skillbibliothek-automation": {
-        "version": "1.0.2",
+        "version": "1.0.3",
         "display_name": "Automation & Workflows",
         "short_description": "Automation und Workflows",
-        "description": "Gebündelte Skills für Automatisierung, Workflow Routing, Zieldefinition, Prompt Architektur, Arbeitssteuerung, Plugin-Portfolio-Kontrolle, Action Registers, Handoffs, SOPs, Skill Discovery und Skill Authoring.",
+        "description": "Gebündelte Skills für Automatisierung, Workflow Routing, Zieldefinition, Prompt Architektur, Arbeitssteuerung, Workspace-Organisation, Plugin-Portfolio-Kontrolle, Action Registers, Handoffs, SOPs, Skill Discovery und Skill Authoring.",
         "keywords": ["automation", "workflow", "prompts", "skills", "routing", "planning"],
         "prompts": [
             "Plane und automatisiere diesen wiederkehrenden Arbeitsablauf.",
@@ -249,6 +249,7 @@ BUNDLES = {
             "work-handoff",
             "operating-procedure-builder",
             "plugin-portfolio-control",
+            "workspace-organization",
         ],
     },
     "skillbibliothek-danke-fuer-nichts": {
