@@ -2,10 +2,11 @@
 
 Dieser Index bietet einen kompakten Überblick aller verfügbaren Skills zur ressourcenschonenden Intent-Erkennung (Progressive Disclosure Phase 1).
 
-## Automation, CLI & Testing (19)
+## Automation, CLI & Testing (20)
 
 | Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
 |---|---|---|---:|
+| **`plugin-portfolio-control`** | [`skills/plugin-portfolio-control`](plugin-portfolio-control/SKILL.md) | Inventarisiere, konsolidiere, migriere und überprüfe ein ChatGPT/Codex Plugin- und Skill-Portfolio mit klarer Trennung von sichtbaren Plugin-Namen,... | ~87 |
 | **`automator`** | [`skills/automator`](automator/SKILL.md) | Entwirft und implementiert konkrete, wiederholbare Automationen für Vereins-, Kommunikations- und Solo-Operations-Prozes... | ~111 |
 | **`action-register`** | [`skills/action-register`](action-register/SKILL.md) | Extrahiere aus Meetings, Chats, Dokumenten, Recherche und unstrukturiertem Material belastbare Entscheidungen, Aufgaben, Owner, Fristen, Abhängigke... | ~90 |
 | **`implementation-documentation-suite`** | [`skills/implementation-documentation-suite`](implementation-documentation-suite/SKILL.md) | Architekturiere und steuere eine kontrollierte Multi-Dokument-Spezifikationssuite für komplexe Software-, Produkt-, Design-, AI- oder bereichsüberg... | ~98 |
@@ -91,10 +92,11 @@ Dieser Index bietet einen kompakten Überblick aller verfügbaren Skills zur res
 | **`spoe-parlamentsforensik`** | [`skills/spoe-parlamentsforensik`](spoe-parlamentsforensik/SKILL.md) | Forensische Deep-Research-Pipeline für das österreichische Parlament mit reproduzierbarer Vollerhebung, Open-Data-API-Ab... | ~187 |
 | **`weekly-dossier`** | [`skills/weekly-dossier`](weekly-dossier/SKILL.md) | Erstelle, aktualisiere, verifiziere oder prüfe das interne Robert-Laimer-Wochendossier, sein Quellenbundle, die Qualitätsgates, den PDF-fertigen Do... | ~95 |
 
-## Design, UI/UX & Frontend (9)
+## Design, UI/UX & Frontend (10)
 
 | Skill | Pfad | Kurzbeschreibung | Discovery-Tokens |
 |---|---|---|---:|
+| **`design-workflow-router`** | [`skills/design-workflow-router`](design-workflow-router/SKILL.md) | Route visuelle Aufgaben zum passenden Designworkflow für Bildgenerierung, Editorialgrafik, Affinity, Figma, PDF-Redesign, Präsentationen oder templ... | ~96 |
 | **`affinity-designer`** | [`skills/affinity-designer`](affinity-designer/SKILL.md) | Safely inspect, edit, and export Affinity Designer, Photo, and Publisher documents on Windows through a local Affinity M... | ~88 |
 | **`impeccable`** | [`skills/impeccable`](impeccable/SKILL.md) | Create or apply an evidence-backed visual craft and UX quality pass when a frontend needs a distinctive design direction... | ~126 |
 | **`interaction-design`** | [`skills/interaction-design`](interaction-design/SKILL.md) | Design, review, and implement interaction behavior for digital interfaces, including microinteractions, motion, transiti... | ~137 |
