@@ -1,0 +1,7 @@
+interface:
+  display_name: "Implementation Specification"
+  short_description: "Umsetzungsreife Tech-Spec"
+  default_prompt: "Erstelle aus diesen Anforderungen und Projektquellen eine umsetzungsreife technische Spezifikation."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true
