@@ -13,17 +13,29 @@ Fakten, Analyse, offene Fragen und Textentwürfe müssen unterscheidbar bleiben.
 
 ## Standardpfad
 
-1. Make-Umgebung prüfen, bevor ihre Daten als gesund angenommen werden.
-2. Szenarien über Namen finden, nicht über dauerhaft angenommene IDs.
-3. Weekly Source Bundle, Dossier-Generation und Montagszustellung prüfen.
-4. Ein gesundes Wochenbundle als eine Quellenebene verwenden.
-5. Zeitkritische Primärquellen unabhängig aktualisieren.
+1. Prüfen, welche Quellen tatsächlich verfügbar sind. Make ist optional und niemals Voraussetzung für die Dossier-Erstellung.
+2. Wenn Make erreichbar ist, dessen Umgebung prüfen, bevor Daten als gesund angenommen werden; Szenarien über Namen statt dauerhaft angenommener IDs finden.
+3. Ein gesundes Weekly Source Bundle nur als zusätzliche Quellenebene verwenden.
+4. Wenn Make fehlt, fehlerhaft oder unvollständig ist, das Wochenbundle direkt aus aktuellen Primärquellen, vorhandenen Connectoren und bereitgestellten Unterlagen aufbauen.
+5. Zeitkritische Primärquellen immer unabhängig aktualisieren.
 6. Dossier aus verifizierten Eingaben erstellen.
 7. Deterministische Qualitätsgates ausführen.
 8. Wochenplan nur aus dem verifizierten Dossier ableiten.
 9. Dateien nur auf Wunsch erzeugen; niemals ohne ausdrücklichen Auftrag senden oder veröffentlichen.
 
-Für Architektur und bekannte Defekte `references/make-pipeline.md` laden. Vor dem Drafting `references/quality-gates.md` laden. Für die Dokumentstruktur `references/output-contract.md` verwenden.
+Für Architektur und bekannte Defekte `references/make-pipeline.md` nur laden, wenn Make tatsächlich verfügbar oder für die Diagnose relevant ist. Vor dem Drafting `references/quality-gates.md` laden. Für die Dokumentstruktur `references/output-contract.md` verwenden.
+
+## Make-unabhängiger Fallback
+
+Ohne Make muss derselbe inhaltliche Output möglich bleiben. Dann:
+
+1. aktuelle Primärquellen direkt recherchieren;
+2. bereitgestellte Dossiers, Notizen und Dateien als zusätzliche Inputs verwenden;
+3. einen eigenen Quellenledger mit Quelle, Abrufdatum, Referenzzeitraum und Evidenzstatus führen;
+4. fehlende automatisierte Coverage offen markieren statt sie zu simulieren;
+5. Dossier und Wochenplan nach denselben Qualitätsgates erzeugen.
+
+Make darf niemals als Begründung dienen, eine aktuelle Primärquellenprüfung auszulassen.
 
 ## Quellenhierarchie
 
