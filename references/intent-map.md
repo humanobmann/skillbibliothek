@@ -11,9 +11,16 @@ a gap, never guessed.
 | stress-test a plan or design | `grilling` | settled decisions and open frontier |
 | find a suitable skill | `find-skills` | user goal and constraints |
 | code review | `code-review` | diff or file scope, test context |
+| technical implementation specification before coding | `implementation-specification` | project evidence, approved scope, interfaces, tests and constraints |
+| read-only specification readiness audit | `specification-readiness-audit` | specification suite, source authority, implementation target |
+| controlled multi-document implementation documentation suite | `implementation-documentation-suite` | multiple authoritative sources/domains, precedence, specialist ownership |
 | author or maintain a library skill | `library-skill-authoring` | skill purpose, inputs, links, provenance |
+| extract decisions, tasks, owners and deadlines from material | `action-register` | source material, project context, authority boundary |
+| transfer work between chats, sessions, agents or people | `work-handoff` | current state, source of truth, verified completion, next action |
+| build SOP, runbook, playbook or operational checklist | `operating-procedure-builder` | real process evidence, roles, systems, exception paths |
 | UI/accessibility/performance guidance | `web-design-guidelines` | route/component and acceptance criteria |
 | cross-platform social algorithm, reach, discovery or ranking analysis | `social-platform-algorithm-core` | platform, surface, format, current evidence |
+| design a reusable multi-platform social content operating system | `social-content-engine` | communication goal, platforms, resources, governance and metrics |
 | MLOps, LLMOps, model lifecycle, model release or AI operations | `mlops-ai-operations` | workload type, data/model provenance, release criteria |
 | Kubernetes, container, GitOps or cloud-native security review | `cloud-native-security` | workload/cluster scope, identities, manifests, trust boundaries |
 | low-code/no-code governance, ALM or enterprise automation engineering | `low-code-no-code-engineering` | platform, connectors, data classification, environment strategy |
