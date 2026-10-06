@@ -1,0 +1,7 @@
+interface:
+  display_name: "Humanizer DE Natural"
+  short_description: "Schnelles natürliches Deutsch"
+  default_prompt: "Humanisiere diesen deutschen Text, ohne Fakten, Bedeutung oder Haltung zu verändern."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true
