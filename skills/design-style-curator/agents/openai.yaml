@@ -1,0 +1,7 @@
+interface:
+  display_name: "Designstil Kurator"
+  short_description: "Passende Gestaltungssprache finden"
+  default_prompt: "Waehle drei unterschiedliche passende Stilrichtungen aus dem kuratierten Designkatalog und erklaere ihre Anwendung."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true
