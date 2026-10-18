@@ -110,7 +110,7 @@ BUNDLES = {
         ],
     },
     "skillbibliothek-design": {
-        "version": "2.0.0",
+        "version": "2.1.0",
         "display_name": "Design & Visual",
         "short_description": "Design und Bildproduktion",
         "description": "Gebündelte Skills für Design-Routing, Editorial Design, Poster und Bildserien, Affinity Workflows, Kampagnen PDF Redesign und visuelle Qualitätskontrolle.",
