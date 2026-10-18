@@ -19,14 +19,14 @@ Die Quellen werden nur gelesen; alle konsolidierten Änderungen erfolgen hier.
 
 ## Aktueller Bestand
 
-Der aktuelle konsolidierte Bestand umfasst 122 Skill-Verzeichnisse mit `SKILL.md`.
+Der aktuelle konsolidierte Bestand umfasst 125 Skill-Verzeichnisse mit `SKILL.md`.
 `core-routing` und `skill-security-auditor` ergänzen die Fachbibliothek um Control-Plane- und Security-Gates.
 
 ### Kernbereiche
 
 - OSINT und Untersuchung: `useosint`, `investigate-anything`, `find-anyone`, `recon-a-domain-passively`, `who-really-owns-it`, `where-was-this-taken`
 - Recherche und Verifikation: `fact-check`, `deep-research`, `source-verification`, `read-deleted-pages`, `find-the-original-image`
-- Design und UX: `web-design-guidelines`, `ui-design-engineering`, `ui-ux-pro-max`, `shadcn-ui`, `interaction-design`
+- Design und UX: `design-visual-director`, `guided-design-brief`, `design-style-curator`, `design-workflow-router`, `web-design-guidelines`, `ui-design-engineering`, `ui-ux-pro-max`, `shadcn-ui`, `interaction-design`
 - Automatisierung und Entwicklung: `automator`, `cli-creator`, `gh-fix-ci`, `migrate-to-codex`, `prompt-architect`
 - AI/ML & MLOps: `mlops-ai-operations`
 - Cloud-Native & Platform Security: `cloud-native-security`
