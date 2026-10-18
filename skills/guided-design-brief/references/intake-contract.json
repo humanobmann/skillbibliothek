@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "required": [
+    "mode",
+    "message",
+    "medium",
+    "content_lock",
+    "references",
+    "output",
+    "state"
+  ],
+  "fields": {
+    "mode": [
+      "EXPLORE",
+      "PLAN",
+      "CREATE",
+      "EDIT",
+      "REFINE",
+      "AUDIT",
+      "REBUILD",
+      "SYSTEM",
+      "SERIES",
+      "EDITORIAL",
+      "SOCIAL",
+      "PRINT",
+      "MOTION",
+      "INFO"
+    ],
+    "questioning": [
+      "EXPRESS",
+      "GEFUEHRT",
+      "EXPERTE"
+    ],
+    "state": [
+      "collecting",
+      "ready",
+      "produced",
+      "reviewed",
+      "blocked"
+    ],
+    "reference_roles": [
+      "IDENTITY",
+      "STYLE",
+      "LAYOUT",
+      "CONTENT",
+      "ENVIRONMENT",
+      "OBJECT",
+      "LIGHTING"
+    ],
+    "content_lock": [
+      "LOCKED",
+      "CONTROLLED",
+      "FLEXIBLE"
+    ],
+    "provenance": [
+      "USER",
+      "SOURCE",
+      "ASSUMED",
+      "AUTO",
+      "NEEDS_CONFIRMATION"
+    ]
+  },
+  "example": {
+    "mode": [
+      "CREATE",
+      "SOCIAL"
+    ],
+    "questioning": "GEFUEHRT",
+    "message": "Eine konkrete Aussage",
+    "medium": {
+      "platform": "Facebook",
+      "ratio": "4:5",
+      "dimensions_px": [
+        1080,
+        1350
+      ]
+    },
+    "content_lock": {
+      "LOCKED": [
+        "Originalheadline"
+      ],
+      "CONTROLLED": [
+        "Zeilenumbrueche"
+      ],
+      "FLEXIBLE": [
+        "Hintergrund"
+      ]
+    },
+    "references": [],
+    "direction": {
+      "primary_style": "editorial",
+      "visual_anchor": "starke Typografie"
+    },
+    "output": [
+      "PNG"
+    ],
+    "state": "ready",
+    "provenance": {
+      "message": "USER",
+      "direction": "AUTO"
+    }
+  }
+}
