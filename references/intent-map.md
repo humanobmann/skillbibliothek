@@ -22,6 +22,10 @@ a gap, never guessed.
 | extract decisions, tasks, owners and deadlines from material | `action-register` | source material, project context, authority boundary |
 | transfer work between chats, sessions, agents or people | `work-handoff` | current state, source of truth, verified completion, next action |
 | build SOP, runbook, playbook or operational checklist | `operating-procedure-builder` | real process evidence, roles, systems, exception paths |
+| unspecified visual design assignment or choice of production tool | `design-workflow-router` | requested final artifact, source format, editability, platform, available tools |
+| explicit guided virtual design interview, wizard or stepwise design brief | `guided-design-brief` | known goal, content locks, essential unanswered decisions |
+| complex creative direction, editorial poster, image revision or visual production QA | `design-visual-director` | communication brief, exact text, references, deliverable and tool evidence |
+| compare design aesthetic directions or use Bergside curated style profiles | `design-style-curator` | format, existing design system, intended audience and protected identity |
 | UI/accessibility/performance guidance | `web-design-guidelines` | route/component and acceptance criteria |
 | cross-platform social algorithm, reach, discovery or ranking analysis | `social-platform-algorithm-core` | platform, surface, format, current evidence |
 | design a reusable multi-platform social content operating system | `social-content-engine` | communication goal, platforms, resources, governance and metrics |
