@@ -1,0 +1,7 @@
+interface:
+  display_name: "Gefuehrtes Designbriefing"
+  short_description: "Designfragen Schritt fuer Schritt"
+  default_prompt: "Fuehre mich interaktiv durch die noetigen Designentscheidungen und erstelle danach mein Produktionsbriefing."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true
