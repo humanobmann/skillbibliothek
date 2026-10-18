@@ -25,7 +25,7 @@ Jeder Skill wird genau einem Paket zugeordnet. Skills werden inklusive ihrer Ref
 | skillbibliothek-research | 10 | 1.0.2 |
 | skillbibliothek-osint | 28 | 1.0.0 |
 | skillbibliothek-social | 12 | 1.0.2 |
-| skillbibliothek-design | 9 | 2.0.0 |
+| skillbibliothek-design | 9 | 2.1.0 |
 | skillbibliothek-development | 23 | 1.0.1 |
 | skillbibliothek-security | 11 | 1.0.0 |
 | skillbibliothek-politik-at | 7 | 1.0.2 |
