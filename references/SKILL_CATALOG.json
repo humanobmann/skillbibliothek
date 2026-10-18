@@ -1,5 +1,5 @@
 {
-  "total_skills": 122,
+  "total_skills": 125,
   "skills": [
     {
       "name": "action-register",
@@ -160,6 +160,22 @@
       "description": "Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuzzy intention into a quantitative outcome. Use this skill for goal creation and goal refinement only; it does not manage durable snapshots, decision logs, or long-running execution artifacts.",
       "tokens": 1411,
       "discovery_tokens": 97
+    },
+    {
+      "name": "design-style-curator",
+      "folder": "design-style-curator",
+      "category": "Design, UI/UX & Frontend",
+      "description": "Use when exploring, choosing or comparing visual design styles or translating the open-source Bergside awesome-design-skills collection into a suitable project-specific art direction; not for automatically installing all third-party skills.",
+      "tokens": 760,
+      "discovery_tokens": 60
+    },
+    {
+      "name": "design-visual-director",
+      "folder": "design-visual-director",
+      "category": "Design, UI/UX & Frontend",
+      "description": "Use for demanding graphic, editorial, social, print, image, motion or visual design tasks when the user wants professional art direction, implementation, refinement or verifiable quality assurance. Delegate guided questions to guided-design-brief and style exploration to design-style-curator.",
+      "tokens": 1510,
+      "discovery_tokens": 74
     },
     {
       "name": "design-workflow-router",
@@ -328,6 +344,14 @@
       "description": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
       "tokens": 493,
       "discovery_tokens": 40
+    },
+    {
+      "name": "guided-design-brief",
+      "folder": "guided-design-brief",
+      "category": "Design, UI/UX & Frontend",
+      "description": "Start a guided, interactive design questionnaire in ChatGPT or Codex when the user requests a design wizard, virtual interview, step-by-step choices, help deciding a visual direction, or a structured briefing before creation. Skip already supplied facts; complete with a production-ready brief.",
+      "tokens": 1151,
+      "discovery_tokens": 74
     },
     {
       "name": "humanizer-de",
