@@ -64,3 +64,12 @@ def test_design_router_keeps_existing_specialist_workflows():
                  "design-style-curator", "adaptive-poster-image-series",
                  "affinity-designer"):
         assert slug in router, slug
+
+def test_wizard_keeps_audit_from_implying_create():
+    html=(SKILLS/"guided-design-brief"/"assets"/"Designbrief-Wizard.html").read_text(encoding="utf-8")
+    assert "mode==='AUDIT'" in html
+    assert "Erzeuge keine neue Grafik" in html
+    assert "Ausführungsmodus:" in html
+    assert "alert('Bitte die Kernaussage" in html
+    assert "data[s.key]=$('answer').value;" in html
+    assert "data[s.key]=$('answer').value.trim()" not in html
