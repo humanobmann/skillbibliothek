@@ -22,7 +22,7 @@ Aktueller verifizierter Zustand:
 | Research & Verification | Recherche, Faktenprüfung, Quellen-, Daten- und Rechtsrouting | 10 | 1.0.2 |
 | OSINT & Investigations | OSINT, Forensik, Firmen-, Personen-, Domain- und Medienrecherche | 28 | 1.0.0 |
 | Social Content | Plattformcontent, Algorithmen, Humanisierung, Schreibprofile, Content-System | 12 | 1.0.2 |
-| Design & Visual | Geführtes Designbriefing, Design Director, kuratierte Stilprofile, Bildserien, Affinity, PDF-Redesign und visuelle QA | 9 | 2.0.0 |
+| Design & Visual | Geführtes Designbriefing, Design Director, kuratierte Stilprofile, Bildserien, Affinity, PDF-Redesign und visuelle QA | 9 | 2.1.0 |
 | Software Development | Entwicklung, GitHub, CI, Browsertests, UI Engineering, technische Spezifikationen | 23 | 1.0.1 |
 | Security & Platform | Security, SRE, MLOps, FinOps, Cloud- und Agent-Governance | 11 | 1.0.0 |
 | Politik Österreich | Politikanalyse, Parlament, Framing, Briefings, Laimer-Projekt und Wochendossier | 7 | 1.0.2 |
@@ -111,7 +111,7 @@ Bei `not_installed`, unklarer ID, Scope-Konflikt oder fehlender Schreibberechtig
 
 ## Integration des Bergside-Stilregisters
 
-Design & Visual 2.0.0 verwendet einen eigenen Katalog mit 67 Stilprofilen aus `bergside/awesome-design-skills` unter MIT-Lizenz. Die Profile dienen der kuratierten visuellen Orientierung, nicht als automatisch ausgeführte Drittanbieter-Skills oder als Lizenz für referenzierte Schriften/Bilder. Der geführte HTML-Wizard arbeitet lokal ohne Netzwerkübertragung. Der Skill `guided-design-brief` steuert die schrittweise Chatabfrage. `design-visual-director` und die bestehenden Spezialskills sind für Produktion und QA zuständig. Die installierte Workspace-Version wurde per Plugin Creator 2.0.0 aktualisiert und zurückgelesen. Die GitHub-Quelle bleibt kanonisch; dieser Branch synchronisiert die Änderung nach.
+Design & Visual 2.1.0 verwendet einen eigenen Katalog mit 67 Stilprofilen aus `bergside/awesome-design-skills` unter MIT-Lizenz. Die Profile dienen der kuratierten visuellen Orientierung, nicht als automatisch ausgeführte Drittanbieter-Skills oder als Lizenz für referenzierte Schriften/Bilder. Der geführte HTML-Wizard arbeitet lokal ohne Netzwerkübertragung. Der Skill `guided-design-brief` steuert die schrittweise Chatabfrage. `design-visual-director` und die bestehenden Spezialskills sind für Produktion und QA zuständig. Die installierte Workspace-Version wurde per Plugin Creator 2.1.0 aktualisiert und zurückgelesen. Die GitHub-Quelle bleibt kanonisch; dieser Branch synchronisiert die Änderung nach.
 
 ## Release-Prozess
 
@@ -153,3 +153,6 @@ Der Pluginbestand gilt als konsistent, wenn:
 - alle Kernplugins privat im vorgesehenen Workspace liegen;
 - ersetzte Standalones nur nach dem Null-Verlust-Gate entfernt wurden;
 - verbleibende externe Plugins einen belegten Provider- oder Spezialnutzen besitzen.
+
+## Design 2.1.0 Korrektur
+Der lokale HTML-Wizard trennt AUDIT von CREATE, verhindert eine unbeabsichtigte Produktionsanweisung beim Prüfen, verlangt eine Kernaussage und erhält Pflichttextzeichen unverändert. Der Bergside-Katalog ist eine kuratierte Namens-/Eignungsübersicht, keine Sammlung von 67 vollständig lokal dokumentierten Stilprofilen. AutoPlugin bleibt als eigener Workspace-Release zu aktualisieren; die GitHub-Skillbibliothek enthält nur Design & Visual.

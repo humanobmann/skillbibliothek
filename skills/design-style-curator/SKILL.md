@@ -20,3 +20,6 @@ Editorial = refined grids and serif-aware reading. Minimal = space and constrain
 
 ## Provenance and licensing
 Derived/inspired from Bergside's MIT registry, copyright 2026 Bergside. Preserve `references/UPSTREAM_LICENSE.md` with the full MIT notice if copying substantial text. This adapted catalog has names, scope labels and independent selection guidance rather than copies of all 67 SKILL.md files. MIT does not license third-party photos, fonts, logos or identifiable characters pictured in examples. Re-check provenance before distributing copied upstream source.
+
+## 1.1: Katalogtransparenz
+Die lokale Registry enthält 67 Namen und Eignungsgruppen, aber keine vollständigen 67 unabhängigen Creative Briefs. Beschreibe nur geprüfte Originalquellen konkret; für übrige Einträge darf aus dem Namen nicht auf Farben, Fonts, Lizenz spezieller Assets oder Einsatzfähigkeit geschlossen werden. Markiere nicht geprüfte Designvorgaben als Inspiration.
