@@ -1,6 +1,6 @@
 # Plugin-Masterplan
 
-Stand: 2026-10-06
+Stand: 2026-10-18
 
 ## Zielbild
 
@@ -8,7 +8,7 @@ Die private Skillbibliothek wird als **eine kanonische GitHub-Quelle** gepflegt 
 
 Aktueller verifizierter Zustand:
 
-- 122 kanonische Skills
+- 125 kanonische Skills
 - 11 private Workspace-Bundles
 - jeder kanonische Skill genau einem Bundle zugeordnet
 - keine fehlenden oder doppelt gebündelten Skills
@@ -22,7 +22,7 @@ Aktueller verifizierter Zustand:
 | Research & Verification | Recherche, Faktenprüfung, Quellen-, Daten- und Rechtsrouting | 10 | 1.0.2 |
 | OSINT & Investigations | OSINT, Forensik, Firmen-, Personen-, Domain- und Medienrecherche | 28 | 1.0.0 |
 | Social Content | Plattformcontent, Algorithmen, Humanisierung, Schreibprofile, Content-System | 12 | 1.0.2 |
-| Design & Visual | Designrouting, Editorialgrafik, Affinity, PDF-Redesign, visuelle QA | 6 | 1.0.1 |
+| Design & Visual | Geführtes Designbriefing, Design Director, kuratierte Stilprofile, Bildserien, Affinity, PDF-Redesign und visuelle QA | 9 | 2.0.0 |
 | Software Development | Entwicklung, GitHub, CI, Browsertests, UI Engineering, technische Spezifikationen | 23 | 1.0.1 |
 | Security & Platform | Security, SRE, MLOps, FinOps, Cloud- und Agent-Governance | 11 | 1.0.0 |
 | Politik Österreich | Politikanalyse, Parlament, Framing, Briefings, Laimer-Projekt und Wochendossier | 7 | 1.0.2 |
@@ -42,7 +42,7 @@ Aktuelle Router:
 - `research-source-router`: wählt die passende Evidenzquelle.
 - `data-analysis-router`: trennt Data Analytics, Spreadsheet-Arbeit, Google Sheets und Open-Data-Erhebung.
 - `legal-at-eu-router`: trennt österreichisches/EU-Recht, Judikatur, parlamentarische Materialien und politische Bewertung.
-- `design-workflow-router`: wählt den passenden visuellen Produktionsweg.
+- `design-workflow-router`: wählt den passenden visuellen Produktionsweg und delegiert bei Bedarf an `guided-design-brief`, `design-visual-director` und `design-style-curator`.
 - `plugin-portfolio-control`: steuert Konsolidierung, Migration, Versionierung und Entfernung.
 - `workspace-organization`: organisiert Chats, Projekte, Dateien, Dubletten und Workflowdokumente.
 - `core-routing`: hält die bibliotheksweite Intent-Zuordnung.
@@ -108,6 +108,10 @@ Ein Plugin darf erst entfernt werden, wenn alle Punkte erfüllt sind:
 8. die Entfernung ist vom Nutzer autorisiert.
 
 Bei `not_installed`, unklarer ID, Scope-Konflikt oder fehlender Schreibberechtigung: **keinen Ersatzwert raten und nicht löschen**.
+
+## Integration des Bergside-Stilregisters
+
+Design & Visual 2.0.0 verwendet einen eigenen Katalog mit 67 Stilprofilen aus `bergside/awesome-design-skills` unter MIT-Lizenz. Die Profile dienen der kuratierten visuellen Orientierung, nicht als automatisch ausgeführte Drittanbieter-Skills oder als Lizenz für referenzierte Schriften/Bilder. Der geführte HTML-Wizard arbeitet lokal ohne Netzwerkübertragung. Der Skill `guided-design-brief` steuert die schrittweise Chatabfrage. `design-visual-director` und die bestehenden Spezialskills sind für Produktion und QA zuständig. Die installierte Workspace-Version wurde per Plugin Creator 2.0.0 aktualisiert und zurückgelesen. Die GitHub-Quelle bleibt kanonisch; dieser Branch synchronisiert die Änderung nach.
 
 ## Release-Prozess
 
