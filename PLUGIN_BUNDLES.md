@@ -25,7 +25,7 @@ Jeder Skill wird genau einem Paket zugeordnet. Skills werden inklusive ihrer Ref
 | skillbibliothek-research | 10 | 1.0.2 |
 | skillbibliothek-osint | 28 | 1.0.0 |
 | skillbibliothek-social | 12 | 1.0.2 |
-| skillbibliothek-design | 6 | 1.0.1 |
+| skillbibliothek-design | 9 | 2.0.0 |
 | skillbibliothek-development | 23 | 1.0.1 |
 | skillbibliothek-security | 11 | 1.0.0 |
 | skillbibliothek-politik-at | 7 | 1.0.2 |
@@ -34,4 +34,4 @@ Jeder Skill wird genau einem Paket zugeordnet. Skills werden inklusive ihrer Ref
 | skillbibliothek-danke-fuer-nichts | 4 | 1.0.0 |
 | skillbibliothek-verein | 1 | 1.0.0 |
 
-Gesamt: **122 Skills**, genau einmal gebündelt.
+Gesamt: **125 Skills**, genau einmal gebündelt.

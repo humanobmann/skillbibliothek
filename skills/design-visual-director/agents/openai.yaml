@@ -1,0 +1,7 @@
+interface:
+  display_name: "Design & Visual Director"
+  short_description: "Art Direction, Produktion und QA"
+  default_prompt: "Analysiere diese visuelle Aufgabe, sichere Pflichtinhalte, entwickle eine starke Gestaltung, produziere und pruefe das Ergebnis."
+policy:
+  products: [CHAT, CODEX]
+  allow_implicit_invocation: true

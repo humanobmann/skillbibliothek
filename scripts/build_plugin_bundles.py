@@ -110,7 +110,7 @@ BUNDLES = {
         ],
     },
     "skillbibliothek-design": {
-        "version": "1.0.1",
+        "version": "2.0.0",
         "display_name": "Design & Visual",
         "short_description": "Design und Bildproduktion",
         "description": "Gebündelte Skills für Design-Routing, Editorial Design, Poster und Bildserien, Affinity Workflows, Kampagnen PDF Redesign und visuelle Qualitätskontrolle.",
@@ -126,6 +126,9 @@ BUNDLES = {
             "pdf-campaign-redesigner",
             "impeccable",
             "design-workflow-router",
+            "design-visual-director",
+            "guided-design-brief",
+            "design-style-curator",
         ],
     },
     "skillbibliothek-development": {
