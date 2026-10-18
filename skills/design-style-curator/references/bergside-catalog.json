@@ -1,0 +1,380 @@
+{
+  "source": {
+    "repository": "https://github.com/bergside/awesome-design-skills",
+    "registry": "https://github.com/bergside/awesome-design-skills/blob/main/skills/index.json",
+    "license": "MIT",
+    "copyright": "2026 Bergside",
+    "source_files": "skills/<slug>/SKILL.md and DESIGN.md",
+    "note": "67 original slugs cross-checked on 2026-10-18; mapping is a curated, independently authored index, not 67 bundled skills."
+  },
+  "priority": [
+    "user_reference",
+    "approved_brand_system",
+    "task_brief",
+    "curated_style_profile"
+  ],
+  "profiles": [
+    {
+      "slug": "agentic",
+      "intent_group": "ui_specialist",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/agentic"
+    },
+    {
+      "slug": "artistic",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/artistic"
+    },
+    {
+      "slug": "bold",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/bold"
+    },
+    {
+      "slug": "brutalism",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/brutalism"
+    },
+    {
+      "slug": "cafe",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/cafe"
+    },
+    {
+      "slug": "claymorphism",
+      "intent_group": "experimental",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/claymorphism"
+    },
+    {
+      "slug": "clean",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/clean"
+    },
+    {
+      "slug": "colorful",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/colorful"
+    },
+    {
+      "slug": "contemporary",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/contemporary"
+    },
+    {
+      "slug": "corporate",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/corporate"
+    },
+    {
+      "slug": "cosmic",
+      "intent_group": "experimental",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/cosmic"
+    },
+    {
+      "slug": "creative",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/creative"
+    },
+    {
+      "slug": "dithered",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/dithered"
+    },
+    {
+      "slug": "doodle",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/doodle"
+    },
+    {
+      "slug": "dramatic",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/dramatic"
+    },
+    {
+      "slug": "editorial",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/editorial"
+    },
+    {
+      "slug": "square",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/square"
+    },
+    {
+      "slug": "pulse",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/pulse"
+    },
+    {
+      "slug": "stitch",
+      "intent_group": "ui_specialist",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/stitch"
+    },
+    {
+      "slug": "expressive",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/expressive"
+    },
+    {
+      "slug": "fantasy",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/fantasy"
+    },
+    {
+      "slug": "flat",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/flat"
+    },
+    {
+      "slug": "friendly",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/friendly"
+    },
+    {
+      "slug": "futuristic",
+      "intent_group": "experimental",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/futuristic"
+    },
+    {
+      "slug": "glassmorphism",
+      "intent_group": "experimental",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/glassmorphism"
+    },
+    {
+      "slug": "gradient",
+      "intent_group": "experimental",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/gradient"
+    },
+    {
+      "slug": "power",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/power"
+    },
+    {
+      "slug": "material",
+      "intent_group": "ui_specialist",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/material"
+    },
+    {
+      "slug": "minimal",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/minimal"
+    },
+    {
+      "slug": "modern",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/modern"
+    },
+    {
+      "slug": "mono",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/mono"
+    },
+    {
+      "slug": "neobrutalism",
+      "intent_group": "experimental",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/neobrutalism"
+    },
+    {
+      "slug": "neon",
+      "intent_group": "experimental",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/neon"
+    },
+    {
+      "slug": "neumorphism",
+      "intent_group": "experimental",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/neumorphism"
+    },
+    {
+      "slug": "pacman",
+      "intent_group": "experimental",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/pacman"
+    },
+    {
+      "slug": "paper",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/paper"
+    },
+    {
+      "slug": "perspective",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/perspective"
+    },
+    {
+      "slug": "premium",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/premium"
+    },
+    {
+      "slug": "professional",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/professional"
+    },
+    {
+      "slug": "basic",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/basic"
+    },
+    {
+      "slug": "refined",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/refined"
+    },
+    {
+      "slug": "retro",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/retro"
+    },
+    {
+      "slug": "shadcn",
+      "intent_group": "ui_specialist",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/shadcn"
+    },
+    {
+      "slug": "geometric",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/geometric"
+    },
+    {
+      "slug": "skeumorphism",
+      "intent_group": "experimental",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/skeumorphism"
+    },
+    {
+      "slug": "sleek",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/sleek"
+    },
+    {
+      "slug": "spacious",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/spacious"
+    },
+    {
+      "slug": "storytelling",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/storytelling"
+    },
+    {
+      "slug": "tetris",
+      "intent_group": "experimental",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/tetris"
+    },
+    {
+      "slug": "vibrant",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/vibrant"
+    },
+    {
+      "slug": "vintage",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/vintage"
+    },
+    {
+      "slug": "levels",
+      "intent_group": "ui_specialist",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/levels"
+    },
+    {
+      "slug": "bento",
+      "intent_group": "ui_specialist",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/bento"
+    },
+    {
+      "slug": "lingo",
+      "intent_group": "ui_specialist",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/lingo"
+    },
+    {
+      "slug": "enterprise",
+      "intent_group": "ui_specialist",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/enterprise"
+    },
+    {
+      "slug": "roku",
+      "intent_group": "ui_specialist",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/roku"
+    },
+    {
+      "slug": "ant",
+      "intent_group": "ui_specialist",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/ant"
+    },
+    {
+      "slug": "claude",
+      "intent_group": "ui_specialist",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/claude"
+    },
+    {
+      "slug": "codex",
+      "intent_group": "ui_specialist",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/codex"
+    },
+    {
+      "slug": "fiction",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/fiction"
+    },
+    {
+      "slug": "immersive",
+      "intent_group": "experimental",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/immersive"
+    },
+    {
+      "slug": "impeccable",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/impeccable"
+    },
+    {
+      "slug": "matrix",
+      "intent_group": "experimental",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/matrix"
+    },
+    {
+      "slug": "riso",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/riso"
+    },
+    {
+      "slug": "sega",
+      "intent_group": "experimental",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/sega"
+    },
+    {
+      "slug": "sketch",
+      "intent_group": "editorial_or_visual",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/sketch"
+    },
+    {
+      "slug": "terracotta",
+      "intent_group": "conditional",
+      "source_url": "https://github.com/bergside/awesome-design-skills/tree/main/skills/terracotta"
+    }
+  ],
+  "editorial_recommendations": {
+    "editorial": "structure and reading hierarchy",
+    "minimal": "limited signals and whitespace",
+    "refined": "quiet sophistication and type proportion",
+    "brutalism": "confrontational graphic hierarchy",
+    "riso": "imperfect analogue ink texture when deliberately requested",
+    "storytelling": "sequenced emotional visual logic",
+    "geometric": "reduced symbolic shape language",
+    "contemporary": "structured modern compositions"
+  },
+  "do_not_auto_copy": [
+    "brand tokens",
+    "fonts",
+    "sample copy",
+    "logos",
+    "portraits",
+    "third-party images",
+    "UI control patterns into print"
+  ],
+  "conflicts": [
+    "content_lock",
+    "identity_lock",
+    "reference_lock",
+    "output_specs",
+    "accessibility",
+    "existing_editorial_dna"
+  ]
+}
