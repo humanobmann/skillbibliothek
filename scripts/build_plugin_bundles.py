@@ -110,11 +110,11 @@ BUNDLES = {
         ],
     },
     "skillbibliothek-design": {
-        "version": "2.1.0",
+        "version": "2.2.0",
         "display_name": "Design & Visual",
-        "short_description": "Design und Bildproduktion",
-        "description": "Gebündelte Skills für Design-Routing, Editorial Design, Poster und Bildserien, Affinity Workflows, Kampagnen PDF Redesign und visuelle Qualitätskontrolle.",
-        "keywords": ["design", "visual", "poster", "affinity", "image", "editorial"],
+        "short_description": "Canva und Bildproduktion",
+        "description": "Gebündelte Skills für Canva Mastervorlagen, getrennte Marken und Konten, Bildproduktion, Autofill, Editorial Design, Affinity und geprüfte visuelle Qualität.",
+        "keywords": ["design", "visual", "canva", "templates", "image", "editorial", "qa"],
         "prompts": [
             "Entwickle für diese Aufgabe eine hochwertige visuelle Richtung und Produktion.",
             "Prüfe dieses Design streng auf Hierarchie, Lesbarkeit und handwerkliche Qualität.",
