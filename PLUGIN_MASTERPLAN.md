@@ -22,7 +22,7 @@ Aktueller verifizierter Zustand:
 | Research & Verification | Recherche, Faktenprüfung, Quellen-, Daten- und Rechtsrouting | 10 | 1.0.2 |
 | OSINT & Investigations | OSINT, Forensik, Firmen-, Personen-, Domain- und Medienrecherche | 28 | 1.0.0 |
 | Social Content | Plattformcontent, Algorithmen, Humanisierung, Schreibprofile, Content-System | 12 | 1.0.2 |
-| Design & Visual | Geführtes Designbriefing, Design Director, kuratierte Stilprofile, Bildserien, Affinity, PDF-Redesign und visuelle QA | 9 | 2.1.0 |
+| Design & Visual | Geführtes Designbriefing, Canva Mastervorlagen, Design Director, Bildserien, Affinity und visuelle QA | 9 | 2.2.0 |
 | Software Development | Entwicklung, GitHub, CI, Browsertests, UI Engineering, technische Spezifikationen | 23 | 1.0.1 |
 | Security & Platform | Security, SRE, MLOps, FinOps, Cloud- und Agent-Governance | 11 | 1.0.0 |
 | Politik Österreich | Politikanalyse, Parlament, Framing, Briefings, Laimer-Projekt und Wochendossier | 7 | 1.0.2 |
@@ -156,3 +156,7 @@ Der Pluginbestand gilt als konsistent, wenn:
 
 ## Design 2.1.0 Korrektur
 Der lokale HTML-Wizard trennt AUDIT von CREATE, verhindert eine unbeabsichtigte Produktionsanweisung beim Prüfen, verlangt eine Kernaussage und erhält Pflichttextzeichen unverändert. Der Bergside-Katalog ist eine kuratierte Namens-/Eignungsübersicht, keine Sammlung von 67 vollständig lokal dokumentierten Stilprofilen. AutoPlugin bleibt als eigener Workspace-Release zu aktualisieren; die GitHub-Skillbibliothek enthält nur Design & Visual.
+
+## Design & Visual 2.2.0 (12.11.2026)
+
+Das Designbundle behält neun Skills. Der Director 5.0 und Router 3.0 führen Canva als native Layoutquelle mit separaten Konten (SPÖ für Laimer/SPÖ/Sektion VII, Peter für persönliche und NGO-Projekte mit getrennten Brands). Das Freigabemodell verhindert automatische Publikation und Überschreiben von Originalen. Der neue Python Preflight ist eine Metadatenprüfung, kein visueller Beweis. Produktives Workspace Upgrade erst nach GitHub Merge, Paketvalidierung und Plugin Creator Readback.

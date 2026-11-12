@@ -1,23 +1,28 @@
 ---
 name: design-workflow-router
-description: Route visual requests by intent and required result to the guided design interview, Design & Visual Director, image generation, Affinity, Figma, presentation, PDF, exact ten-image series or front-end craft specialty; never claim unavailable tools.
+description: Route visual requests to correct real providers, especially editable Canva templates, ChatGPT image generation and brand-specific account separation. Preserve existing design-specialist ownership, ten-image series rules, approvals and production QA.
 ---
 
-# Design Workflow Router 2.0
+# Design Workflow Router 3.0
 
-Choose one primary execution owner per stage and do not replace it with unverified tool claims. Respect explicit constraints, content locks, identity reference and existing native editor. Read the user request before asking any question.
+Choose one accountable execution owner per stage, never duplicate image generation across providers. Read user intent and available host tools before routing. A plugin's installed Skill does not prove its external service can be used.
 
-## Routing priorities
-1. Explicit 'fuehre mich durch Fragen', 'virtuelle Abfrage' or 'Designassistent' -> `guided-design-brief`; after completion, `design-visual-director`.
-2. Artistic / editorial / poster / standalone picture / image critique -> `design-visual-director` as creative owner, then real native image-generation or appropriate layout tool only if available.
-3. 'Stile vergleichen', 'awesome-design-skills' or 'welche Designrichtung' -> `design-style-curator`, then `design-visual-director` on execution.
-4. Exactly ten separately generated images with accepted exclusive image-gen constraints -> `ten-separate-images` or `adaptive-poster-image-series` as appropriate, never both as equal owners. Those specialists' stricter tool and default-reference contracts prevail for that mode. For one, three or five images DO NOT invoke a ten-image workflow.
-5. Existing Affinity document -> `affinity-designer`; preserve native layers/source. Figma/UI -> connected Figma or Product Design owner. Multi-page presentation -> Slides. Existing PDF redesign -> PDF specialty. Frontend craft -> `impeccable`.
-6. Canva, Adobe or template-based editor only when existing file/provider or explicit user request warrants it; no template look by default.
-7. Data-led diagram uses actual verified source data and a controlled chart/diagram tool where available.
+## Route by deliverable
 
-## Multi-stage execution
-Understand -> lock -> direction -> owner/tool -> produce -> inspect -> correct -> deliver. Use a mandatory 1-sentence handoff between router and owner when needed: goal, format, locks, refs, scope, style, output. Do not dump all source skills into context. If exact text QA conflicts with a narrower image-only specialist, preserve that specialist's contract and report limitations rather than silently substituting production methods.
+1. Explicit guided questioning: guided-design-brief, then design-visual-director.
+2. Standalone image, portrait or illustration: design-visual-director art direction and real native image generation/editing.
+3. Real Canva social graphic, editorial layout, event design, quote, statistics or template series: design-visual-director with correct Canva account; native text, original logo and layout are required.
+4. Exactly ten separate images with accepted stricter contract: existing ten-separate-images or adaptive-poster-image-series specialty. Other counts use the ordinary route.
+5. Existing Affinity source: affinity-designer; PDF file: PDF specialist; multi-page presentation: Slides; Figma app/UI: Figma or Product Design where supported; actual web frontend: frontend specialty. Do not send a poster task to HTML.
+6. Style inspiration: design-style-curator only if relevant; style catalogs are not executable providers.
+7. Sourced quantitative diagram: controlled verified data and a real chart/Canva native graphics path, not invented generative numbers.
 
-## No unnecessary questioning
-If user gave objective and enough content, start. Guided questions only on explicit request or truly missing material details. Do not invent brand symbols, people, quotes, dates or references; separate personal, political, NGO and parliamentary contexts.
+## Account and permission
+
+Official Robert Laimer, SPÖ and Sektion VII designs must use Canva account SPÖ; the user's personal and Menschlichkeit Österreich projects use Canva account Peter, but their Brand Kits and source assets stay separate. Split mixed-scope tasks. Select link_id from current Canva tool metadata; if required account is absent, stop cross-account writes and report BLOCKED.
+
+## Handoff
+
+Pass goal, role/scope, Canva account, Brand Kit, deliverable, format, source/master references, LOCKED copy and identity/mark constraints, rights, approvals, and QA checks to design-visual-director. Template reuse precedes new design generation when appropriate. A source screenshot is not an editable Canva layout.
+
+No automatic publishing. Review, preview and human approval requirements of the provider still apply. Do not claim a generated image, Canva file, exported PDF or verified QA result without actual tool evidence.

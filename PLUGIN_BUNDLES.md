@@ -25,7 +25,7 @@ Jeder Skill wird genau einem Paket zugeordnet. Skills werden inklusive ihrer Ref
 | skillbibliothek-research | 10 | 1.0.2 |
 | skillbibliothek-osint | 28 | 1.0.0 |
 | skillbibliothek-social | 12 | 1.0.2 |
-| skillbibliothek-design | 9 | 2.1.0 |
+| skillbibliothek-design | 9 | 2.2.0 |
 | skillbibliothek-development | 23 | 1.0.1 |
 | skillbibliothek-security | 11 | 1.0.0 |
 | skillbibliothek-politik-at | 7 | 1.0.2 |
@@ -35,3 +35,7 @@ Jeder Skill wird genau einem Paket zugeordnet. Skills werden inklusive ihrer Ref
 | skillbibliothek-verein | 1 | 1.0.0 |
 
 Gesamt: **125 Skills**, genau einmal gebündelt.
+
+## Design & Visual 2.2.0 / Director 5.0
+
+Die neun vorhandenen Skills bleiben erhalten. Canva-native Designproduktion, Konto- und Markenrouting, Master-Registry, Autofill- und Image-Handoff sowie der deterministische Release-Preflight wurden ergänzt. Die alten Originaldesigns bleiben unverändert. Externe Canva Funktionen sind von tatsächlichen Verbindung und Berechtigungen abhängig.
